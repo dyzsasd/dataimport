@@ -68,8 +68,14 @@ public class HiveMetaStoreConnector {
         try {
             List<FieldSchema> fields = hiveMetaStoreClient.getFields(dbName, tableName);
             List<String> infs = Lists.newArrayList();
+            int cnt = 0;
             for(FieldSchema fs : fields){
                 StringBuffer sb = new StringBuffer();
+                sb.append(tableName);
+                sb.append("\t");
+                sb.append(cnt);
+                sb.append("\t");
+                cnt++;
                 sb.append(fs.getName());
                 sb.append("\t");
                 sb.append(fs.getType());
