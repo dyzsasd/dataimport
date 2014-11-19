@@ -1,0 +1,4 @@
+DROP TABLE IF EXISTS crdb_der;
+DROP TABLE IF EXISTS crdb_der_all;
+DROP TABLE IF EXISTS crdb_phy;
+DROP TABLE IF EXISTS crdb_phy_all;

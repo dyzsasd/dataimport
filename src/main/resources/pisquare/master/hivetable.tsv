@@ -1,0 +1,1172 @@
+shp_md_ac_ledger_text	pisquare	0	ac_ledger	STRING			master	C-pisquare-master	SHP_MD_3_0AC_LEDGER_TEXT_yyyymmdd_hhmmss.CSV	AC_LEDGER	CHAR	2	0					X	2
+shp_md_ac_ledger_text	pisquare	1	langu	STRING			master	C-pisquare-master	SHP_MD_3_0AC_LEDGER_TEXT_yyyymmdd_hhmmss.CSV	LANGU	LANG	1	0					X	2
+shp_md_ac_ledger_text	pisquare	2	txtmd	STRING			master	C-pisquare-master	SHP_MD_3_0AC_LEDGER_TEXT_yyyymmdd_hhmmss.CSV	TXTMD	CHAR	40	0						40
+shp_md_bp_is	pisquare	0	bpartner	STRING			master	C-pisquare-master	SHP_MD_1_0BP_IS_yyyymmdd_hhmmss.CSV	BPARTNER	CHAR	10	0					X	10
+shp_md_bp_is	pisquare	1	ind_numsys	STRING			master	C-pisquare-master	SHP_MD_1_0BP_IS_yyyymmdd_hhmmss.CSV	IND_NUMSYS	CHAR	4	0					X	4
+shp_md_bp_is	pisquare	2	ind_sec	STRING			master	C-pisquare-master	SHP_MD_1_0BP_IS_yyyymmdd_hhmmss.CSV	IND_SEC	CHAR	10	0					X	10
+shp_md_bp_is	pisquare	3	flgdefault	STRING			master	C-pisquare-master	SHP_MD_1_0BP_IS_yyyymmdd_hhmmss.CSV	FLGDEFAULT	CHAR	1	0						1
+shp_md_bp_is	pisquare	4	recordmode	STRING			master	C-pisquare-master	SHP_MD_1_0BP_IS_yyyymmdd_hhmmss.CSV	RECORDMODE	CHAR	1	0						1
+shp_md_bp_is	pisquare	5	flgdeleted	STRING			master	C-pisquare-master	SHP_MD_1_0BP_IS_yyyymmdd_hhmmss.CSV	FLGDELETED	CHAR	1	0						1
+shp_md_bus_area_attr	pisquare	0	bus_area	STRING			master	C-pisquare-master	SHP_MD_3_0BUS_AREA_ATTR_yyyymmdd_hhmmss.CSV	BUS_AREA	CHAR	4	0					X	4
+shp_md_bus_area_attr	pisquare	1	soursystem	STRING			master	C-pisquare-master	SHP_MD_3_0BUS_AREA_ATTR_yyyymmdd_hhmmss.CSV	SOURSYSTEM	CHAR	2	0						25
+shp_md_bus_area_attr	pisquare	2	logsys	STRING			master	C-pisquare-master	SHP_MD_3_0BUS_AREA_ATTR_yyyymmdd_hhmmss.CSV	LOGSYS	CHAR	10	0						10
+shp_md_bus_area_attr	pisquare	3	country	STRING			master	C-pisquare-master	SHP_MD_3_0BUS_AREA_ATTR_yyyymmdd_hhmmss.CSV	COUNTRY	CHAR	3	0						3
+shp_md_bus_area_attr	pisquare	4	bic_ycregion	STRING			master	C-pisquare-master	SHP_MD_3_0BUS_AREA_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YCREGION	CHAR	3	0						3
+shp_md_bus_area_attr	pisquare	5	bic_yclocabrc	STRING			master	C-pisquare-master	SHP_MD_3_0BUS_AREA_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YCLOCABRC	CHAR	3	0						3
+shp_md_bus_area_text	pisquare	0	bus_area	STRING			master	C-pisquare-master	SHP_MD_3_0BUS_AREA_TEXT_yyyymmdd_hhmmss.CSV	BUS_AREA	CHAR	4	0					X	4
+shp_md_bus_area_text	pisquare	1	langu	STRING			master	C-pisquare-master	SHP_MD_3_0BUS_AREA_TEXT_yyyymmdd_hhmmss.CSV	LANGU	LANG	1	0					X	2
+shp_md_bus_area_text	pisquare	2	txtmd	STRING			master	C-pisquare-master	SHP_MD_3_0BUS_AREA_TEXT_yyyymmdd_hhmmss.CSV	TXTMD	CHAR	40	0						40
+shp_md_cfm_amtct_attr	pisquare	0	cfm_amtct	STRING			master	C-pisquare-master	SHP_MD_3_0CFM_AMTCT_ATTR_yyyymmdd_hhmmss.CSV	CFM_AMTCT	CHAR	4	0					X	4
+shp_md_cfm_amtct_attr	pisquare	1	bic_yspcomp	STRING			master	C-pisquare-master	SHP_MD_3_0CFM_AMTCT_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSPCOMP1	NUMC	4	0						4
+shp_md_cfm_amtct_attr	pisquare	2	bic_yspcomp2	STRING			master	C-pisquare-master	SHP_MD_3_0CFM_AMTCT_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSPCOMP2	NUMC	4	0						4
+shp_md_cfm_amtct_attr	pisquare	3	bic_yspchrule	STRING			master	C-pisquare-master	SHP_MD_3_0CFM_AMTCT_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSPCHRULE	NUMC	4	0						4
+shp_md_cfm_amtct_attr	pisquare	4	bic_yspccusg	STRING			master	C-pisquare-master	SHP_MD_3_0CFM_AMTCT_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSPCCUSG	NUMC	3	0						3
+shp_md_cfm_amtct_text	pisquare	0	cfm_amtct	STRING			master	C-pisquare-master	SHP_MD_3_0CFM_AMTCT_TEXT_yyyymmdd_hhmmss.CSV	CFM_AMTCT	CHAR	4	0					X	4
+shp_md_cfm_amtct_text	pisquare	1	langu	STRING			master	C-pisquare-master	SHP_MD_3_0CFM_AMTCT_TEXT_yyyymmdd_hhmmss.CSV	LANGU	LANG	1	0					X	2
+shp_md_cfm_amtct_text	pisquare	2	txtlg	STRING			master	C-pisquare-master	SHP_MD_3_0CFM_AMTCT_TEXT_yyyymmdd_hhmmss.CSV	TXTLG	CHAR	60	0						60
+shp_md_cfm_bt_ct_attr	pisquare	0	cfm_bt_ct	STRING			master	C-pisquare-master	SHP_MD_2_0CFM_BT_CT_ATTR_yyyymmdd_hhmmss.CSV	CFM_BT_CT	NUMC	4	0					X	4
+shp_md_cfm_bt_ct_attr	pisquare	1	bic_yscpdvdmv	STRING			master	C-pisquare-master	SHP_MD_2_0CFM_BT_CT_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSCPDVDMV	CHAR	4	0						4
+shp_md_cfm_bt_ct_text	pisquare	0	cfm_bt_ct	STRING			master	C-pisquare-master	SHP_MD_2_0CFM_BT_CT_TEXT_yyyymmdd_hhmmss.CSV	CFM_BT_CT	NUMC	4	0					X	4
+shp_md_cfm_bt_ct_text	pisquare	1	langu	STRING			master	C-pisquare-master	SHP_MD_2_0CFM_BT_CT_TEXT_yyyymmdd_hhmmss.CSV	LANGU	LANG	1	0					X	2
+shp_md_cfm_bt_ct_text	pisquare	2	txtlg	STRING			master	C-pisquare-master	SHP_MD_2_0CFM_BT_CT_TEXT_yyyymmdd_hhmmss.CSV	TXTLG	CHAR	60	0						60
+shp_md_cfm_lo_sh_text	pisquare	0	cfm_lo_sh	STRING			master	C-pisquare-master	SHP_MD_3_0CFM_LO_SH_TEXT_yyyymmdd_hhmmss.CSV	CFM_LO_SH	CHAR	1	0					X	1
+shp_md_cfm_lo_sh_text	pisquare	1	langu	STRING			master	C-pisquare-master	SHP_MD_3_0CFM_LO_SH_TEXT_yyyymmdd_hhmmss.CSV	LANGU	LANG	1	0					X	2
+shp_md_cfm_lo_sh_text	pisquare	2	txtlg	STRING			master	C-pisquare-master	SHP_MD_3_0CFM_LO_SH_TEXT_yyyymmdd_hhmmss.CSV	TXTLG	CHAR	60	0						60
+shp_md_chrt_accts_attr	pisquare	0	chrt_accts	STRING			master	C-pisquare-master	SHP_MD_3_0CHRT_ACCTS_ATTR_yyyymmdd_hhmmss.CSV	CHRT_ACCTS	CHAR	4	0					X	4
+shp_md_chrt_accts_attr	pisquare	1	logsys	STRING			master	C-pisquare-master	SHP_MD_3_0CHRT_ACCTS_ATTR_yyyymmdd_hhmmss.CSV	LOGSYS	CHAR	10	0						10
+shp_md_chrt_accts_attr	pisquare	2	bic_ycretearn	STRING			master	C-pisquare-master	SHP_MD_3_0CHRT_ACCTS_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YCRETEARN	CHAR	10	0						10
+shp_md_chrt_accts_text	pisquare	0	chrt_accts	STRING			master	C-pisquare-master	SHP_MD_3_0CHRT_ACCTS_TEXT_yyyymmdd_hhmmss.CSV	CHRT_ACCTS	CHAR	4	0					X	4
+shp_md_chrt_accts_text	pisquare	1	langu	STRING			master	C-pisquare-master	SHP_MD_3_0CHRT_ACCTS_TEXT_yyyymmdd_hhmmss.CSV	LANGU	LANG	1	0					X	2
+shp_md_chrt_accts_text	pisquare	2	txtlg	STRING			master	C-pisquare-master	SHP_MD_3_0CHRT_ACCTS_TEXT_yyyymmdd_hhmmss.CSV	TXTLG	CHAR	60	0						60
+shp_md_co_area_text	pisquare	0	co_area	STRING			master	C-pisquare-master	SHP_MD_3_0CO_AREA_TEXT_yyyymmdd_hhmmss.CSV	CO_AREA	CHAR	4	0					X	4
+shp_md_co_area_text	pisquare	1	txtmd	STRING			master	C-pisquare-master	SHP_MD_3_0CO_AREA_TEXT_yyyymmdd_hhmmss.CSV	TXTMD	CHAR	40	0						40
+shp_md_comp_code_attr	pisquare	0	comp_code	STRING			master	C-pisquare-master	SHP_MD_3_0COMP_CODE_ATTR_yyyymmdd_hhmmss.CSV	COMP_CODE	CHAR	4	0					X	4
+shp_md_comp_code_attr	pisquare	1	country	STRING			master	C-pisquare-master	SHP_MD_3_0COMP_CODE_ATTR_yyyymmdd_hhmmss.CSV	COUNTRY	CHAR	3	0						3
+shp_md_comp_code_attr	pisquare	2	currency	STRING			master	C-pisquare-master	SHP_MD_3_0COMP_CODE_ATTR_yyyymmdd_hhmmss.CSV	CURRENCY	CUKY	5	0						5
+shp_md_comp_code_attr	pisquare	3	bic_ycrepposi	STRING			master	C-pisquare-master	SHP_MD_3_0COMP_CODE_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YCREPPOSI	CHAR	20	0						20
+shp_md_comp_code_attr	pisquare	4	chrt_accts	STRING			master	C-pisquare-master	SHP_MD_3_0COMP_CODE_ATTR_yyyymmdd_hhmmss.CSV	CHRT_ACCTS	CHAR	4	0						4
+shp_md_comp_code_attr	pisquare	5	bic_ycretearn	STRING			master	C-pisquare-master	SHP_MD_3_0COMP_CODE_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YCRETEARN	CHAR	10	0						10
+shp_md_comp_code_attr	pisquare	6	addr_short	STRING			master	C-pisquare-master	SHP_MD_3_0COMP_CODE_ATTR_yyyymmdd_hhmmss.CSV	ADDR_SHORT	CHAR	60	0						60
+shp_md_comp_code_attr	pisquare	7	postal_cd	STRING			master	C-pisquare-master	SHP_MD_3_0COMP_CODE_ATTR_yyyymmdd_hhmmss.CSV	POSTAL_CD	CHAR	10	0						10
+shp_md_comp_code_attr	pisquare	8	city	STRING			master	C-pisquare-master	SHP_MD_3_0COMP_CODE_ATTR_yyyymmdd_hhmmss.CSV	CITY	CHAR	35	0						35
+shp_md_comp_code_attr	pisquare	9	vat_reg_no	STRING			master	C-pisquare-master	SHP_MD_3_0COMP_CODE_ATTR_yyyymmdd_hhmmss.CSV	VAT_REG_NO	CHAR	20	0						20
+shp_md_comp_code_attr	pisquare	10	bic_yclegform	STRING			master	C-pisquare-master	SHP_MD_3_0COMP_CODE_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YCLEGFORM	CHAR	30	0						30
+shp_md_comp_code_attr	pisquare	11	bic_ycregcmp	STRING			master	C-pisquare-master	SHP_MD_3_0COMP_CODE_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YCREGCMP	CHAR	50	0						50
+shp_md_comp_code_attr	pisquare	12	bic_ycconsocd	STRING			master	C-pisquare-master	SHP_MD_3_0COMP_CODE_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YCCONSOCD	CHAR	20	0						20
+shp_md_comp_code_attr	pisquare	13	fiscvarnt	STRING			master	C-pisquare-master	SHP_MD_3_0COMP_CODE_ATTR_yyyymmdd_hhmmss.CSV	FISCVARNT	CHAR	2	0						2
+shp_md_comp_code_attr	pisquare	14	co_area	STRING			master	C-pisquare-master	SHP_MD_3_0COMP_CODE_ATTR_yyyymmdd_hhmmss.CSV	CO_AREA	CHAR	4	0						4
+shp_md_comp_code_attr	pisquare	15	house_num	STRING			master	C-pisquare-master	SHP_MD_3_0COMP_CODE_ATTR_yyyymmdd_hhmmss.CSV	HOUSE_NUM	CHAR	10	0						10
+shp_md_comp_code_attr	pisquare	16	bic_ycbpartne	STRING			master	C-pisquare-master	SHP_MD_3_0COMP_CODE_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YCBPARTNE	CHAR	6	0						6
+shp_md_comp_code_attr	pisquare	17	bic_ysciaxa	STRING			master	C-pisquare-master	SHP_MD_3_0COMP_CODE_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSCIAXA	CHAR	2	0						2
+shp_md_comp_code_attr	pisquare	18	bic_ysopcomp	STRING			master	C-pisquare-master	SHP_MD_3_0COMP_CODE_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSOPCOMP	CHAR	20	0						20
+shp_md_comp_code_attr	pisquare	19	bic_yccountry	STRING			master	C-pisquare-master	SHP_MD_3_0COMP_CODE_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YCCOUNTRY	CHAR	3	0						3
+shp_md_comp_code_attr	pisquare	20	bic_ycinter9b	STRING			master	C-pisquare-master	SHP_MD_3_0COMP_CODE_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YCINTER9B	CHAR	1	0						1
+shp_md_comp_code_attr	pisquare	21	bic_ycinter_0	STRING			master	C-pisquare-master	SHP_MD_3_0COMP_CODE_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YCINTER10	CHAR	1	0						1
+shp_md_comp_code_attr	pisquare	22	bic_ycloi	STRING			master	C-pisquare-master	SHP_MD_3_0COMP_CODE_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YCLOI1	CHAR	1	0						1
+shp_md_comp_code_attr	pisquare	23	bic_ycinsur	STRING			master	C-pisquare-master	SHP_MD_3_0COMP_CODE_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YCINSUR	CHAR	1	0						1
+shp_md_comp_code_attr	pisquare	24	bic_ycsol2	STRING			master	C-pisquare-master	SHP_MD_3_0COMP_CODE_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YCSOL2	CHAR	1	0						1
+shp_md_comp_code_attr	pisquare	25	bic_ycbank	STRING			master	C-pisquare-master	SHP_MD_3_0COMP_CODE_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YCBANK	CHAR	1	0						1
+shp_md_comp_code_attr	pisquare	26	bic_ycisship	STRING			master	C-pisquare-master	SHP_MD_3_0COMP_CODE_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YCISSHIP	CHAR	1	0						1
+shp_md_comp_code_attr	pisquare	27	bic_yciscop	STRING			master	C-pisquare-master	SHP_MD_3_0COMP_CODE_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YCISCOP	CHAR	1	0						1
+shp_md_comp_code_attr	pisquare	28	bic_ycdummy0	STRING			master	C-pisquare-master	SHP_MD_3_0COMP_CODE_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YCDUMMY01	CHAR	1	0						1
+shp_md_comp_code_attr	pisquare	29	bic_ycdummy02	STRING			master	C-pisquare-master	SHP_MD_3_0COMP_CODE_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YCDUMMY02	CHAR	1	0						1
+shp_md_comp_code_attr	pisquare	30	bic_ycdummy03	STRING			master	C-pisquare-master	SHP_MD_3_0COMP_CODE_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YCDUMMY03	CHAR	1	0						1
+shp_md_comp_code_attr	pisquare	31	bic_ycdummy04	STRING			master	C-pisquare-master	SHP_MD_3_0COMP_CODE_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YCDUMMY04	CHAR	1	0						1
+shp_md_comp_code_attr	pisquare	32	bic_ycdummy05	STRING			master	C-pisquare-master	SHP_MD_3_0COMP_CODE_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YCDUMMY05	CHAR	1	0						1
+shp_md_comp_code_attr	pisquare	33	bic_ycgrpcpcd	STRING			master	C-pisquare-master	SHP_MD_3_0COMP_CODE_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YCGRPCPCD	CHAR	5	0						5
+shp_md_comp_code_attr	pisquare	34	bic_ycrky_lc2	STRING			master	C-pisquare-master	SHP_MD_3_0COMP_CODE_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YCRKY_LC2	CUKY	5	0						5
+shp_md_comp_code_attr	pisquare	35	bic_zsdecrdid	STRING			master	C-pisquare-master	SHP_MD_3_0COMP_CODE_ATTR_yyyymmdd_hhmmss.CSV	/BIC/ZSDECRDID	CHAR	8	0						8
+shp_md_comp_code_text	pisquare	0	comp_code	STRING			master	C-pisquare-master	SHP_MD_3_0COMP_CODE_TEXT_yyyymmdd_hhmmss.CSV	COMP_CODE	CHAR	4	0					X	4
+shp_md_comp_code_text	pisquare	1	txtlg	STRING			master	C-pisquare-master	SHP_MD_3_0COMP_CODE_TEXT_yyyymmdd_hhmmss.CSV	TXTLG	CHAR	60	0						60
+shp_md_fs_ctr_tp_text	pisquare	0	fs_ctr_tp	STRING			master	C-pisquare-master	SHP_MD_3_0FS_CTR_TP_TEXT_yyyymmdd_hhmmss.CSV	FS_CTR_TP	CHAR	1	0					X	1
+shp_md_fs_ctr_tp_text	pisquare	1	langu	STRING			master	C-pisquare-master	SHP_MD_3_0FS_CTR_TP_TEXT_yyyymmdd_hhmmss.CSV	LANGU	LANG	1	0					X	2
+shp_md_fs_ctr_tp_text	pisquare	2	txtlg	STRING			master	C-pisquare-master	SHP_MD_3_0FS_CTR_TP_TEXT_yyyymmdd_hhmmss.CSV	TXTLG	CHAR	60	0						60
+shp_md_fs_sec_ct_attr	pisquare	0	fs_sec_ct	STRING			master	C-pisquare-master	SHP_MD_3_0FS_SEC_CT_ATTR_yyyymmdd_hhmmss.CSV	FS_SEC_CT	NUMC	3	0					X	3
+shp_md_fs_sec_ct_attr	pisquare	1	fs_ctr_tp	STRING			master	C-pisquare-master	SHP_MD_3_0FS_SEC_CT_ATTR_yyyymmdd_hhmmss.CSV	FS_CTR_TP	CHAR	1	0						1
+shp_md_fs_sec_ct_text	pisquare	0	fs_sec_ct	STRING			master	C-pisquare-master	SHP_MD_3_0FS_SEC_CT_TEXT_yyyymmdd_hhmmss.CSV	FS_SEC_CT	NUMC	3	0					X	3
+shp_md_fs_sec_ct_text	pisquare	1	langu	STRING			master	C-pisquare-master	SHP_MD_3_0FS_SEC_CT_TEXT_yyyymmdd_hhmmss.CSV	LANGU	LANG	1	0					X	2
+shp_md_fs_sec_ct_text	pisquare	2	txtmd	STRING			master	C-pisquare-master	SHP_MD_3_0FS_SEC_CT_TEXT_yyyymmdd_hhmmss.CSV	TXTMD	CHAR	40	0						40
+shp_md_fs_val_ar_text	pisquare	0	fs_val_ar	STRING			master	C-pisquare-master	SHP_MD_3_0FS_VAL_AR_TEXT_yyyymmdd_hhmmss.CSV	FS_VAL_AR	CHAR	3	0					X	3
+shp_md_fs_val_ar_text	pisquare	1	txtlg	STRING			master	C-pisquare-master	SHP_MD_3_0FS_VAL_AR_TEXT_yyyymmdd_hhmmss.CSV	TXTLG	CHAR	60	0						60
+shp_md_fs_val_cl_text	pisquare	0	fs_val_ar	STRING			master	C-pisquare-master	SHP_MD_3_0FS_VAL_CL_TEXT_yyyymmdd_hhmmss.CSV	FS_VAL_AR	CHAR	3	0					X	3
+shp_md_fs_val_cl_text	pisquare	1	fs_val_cl	STRING			master	C-pisquare-master	SHP_MD_3_0FS_VAL_CL_TEXT_yyyymmdd_hhmmss.CSV	FS_VAL_CL	NUMC	4	0					X	4
+shp_md_fs_val_cl_text	pisquare	2	langu	STRING			master	C-pisquare-master	SHP_MD_3_0FS_VAL_CL_TEXT_yyyymmdd_hhmmss.CSV	LANGU	LANG	1	0					X	2
+shp_md_fs_val_cl_text	pisquare	3	txtlg	STRING			master	C-pisquare-master	SHP_MD_3_0FS_VAL_CL_TEXT_yyyymmdd_hhmmss.CSV	TXTLG	CHAR	60	0						60
+shp_md_gl_account_attr	pisquare	0	chrt_accts	STRING			master	C-pisquare-master	SHP_MD_2_0GL_ACCOUNT_ATTR_yyyymmdd_hhmmss.CSV	CHRT_ACCTS	CHAR	4	0					X	4
+shp_md_gl_account_attr	pisquare	1	gl_account	STRING			master	C-pisquare-master	SHP_MD_2_0GL_ACCOUNT_ATTR_yyyymmdd_hhmmss.CSV	GL_ACCOUNT	CHAR	10	0					X	10
+shp_md_gl_account_attr	pisquare	2	bal_flag	STRING			master	C-pisquare-master	SHP_MD_2_0GL_ACCOUNT_ATTR_yyyymmdd_hhmmss.CSV	BAL_FLAG	CHAR	1	0						1
+shp_md_gl_account_attr	pisquare	3	incst_flag	STRING			master	C-pisquare-master	SHP_MD_2_0GL_ACCOUNT_ATTR_yyyymmdd_hhmmss.CSV	INCST_FLAG	CHAR	2	0						2
+shp_md_gl_account_attr	pisquare	4	glaccext	STRING			master	C-pisquare-master	SHP_MD_2_0GL_ACCOUNT_ATTR_yyyymmdd_hhmmss.CSV	GLACCEXT	CHAR	18	0						18
+shp_md_gl_account_attr	pisquare	5	bic_ycacctgrp	STRING			master	C-pisquare-master	SHP_MD_2_0GL_ACCOUNT_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YCACCTGRP	CHAR	4	0						4
+shp_md_gl_account_attr	pisquare	6	bic_ycngaapme	STRING			master	C-pisquare-master	SHP_MD_2_0GL_ACCOUNT_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YCNGAAPME	CHAR	2	0						2
+shp_md_gl_account_text	pisquare	0	chrt_accts	STRING			master	C-pisquare-master	SHP_MD_2_0GL_ACCOUNT_TEXT_yyyymmdd_hhmmss.CSV	CHRT_ACCTS	CHAR	4	0					X	4
+shp_md_gl_account_text	pisquare	1	gl_account	STRING			master	C-pisquare-master	SHP_MD_2_0GL_ACCOUNT_TEXT_yyyymmdd_hhmmss.CSV	GL_ACCOUNT	CHAR	10	0					X	10
+shp_md_gl_account_text	pisquare	2	langu	STRING			master	C-pisquare-master	SHP_MD_2_0GL_ACCOUNT_TEXT_yyyymmdd_hhmmss.CSV	LANGU	LANG	1	0					X	2
+shp_md_gl_account_text	pisquare	3	txtsh	STRING			master	C-pisquare-master	SHP_MD_2_0GL_ACCOUNT_TEXT_yyyymmdd_hhmmss.CSV	TXTSH	CHAR	20	0						20
+shp_md_gl_account_text	pisquare	4	txtlg	STRING			master	C-pisquare-master	SHP_MD_2_0GL_ACCOUNT_TEXT_yyyymmdd_hhmmss.CSV	TXTLG	CHAR	60	0						60
+shp_md_move_type_attr	pisquare	0	move_type	STRING			master	C-pisquare-master	SHP_MD_3_0MOVE_TYPE_ATTR_yyyymmdd_hhmmss.CSV	MOVE_TYPE	CHAR	3	0					X	3
+shp_md_move_type_attr	pisquare	1	bic_ycmvtpbcf	STRING			master	C-pisquare-master	SHP_MD_3_0MOVE_TYPE_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YCMVTPBCF	CHAR	3	0						3
+shp_md_move_type_attr	pisquare	2	bic_ycsubmovt	STRING			master	C-pisquare-master	SHP_MD_3_0MOVE_TYPE_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YCSUBMOVT	CHAR	3	0						3
+shp_md_move_type_attr	pisquare	3	bic_ycngaapme	STRING			master	C-pisquare-master	SHP_MD_3_0MOVE_TYPE_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YCNGAAPME	CHAR	2	0						2
+shp_md_move_type_attr	pisquare	4	bic_ycopen_cl	STRING			master	C-pisquare-master	SHP_MD_3_0MOVE_TYPE_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YCOPEN_CL	CHAR	2	0						2
+shp_md_move_type_text	pisquare	0	move_type	STRING			master	C-pisquare-master	SHP_MD_3_0MOVE_TYPE_TEXT_yyyymmdd_hhmmss.CSV	MOVE_TYPE	CHAR	3	0					X	3
+shp_md_move_type_text	pisquare	1	langu	STRING			master	C-pisquare-master	SHP_MD_3_0MOVE_TYPE_TEXT_yyyymmdd_hhmmss.CSV	LANGU	LANG	1	0					X	2
+shp_md_move_type_text	pisquare	2	txtsh	STRING			master	C-pisquare-master	SHP_MD_3_0MOVE_TYPE_TEXT_yyyymmdd_hhmmss.CSV	TXTSH	CHAR	20	0						20
+shp_md_profit_ctr_attr	pisquare	0	co_area	STRING			master	C-pisquare-master	SHP_MD_2_0PROFIT_CTR_ATTR_yyyymmdd_hhmmss.CSV	CO_AREA	CHAR	4	0					X	4
+shp_md_profit_ctr_attr	pisquare	1	profit_ctr	STRING			master	C-pisquare-master	SHP_MD_2_0PROFIT_CTR_ATTR_yyyymmdd_hhmmss.CSV	PROFIT_CTR	CHAR	10	0					X	10
+shp_md_profit_ctr_attr	pisquare	2	dateto	TIMESTAMP	yyyymmdd		master	C-pisquare-master	SHP_MD_2_0PROFIT_CTR_ATTR_yyyymmdd_hhmmss.CSV	DATETO	DATS	8	0					X	10
+shp_md_profit_ctr_attr	pisquare	3	datefrom	TIMESTAMP	yyyymmdd		master	C-pisquare-master	SHP_MD_2_0PROFIT_CTR_ATTR_yyyymmdd_hhmmss.CSV	DATEFROM	DATS	8	0						10
+shp_md_profit_ctr_attr	pisquare	4	logsys	STRING			master	C-pisquare-master	SHP_MD_2_0PROFIT_CTR_ATTR_yyyymmdd_hhmmss.CSV	LOGSYS	CHAR	10	0						10
+shp_md_profit_ctr_attr	pisquare	5	resp_pers	STRING			master	C-pisquare-master	SHP_MD_2_0PROFIT_CTR_ATTR_yyyymmdd_hhmmss.CSV	RESP_PERS	CHAR	20	0						20
+shp_md_profit_ctr_attr	pisquare	6	soursystem	STRING			master	C-pisquare-master	SHP_MD_2_0PROFIT_CTR_ATTR_yyyymmdd_hhmmss.CSV	SOURSYSTEM	CHAR	2	0						25
+shp_md_profit_ctr_attr	pisquare	7	segment	STRING			master	C-pisquare-master	SHP_MD_2_0PROFIT_CTR_ATTR_yyyymmdd_hhmmss.CSV	SEGMENT	CHAR	10	0						10
+shp_md_profit_ctr_attr	pisquare	8	country	STRING			master	C-pisquare-master	SHP_MD_2_0PROFIT_CTR_ATTR_yyyymmdd_hhmmss.CSV	COUNTRY	CHAR	3	0						3
+shp_md_profit_ctr_attr	pisquare	9	bic_ycfps	STRING			master	C-pisquare-master	SHP_MD_2_0PROFIT_CTR_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YCFPS	CHAR	35	0						35
+shp_md_profit_ctr_text	pisquare	0	co_area	STRING			master	C-pisquare-master	SHP_MD_2_0PROFIT_CTR_TEXT_yyyymmdd_hhmmss.CSV	CO_AREA	CHAR	4	0					X	4
+shp_md_profit_ctr_text	pisquare	1	profit_ctr	STRING			master	C-pisquare-master	SHP_MD_2_0PROFIT_CTR_TEXT_yyyymmdd_hhmmss.CSV	PROFIT_CTR	CHAR	10	0					X	10
+shp_md_profit_ctr_text	pisquare	2	langu	STRING			master	C-pisquare-master	SHP_MD_2_0PROFIT_CTR_TEXT_yyyymmdd_hhmmss.CSV	LANGU	LANG	1	0					X	2
+shp_md_profit_ctr_text	pisquare	3	dateto	TIMESTAMP	yyyymmdd		master	C-pisquare-master	SHP_MD_2_0PROFIT_CTR_TEXT_yyyymmdd_hhmmss.CSV	DATETO	DATS	8	0					X	10
+shp_md_profit_ctr_text	pisquare	4	datefrom	TIMESTAMP	yyyymmdd		master	C-pisquare-master	SHP_MD_2_0PROFIT_CTR_TEXT_yyyymmdd_hhmmss.CSV	DATEFROM	DATS	8	0						10
+shp_md_profit_ctr_text	pisquare	5	txtsh	STRING			master	C-pisquare-master	SHP_MD_2_0PROFIT_CTR_TEXT_yyyymmdd_hhmmss.CSV	TXTSH	CHAR	20	0						20
+shp_md_profit_ctr_text	pisquare	6	txtmd	STRING			master	C-pisquare-master	SHP_MD_2_0PROFIT_CTR_TEXT_yyyymmdd_hhmmss.CSV	TXTMD	CHAR	40	0						40
+shp_md_segment_text	pisquare	0	segment	STRING			master	C-pisquare-master	SHP_MD_2_0SEGMENT_TEXT_yyyymmdd_hhmmss.CSV	SEGMENT	CHAR	10	0					X	10
+shp_md_segment_text	pisquare	1	langu	STRING			master	C-pisquare-master	SHP_MD_2_0SEGMENT_TEXT_yyyymmdd_hhmmss.CSV	LANGU	LANG	1	0					X	2
+shp_md_segment_text	pisquare	2	txtlg	STRING			master	C-pisquare-master	SHP_MD_2_0SEGMENT_TEXT_yyyymmdd_hhmmss.CSV	TXTLG	CHAR	60	0						60
+shp_md_ycaltacc1_attr	pisquare	0	chrt_accts	STRING			master	C-pisquare-master	SHP_MD_2_YCALTACC1_ATTR_yyyymmdd_hhmmss.CSV	CHRT_ACCTS	CHAR	4	0					X	4
+shp_md_ycaltacc1_attr	pisquare	1	bic_ycaltacc	STRING			master	C-pisquare-master	SHP_MD_2_YCALTACC1_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YCALTACC1	CHAR	10	0					X	10
+shp_md_ycaltacc1_attr	pisquare	2	bal_flag	STRING			master	C-pisquare-master	SHP_MD_2_YCALTACC1_ATTR_yyyymmdd_hhmmss.CSV	BAL_FLAG	CHAR	1	0						1
+shp_md_ycaltacc1_attr	pisquare	3	incst_flag	STRING			master	C-pisquare-master	SHP_MD_2_YCALTACC1_ATTR_yyyymmdd_hhmmss.CSV	INCST_FLAG	CHAR	2	0						2
+shp_md_ycaltacc1_attr	pisquare	4	glaccext	STRING			master	C-pisquare-master	SHP_MD_2_YCALTACC1_ATTR_yyyymmdd_hhmmss.CSV	GLACCEXT	CHAR	18	0						18
+shp_md_ycaltacc1_attr	pisquare	5	bic_ycacctgrp	STRING			master	C-pisquare-master	SHP_MD_2_YCALTACC1_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YCACCTGRP	CHAR	4	0						4
+shp_md_ycaltacc1_attr	pisquare	6	bic_ycngaapme	STRING			master	C-pisquare-master	SHP_MD_2_YCALTACC1_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YCNGAAPME	CHAR	2	0						2
+shp_md_ycaltacc1_text	pisquare	0	chrt_accts	STRING			master	C-pisquare-master	SHP_MD_2_YCALTACC1_TEXT_yyyymmdd_hhmmss.CSV	CHRT_ACCTS	CHAR	4	0					X	4
+shp_md_ycaltacc1_text	pisquare	1	bic_ycaltacc	STRING			master	C-pisquare-master	SHP_MD_2_YCALTACC1_TEXT_yyyymmdd_hhmmss.CSV	/BIC/YCALTACC1	CHAR	10	0					X	10
+shp_md_ycaltacc1_text	pisquare	2	langu	STRING			master	C-pisquare-master	SHP_MD_2_YCALTACC1_TEXT_yyyymmdd_hhmmss.CSV	LANGU	LANG	1	0					X	2
+shp_md_ycaltacc1_text	pisquare	3	txtsh	STRING			master	C-pisquare-master	SHP_MD_2_YCALTACC1_TEXT_yyyymmdd_hhmmss.CSV	TXTSH	CHAR	20	0						20
+shp_md_ycaltacc1_text	pisquare	4	txtlg	STRING			master	C-pisquare-master	SHP_MD_2_YCALTACC1_TEXT_yyyymmdd_hhmmss.CSV	TXTLG	CHAR	60	0						60
+shp_md_yccompacc_attr	pisquare	0	comp_code	STRING			master	C-pisquare-master	SHP_MD_2_YCCOMPACC_ATTR_yyyymmdd_hhmmss.CSV	COMP_CODE	CHAR	4	0					X	4
+shp_md_yccompacc_attr	pisquare	1	bic_yccompacc	STRING			master	C-pisquare-master	SHP_MD_2_YCCOMPACC_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YCCOMPACC	CHAR	10	0					X	10
+shp_md_yccompacc_attr	pisquare	2	bic_ycaltacc	STRING			master	C-pisquare-master	SHP_MD_2_YCCOMPACC_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YCALTACC	CHAR	10	0						10
+shp_md_yccompacc_attr	pisquare	3	bic_ycvatjust	STRING			master	C-pisquare-master	SHP_MD_2_YCCOMPACC_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YCVATJUST	CHAR	2	0						2
+shp_md_yccompacc_attr	pisquare	4	bic_ycacclerk	STRING			master	C-pisquare-master	SHP_MD_2_YCCOMPACC_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YCACCLERK	CHAR	2	0						2
+shp_md_yccompacc_attr	pisquare	5	bic_yccashtrs	STRING			master	C-pisquare-master	SHP_MD_2_YCCOMPACC_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YCCASHTRS	CHAR	1	0						1
+shp_md_yccompacc_attr	pisquare	6	bic_ycclsgaap	STRING			master	C-pisquare-master	SHP_MD_2_YCCOMPACC_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YCCLSGAAP	CHAR	10	0						10
+shp_md_yccompacc_attr	pisquare	7	bic_ycclsdir	STRING			master	C-pisquare-master	SHP_MD_2_YCCOMPACC_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YCCLSDIR	CHAR	10	0						10
+shp_md_yccompacc_attr	pisquare	8	bic_ycclusacc	STRING			master	C-pisquare-master	SHP_MD_2_YCCOMPACC_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YCCLUSACC	CHAR	10	0						10
+shp_md_yccompacc_attr	pisquare	9	currency	STRING			master	C-pisquare-master	SHP_MD_2_YCCOMPACC_ATTR_yyyymmdd_hhmmss.CSV	CURRENCY	CUKY	5	0						5
+shp_md_yccompacc_attr	pisquare	10	bic_ycoperfin	STRING			master	C-pisquare-master	SHP_MD_2_YCCOMPACC_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YCOPERFIN	CHAR	1	0						1
+shp_md_yccompacc_attr	pisquare	11	bic_ycngaapme	STRING			master	C-pisquare-master	SHP_MD_2_YCCOMPACC_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YCNGAAPME	CHAR	2	0						2
+shp_md_yccompacc_attr	pisquare	12	chrt_accts	STRING			master	C-pisquare-master	SHP_MD_2_YCCOMPACC_ATTR_yyyymmdd_hhmmss.CSV	CHRT_ACCTS	CHAR	4	0						4
+shp_md_yccompacc_attr	pisquare	13	bic_ycexchdif	STRING			master	C-pisquare-master	SHP_MD_2_YCCOMPACC_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YCEXCHDIF	CHAR	4	0						4
+shp_md_ycgaapdif_text	pisquare	0	bic_ycgaapdif	STRING			master	C-pisquare-master	SHP_MD_3_YCGAAPDIF_TEXT_yyyymmdd_hhmmss.CSV	/BIC/YCGAAPDIF	CHAR	8	0					X	8
+shp_md_ycgaapdif_text	pisquare	1	langu	STRING			master	C-pisquare-master	SHP_MD_3_YCGAAPDIF_TEXT_yyyymmdd_hhmmss.CSV	LANGU	LANG	1	0					X	2
+shp_md_ycgaapdif_text	pisquare	2	txtlg	STRING			master	C-pisquare-master	SHP_MD_3_YCGAAPDIF_TEXT_yyyymmdd_hhmmss.CSV	TXTLG	CHAR	60	0						60
+shp_md_ycgaccmap_attr	pisquare	0	bic_ycgrprisk	STRING			master	C-pisquare-master	SHP_MD_1_YCGACCMAP_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YCGRPRISK	CHAR	3	0					X	3
+shp_md_ycgaccmap_attr	pisquare	1	bic_ycifrscl	STRING			master	C-pisquare-master	SHP_MD_1_YCGACCMAP_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YCIFRSCL	CHAR	5	0					X	5
+shp_md_ycgaccmap_attr	pisquare	2	bic_ycglaccfr	STRING			master	C-pisquare-master	SHP_MD_1_YCGACCMAP_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YCGLACCFR	CHAR	10	0					X	10
+shp_md_ycgaccmap_attr	pisquare	3	bic_ycgaccmap	STRING			master	C-pisquare-master	SHP_MD_1_YCGACCMAP_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YCGACCMAP	CHAR	10	0					X	10
+shp_md_ycgaccmap_attr	pisquare	4	bic_ycgrpacc	STRING			master	C-pisquare-master	SHP_MD_1_YCGACCMAP_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YCGRPACC	CHAR	12	0						12
+shp_md_ycgrpacc_attr	pisquare	0	bic_ycgrpacc	STRING			master	C-pisquare-master	SHP_MD_2_YCGRPACC_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YCGRPACC	CHAR	12	0					X	12
+shp_md_ycgrpacc_attr	pisquare	1	bic_yccatrul	STRING			master	C-pisquare-master	SHP_MD_2_YCGRPACC_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YCCATRUL	CHAR	20	0						20
+shp_md_ycgrpacc_attr	pisquare	2	bic_ycsignrul	STRING			master	C-pisquare-master	SHP_MD_2_YCGRPACC_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YCSIGNRUL	CHAR	20	0						20
+shp_md_ycgrpacc_attr	pisquare	3	bic_ycngaapme	STRING			master	C-pisquare-master	SHP_MD_2_YCGRPACC_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YCNGAAPME	CHAR	2	0						2
+shp_md_ycgrpacc_text	pisquare	0	bic_ycgrpacc	STRING			master	C-pisquare-master	SHP_MD_2_YCGRPACC_TEXT_yyyymmdd_hhmmss.CSV	/BIC/YCGRPACC	CHAR	12	0					X	12
+shp_md_ycgrpacc_text	pisquare	1	langu	STRING			master	C-pisquare-master	SHP_MD_2_YCGRPACC_TEXT_yyyymmdd_hhmmss.CSV	LANGU	LANG	1	0					X	2
+shp_md_ycgrpacc_text	pisquare	2	txtsh	STRING			master	C-pisquare-master	SHP_MD_2_YCGRPACC_TEXT_yyyymmdd_hhmmss.CSV	TXTSH	CHAR	20	0						20
+shp_md_ycgrpacc_text	pisquare	3	txtmd	STRING			master	C-pisquare-master	SHP_MD_2_YCGRPACC_TEXT_yyyymmdd_hhmmss.CSV	TXTMD	CHAR	40	0						40
+shp_md_ycgrpacc_text	pisquare	4	txtlg	STRING			master	C-pisquare-master	SHP_MD_2_YCGRPACC_TEXT_yyyymmdd_hhmmss.CSV	TXTLG	CHAR	60	0						60
+shp_md_ycgrprisk_text	pisquare	0	bic_ycgrprisk	STRING			master	C-pisquare-master	SHP_MD_2_YCGRPRISK_TEXT_yyyymmdd_hhmmss.CSV	/BIC/YCGRPRISK	CHAR	3	0					X	3
+shp_md_ycgrprisk_text	pisquare	1	langu	STRING			master	C-pisquare-master	SHP_MD_2_YCGRPRISK_TEXT_yyyymmdd_hhmmss.CSV	LANGU	LANG	1	0					X	2
+shp_md_ycgrprisk_text	pisquare	2	txtlg	STRING			master	C-pisquare-master	SHP_MD_2_YCGRPRISK_TEXT_yyyymmdd_hhmmss.CSV	TXTLG	CHAR	60	0						60
+shp_md_ycifrscl_text	pisquare	0	bic_ycifrscl	STRING			master	C-pisquare-master	SHP_MD_2_YCIFRSCL_TEXT_yyyymmdd_hhmmss.CSV	/BIC/YCIFRSCL	CHAR	5	0					X	5
+shp_md_ycifrscl_text	pisquare	1	langu	STRING			master	C-pisquare-master	SHP_MD_2_YCIFRSCL_TEXT_yyyymmdd_hhmmss.CSV	LANGU	LANG	1	0					X	2
+shp_md_ycifrscl_text	pisquare	2	txtlg	STRING			master	C-pisquare-master	SHP_MD_2_YCIFRSCL_TEXT_yyyymmdd_hhmmss.CSV	TXTLG	CHAR	60	0						60
+shp_md_ycmagnpak_text	pisquare	0	bic_ycmagnpak	STRING			master	C-pisquare-master	SHP_MD_2_YCMAGNPAK_TEXT_yyyymmdd_hhmmss.CSV	/BIC/YCMAGNPAK	CHAR	12	0					X	12
+shp_md_ycmagnpak_text	pisquare	1	langu	STRING			master	C-pisquare-master	SHP_MD_2_YCMAGNPAK_TEXT_yyyymmdd_hhmmss.CSV	LANGU	LANG	1	0					X	2
+shp_md_ycmagnpak_text	pisquare	2	txtlg	STRING			master	C-pisquare-master	SHP_MD_2_YCMAGNPAK_TEXT_yyyymmdd_hhmmss.CSV	TXTLG	CHAR	60	0						60
+shp_md_ycngaapme_text	pisquare	0	bic_ycngaapme	STRING			master	C-pisquare-master	SHP_MD_3_YCNGAAPME_TEXT_yyyymmdd_hhmmss.CSV	/BIC/YCNGAAPME	CHAR	2	0					X	2
+shp_md_ycngaapme_text	pisquare	1	langu	STRING			master	C-pisquare-master	SHP_MD_3_YCNGAAPME_TEXT_yyyymmdd_hhmmss.CSV	LANGU	LANG	1	0					X	2
+shp_md_ycngaapme_text	pisquare	2	txtlg	STRING			master	C-pisquare-master	SHP_MD_3_YCNGAAPME_TEXT_yyyymmdd_hhmmss.CSV	TXTLG	CHAR	60	0						60
+shp_md_ycosicr	pisquare	0	company	STRING			master	C-pisquare-master	SHP_MD_2_YCOSICR_yyyymmdd_hhmmss.CSV	COMPANY	CHAR	6	0					X	6
+shp_md_ycosicr	pisquare	1	bic_ysbpartnr	STRING			master	C-pisquare-master	SHP_MD_2_YCOSICR_yyyymmdd_hhmmss.CSV	/BIC/YSBPARTNR	CHAR	12	0					X	12
+shp_md_ycosicr	pisquare	2	fs_co_rel	STRING			master	C-pisquare-master	SHP_MD_2_YCOSICR_yyyymmdd_hhmmss.CSV	FS_CO_REL	CHAR	1	0						1
+shp_md_ycosicr	pisquare	3	recordmode	STRING			master	C-pisquare-master	SHP_MD_2_YCOSICR_yyyymmdd_hhmmss.CSV	RECORDMODE	CHAR	1	0						1
+shp_md_ycosorbp	pisquare	0	validto	TIMESTAMP	yyyymmdd		master	C-pisquare-master	SHP_MD_1_YCOSORBP_yyyymmdd_hhmmss.CSV	VALIDTO	DATS	8	0					X	8
+shp_md_ycosorbp	pisquare	1	fp_rtgrmet	STRING			master	C-pisquare-master	SHP_MD_1_YCOSORBP_yyyymmdd_hhmmss.CSV	FP_RTGRMET	CHAR	10	0					X	10
+shp_md_ycosorbp	pisquare	2	fp_rtcrit	STRING			master	C-pisquare-master	SHP_MD_1_YCOSORBP_yyyymmdd_hhmmss.CSV	FP_RTCRIT	CHAR	10	0					X	10
+shp_md_ycosorbp	pisquare	3	bic_ysbpartnr	STRING			master	C-pisquare-master	SHP_MD_1_YCOSORBP_yyyymmdd_hhmmss.CSV	/BIC/YSBPARTNR	CHAR	12	0					X	12
+shp_md_ycosorbp	pisquare	4	recordmode	STRING			master	C-pisquare-master	SHP_MD_1_YCOSORBP_yyyymmdd_hhmmss.CSV	RECORDMODE	CHAR	1	0						1
+shp_md_ycosorbp	pisquare	5	validfrom	TIMESTAMP	yyyymmdd		master	C-pisquare-master	SHP_MD_1_YCOSORBP_yyyymmdd_hhmmss.CSV	VALIDFROM	DATS	8	0						8
+shp_md_ycosorbp	pisquare	6	fp_rtpermt	STRING			master	C-pisquare-master	SHP_MD_1_YCOSORBP_yyyymmdd_hhmmss.CSV	FP_RTPERMT	CHAR	1	0						1
+shp_md_ycosorbp	pisquare	7	fp_rtgrade	STRING			master	C-pisquare-master	SHP_MD_1_YCOSORBP_yyyymmdd_hhmmss.CSV	FP_RTGRADE	CHAR	10	0						10
+shp_md_ycosorbp	pisquare	8	fp_rttendy	STRING			master	C-pisquare-master	SHP_MD_1_YCOSORBP_yyyymmdd_hhmmss.CSV	FP_RTTENDY	CHAR	2	0						2
+shp_md_ycosorbp	pisquare	9	fp_rtdwhen	TIMESTAMP	yyyymmdd		master	C-pisquare-master	SHP_MD_1_YCOSORBP_yyyymmdd_hhmmss.CSV	FP_RTDWHEN	DATS	8	0						8
+shp_md_ycosorft	pisquare	0	comp_code	STRING			master	C-pisquare-master	SHP_MD_1_YCOSORFT_yyyymmdd_hhmmss.CSV	COMP_CODE	CHAR	4	0					X	4
+shp_md_ycosorft	pisquare	1	validfrom	TIMESTAMP	yyyymmdd		master	C-pisquare-master	SHP_MD_1_YCOSORFT_yyyymmdd_hhmmss.CSV	VALIDFROM	DATS	8	0					X	8
+shp_md_ycosorft	pisquare	2	cfm_inst	STRING			master	C-pisquare-master	SHP_MD_1_YCOSORFT_yyyymmdd_hhmmss.CSV	CFM_INST	CHAR	4	0					X	4
+shp_md_ycosorft	pisquare	3	bic_ysfinantr	STRING			master	C-pisquare-master	SHP_MD_1_YCOSORFT_yyyymmdd_hhmmss.CSV	/BIC/YSFINANTR	CHAR	13	0					X	13
+shp_md_ycosorft	pisquare	4	fs_ctr_tp	STRING			master	C-pisquare-master	SHP_MD_1_YCOSORFT_yyyymmdd_hhmmss.CSV	FS_CTR_TP	CHAR	1	0					X	1
+shp_md_ycosorft	pisquare	5	cfm_secrat	STRING			master	C-pisquare-master	SHP_MD_1_YCOSORFT_yyyymmdd_hhmmss.CSV	CFM_SECRAT	CHAR	3	0						3
+shp_md_ycosorft	pisquare	6	recordmode	STRING			master	C-pisquare-master	SHP_MD_1_YCOSORFT_yyyymmdd_hhmmss.CSV	RECORDMODE	CHAR	1	0						1
+shp_md_ycosorse	pisquare	0	bic_yssecftd	STRING			master	C-pisquare-master	SHP_MD_1_YCOSORSE_yyyymmdd_hhmmss.CSV	/BIC/YSSECFTD	CHAR	13	0					X	13
+shp_md_ycosorse	pisquare	1	cfm_inst	STRING			master	C-pisquare-master	SHP_MD_1_YCOSORSE_yyyymmdd_hhmmss.CSV	CFM_INST	CHAR	4	0					X	4
+shp_md_ycosorse	pisquare	2	validto	TIMESTAMP	yyyymmdd		master	C-pisquare-master	SHP_MD_1_YCOSORSE_yyyymmdd_hhmmss.CSV	VALIDTO	DATS	8	0					X	8
+shp_md_ycosorse	pisquare	3	cfm_secrat	STRING			master	C-pisquare-master	SHP_MD_1_YCOSORSE_yyyymmdd_hhmmss.CSV	CFM_SECRAT	CHAR	3	0					X	3
+shp_md_ycosorse	pisquare	4	recordmode	STRING			master	C-pisquare-master	SHP_MD_1_YCOSORSE_yyyymmdd_hhmmss.CSV	RECORDMODE	CHAR	1	0					X	1
+shp_md_ycosorse	pisquare	5	comp_code	STRING			master	C-pisquare-master	SHP_MD_1_YCOSORSE_yyyymmdd_hhmmss.CSV	COMP_CODE	CHAR	4	0						4
+shp_md_ycosorse	pisquare	6	validfrom	TIMESTAMP	yyyymmdd		master	C-pisquare-master	SHP_MD_1_YCOSORSE_yyyymmdd_hhmmss.CSV	VALIDFROM	DATS	8	0						8
+shp_md_yreassid_attr	pisquare	0	bic_yreasstp	STRING			master	C-pisquare-master	SHP_MD_2_YREASSID_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YREASSTP	CHAR	2	0					X	2
+shp_md_yreassid_attr	pisquare	1	bic_yreassid	STRING			master	C-pisquare-master	SHP_MD_2_YREASSID_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YREASSID	CHAR	6	0					X	6
+shp_md_yreassid_attr	pisquare	2	dateto	TIMESTAMP	yyyymmdd		master	C-pisquare-master	SHP_MD_2_YREASSID_ATTR_yyyymmdd_hhmmss.CSV	DATETO	DATS	8	0					X	10
+shp_md_yreassid_attr	pisquare	3	datefrom	TIMESTAMP	yyyymmdd		master	C-pisquare-master	SHP_MD_2_YREASSID_ATTR_yyyymmdd_hhmmss.CSV	DATEFROM	DATS	8	0						10
+shp_md_yreassid_attr	pisquare	4	bic_yreasscod	STRING			master	C-pisquare-master	SHP_MD_2_YREASSID_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YREASSCOD	CHAR	20	0						20
+shp_md_yreassid_attr	pisquare	5	bic_yreownoc	STRING			master	C-pisquare-master	SHP_MD_2_YREASSID_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YREOWNOC	CHAR	1	0						1
+shp_md_yreassid_attr	pisquare	6	bic_yretown	STRING			master	C-pisquare-master	SHP_MD_2_YREASSID_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YRETOWN	CHAR	50	0						50
+shp_md_yreassid_attr	pisquare	7	bic_yrezip	STRING			master	C-pisquare-master	SHP_MD_2_YREASSID_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YREZIP	CHAR	20	0						20
+shp_md_yreassid_attr	pisquare	8	bic_yrectrcd	STRING			master	C-pisquare-master	SHP_MD_2_YREASSID_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YRECTRCD	CHAR	3	0						3
+shp_md_yreassid_attr	pisquare	9	bic_yreregion	STRING			master	C-pisquare-master	SHP_MD_2_YREASSID_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YREREGION	CHAR	60	0						60
+shp_md_yreassid_attr	pisquare	10	bic_yrelglfrm	STRING			master	C-pisquare-master	SHP_MD_2_YREASSID_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YRELGLFRM	CHAR	30	0						30
+shp_md_yreassid_attr	pisquare	11	bic_yreregcd	STRING			master	C-pisquare-master	SHP_MD_2_YREASSID_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YREREGCD	CHAR	30	0						30
+shp_md_yreassid_attr	pisquare	12	bic_yrecapit	STRING			master	C-pisquare-master	SHP_MD_2_YREASSID_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YRECAPIT	NUMC	25	0						25
+shp_md_yreassid_attr	pisquare	13	bic_yrelegadd	STRING			master	C-pisquare-master	SHP_MD_2_YREASSID_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YRELEGADD	CHAR	60	0						60
+shp_md_yreassid_attr	pisquare	14	bic_yrestat	STRING			master	C-pisquare-master	SHP_MD_2_YREASSID_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YRESTAT	CHAR	4	0						4
+shp_md_yreassid_attr	pisquare	15	bic_yrepdmtus	STRING			master	C-pisquare-master	SHP_MD_2_YREASSID_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YREPDMTUS	CHAR	60	0						60
+shp_md_yreassid_attr	pisquare	16	bic_yreartot	STRING			master	C-pisquare-master	SHP_MD_2_YREASSID_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YREARTOT	NUMC	16	0						16
+shp_md_yreassid_attr	pisquare	17	bic_yreuntmsr	STRING			master	C-pisquare-master	SHP_MD_2_YREASSID_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YREUNTMSR	UNIT	3	0						3
+shp_md_yreassid_attr	pisquare	18	bic_yreprknbr	STRING			master	C-pisquare-master	SHP_MD_2_YREASSID_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YREPRKNBR	NUMC	16	0						16
+shp_md_yreassid_attr	pisquare	19	bic_yreasmncd	STRING			master	C-pisquare-master	SHP_MD_2_YREASSID_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YREASMNCD	CHAR	8	0						8
+shp_md_yreassid_attr	pisquare	20	bic_yrevaldat	TIMESTAMP	yyyymmdd		master	C-pisquare-master	SHP_MD_2_YREASSID_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YREVALDAT	DATS	8	0						10
+shp_md_yreassid_attr	pisquare	21	bic_yreglval	STRING			master	C-pisquare-master	SHP_MD_2_YREASSID_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YREGLVAL	NUMC	16	0						16
+shp_md_yreassid_attr	pisquare	22	bic_yreuntnav	STRING			master	C-pisquare-master	SHP_MD_2_YREASSID_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YREUNTNAV	NUMC	16	0						16
+shp_md_yreassid_attr	pisquare	23	bic_yreshrnbr	STRING			master	C-pisquare-master	SHP_MD_2_YREASSID_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YRESHRNBR	NUMC	12	0						12
+shp_md_yreassid_attr	pisquare	24	bic_yrecmpcur	STRING			master	C-pisquare-master	SHP_MD_2_YREASSID_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YRECMPCUR	CUKY	5	0						5
+shp_md_yreassid_attr	pisquare	25	bic_yrecapdat	TIMESTAMP	yyyymmdd		master	C-pisquare-master	SHP_MD_2_YREASSID_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YRECAPDAT	DATS	8	0						10
+shp_md_yreassid_attr	pisquare	26	bic_yremkapdt	STRING			master	C-pisquare-master	SHP_MD_2_YREASSID_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YREMKAPDT	CHAR	60	0						60
+shp_md_yreassid_attr	pisquare	27	bic_yrerfapdt	TIMESTAMP	yyyymmdd		master	C-pisquare-master	SHP_MD_2_YREASSID_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YRERFAPDT	DATS	8	0						10
+shp_md_yreassid_attr	pisquare	28	bic_yrevalcat	STRING			master	C-pisquare-master	SHP_MD_2_YREASSID_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YREVALCAT	CHAR	40	0						40
+shp_md_yreassid_attr	pisquare	29	bic_yreassman	STRING			master	C-pisquare-master	SHP_MD_2_YREASSID_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YREASSMAN	CHAR	60	0						60
+shp_md_yreassid_attr	pisquare	30	bic_yrefasstp	STRING			master	C-pisquare-master	SHP_MD_2_YREASSID_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YREFASSTP	CHAR	10	0						10
+shp_md_yreassid_attr	pisquare	31	bic_yrepchsr	STRING			master	C-pisquare-master	SHP_MD_2_YREASSID_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YREPCHSR	CHAR	60	0						60
+shp_md_yreassid_attr	pisquare	32	bic_zsdestkba	STRING			master	C-pisquare-master	SHP_MD_2_YREASSID_ATTR_yyyymmdd_hhmmss.CSV	/BIC/ZSDESTKBA	CHAR	1	0						1
+shp_md_yreassid_attr	pisquare	33	bic_zsdemw670	STRING			master	C-pisquare-master	SHP_MD_2_YREASSID_ATTR_yyyymmdd_hhmmss.CSV	/BIC/ZSDEMW670	CHAR	10	0						10
+shp_md_yreassid_attr	pisquare	34	bic_zsdemw67	STRING			master	C-pisquare-master	SHP_MD_2_YREASSID_ATTR_yyyymmdd_hhmmss.CSV	/BIC/ZSDEMW671	CHAR	10	0						10
+shp_md_yreassid_attr	pisquare	35	bic_zsdedvuan	STRING			master	C-pisquare-master	SHP_MD_2_YREASSID_ATTR_yyyymmdd_hhmmss.CSV	/BIC/ZSDEDVUAN	CHAR	2	0						2
+shp_md_yreassid_text	pisquare	0	bic_yreasstp	STRING			master	C-pisquare-master	SHP_MD_2_YREASSID_TEXT_yyyymmdd_hhmmss.CSV	/BIC/YREASSTP	CHAR	2	0					X	2
+shp_md_yreassid_text	pisquare	1	bic_yreassid	STRING			master	C-pisquare-master	SHP_MD_2_YREASSID_TEXT_yyyymmdd_hhmmss.CSV	/BIC/YREASSID	CHAR	6	0					X	6
+shp_md_yreassid_text	pisquare	2	langu	STRING			master	C-pisquare-master	SHP_MD_2_YREASSID_TEXT_yyyymmdd_hhmmss.CSV	LANGU	LANG	1	0					X	2
+shp_md_yreassid_text	pisquare	3	txtsh	STRING			master	C-pisquare-master	SHP_MD_2_YREASSID_TEXT_yyyymmdd_hhmmss.CSV	TXTSH	CHAR	20	0						20
+shp_md_yreassid_text	pisquare	4	txtmd	STRING			master	C-pisquare-master	SHP_MD_2_YREASSID_TEXT_yyyymmdd_hhmmss.CSV	TXTMD	CHAR	40	0						40
+shp_md_yreassid_text	pisquare	5	txtlg	STRING			master	C-pisquare-master	SHP_MD_2_YREASSID_TEXT_yyyymmdd_hhmmss.CSV	TXTLG	CHAR	60	0						60
+shp_md_ysac_ref_text	pisquare	0	bic_ysac_ref	STRING			master	C-pisquare-master	SHP_MD_2_YSAC_REF_TEXT_yyyymmdd_hhmmss.CSV	/BIC/YSAC_REF	CHAR	12	0					X	12
+shp_md_ysac_ref_text	pisquare	1	langu	STRING			master	C-pisquare-master	SHP_MD_2_YSAC_REF_TEXT_yyyymmdd_hhmmss.CSV	LANGU	LANG	1	0					X	2
+shp_md_ysac_ref_text	pisquare	2	txtlg	STRING			master	C-pisquare-master	SHP_MD_2_YSAC_REF_TEXT_yyyymmdd_hhmmss.CSV	TXTLG	CHAR	60	0						60
+shp_md_ysasatacc_attr	pisquare	0	chrt_accts	STRING			master	C-pisquare-master	SHP_MD_2_YSASATACC_ATTR_yyyymmdd_hhmmss.CSV	CHRT_ACCTS	CHAR	4	0					X	4
+shp_md_ysasatacc_attr	pisquare	1	bic_ysasatacc	STRING			master	C-pisquare-master	SHP_MD_2_YSASATACC_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSASATACC	CHAR	10	0					X	10
+shp_md_ysasatacc_attr	pisquare	2	bal_flag	STRING			master	C-pisquare-master	SHP_MD_2_YSASATACC_ATTR_yyyymmdd_hhmmss.CSV	BAL_FLAG	CHAR	1	0						1
+shp_md_ysasatacc_attr	pisquare	3	incst_flag	STRING			master	C-pisquare-master	SHP_MD_2_YSASATACC_ATTR_yyyymmdd_hhmmss.CSV	INCST_FLAG	CHAR	2	0						2
+shp_md_ysasatacc_attr	pisquare	4	glaccext	STRING			master	C-pisquare-master	SHP_MD_2_YSASATACC_ATTR_yyyymmdd_hhmmss.CSV	GLACCEXT	CHAR	18	0						18
+shp_md_ysasatacc_attr	pisquare	5	bic_ycacctgrp	STRING			master	C-pisquare-master	SHP_MD_2_YSASATACC_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YCACCTGRP	CHAR	4	0						4
+shp_md_ysasatacc_attr	pisquare	6	bic_ycngaapme	STRING			master	C-pisquare-master	SHP_MD_2_YSASATACC_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YCNGAAPME	CHAR	2	0						2
+shp_md_ysasatacc_text	pisquare	0	chrt_accts	STRING			master	C-pisquare-master	SHP_MD_2_YSASATACC_TEXT_yyyymmdd_hhmmss.CSV	CHRT_ACCTS	CHAR	4	0					X	4
+shp_md_ysasatacc_text	pisquare	1	bic_ysasatacc	STRING			master	C-pisquare-master	SHP_MD_2_YSASATACC_TEXT_yyyymmdd_hhmmss.CSV	/BIC/YSASATACC	CHAR	10	0					X	10
+shp_md_ysasatacc_text	pisquare	2	langu	STRING			master	C-pisquare-master	SHP_MD_2_YSASATACC_TEXT_yyyymmdd_hhmmss.CSV	LANGU	LANG	1	0					X	1
+shp_md_ysasatacc_text	pisquare	3	txtsh	STRING			master	C-pisquare-master	SHP_MD_2_YSASATACC_TEXT_yyyymmdd_hhmmss.CSV	TXTSH	CHAR	20	0						20
+shp_md_ysasatacc_text	pisquare	4	txtlg	STRING			master	C-pisquare-master	SHP_MD_2_YSASATACC_TEXT_yyyymmdd_hhmmss.CSV	TXTLG	CHAR	60	0						60
+shp_md_ysasstmng_text	pisquare	0	bic_ysasstmng	STRING			master	C-pisquare-master	SHP_MD_2_YSASSTMNG_TEXT_yyyymmdd_hhmmss.CSV	/BIC/YSASSTMNG	CHAR	3	0					X	3
+shp_md_ysasstmng_text	pisquare	1	langu	STRING			master	C-pisquare-master	SHP_MD_2_YSASSTMNG_TEXT_yyyymmdd_hhmmss.CSV	LANGU	LANG	1	0					X	2
+shp_md_ysasstmng_text	pisquare	2	txtsh	STRING			master	C-pisquare-master	SHP_MD_2_YSASSTMNG_TEXT_yyyymmdd_hhmmss.CSV	TXTSH	CHAR	20	0						20
+shp_md_ysasstmng_text	pisquare	3	txtmd	STRING			master	C-pisquare-master	SHP_MD_2_YSASSTMNG_TEXT_yyyymmdd_hhmmss.CSV	TXTMD	CHAR	40	0						40
+shp_md_ysasstmng_text	pisquare	4	txtlg	STRING			master	C-pisquare-master	SHP_MD_2_YSASSTMNG_TEXT_yyyymmdd_hhmmss.CSV	TXTLG	CHAR	60	0						60
+shp_md_ysatrasid_attr	pisquare	0	fs_ctr_tp	STRING			master	C-pisquare-master	SHP_MD_2_YSATRASID_ATTR_yyyymmdd_hhmmss.CSV	FS_CTR_TP	CHAR	1	0					X	1
+shp_md_ysatrasid_attr	pisquare	1	bic_ysatrasid	STRING			master	C-pisquare-master	SHP_MD_2_YSATRASID_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSATRASID	CHAR	13	0					X	13
+shp_md_ysatrasid_attr	pisquare	2	dateto	TIMESTAMP	yyyymmdd		master	C-pisquare-master	SHP_MD_2_YSATRASID_ATTR_yyyymmdd_hhmmss.CSV	DATETO	DATS	8	0					X	10
+shp_md_ysatrasid_attr	pisquare	3	datefrom	TIMESTAMP	yyyymmdd		master	C-pisquare-master	SHP_MD_2_YSATRASID_ATTR_yyyymmdd_hhmmss.CSV	DATEFROM	DATS	8	0						10
+shp_md_ysatrasid_attr	pisquare	4	bic_zptbascot	STRING			master	C-pisquare-master	SHP_MD_2_YSATRASID_ATTR_yyyymmdd_hhmmss.CSV	/BIC/ZPTBASCOT	CHAR	3	0						3
+shp_md_ysatrasid_text	pisquare	0	fs_ctr_tp	STRING			master	C-pisquare-master	SHP_MD_2_YSATRASID_TEXT_yyyymmdd_hhmmss.CSV	FS_CTR_TP	CHAR	1	0					X	1
+shp_md_ysatrasid_text	pisquare	1	bic_ysatrasid	STRING			master	C-pisquare-master	SHP_MD_2_YSATRASID_TEXT_yyyymmdd_hhmmss.CSV	/BIC/YSATRASID	CHAR	13	0					X	13
+shp_md_ysatrasid_text	pisquare	2	txtsh	STRING			master	C-pisquare-master	SHP_MD_2_YSATRASID_TEXT_yyyymmdd_hhmmss.CSV	TXTSH	CHAR	20	0						20
+shp_md_ysatrasid_text	pisquare	3	txtlg	STRING			master	C-pisquare-master	SHP_MD_2_YSATRASID_TEXT_yyyymmdd_hhmmss.CSV	TXTLG	CHAR	60	0						60
+shp_md_ysbpartnr_attr	pisquare	0	bic_ysbpartnr	STRING			master	C-pisquare-master	SHP_MD_1_YSBPARTNR_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSBPARTNR	CHAR	12	0					X	12
+shp_md_ysbpartnr_attr	pisquare	1	dateto	TIMESTAMP	yyyymmdd		master	C-pisquare-master	SHP_MD_1_YSBPARTNR_ATTR_yyyymmdd_hhmmss.CSV	DATETO	DATS	8	0					X	10
+shp_md_ysbpartnr_attr	pisquare	2	datefrom	TIMESTAMP	yyyymmdd		master	C-pisquare-master	SHP_MD_1_YSBPARTNR_ATTR_yyyymmdd_hhmmss.CSV	DATEFROM	DATS	8	0						10
+shp_md_ysbpartnr_attr	pisquare	3	ind_code	STRING			master	C-pisquare-master	SHP_MD_1_YSBPARTNR_ATTR_yyyymmdd_hhmmss.CSV	IND_CODE	CHAR	10	0						10
+shp_md_ysbpartnr_attr	pisquare	4	country	STRING			master	C-pisquare-master	SHP_MD_1_YSBPARTNR_ATTR_yyyymmdd_hhmmss.CSV	COUNTRY	CHAR	3	0						3
+shp_md_ysbpartnr_attr	pisquare	5	postal_cd	STRING			master	C-pisquare-master	SHP_MD_1_YSBPARTNR_ATTR_yyyymmdd_hhmmss.CSV	POSTAL_CD	CHAR	10	0						10
+shp_md_ysbpartnr_attr	pisquare	6	addr_short	STRING			master	C-pisquare-master	SHP_MD_1_YSBPARTNR_ATTR_yyyymmdd_hhmmss.CSV	ADDR_SHORT	CHAR	60	0						60
+shp_md_ysbpartnr_attr	pisquare	7	city	STRING			master	C-pisquare-master	SHP_MD_1_YSBPARTNR_ATTR_yyyymmdd_hhmmss.CSV	CITY	CHAR	35	0						35
+shp_md_ysbpartnr_attr	pisquare	8	currency	STRING			master	C-pisquare-master	SHP_MD_1_YSBPARTNR_ATTR_yyyymmdd_hhmmss.CSV	CURRENCY	CUKY	5	0						5
+shp_md_ysbpartnr_attr	pisquare	9	ind_numsys	STRING			master	C-pisquare-master	SHP_MD_1_YSBPARTNR_ATTR_yyyymmdd_hhmmss.CSV	IND_NUMSYS	CHAR	4	0						4
+shp_md_ysbpartnr_attr	pisquare	10	ind_sec	STRING			master	C-pisquare-master	SHP_MD_1_YSBPARTNR_ATTR_yyyymmdd_hhmmss.CSV	IND_SEC	CHAR	10	0						10
+shp_md_ysbpartnr_attr	pisquare	11	ind_sector	STRING			master	C-pisquare-master	SHP_MD_1_YSBPARTNR_ATTR_yyyymmdd_hhmmss.CSV	IND_SECTOR	CHAR	1	0						1
+shp_md_ysbpartnr_attr	pisquare	12	bic_ysulparnr	STRING			master	C-pisquare-master	SHP_MD_1_YSBPARTNR_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSULPARNR	CHAR	12	0						12
+shp_md_ysbpartnr_attr	pisquare	13	bic_ysfitchrp	STRING			master	C-pisquare-master	SHP_MD_1_YSBPARTNR_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSFITCHRP	CHAR	10	0						10
+shp_md_ysbpartnr_attr	pisquare	14	bic_ysmoodyrp	STRING			master	C-pisquare-master	SHP_MD_1_YSBPARTNR_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSMOODYRP	CHAR	10	0						10
+shp_md_ysbpartnr_attr	pisquare	15	bic_yssandprp	STRING			master	C-pisquare-master	SHP_MD_1_YSBPARTNR_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSSANDPRP	CHAR	10	0						10
+shp_md_ysbpartnr_attr	pisquare	16	bic_ysaxainrp	STRING			master	C-pisquare-master	SHP_MD_1_YSBPARTNR_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSAXAINRP	CHAR	10	0						10
+shp_md_ysbpartnr_attr	pisquare	17	bic_ysotherrp	STRING			master	C-pisquare-master	SHP_MD_1_YSBPARTNR_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSOTHERRP	CHAR	10	0						10
+shp_md_ysbpartnr_attr	pisquare	18	bic_ysaxarp	STRING			master	C-pisquare-master	SHP_MD_1_YSBPARTNR_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSAXARP	CHAR	10	0						10
+shp_md_ysbpartnr_attr	pisquare	19	bic_ysindcode	STRING			master	C-pisquare-master	SHP_MD_1_YSBPARTNR_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSINDCODE	CHAR	6	0						6
+shp_md_ysbpartnr_attr	pisquare	20	bic_ysindgrp	STRING			master	C-pisquare-master	SHP_MD_1_YSBPARTNR_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSINDGRP	CHAR	4	0						4
+shp_md_ysbpartnr_attr	pisquare	21	bic_ysiss_sec	STRING			master	C-pisquare-master	SHP_MD_1_YSBPARTNR_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSISS_SEC	CHAR	10	0						10
+shp_md_ysbpartnr_attr	pisquare	22	bic_yscisvnaz	STRING			master	C-pisquare-master	SHP_MD_1_YSBPARTNR_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSCISVNAZ	CHAR	3	0						3
+shp_md_ysbpartnr_attr	pisquare	23	bic_ysnosbwav	STRING			master	C-pisquare-master	SHP_MD_1_YSBPARTNR_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSNOSBWAV	CHAR	1	0						1
+shp_md_ysbpartnr_attr	pisquare	24	bic_ysnosecbr	STRING			master	C-pisquare-master	SHP_MD_1_YSBPARTNR_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSNOSECBR	CHAR	1	0						1
+shp_md_ysbpartnr_attr	pisquare	25	bic_ysfdnaut	STRING			master	C-pisquare-master	SHP_MD_1_YSBPARTNR_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSFDNAUT	CHAR	10	0						10
+shp_md_ysbpartnr_attr	pisquare	26	bic_ysfisctry	STRING			master	C-pisquare-master	SHP_MD_1_YSBPARTNR_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSFISCTRY	CHAR	3	0						3
+shp_md_ysbpartnr_attr	pisquare	27	bic_ysconsmet	STRING			master	C-pisquare-master	SHP_MD_1_YSBPARTNR_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSCONSMET	CHAR	2	0						2
+shp_md_ysbpartnr_attr	pisquare	28	bic_zptbpisp	STRING			master	C-pisquare-master	SHP_MD_1_YSBPARTNR_ATTR_yyyymmdd_hhmmss.CSV	/BIC/ZPTBPISP	NUMC	3	0						3
+shp_md_ysbpartnr_attr	pisquare	29	bic_ysorgrshp	STRING			master	C-pisquare-master	SHP_MD_1_YSBPARTNR_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSORGRSHP	CHAR	1	0						1
+shp_md_ysbpartnr_attr	pisquare	30	fg_idtp	STRING			master	C-pisquare-master	SHP_MD_1_YSBPARTNR_ATTR_yyyymmdd_hhmmss.CSV	FG_IDTP	CHAR	6	0						6
+shp_md_ysbpartnr_attr	pisquare	31	company	STRING			master	C-pisquare-master	SHP_MD_1_YSBPARTNR_ATTR_yyyymmdd_hhmmss.CSV	COMPANY	CHAR	6	0						6
+shp_md_ysbpartnr_attr	pisquare	32	fs_co_rel	STRING			master	C-pisquare-master	SHP_MD_1_YSBPARTNR_ATTR_yyyymmdd_hhmmss.CSV	FS_CO_REL	CHAR	1	0						1
+shp_md_ysbpartnr_attr	pisquare	33	bic_zsrisocde	STRING			master	C-pisquare-master	SHP_MD_1_YSBPARTNR_ATTR_yyyymmdd_hhmmss.CSV	/BIC/ZSRISOCDE	NUMC	1	0						1
+shp_md_ysbpartnr_attr	pisquare	34	bic_ysbpind2	STRING			master	C-pisquare-master	SHP_MD_1_YSBPARTNR_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSBPIND2	CHAR	10	0						10
+shp_md_ysbpartnr_attr	pisquare	35	bic_ysulpcntr	STRING			master	C-pisquare-master	SHP_MD_1_YSBPARTNR_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSULPCNTR	CHAR	3	0						3
+shp_md_ysbpartnr_attr	pisquare	36	bic_yslgalfrm	STRING			master	C-pisquare-master	SHP_MD_1_YSBPARTNR_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSLGALFRM	CHAR	2	0						2
+shp_md_ysbpartnr_attr	pisquare	37	bic_zsdeboent	STRING			master	C-pisquare-master	SHP_MD_1_YSBPARTNR_ATTR_yyyymmdd_hhmmss.CSV	/BIC/ZSDEBOENT	CHAR	8	0						8
+shp_md_ysbpartnr_attr	pisquare	38	bic_zsdebornr	STRING			master	C-pisquare-master	SHP_MD_1_YSBPARTNR_ATTR_yyyymmdd_hhmmss.CSV	/BIC/ZSDEBORNR	CHAR	8	0						8
+shp_md_ysbpartnr_attr	pisquare	39	bic_zsdemmlon	STRING			master	C-pisquare-master	SHP_MD_1_YSBPARTNR_ATTR_yyyymmdd_hhmmss.CSV	/BIC/ZSDEMMLON	CHAR	1	0						1
+shp_md_ysbpartnr_attr	pisquare	40	bic_yslgalent	STRING			master	C-pisquare-master	SHP_MD_1_YSBPARTNR_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSLGALENT	CHAR	2	0						2
+shp_md_ysbpartnr_attr	pisquare	41	bic_zsdequota	STRING			master	C-pisquare-master	SHP_MD_1_YSBPARTNR_ATTR_yyyymmdd_hhmmss.CSV	/BIC/ZSDEQUOTA	CHAR	1	0						1
+shp_md_ysbpartnr_attr	pisquare	42	bic_zsdepar_a	STRING			master	C-pisquare-master	SHP_MD_1_YSBPARTNR_ATTR_yyyymmdd_hhmmss.CSV	/BIC/ZSDEPAR1A	CHAR	1	0						1
+shp_md_ysbpartnr_attr	pisquare	43	bic_zsdedegrp	STRING			master	C-pisquare-master	SHP_MD_1_YSBPARTNR_ATTR_yyyymmdd_hhmmss.CSV	/BIC/ZSDEDEGRP	CHAR	1	0						1
+shp_md_ysbpartnr_attr	pisquare	44	bic_zsdeidnum	STRING			master	C-pisquare-master	SHP_MD_1_YSBPARTNR_ATTR_yyyymmdd_hhmmss.CSV	/BIC/ZSDEIDNUM	CHAR	60	0						60
+shp_md_ysbpartnr_attr	pisquare	45	bic_zsderevdt	TIMESTAMP	yyyymmdd		master	C-pisquare-master	SHP_MD_1_YSBPARTNR_ATTR_yyyymmdd_hhmmss.CSV	/BIC/ZSDEREVDT	DATS	8	0						10
+shp_md_ysbpartnr_attr	pisquare	46	bic_zsdegba	STRING			master	C-pisquare-master	SHP_MD_1_YSBPARTNR_ATTR_yyyymmdd_hhmmss.CSV	/BIC/ZSDEGBA	NUMC	2	0						2
+shp_md_ysbpartnr_attr	pisquare	47	bic_zsdeupnum	STRING			master	C-pisquare-master	SHP_MD_1_YSBPARTNR_ATTR_yyyymmdd_hhmmss.CSV	/BIC/ZSDEUPNUM	CHAR	60	0						60
+shp_md_ysbpartnr_attr	pisquare	48	bic_zbescompn	STRING			master	C-pisquare-master	SHP_MD_1_YSBPARTNR_ATTR_yyyymmdd_hhmmss.CSV	/BIC/ZBESCOMPN	CHAR	15	0						15
+shp_md_ysbpartnr_attr	pisquare	49	house_num	STRING			master	C-pisquare-master	SHP_MD_1_YSBPARTNR_ATTR_yyyymmdd_hhmmss.CSV	HOUSE_NUM	CHAR	10	0						10
+shp_md_ysbpartnr_attr	pisquare	50	bic_yscoaddr	STRING			master	C-pisquare-master	SHP_MD_1_YSBPARTNR_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSCOADDR	CHAR	3	0						3
+shp_md_ysbpartnr_text	pisquare	0	bic_ysbpartnr	STRING			master	C-pisquare-master	SHP_MD_1_YSBPARTNR_TEXT_yyyymmdd_hhmmss.CSV	/BIC/YSBPARTNR	CHAR	12	0					X	12
+shp_md_ysbpartnr_text	pisquare	1	langu	STRING			master	C-pisquare-master	SHP_MD_1_YSBPARTNR_TEXT_yyyymmdd_hhmmss.CSV	LANGU	LANG	1	0					X	2
+shp_md_ysbpartnr_text	pisquare	2	txtsh	STRING			master	C-pisquare-master	SHP_MD_1_YSBPARTNR_TEXT_yyyymmdd_hhmmss.CSV	TXTSH	CHAR	20	0						20
+shp_md_ysbpartnr_text	pisquare	3	txtmd	STRING			master	C-pisquare-master	SHP_MD_1_YSBPARTNR_TEXT_yyyymmdd_hhmmss.CSV	TXTMD	CHAR	40	0						40
+shp_md_ysbpartnr_text	pisquare	4	txtlg	STRING			master	C-pisquare-master	SHP_MD_1_YSBPARTNR_TEXT_yyyymmdd_hhmmss.CSV	TXTLG	CHAR	60	0						60
+shp_md_ysfinantr_attr	pisquare	0	comp_code	STRING			master	C-pisquare-master	SHP_MD_1_YSFINANTR_ATTR_yyyymmdd_hhmmss.CSV	COMP_CODE	CHAR	4	0					X	4
+shp_md_ysfinantr_attr	pisquare	1	fs_ctr_tp	STRING			master	C-pisquare-master	SHP_MD_1_YSFINANTR_ATTR_yyyymmdd_hhmmss.CSV	FS_CTR_TP	CHAR	1	0					X	1
+shp_md_ysfinantr_attr	pisquare	2	bic_ysfinantr	STRING			master	C-pisquare-master	SHP_MD_1_YSFINANTR_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSFINANTR	CHAR	13	0					X	13
+shp_md_ysfinantr_attr	pisquare	3	dateto	TIMESTAMP	yyyymmdd		master	C-pisquare-master	SHP_MD_1_YSFINANTR_ATTR_yyyymmdd_hhmmss.CSV	DATETO	DATS	8	0					X	10
+shp_md_ysfinantr_attr	pisquare	4	datefrom	TIMESTAMP	yyyymmdd		master	C-pisquare-master	SHP_MD_1_YSFINANTR_ATTR_yyyymmdd_hhmmss.CSV	DATEFROM	DATS	8	0						10
+shp_md_ysfinantr_attr	pisquare	5	ba_objnrt	STRING			master	C-pisquare-master	SHP_MD_1_YSFINANTR_ATTR_yyyymmdd_hhmmss.CSV	BA_OBJNRT	CHAR	22	0						22
+shp_md_ysfinantr_attr	pisquare	6	cfm_ir	DECIMAL(38,10)	SAP float		master	C-pisquare-master	SHP_MD_1_YSFINANTR_ATTR_yyyymmdd_hhmmss.CSV	CFM_IR	FLTP	16	16						23
+shp_md_ysfinantr_attr	pisquare	7	hc_creuser	STRING			master	C-pisquare-master	SHP_MD_1_YSFINANTR_ATTR_yyyymmdd_hhmmss.CSV	HC_CREUSER	CHAR	12	0						12
+shp_md_ysfinantr_attr	pisquare	8	cr_on_i	TIMESTAMP	yyyymmdd		master	C-pisquare-master	SHP_MD_1_YSFINANTR_ATTR_yyyymmdd_hhmmss.CSV	CR_ON_I	DATS	8	0						10
+shp_md_ysfinantr_attr	pisquare	9	crea_time	STRING			master	C-pisquare-master	SHP_MD_1_YSFINANTR_ATTR_yyyymmdd_hhmmss.CSV	CREA_TIME	TIMS	6	0						8
+shp_md_ysfinantr_attr	pisquare	10	fs_updusr	STRING			master	C-pisquare-master	SHP_MD_1_YSFINANTR_ATTR_yyyymmdd_hhmmss.CSV	FS_UPDUSR	CHAR	12	0						12
+shp_md_ysfinantr_attr	pisquare	11	fs_upd_d	TIMESTAMP	yyyymmdd		master	C-pisquare-master	SHP_MD_1_YSFINANTR_ATTR_yyyymmdd_hhmmss.CSV	FS_UPD_D	DATS	8	0						10
+shp_md_ysfinantr_attr	pisquare	12	fs_upd_t	STRING			master	C-pisquare-master	SHP_MD_1_YSFINANTR_ATTR_yyyymmdd_hhmmss.CSV	FS_UPD_T	TIMS	6	0						8
+shp_md_ysfinantr_attr	pisquare	13	fs_sec_ct	STRING			master	C-pisquare-master	SHP_MD_1_YSFINANTR_ATTR_yyyymmdd_hhmmss.CSV	FS_SEC_CT	NUMC	3	0						3
+shp_md_ysfinantr_attr	pisquare	14	fs_prd_tp	STRING			master	C-pisquare-master	SHP_MD_1_YSFINANTR_ATTR_yyyymmdd_hhmmss.CSV	FS_PRD_TP	CHAR	3	0						3
+shp_md_ysfinantr_attr	pisquare	15	cfm_tra_ct	STRING			master	C-pisquare-master	SHP_MD_1_YSFINANTR_ATTR_yyyymmdd_hhmmss.CSV	CFM_TRA_CT	NUMC	3	0						3
+shp_md_ysfinantr_attr	pisquare	16	cfm_act_ct	STRING			master	C-pisquare-master	SHP_MD_1_YSFINANTR_ATTR_yyyymmdd_hhmmss.CSV	CFM_ACT_CT	NUMC	2	0						2
+shp_md_ysfinantr_attr	pisquare	17	cfm_tra_tp	STRING			master	C-pisquare-master	SHP_MD_1_YSFINANTR_ATTR_yyyymmdd_hhmmss.CSV	CFM_TRA_TP	CHAR	3	0						3
+shp_md_ysfinantr_attr	pisquare	18	fs_trms_d	TIMESTAMP	yyyymmdd		master	C-pisquare-master	SHP_MD_1_YSFINANTR_ATTR_yyyymmdd_hhmmss.CSV	FS_TRMS_D	DATS	8	0						10
+shp_md_ysfinantr_attr	pisquare	19	fs_trme_d	TIMESTAMP	yyyymmdd		master	C-pisquare-master	SHP_MD_1_YSFINANTR_ATTR_yyyymmdd_hhmmss.CSV	FS_TRME_D	DATS	8	0						10
+shp_md_ysfinantr_attr	pisquare	20	cfm_notcd	TIMESTAMP	yyyymmdd		master	C-pisquare-master	SHP_MD_1_YSFINANTR_ATTR_yyyymmdd_hhmmss.CSV	CFM_NOTCD	DATS	8	0						10
+shp_md_ysfinantr_attr	pisquare	21	cfm_cc_d	TIMESTAMP	yyyymmdd		master	C-pisquare-master	SHP_MD_1_YSFINANTR_ATTR_yyyymmdd_hhmmss.CSV	CFM_CC_D	DATS	8	0						10
+shp_md_ysfinantr_attr	pisquare	22	cfm_cc_t	STRING			master	C-pisquare-master	SHP_MD_1_YSFINANTR_ATTR_yyyymmdd_hhmmss.CSV	CFM_CC_T	TIMS	6	0						8
+shp_md_ysfinantr_attr	pisquare	23	cfm_trader	STRING			master	C-pisquare-master	SHP_MD_1_YSFINANTR_ATTR_yyyymmdd_hhmmss.CSV	CFM_TRADER	CHAR	12	0						12
+shp_md_ysfinantr_attr	pisquare	24	cfm_contct	STRING			master	C-pisquare-master	SHP_MD_1_YSFINANTR_ATTR_yyyymmdd_hhmmss.CSV	CFM_CONTCT	CHAR	19	0						19
+shp_md_ysfinantr_attr	pisquare	25	cfm_bp_gua	STRING			master	C-pisquare-master	SHP_MD_1_YSFINANTR_ATTR_yyyymmdd_hhmmss.CSV	CFM_BP_GUA	CHAR	10	0						10
+shp_md_ysfinantr_attr	pisquare	26	cfm_ex_ref	STRING			master	C-pisquare-master	SHP_MD_1_YSFINANTR_ATTR_yyyymmdd_hhmmss.CSV	CFM_EX_REF	CHAR	16	0						16
+shp_md_ysfinantr_attr	pisquare	27	cfm_pfdeal	STRING			master	C-pisquare-master	SHP_MD_1_YSFINANTR_ATTR_yyyymmdd_hhmmss.CSV	CFM_PFDEAL	CHAR	10	0						10
+shp_md_ysfinantr_attr	pisquare	28	cfm_finprj	STRING			master	C-pisquare-master	SHP_MD_1_YSFINANTR_ATTR_yyyymmdd_hhmmss.CSV	CFM_FINPRJ	CHAR	13	0						13
+shp_md_ysfinantr_attr	pisquare	29	cfm_mas_ag	STRING			master	C-pisquare-master	SHP_MD_1_YSFINANTR_ATTR_yyyymmdd_hhmmss.CSV	CFM_MAS_AG	CHAR	10	0						10
+shp_md_ysfinantr_attr	pisquare	30	cfm_assmt	STRING			master	C-pisquare-master	SHP_MD_1_YSFINANTR_ATTR_yyyymmdd_hhmmss.CSV	CFM_ASSMT	CHAR	18	0						18
+shp_md_ysfinantr_attr	pisquare	31	cfm_in_ref	STRING			master	C-pisquare-master	SHP_MD_1_YSFINANTR_ATTR_yyyymmdd_hhmmss.CSV	CFM_IN_REF	CHAR	16	0						16
+shp_md_ysfinantr_attr	pisquare	32	cfm_charc	STRING			master	C-pisquare-master	SHP_MD_1_YSFINANTR_ATTR_yyyymmdd_hhmmss.CSV	CFM_CHARC	CHAR	25	0						25
+shp_md_ysfinantr_attr	pisquare	33	fs_cvalcl	STRING			master	C-pisquare-master	SHP_MD_1_YSFINANTR_ATTR_yyyymmdd_hhmmss.CSV	FS_CVALCL	NUMC	4	0						4
+shp_md_ysfinantr_attr	pisquare	34	cfm_fac_no	STRING			master	C-pisquare-master	SHP_MD_1_YSFINANTR_ATTR_yyyymmdd_hhmmss.CSV	CFM_FAC_NO	CHAR	13	0						13
+shp_md_ysfinantr_attr	pisquare	35	cfm_cc_fac	STRING			master	C-pisquare-master	SHP_MD_1_YSFINANTR_ATTR_yyyymmdd_hhmmss.CSV	CFM_CC_FAC	CHAR	4	0						4
+shp_md_ysfinantr_attr	pisquare	36	cfm_actsta	STRING			master	C-pisquare-master	SHP_MD_1_YSFINANTR_ATTR_yyyymmdd_hhmmss.CSV	CFM_ACTSTA	NUMC	1	0						1
+shp_md_ysfinantr_attr	pisquare	37	cfm_rel_st	STRING			master	C-pisquare-master	SHP_MD_1_YSFINANTR_ATTR_yyyymmdd_hhmmss.CSV	CFM_REL_ST	CHAR	1	0						1
+shp_md_ysfinantr_attr	pisquare	38	cfm_rvresn	STRING			master	C-pisquare-master	SHP_MD_1_YSFINANTR_ATTR_yyyymmdd_hhmmss.CSV	CFM_RVRESN	CHAR	2	0						2
+shp_md_ysfinantr_attr	pisquare	39	cfm_tr_cur	STRING			master	C-pisquare-master	SHP_MD_1_YSFINANTR_ATTR_yyyymmdd_hhmmss.CSV	CFM_TR_CUR	CUKY	5	0						5
+shp_md_ysfinantr_attr	pisquare	40	cfm_in_cur	STRING			master	C-pisquare-master	SHP_MD_1_YSFINANTR_ATTR_yyyymmdd_hhmmss.CSV	CFM_IN_CUR	CUKY	5	0						5
+shp_md_ysfinantr_attr	pisquare	41	cfm_ou_cur	STRING			master	C-pisquare-master	SHP_MD_1_YSFINANTR_ATTR_yyyymmdd_hhmmss.CSV	CFM_OU_CUR	CUKY	5	0						5
+shp_md_ysfinantr_attr	pisquare	42	cfm_0021	DECIMAL(17,2)	SAP dec		master	C-pisquare-master	SHP_MD_1_YSFINANTR_ATTR_yyyymmdd_hhmmss.CSV	CFM_0021	CURR	17	2						23
+shp_md_ysfinantr_attr	pisquare	43	cfmp0030	DECIMAL(17,2)	SAP dec		master	C-pisquare-master	SHP_MD_1_YSFINANTR_ATTR_yyyymmdd_hhmmss.CSV	CFMP0030	CURR	17	2						23
+shp_md_ysfinantr_attr	pisquare	44	cfmp0032	DECIMAL(17,2)	SAP dec		master	C-pisquare-master	SHP_MD_1_YSFINANTR_ATTR_yyyymmdd_hhmmss.CSV	CFMP0032	CURR	17	2						23
+shp_md_ysfinantr_attr	pisquare	45	cfm_ld_cur	STRING			master	C-pisquare-master	SHP_MD_1_YSFINANTR_ATTR_yyyymmdd_hhmmss.CSV	CFM_LD_CUR	CUKY	5	0						5
+shp_md_ysfinantr_attr	pisquare	46	cfm_fo_cur	STRING			master	C-pisquare-master	SHP_MD_1_YSFINANTR_ATTR_yyyymmdd_hhmmss.CSV	CFM_FO_CUR	CUKY	5	0						5
+shp_md_ysfinantr_attr	pisquare	47	cfm_fxrt	DECIMAL(17,3)	SAP dec		master	C-pisquare-master	SHP_MD_1_YSFINANTR_ATTR_yyyymmdd_hhmmss.CSV	CFM_FXRT	DEC	17	3						23
+shp_md_ysfinantr_attr	pisquare	48	cfm_spotrt	DECIMAL(17,3)	SAP dec		master	C-pisquare-master	SHP_MD_1_YSFINANTR_ATTR_yyyymmdd_hhmmss.CSV	CFM_SPOTRT	DEC	17	3						23
+shp_md_ysfinantr_attr	pisquare	49	cfm_swaprt	DECIMAL(17,3)	SAP dec		master	C-pisquare-master	SHP_MD_1_YSFINANTR_ATTR_yyyymmdd_hhmmss.CSV	CFM_SWAPRT	DEC	17	3						23
+shp_md_ysfinantr_attr	pisquare	50	cfm_sec_ac	STRING			master	C-pisquare-master	SHP_MD_1_YSFINANTR_ATTR_yyyymmdd_hhmmss.CSV	CFM_SEC_AC	CHAR	10	0						10
+shp_md_ysfinantr_attr	pisquare	51	cfm_sec_id	STRING			master	C-pisquare-master	SHP_MD_1_YSFINANTR_ATTR_yyyymmdd_hhmmss.CSV	CFM_SEC_ID	CHAR	13	0						13
+shp_md_ysfinantr_attr	pisquare	52	cfm_pos_ac	STRING			master	C-pisquare-master	SHP_MD_1_YSFINANTR_ATTR_yyyymmdd_hhmmss.CSV	CFM_POS_AC	CHAR	10	0						10
+shp_md_ysfinantr_attr	pisquare	53	cfm_ctyid	STRING			master	C-pisquare-master	SHP_MD_1_YSFINANTR_ATTR_yyyymmdd_hhmmss.CSV	CFM_CTYID	CHAR	18	0						18
+shp_md_ysfinantr_attr	pisquare	54	unit	STRING			master	C-pisquare-master	SHP_MD_1_YSFINANTR_ATTR_yyyymmdd_hhmmss.CSV	UNIT	UNIT	3	0						3
+shp_md_ysfinantr_attr	pisquare	55	cfm_quanty	DECIMAL(17,3)	SAP dec		master	C-pisquare-master	SHP_MD_1_YSFINANTR_ATTR_yyyymmdd_hhmmss.CSV	CFM_QUANTY	QUAN	17	3						23
+shp_md_ysfinantr_attr	pisquare	56	cfm_fwdprc	DECIMAL(17,3)	SAP dec		master	C-pisquare-master	SHP_MD_1_YSFINANTR_ATTR_yyyymmdd_hhmmss.CSV	CFM_FWDPRC	DEC	17	3						23
+shp_md_ysfinantr_attr	pisquare	57	cfm_ctyspt	DECIMAL(17,3)	SAP dec		master	C-pisquare-master	SHP_MD_1_YSFINANTR_ATTR_yyyymmdd_hhmmss.CSV	CFM_CTYSPT	DEC	17	3						23
+shp_md_ysfinantr_attr	pisquare	58	cfm_conbac	DECIMAL(17,3)	SAP dec		master	C-pisquare-master	SHP_MD_1_YSFINANTR_ATTR_yyyymmdd_hhmmss.CSV	CFM_CONBAC	DEC	17	3						23
+shp_md_ysfinantr_attr	pisquare	59	cfmp0730	DECIMAL(17,3)	SAP dec		master	C-pisquare-master	SHP_MD_1_YSFINANTR_ATTR_yyyymmdd_hhmmss.CSV	CFMP0730	DEC	17	3						23
+shp_md_ysfinantr_attr	pisquare	60	fs_effir	STRING			master	C-pisquare-master	SHP_MD_1_YSFINANTR_ATTR_yyyymmdd_hhmmss.CSV	FS_EFFIR	CHAR	11	0						11
+shp_md_ysfinantr_attr	pisquare	61	fs_ymeth	STRING			master	C-pisquare-master	SHP_MD_1_YSFINANTR_ATTR_yyyymmdd_hhmmss.CSV	FS_YMETH	NUMC	1	0						1
+shp_md_ysfinantr_attr	pisquare	62	fs_typir	STRING			master	C-pisquare-master	SHP_MD_1_YSFINANTR_ATTR_yyyymmdd_hhmmss.CSV	FS_TYPIR	CHAR	1	0						1
+shp_md_ysfinantr_attr	pisquare	63	fs_refir	STRING			master	C-pisquare-master	SHP_MD_1_YSFINANTR_ATTR_yyyymmdd_hhmmss.CSV	FS_REFIR	CHAR	10	0						10
+shp_md_ysfinantr_attr	pisquare	64	fs_rfspr	DECIMAL(17,3)	SAP dec		master	C-pisquare-master	SHP_MD_1_YSFINANTR_ATTR_yyyymmdd_hhmmss.CSV	FS_RFSPR	DEC	17	3						23
+shp_md_ysfinantr_attr	pisquare	65	fs_ir_frm	STRING			master	C-pisquare-master	SHP_MD_1_YSFINANTR_ATTR_yyyymmdd_hhmmss.CSV	FS_IR_FRM	CHAR	60	0						60
+shp_md_ysfinantr_attr	pisquare	66	fs_ir_amnt	DECIMAL(17,2)	SAP dec		master	C-pisquare-master	SHP_MD_1_YSFINANTR_ATTR_yyyymmdd_hhmmss.CSV	FS_IR_AMNT	CURR	17	2						23
+shp_md_ysfinantr_attr	pisquare	67	cfm_irctin	STRING			master	C-pisquare-master	SHP_MD_1_YSFINANTR_ATTR_yyyymmdd_hhmmss.CSV	CFM_IRCTIN	CHAR	1	0						1
+shp_md_ysfinantr_attr	pisquare	68	cfm_ir_in	DECIMAL(17,3)	SAP dec		master	C-pisquare-master	SHP_MD_1_YSFINANTR_ATTR_yyyymmdd_hhmmss.CSV	CFM_IR_IN	DEC	17	3						23
+shp_md_ysfinantr_attr	pisquare	69	cfm_refiri	STRING			master	C-pisquare-master	SHP_MD_1_YSFINANTR_ATTR_yyyymmdd_hhmmss.CSV	CFM_REFIRI	CHAR	10	0						10
+shp_md_ysfinantr_attr	pisquare	70	fs_rfsprin	DECIMAL(17,3)	SAP dec		master	C-pisquare-master	SHP_MD_1_YSFINANTR_ATTR_yyyymmdd_hhmmss.CSV	FS_RFSPRIN	DEC	17	3						23
+shp_md_ysfinantr_attr	pisquare	71	cfm_frm_in	STRING			master	C-pisquare-master	SHP_MD_1_YSFINANTR_ATTR_yyyymmdd_hhmmss.CSV	CFM_FRM_IN	CHAR	60	0						60
+shp_md_ysfinantr_attr	pisquare	72	fs_iramtin	DECIMAL(17,2)	SAP dec		master	C-pisquare-master	SHP_MD_1_YSFINANTR_ATTR_yyyymmdd_hhmmss.CSV	FS_IRAMTIN	CURR	17	2						23
+shp_md_ysfinantr_attr	pisquare	73	cfm_irctou	STRING			master	C-pisquare-master	SHP_MD_1_YSFINANTR_ATTR_yyyymmdd_hhmmss.CSV	CFM_IRCTOU	CHAR	1	0						1
+shp_md_ysfinantr_attr	pisquare	74	cfm_ir_out	DECIMAL(17,3)	SAP dec		master	C-pisquare-master	SHP_MD_1_YSFINANTR_ATTR_yyyymmdd_hhmmss.CSV	CFM_IR_OUT	DEC	17	3						23
+shp_md_ysfinantr_attr	pisquare	75	cfm_refiro	STRING			master	C-pisquare-master	SHP_MD_1_YSFINANTR_ATTR_yyyymmdd_hhmmss.CSV	CFM_REFIRO	CHAR	10	0						10
+shp_md_ysfinantr_attr	pisquare	76	fs_rfsprou	DECIMAL(17,3)	SAP dec		master	C-pisquare-master	SHP_MD_1_YSFINANTR_ATTR_yyyymmdd_hhmmss.CSV	FS_RFSPROU	DEC	17	3						23
+shp_md_ysfinantr_attr	pisquare	77	cfm_frm_ou	STRING			master	C-pisquare-master	SHP_MD_1_YSFINANTR_ATTR_yyyymmdd_hhmmss.CSV	CFM_FRM_OU	CHAR	60	0						60
+shp_md_ysfinantr_attr	pisquare	78	fs_iramtou	DECIMAL(17,2)	SAP dec		master	C-pisquare-master	SHP_MD_1_YSFINANTR_ATTR_yyyymmdd_hhmmss.CSV	FS_IRAMTOU	CURR	17	2						23
+shp_md_ysfinantr_attr	pisquare	79	cfm_exty	STRING			master	C-pisquare-master	SHP_MD_1_YSFINANTR_ATTR_yyyymmdd_hhmmss.CSV	CFM_EXTY	NUMC	1	0						1
+shp_md_ysfinantr_attr	pisquare	80	cfm_pcid	STRING			master	C-pisquare-master	SHP_MD_1_YSFINANTR_ATTR_yyyymmdd_hhmmss.CSV	CFM_PCID	NUMC	1	0						1
+shp_md_ysfinantr_attr	pisquare	81	fs_ddate	TIMESTAMP	yyyymmdd		master	C-pisquare-master	SHP_MD_1_YSFINANTR_ATTR_yyyymmdd_hhmmss.CSV	FS_DDATE	DATS	8	0						10
+shp_md_ysfinantr_attr	pisquare	82	cfm_st_cur	STRING			master	C-pisquare-master	SHP_MD_1_YSFINANTR_ATTR_yyyymmdd_hhmmss.CSV	CFM_ST_CUR	CUKY	5	0						5
+shp_md_ysfinantr_attr	pisquare	83	cfm_pc_cur	STRING			master	C-pisquare-master	SHP_MD_1_YSFINANTR_ATTR_yyyymmdd_hhmmss.CSV	CFM_PC_CUR	CUKY	5	0						5
+shp_md_ysfinantr_attr	pisquare	84	cfm_bstr	DECIMAL(17,2)	SAP dec		master	C-pisquare-master	SHP_MD_1_YSFINANTR_ATTR_yyyymmdd_hhmmss.CSV	CFM_BSTR	CURR	17	2						23
+shp_md_ysfinantr_attr	pisquare	85	cfm_seid	STRING			master	C-pisquare-master	SHP_MD_1_YSFINANTR_ATTR_yyyymmdd_hhmmss.CSV	CFM_SEID	CHAR	1	0						1
+shp_md_ysfinantr_attr	pisquare	86	cfm_oppt	STRING			master	C-pisquare-master	SHP_MD_1_YSFINANTR_ATTR_yyyymmdd_hhmmss.CSV	CFM_OPPT	NUMC	3	0						3
+shp_md_ysfinantr_attr	pisquare	87	cfm_bstrdr	STRING			master	C-pisquare-master	SHP_MD_1_YSFINANTR_ATTR_yyyymmdd_hhmmss.CSV	CFM_BSTRDR	CHAR	1	0						1
+shp_md_ysfinantr_attr	pisquare	88	cfm_bar_ct	STRING			master	C-pisquare-master	SHP_MD_1_YSFINANTR_ATTR_yyyymmdd_hhmmss.CSV	CFM_BAR_CT	NUMC	2	0						2
+shp_md_ysfinantr_attr	pisquare	89	cfm_ldcrul	STRING			master	C-pisquare-master	SHP_MD_1_YSFINANTR_ATTR_yyyymmdd_hhmmss.CSV	CFM_LDCRUL	CUKY	5	0						5
+shp_md_ysfinantr_attr	pisquare	90	cfm_focrul	STRING			master	C-pisquare-master	SHP_MD_1_YSFINANTR_ATTR_yyyymmdd_hhmmss.CSV	CFM_FOCRUL	CUKY	5	0						5
+shp_md_ysfinantr_attr	pisquare	91	cfm_barr1	DECIMAL(17,3)	SAP dec		master	C-pisquare-master	SHP_MD_1_YSFINANTR_ATTR_yyyymmdd_hhmmss.CSV	CFM_BARR1	DEC	17	3						23
+shp_md_ysfinantr_attr	pisquare	92	cfm_barr2	DECIMAL(17,3)	SAP dec		master	C-pisquare-master	SHP_MD_1_YSFINANTR_ATTR_yyyymmdd_hhmmss.CSV	CFM_BARR2	DEC	17	3						23
+shp_md_ysfinantr_attr	pisquare	93	cfm_prctrd	DECIMAL(17,3)	SAP dec		master	C-pisquare-master	SHP_MD_1_YSFINANTR_ATTR_yyyymmdd_hhmmss.CSV	CFM_PRCTRD	DEC	17	3						23
+shp_md_ysfinantr_attr	pisquare	94	cfm_ccyunt	STRING			master	C-pisquare-master	SHP_MD_1_YSFINANTR_ATTR_yyyymmdd_hhmmss.CSV	CFM_CCYUNT	CHAR	5	0						5
+shp_md_ysfinantr_attr	pisquare	95	cfm_nomtrd	DECIMAL(17,2)	SAP dec		master	C-pisquare-master	SHP_MD_1_YSFINANTR_ATTR_yyyymmdd_hhmmss.CSV	CFM_NOMTRD	CURR	17	2						23
+shp_md_ysfinantr_attr	pisquare	96	cfm_nogtrd	DECIMAL(17,2)	SAP dec		master	C-pisquare-master	SHP_MD_1_YSFINANTR_ATTR_yyyymmdd_hhmmss.CSV	CFM_NOGTRD	CURR	17	2						23
+shp_md_ysfinantr_attr	pisquare	97	cfm_nmbtrd	DECIMAL(17,3)	SAP dec		master	C-pisquare-master	SHP_MD_1_YSFINANTR_ATTR_yyyymmdd_hhmmss.CSV	CFM_NMBTRD	DEC	17	3						23
+shp_md_ysfinantr_attr	pisquare	98	cfm_qu_cur	STRING			master	C-pisquare-master	SHP_MD_1_YSFINANTR_ATTR_yyyymmdd_hhmmss.CSV	CFM_QU_CUR	CUKY	5	0						5
+shp_md_ysfinantr_attr	pisquare	99	cfm_0646	DECIMAL(17,2)	SAP dec		master	C-pisquare-master	SHP_MD_1_YSFINANTR_ATTR_yyyymmdd_hhmmss.CSV	CFM_0646	CURR	17	2						23
+shp_md_ysfinantr_attr	pisquare	100	fs_pytcur	STRING			master	C-pisquare-master	SHP_MD_1_YSFINANTR_ATTR_yyyymmdd_hhmmss.CSV	FS_PYTCUR	CUKY	5	0						5
+shp_md_ysfinantr_attr	pisquare	101	cfm_0645	DECIMAL(17,2)	SAP dec		master	C-pisquare-master	SHP_MD_1_YSFINANTR_ATTR_yyyymmdd_hhmmss.CSV	CFM_0645	CURR	17	2						23
+shp_md_ysfinantr_attr	pisquare	102	cfmp0640	DECIMAL(17,2)	SAP dec		master	C-pisquare-master	SHP_MD_1_YSFINANTR_ATTR_yyyymmdd_hhmmss.CSV	CFMP0640	CURR	17	2						23
+shp_md_ysfinantr_attr	pisquare	103	loc_currcy	STRING			master	C-pisquare-master	SHP_MD_1_YSFINANTR_ATTR_yyyymmdd_hhmmss.CSV	LOC_CURRCY	CUKY	5	0						5
+shp_md_ysfinantr_attr	pisquare	104	cfm_0642	DECIMAL(17,2)	SAP dec		master	C-pisquare-master	SHP_MD_1_YSFINANTR_ATTR_yyyymmdd_hhmmss.CSV	CFM_0642	CURR	17	2						23
+shp_md_ysfinantr_attr	pisquare	105	fs_icm	STRING			master	C-pisquare-master	SHP_MD_1_YSFINANTR_ATTR_yyyymmdd_hhmmss.CSV	FS_ICM	CHAR	1	0						1
+shp_md_ysfinantr_attr	pisquare	106	fs_icm_in	STRING			master	C-pisquare-master	SHP_MD_1_YSFINANTR_ATTR_yyyymmdd_hhmmss.CSV	FS_ICM_IN	CHAR	1	0						1
+shp_md_ysfinantr_attr	pisquare	107	fs_icm_out	STRING			master	C-pisquare-master	SHP_MD_1_YSFINANTR_ATTR_yyyymmdd_hhmmss.CSV	FS_ICM_OUT	CHAR	1	0						1
+shp_md_ysfinantr_attr	pisquare	108	cfm_quotat	STRING			master	C-pisquare-master	SHP_MD_1_YSFINANTR_ATTR_yyyymmdd_hhmmss.CSV	CFM_QUOTAT	NUMC	1	0						1
+shp_md_ysfinantr_attr	pisquare	109	cfm_lo_sh	STRING			master	C-pisquare-master	SHP_MD_1_YSFINANTR_ATTR_yyyymmdd_hhmmss.CSV	CFM_LO_SH	CHAR	1	0						1
+shp_md_ysfinantr_attr	pisquare	110	bic_ystendund	TIMESTAMP	yyyymmdd		master	C-pisquare-master	SHP_MD_1_YSFINANTR_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSTENDUND	DATS	8	0						10
+shp_md_ysfinantr_attr	pisquare	111	bic_yststrund	TIMESTAMP	yyyymmdd		master	C-pisquare-master	SHP_MD_1_YSFINANTR_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSTSTRUND	DATS	8	0						10
+shp_md_ysfinantr_attr	pisquare	112	bic_yscontdat	TIMESTAMP	yyyymmdd		master	C-pisquare-master	SHP_MD_1_YSFINANTR_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSCONTDAT	DATS	8	0						10
+shp_md_ysfinantr_attr	pisquare	113	bic_yscap	DECIMAL(17,3)	SAP dec		master	C-pisquare-master	SHP_MD_1_YSFINANTR_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSCAP	DEC	17	3						23
+shp_md_ysfinantr_attr	pisquare	114	bic_ysfloor	DECIMAL(17,3)	SAP dec		master	C-pisquare-master	SHP_MD_1_YSFINANTR_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSFLOOR	DEC	17	3						23
+shp_md_ysfinantr_attr	pisquare	115	bic_ysmultspr	DECIMAL(17,3)	SAP dec		master	C-pisquare-master	SHP_MD_1_YSFINANTR_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSMULTSPR	DEC	17	3						23
+shp_md_ysfinantr_attr	pisquare	116	bic_ysaditspr	DECIMAL(17,3)	SAP dec		master	C-pisquare-master	SHP_MD_1_YSFINANTR_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSADITSPR	DEC	17	3						23
+shp_md_ysfinantr_attr	pisquare	117	bic_yspayflta	DECIMAL(17,3)	SAP dec		master	C-pisquare-master	SHP_MD_1_YSFINANTR_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSPAYFLTA	DEC	17	3						23
+shp_md_ysfinantr_attr	pisquare	118	bic_yspayfltb	DECIMAL(17,3)	SAP dec		master	C-pisquare-master	SHP_MD_1_YSFINANTR_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSPAYFLTB	DEC	17	3						23
+shp_md_ysfinantr_attr	pisquare	119	bic_ysrecflta	DECIMAL(17,3)	SAP dec		master	C-pisquare-master	SHP_MD_1_YSFINANTR_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSRECFLTA	DEC	17	3						23
+shp_md_ysfinantr_attr	pisquare	120	bic_ysrecfltb	DECIMAL(17,3)	SAP dec		master	C-pisquare-master	SHP_MD_1_YSFINANTR_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSRECFLTB	DEC	17	3						23
+shp_md_ysfinantr_attr	pisquare	121	bic_yspaycap	DECIMAL(17,3)	SAP dec		master	C-pisquare-master	SHP_MD_1_YSFINANTR_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSPAYCAP	DEC	17	3						23
+shp_md_ysfinantr_attr	pisquare	122	bic_yspayfloo	DECIMAL(17,3)	SAP dec		master	C-pisquare-master	SHP_MD_1_YSFINANTR_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSPAYFLOO	DEC	17	3						23
+shp_md_ysfinantr_attr	pisquare	123	bic_yspaypfr	DECIMAL(17,3)	SAP dec		master	C-pisquare-master	SHP_MD_1_YSFINANTR_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSPAYPFR	DEC	17	3						23
+shp_md_ysfinantr_attr	pisquare	124	bic_yspayratc	DECIMAL(17,3)	SAP dec		master	C-pisquare-master	SHP_MD_1_YSFINANTR_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSPAYRATC	DEC	17	3						23
+shp_md_ysfinantr_attr	pisquare	125	bic_yspayref	DECIMAL(17,3)	SAP dec		master	C-pisquare-master	SHP_MD_1_YSFINANTR_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSPAYREF	DEC	17	3						23
+shp_md_ysfinantr_attr	pisquare	126	bic_yspayrest	DECIMAL(17,3)	SAP dec		master	C-pisquare-master	SHP_MD_1_YSFINANTR_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSPAYREST	DEC	17	3						23
+shp_md_ysfinantr_attr	pisquare	127	bic_ysreccap	DECIMAL(17,3)	SAP dec		master	C-pisquare-master	SHP_MD_1_YSFINANTR_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSRECCAP	DEC	17	3						23
+shp_md_ysfinantr_attr	pisquare	128	bic_ysrecfloo	DECIMAL(17,3)	SAP dec		master	C-pisquare-master	SHP_MD_1_YSFINANTR_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSRECFLOO	DEC	17	3						23
+shp_md_ysfinantr_attr	pisquare	129	bic_ysrecratc	DECIMAL(17,3)	SAP dec		master	C-pisquare-master	SHP_MD_1_YSFINANTR_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSRECRATC	DEC	17	3						23
+shp_md_ysfinantr_attr	pisquare	130	bic_ysrecrest	DECIMAL(17,3)	SAP dec		master	C-pisquare-master	SHP_MD_1_YSFINANTR_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSRECREST	DEC	17	3						23
+shp_md_ysfinantr_attr	pisquare	131	bic_ysdivpayc	STRING			master	C-pisquare-master	SHP_MD_1_YSFINANTR_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSDIVPAYC	CUKY	5	0						5
+shp_md_ysfinantr_attr	pisquare	132	contrend	TIMESTAMP	yyyymmdd		master	C-pisquare-master	SHP_MD_1_YSFINANTR_ATTR_yyyymmdd_hhmmss.CSV	CONTREND	DATS	8	0						10
+shp_md_ysfinantr_attr	pisquare	133	contrstart	TIMESTAMP	yyyymmdd		master	C-pisquare-master	SHP_MD_1_YSFINANTR_ATTR_yyyymmdd_hhmmss.CSV	CONTRSTART	DATS	8	0						10
+shp_md_ysfinantr_attr	pisquare	134	bic_ysmultflw	STRING			master	C-pisquare-master	SHP_MD_1_YSFINANTR_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSMULTFLW	CHAR	9	0						9
+shp_md_ysfinantr_attr	pisquare	135	bic_ysrecpfr	DECIMAL(17,3)	SAP dec		master	C-pisquare-master	SHP_MD_1_YSFINANTR_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSRECPFR	DEC	17	3						23
+shp_md_ysfinantr_attr	pisquare	136	bic_ysrecref	DECIMAL(17,3)	SAP dec		master	C-pisquare-master	SHP_MD_1_YSFINANTR_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSRECREF	DEC	17	3						23
+shp_md_ysfinantr_attr	pisquare	137	fs_rptyp	STRING			master	C-pisquare-master	SHP_MD_1_YSFINANTR_ATTR_yyyymmdd_hhmmss.CSV	FS_RPTYP	NUMC	1	0						1
+shp_md_ysfinantr_attr	pisquare	138	bic_ysfrequen	DECIMAL(17,3)	SAP dec		master	C-pisquare-master	SHP_MD_1_YSFINANTR_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSFREQUEN	DEC	17	3						23
+shp_md_ysfinantr_attr	pisquare	139	bic_yscaldate	TIMESTAMP	yyyymmdd		master	C-pisquare-master	SHP_MD_1_YSFINANTR_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSCALDATE	DATS	8	0						10
+shp_md_ysfinantr_attr	pisquare	140	bic_ysmatdat	TIMESTAMP	yyyymmdd		master	C-pisquare-master	SHP_MD_1_YSFINANTR_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSMATDAT	DATS	8	0						10
+shp_md_ysfinantr_attr	pisquare	141	bic_ycondtype	STRING			master	C-pisquare-master	SHP_MD_1_YSFINANTR_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YCONDTYPE	NUMC	4	0						4
+shp_md_ysfinantr_attr	pisquare	142	bic_ysciprate	STRING			master	C-pisquare-master	SHP_MD_1_YSFINANTR_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSCIPRATE	CHAR	11	0						11
+shp_md_ysfinantr_attr	pisquare	143	bic_yscoi_cur	STRING			master	C-pisquare-master	SHP_MD_1_YSFINANTR_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSCOI_CUR	CUKY	5	0						5
+shp_md_ysfinantr_attr	pisquare	144	bic_yspaytime	STRING			master	C-pisquare-master	SHP_MD_1_YSFINANTR_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSPAYTIME	CHAR	3	0						3
+shp_md_ysfinantr_attr	pisquare	145	bic_yspaytype	STRING			master	C-pisquare-master	SHP_MD_1_YSFINANTR_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSPAYTYPE	CHAR	10	0						10
+shp_md_ysfinantr_attr	pisquare	146	bic_ysrectype	STRING			master	C-pisquare-master	SHP_MD_1_YSFINANTR_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSRECTYPE	CHAR	10	0						10
+shp_md_ysfinantr_attr	pisquare	147	bic_ysorddate	TIMESTAMP	yyyymmdd		master	C-pisquare-master	SHP_MD_1_YSFINANTR_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSORDDATE	DATS	8	0						10
+shp_md_ysfinantr_attr	pisquare	148	bic_ysbuptcon	STRING			master	C-pisquare-master	SHP_MD_1_YSFINANTR_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSBUPTCON	CHAR	12	0						12
+shp_md_ysfinantr_attr	pisquare	149	bic_ysexpkey	STRING			master	C-pisquare-master	SHP_MD_1_YSFINANTR_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSEXPKEY	CHAR	1	0						1
+shp_md_ysfinantr_attr	pisquare	150	bic_ysstrikep	DECIMAL(38,10)	SAP float		master	C-pisquare-master	SHP_MD_1_YSFINANTR_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSSTRIKEP	FLTP	16	16						23
+shp_md_ysfinantr_attr	pisquare	151	bic_ysdpbakn	STRING			master	C-pisquare-master	SHP_MD_1_YSFINANTR_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSDPBAKN	CHAR	12	0						12
+shp_md_ysfinantr_attr	pisquare	152	bic_zptcic	STRING			master	C-pisquare-master	SHP_MD_1_YSFINANTR_ATTR_yyyymmdd_hhmmss.CSV	/BIC/ZPTCIC	NUMC	4	0						4
+shp_md_ysfinantr_attr	pisquare	153	bic_ysfddate	TIMESTAMP	yyyymmdd		master	C-pisquare-master	SHP_MD_1_YSFINANTR_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSFDDATE	DATS	8	0						10
+shp_md_ysfinantr_attr	pisquare	154	bic_ysundtyp	STRING			master	C-pisquare-master	SHP_MD_1_YSFINANTR_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSUNDTYP	CHAR	2	0						2
+shp_md_ysfinantr_attr	pisquare	155	bic_yslcurrrt	DECIMAL(17,3)	SAP dec		master	C-pisquare-master	SHP_MD_1_YSFINANTR_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSLCURRRT	DEC	17	3						23
+shp_md_ysfinantr_attr	pisquare	156	currency	STRING			master	C-pisquare-master	SHP_MD_1_YSFINANTR_ATTR_yyyymmdd_hhmmss.CSV	CURRENCY	CUKY	5	0						5
+shp_md_ysfinantr_attr	pisquare	157	bic_ysnom	DECIMAL(17,2)	SAP dec		master	C-pisquare-master	SHP_MD_1_YSFINANTR_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSNOM	CURR	17	2						23
+shp_md_ysfinantr_attr	pisquare	158	bic_ysunitsno	DECIMAL(17,3)	SAP dec		master	C-pisquare-master	SHP_MD_1_YSFINANTR_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSUNITSNO	DEC	17	3						23
+shp_md_ysfinantr_attr	pisquare	159	bic_ysexerdt	TIMESTAMP	yyyymmdd		master	C-pisquare-master	SHP_MD_1_YSFINANTR_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSEXERDT	DATS	8	0						10
+shp_md_ysfinantr_attr	pisquare	160	bic_ysund	STRING			master	C-pisquare-master	SHP_MD_1_YSFINANTR_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSUND	CHAR	13	0						13
+shp_md_ysfinantr_attr	pisquare	161	bic_zshedgstr	STRING			master	C-pisquare-master	SHP_MD_1_YSFINANTR_ATTR_yyyymmdd_hhmmss.CSV	/BIC/ZSHEDGSTR	CHAR	1	0						1
+shp_md_ysfinantr_attr	pisquare	162	bic_zsfrgvcr3	STRING			master	C-pisquare-master	SHP_MD_1_YSFINANTR_ATTR_yyyymmdd_hhmmss.CSV	/BIC/ZSFRGVCR3	CHAR	1	0						1
+shp_md_ysfinantr_attr	pisquare	163	bic_zsinflatn	STRING			master	C-pisquare-master	SHP_MD_1_YSFINANTR_ATTR_yyyymmdd_hhmmss.CSV	/BIC/ZSINFLATN	CHAR	1	0						1
+shp_md_ysfinantr_attr	pisquare	164	bic_ysissuerf	STRING			master	C-pisquare-master	SHP_MD_1_YSFINANTR_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSISSUERF	CHAR	12	0						12
+shp_md_ysfinantr_attr	pisquare	165	bic_ys_soursy	STRING			master	C-pisquare-master	SHP_MD_1_YSFINANTR_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YS_SOURSY	CHAR	10	0						10
+shp_md_ysfinantr_attr	pisquare	166	bic_ysunpdtp	STRING			master	C-pisquare-master	SHP_MD_1_YSFINANTR_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSUNPDTP	CHAR	3	0						3
+shp_md_ysfinantr_attr	pisquare	167	bic_zsdeliqsp	STRING			master	C-pisquare-master	SHP_MD_1_YSFINANTR_ATTR_yyyymmdd_hhmmss.CSV	/BIC/ZSDELIQSP	CHAR	1	0						1
+shp_md_ysfinantr_attr	pisquare	168	bic_ysoprdtp	STRING			master	C-pisquare-master	SHP_MD_1_YSFINANTR_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSOPRDTP	CHAR	3	0						3
+shp_md_ysfinantr_attr	pisquare	169	bic_ysrfhazul	STRING			master	C-pisquare-master	SHP_MD_1_YSFINANTR_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSRFHAZUL	NUMC	5	0						5
+shp_md_ysfinantr_attr	pisquare	170	bic_ysintfs	STRING			master	C-pisquare-master	SHP_MD_1_YSFINANTR_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSINTFS	NUMC	3	0						3
+shp_md_ysfinantr_attr	pisquare	171	bic_ysintfl	STRING			master	C-pisquare-master	SHP_MD_1_YSFINANTR_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSINTFL	NUMC	3	0						3
+shp_md_ysfinantr_attr	pisquare	172	bic_zchaacat	STRING			master	C-pisquare-master	SHP_MD_1_YSFINANTR_ATTR_yyyymmdd_hhmmss.CSV	/BIC/ZCHAACAT	CHAR	10	0						10
+shp_md_ysfinantr_attr	pisquare	173	bic_ysratpvd	STRING			master	C-pisquare-master	SHP_MD_1_YSFINANTR_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSRATPVD	CHAR	3	0						3
+shp_md_ysfinantr_attr	pisquare	174	bic_zbesiuval	DECIMAL(17,3)	SAP dec		master	C-pisquare-master	SHP_MD_1_YSFINANTR_ATTR_yyyymmdd_hhmmss.CSV	/BIC/ZBESIUVAL	DEC	17	3						23
+shp_md_ysfinantr_attr	pisquare	175	bic_ysncpdate	TIMESTAMP	yyyymmdd		master	C-pisquare-master	SHP_MD_1_YSFINANTR_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSNCPDATE	DATS	8	0						10
+shp_md_ysfinantr_attr	pisquare	176	bic_yslcpdate	TIMESTAMP	yyyymmdd		master	C-pisquare-master	SHP_MD_1_YSFINANTR_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSLCPDATE	DATS	8	0						10
+shp_md_ysfinantr_attr	pisquare	177	cfm_vtick	DECIMAL(17,2)	SAP dec		master	C-pisquare-master	SHP_MD_1_YSFINANTR_ATTR_yyyymmdd_hhmmss.CSV	CFM_VTICK	CURR	17	2						23
+shp_md_ysfinantr_attr	pisquare	178	bic_zbesswtyp	STRING			master	C-pisquare-master	SHP_MD_1_YSFINANTR_ATTR_yyyymmdd_hhmmss.CSV	/BIC/ZBESSWTYP	NUMC	1	0						1
+shp_md_ysfinantr_attr	pisquare	179	bic_zbesmfltp	STRING			master	C-pisquare-master	SHP_MD_1_YSFINANTR_ATTR_yyyymmdd_hhmmss.CSV	/BIC/ZBESMFLTP	CHAR	4	0						4
+shp_md_ysfinantr_attr	pisquare	180	bic_zbesilsmt	STRING			master	C-pisquare-master	SHP_MD_1_YSFINANTR_ATTR_yyyymmdd_hhmmss.CSV	/BIC/ZBESILSMT	CHAR	13	0						13
+shp_md_ysfinantr_attr	pisquare	181	bic_zbesoutnu	DECIMAL(17,3)	SAP dec		master	C-pisquare-master	SHP_MD_1_YSFINANTR_ATTR_yyyymmdd_hhmmss.CSV	/BIC/ZBESOUTNU	DEC	17	3						23
+shp_md_ysfinantr_attr	pisquare	182	bic_zbesincna	DECIMAL(17,2)	SAP dec		master	C-pisquare-master	SHP_MD_1_YSFINANTR_ATTR_yyyymmdd_hhmmss.CSV	/BIC/ZBESINCNA	CURR	17	2						23
+shp_md_ysfinantr_attr	pisquare	183	bic_zbespcurr	STRING			master	C-pisquare-master	SHP_MD_1_YSFINANTR_ATTR_yyyymmdd_hhmmss.CSV	/BIC/ZBESPCURR	CUKY	5	0						5
+shp_md_ysfinantr_attr	pisquare	184	bic_zbesbdate	TIMESTAMP	yyyymmdd		master	C-pisquare-master	SHP_MD_1_YSFINANTR_ATTR_yyyymmdd_hhmmss.CSV	/BIC/ZBESBDATE	DATS	8	0						10
+shp_md_ysfinantr_attr	pisquare	185	bic_yscmpcode	STRING			master	C-pisquare-master	SHP_MD_1_YSFINANTR_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSCMPCODE	CHAR	4	0						4
+shp_md_ysfinantr_attr	pisquare	186	bic_yscicland	STRING			master	C-pisquare-master	SHP_MD_1_YSFINANTR_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSCICLAND	CHAR	3	0						3
+shp_md_ysfinantr_attr	pisquare	187	bic_yscicacls	STRING			master	C-pisquare-master	SHP_MD_1_YSFINANTR_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSCICACLS	CHAR	2	0						2
+shp_md_ysfinantr_attr	pisquare	188	bic_zbesefff	TIMESTAMP	yyyymmdd		master	C-pisquare-master	SHP_MD_1_YSFINANTR_ATTR_yyyymmdd_hhmmss.CSV	/BIC/ZBESEFFF	DATS	8	0						10
+shp_md_ysfinantr_attr	pisquare	189	bic_ysncpdout	TIMESTAMP	yyyymmdd		master	C-pisquare-master	SHP_MD_1_YSFINANTR_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSNCPDOUT	DATS	8	0						10
+shp_md_ysfinantr_text	pisquare	0	comp_code	STRING			master	C-pisquare-master	SHP_MD_1_YSFINANTR_TEXT_yyyymmdd_hhmmss.CSV	COMP_CODE	CHAR	4	0					X	4
+shp_md_ysfinantr_text	pisquare	1	fs_ctr_tp	STRING			master	C-pisquare-master	SHP_MD_1_YSFINANTR_TEXT_yyyymmdd_hhmmss.CSV	FS_CTR_TP	CHAR	1	0					X	1
+shp_md_ysfinantr_text	pisquare	2	bic_ysfinantr	STRING			master	C-pisquare-master	SHP_MD_1_YSFINANTR_TEXT_yyyymmdd_hhmmss.CSV	/BIC/YSFINANTR	CHAR	13	0					X	13
+shp_md_ysfinantr_text	pisquare	3	txtsh	STRING			master	C-pisquare-master	SHP_MD_1_YSFINANTR_TEXT_yyyymmdd_hhmmss.CSV	TXTSH	CHAR	20	0						20
+shp_md_ysfinantr_text	pisquare	4	txtlg	STRING			master	C-pisquare-master	SHP_MD_1_YSFINANTR_TEXT_yyyymmdd_hhmmss.CSV	TXTLG	CHAR	60	0						60
+shp_md_ysflotp_attr	pisquare	0	bic_ys_soursy	STRING			master	C-pisquare-master	SHP_MD_2_YSFLOTP_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YS_SOURSY	CHAR	10	0					X	10
+shp_md_ysflotp_attr	pisquare	1	bic_ysflotp	STRING			master	C-pisquare-master	SHP_MD_2_YSFLOTP_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSFLOTP	CHAR	8	0					X	8
+shp_md_ysflotp_attr	pisquare	2	bic_yspayrel	STRING			master	C-pisquare-master	SHP_MD_2_YSFLOTP_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSPAYREL	CHAR	1	0						1
+shp_md_ysflotp_attr	pisquare	3	bic_yssign	STRING			master	C-pisquare-master	SHP_MD_2_YSFLOTP_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSSIGN	CHAR	1	0						1
+shp_md_ysflotp_text	pisquare	0	bic_ys_soursy	STRING			master	C-pisquare-master	SHP_MD_2_YSFLOTP_TEXT_yyyymmdd_hhmmss.CSV	/BIC/YS_SOURSY	CHAR	10	0					X	10
+shp_md_ysflotp_text	pisquare	1	bic_ysflotp	STRING			master	C-pisquare-master	SHP_MD_2_YSFLOTP_TEXT_yyyymmdd_hhmmss.CSV	/BIC/YSFLOTP	CHAR	8	0					X	8
+shp_md_ysflotp_text	pisquare	2	langu	STRING			master	C-pisquare-master	SHP_MD_2_YSFLOTP_TEXT_yyyymmdd_hhmmss.CSV	LANGU	LANG	1	0					X	2
+shp_md_ysflotp_text	pisquare	3	txtmd	STRING			master	C-pisquare-master	SHP_MD_2_YSFLOTP_TEXT_yyyymmdd_hhmmss.CSV	TXTMD	CHAR	40	0						40
+shp_md_ysflotp_text	pisquare	4	txtlg	STRING			master	C-pisquare-master	SHP_MD_2_YSFLOTP_TEXT_yyyymmdd_hhmmss.CSV	TXTLG	CHAR	60	0						60
+shp_md_yshouseb_attr	pisquare	0	comp_code	STRING			master	C-pisquare-master	SHP_MD_2_YSHOUSEB_ATTR_yyyymmdd_hhmmss.CSV	COMP_CODE	CHAR	4	0					X	4
+shp_md_yshouseb_attr	pisquare	1	bic_ys_soursy	STRING			master	C-pisquare-master	SHP_MD_2_YSHOUSEB_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YS_SOURSY	CHAR	10	0					X	10
+shp_md_yshouseb_attr	pisquare	2	bic_yshouseb	STRING			master	C-pisquare-master	SHP_MD_2_YSHOUSEB_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSHOUSEB	CHAR	5	0					X	5
+shp_md_yshouseb_attr	pisquare	3	houseb_num	STRING			master	C-pisquare-master	SHP_MD_2_YSHOUSEB_ATTR_yyyymmdd_hhmmss.CSV	HOUSEB_NUM	CHAR	15	0						15
+shp_md_yshouseb_text	pisquare	0	comp_code	STRING			master	C-pisquare-master	SHP_MD_2_YSHOUSEB_TEXT_yyyymmdd_hhmmss.CSV	COMP_CODE	CHAR	4	0					X	4
+shp_md_yshouseb_text	pisquare	1	bic_ys_soursy	STRING			master	C-pisquare-master	SHP_MD_2_YSHOUSEB_TEXT_yyyymmdd_hhmmss.CSV	/BIC/YS_SOURSY	CHAR	10	0					X	10
+shp_md_yshouseb_text	pisquare	2	bic_yshouseb	STRING			master	C-pisquare-master	SHP_MD_2_YSHOUSEB_TEXT_yyyymmdd_hhmmss.CSV	/BIC/YSHOUSEB	CHAR	5	0					X	5
+shp_md_yshouseb_text	pisquare	3	txtlg	STRING			master	C-pisquare-master	SHP_MD_2_YSHOUSEB_TEXT_yyyymmdd_hhmmss.CSV	TXTLG	CHAR	60	0						60
+shp_md_yshouseba_attr	pisquare	0	comp_code	STRING			master	C-pisquare-master	SHP_MD_2_YSHOUSEBA_ATTR_yyyymmdd_hhmmss.CSV	COMP_CODE	CHAR	4	0					X	4
+shp_md_yshouseba_attr	pisquare	1	bic_yshouseb	STRING			master	C-pisquare-master	SHP_MD_2_YSHOUSEBA_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSHOUSEB	CHAR	5	0					X	5
+shp_md_yshouseba_attr	pisquare	2	bic_ys_soursy	STRING			master	C-pisquare-master	SHP_MD_2_YSHOUSEBA_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YS_SOURSY	CHAR	10	0					X	10
+shp_md_yshouseba_attr	pisquare	3	bic_yshouseba	STRING			master	C-pisquare-master	SHP_MD_2_YSHOUSEBA_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSHOUSEBA	CHAR	5	0					X	5
+shp_md_yshouseba_attr	pisquare	4	bankacct	STRING			master	C-pisquare-master	SHP_MD_2_YSHOUSEBA_ATTR_yyyymmdd_hhmmss.CSV	BANKACCT	CHAR	18	0						18
+shp_md_yshouseba_attr	pisquare	5	currency	STRING			master	C-pisquare-master	SHP_MD_2_YSHOUSEBA_ATTR_yyyymmdd_hhmmss.CSV	CURRENCY	CUKY	5	0						5
+shp_md_yshouseba_attr	pisquare	6	chrt_accts	STRING			master	C-pisquare-master	SHP_MD_2_YSHOUSEBA_ATTR_yyyymmdd_hhmmss.CSV	CHRT_ACCTS	CHAR	4	0						4
+shp_md_yshouseba_attr	pisquare	7	gl_account	STRING			master	C-pisquare-master	SHP_MD_2_YSHOUSEBA_ATTR_yyyymmdd_hhmmss.CSV	GL_ACCOUNT	CHAR	10	0						10
+shp_md_yshouseba_attr	pisquare	8	bic_yspositi	STRING			master	C-pisquare-master	SHP_MD_2_YSHOUSEBA_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSPOSITI1	CHAR	10	0						10
+shp_md_ysngacc_text	pisquare	0	bic_ysngacc	STRING			master	C-pisquare-master	SHP_MD_3_YSNGACC_TEXT_yyyymmdd_hhmmss.CSV	/BIC/YSNGACC	CHAR	15	0					X	15
+shp_md_ysngacc_text	pisquare	1	txtsh	STRING			master	C-pisquare-master	SHP_MD_3_YSNGACC_TEXT_yyyymmdd_hhmmss.CSV	TXTSH	CHAR	20	0						20
+shp_md_ysngacc_text	pisquare	2	txtmd	STRING			master	C-pisquare-master	SHP_MD_3_YSNGACC_TEXT_yyyymmdd_hhmmss.CSV	TXTMD	CHAR	40	0						40
+shp_md_ysngacc_text	pisquare	3	txtlg	STRING			master	C-pisquare-master	SHP_MD_3_YSNGACC_TEXT_yyyymmdd_hhmmss.CSV	TXTLG	CHAR	60	0						60
+shp_md_yspositi1_attr	pisquare	0	comp_code	STRING			master	C-pisquare-master	SHP_MD_1_YSPOSITI1_ATTR_yyyymmdd_hhmmss.CSV	COMP_CODE	CHAR	4	0					X	4
+shp_md_yspositi1_attr	pisquare	1	bic_yspositi	STRING			master	C-pisquare-master	SHP_MD_1_YSPOSITI1_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSPOSITI1	CHAR	10	0					X	10
+shp_md_yspositi1_attr	pisquare	2	bic_zptsof_cd	STRING			master	C-pisquare-master	SHP_MD_1_YSPOSITI1_ATTR_yyyymmdd_hhmmss.CSV	/BIC/ZPTSOF_CD	CHAR	10	0						10
+shp_md_yspositi1_attr	pisquare	3	bic_zptsisp	STRING			master	C-pisquare-master	SHP_MD_1_YSPOSITI1_ATTR_yyyymmdd_hhmmss.CSV	/BIC/ZPTSISP	CHAR	10	0						10
+shp_md_yspositi1_attr	pisquare	4	bic_zptsclisr	STRING			master	C-pisquare-master	SHP_MD_1_YSPOSITI1_ATTR_yyyymmdd_hhmmss.CSV	/BIC/ZPTSCLISR	CHAR	10	0						10
+shp_md_yspositi1_attr	pisquare	5	bic_zptsasstp	STRING			master	C-pisquare-master	SHP_MD_1_YSPOSITI1_ATTR_yyyymmdd_hhmmss.CSV	/BIC/ZPTSASSTP	CHAR	10	0						10
+shp_md_yspositi1_attr	pisquare	6	bic_ystypport	STRING			master	C-pisquare-master	SHP_MD_1_YSPOSITI1_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSTYPPORT	CHAR	10	0						10
+shp_md_yspositi1_attr	pisquare	7	co_area	STRING			master	C-pisquare-master	SHP_MD_1_YSPOSITI1_ATTR_yyyymmdd_hhmmss.CSV	CO_AREA	CHAR	4	0						4
+shp_md_yspositi1_attr	pisquare	8	profit_ctr	STRING			master	C-pisquare-master	SHP_MD_1_YSPOSITI1_ATTR_yyyymmdd_hhmmss.CSV	PROFIT_CTR	CHAR	10	0						10
+shp_md_yspositi1_attr	pisquare	9	bic_ysasstmng	STRING			master	C-pisquare-master	SHP_MD_1_YSPOSITI1_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSASSTMNG	CHAR	3	0						3
+shp_md_yspositi1_attr	pisquare	10	bic_ysnatfund	STRING			master	C-pisquare-master	SHP_MD_1_YSPOSITI1_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSNATFUND	CHAR	10	0						10
+shp_md_yspositi1_attr	pisquare	11	bic_ysporttyp	STRING			master	C-pisquare-master	SHP_MD_1_YSPOSITI1_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSPORTTYP	CHAR	10	0						10
+shp_md_yspositi1_attr	pisquare	12	bic_ysprtmose	STRING			master	C-pisquare-master	SHP_MD_1_YSPOSITI1_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSPRTMOSE	CHAR	10	0						10
+shp_md_yspositi1_attr	pisquare	13	bic_zptispcod	STRING			master	C-pisquare-master	SHP_MD_1_YSPOSITI1_ATTR_yyyymmdd_hhmmss.CSV	/BIC/ZPTISPCOD	CHAR	12	0						12
+shp_md_yspositi1_attr	pisquare	14	bic_ysaraport	STRING			master	C-pisquare-master	SHP_MD_1_YSPOSITI1_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSARAPORT	CHAR	5	0						5
+shp_md_yspositi1_attr	pisquare	15	bic_zchstdty	STRING			master	C-pisquare-master	SHP_MD_1_YSPOSITI1_ATTR_yyyymmdd_hhmmss.CSV	/BIC/ZCHSTDTY	CHAR	10	0						10
+shp_md_yspositi1_attr	pisquare	16	bic_zchsclisr	STRING			master	C-pisquare-master	SHP_MD_1_YSPOSITI1_ATTR_yyyymmdd_hhmmss.CSV	/BIC/ZCHSCLISR	CHAR	2	0						2
+shp_md_yspositi1_attr	pisquare	17	bic_zchstckcd	STRING			master	C-pisquare-master	SHP_MD_1_YSPOSITI1_ATTR_yyyymmdd_hhmmss.CSV	/BIC/ZCHSTCKCD	CHAR	2	0						2
+shp_md_yspositi1_attr	pisquare	18	bic_ycinvport	STRING			master	C-pisquare-master	SHP_MD_1_YSPOSITI1_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YCINVPORT	CHAR	10	0						10
+shp_md_yspositi1_attr	pisquare	19	bic_ysdepocnc	STRING			master	C-pisquare-master	SHP_MD_1_YSPOSITI1_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSDEPOCNC	CHAR	1	0						1
+shp_md_yspositi1_attr	pisquare	20	bic_zsdecover	STRING			master	C-pisquare-master	SHP_MD_1_YSPOSITI1_ATTR_yyyymmdd_hhmmss.CSV	/BIC/ZSDECOVER	CHAR	1	0						1
+shp_md_yspositi1_attr	pisquare	21	bic_ysaxaimcd	STRING			master	C-pisquare-master	SHP_MD_1_YSPOSITI1_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSAXAIMCD	NUMC	6	0						6
+shp_md_yspositi1_attr	pisquare	22	bic_zbesassig	STRING			master	C-pisquare-master	SHP_MD_1_YSPOSITI1_ATTR_yyyymmdd_hhmmss.CSV	/BIC/ZBESASSIG	CHAR	10	0						10
+shp_md_yspositi1_attr	pisquare	23	bic_zbesactvt	STRING			master	C-pisquare-master	SHP_MD_1_YSPOSITI1_ATTR_yyyymmdd_hhmmss.CSV	/BIC/ZBESACTVT	CHAR	10	0						10
+shp_md_yspositi1_attr	pisquare	24	bic_zbesportg	STRING			master	C-pisquare-master	SHP_MD_1_YSPOSITI1_ATTR_yyyymmdd_hhmmss.CSV	/BIC/ZBESPORTG	CHAR	10	0						10
+shp_md_yspositi1_attr	pisquare	25	bic_zbesfcpc	STRING			master	C-pisquare-master	SHP_MD_1_YSPOSITI1_ATTR_yyyymmdd_hhmmss.CSV	/BIC/ZBESFCPC	CHAR	10	0						10
+shp_md_yspositi1_attr	pisquare	26	bic_zbesbrnch	STRING			master	C-pisquare-master	SHP_MD_1_YSPOSITI1_ATTR_yyyymmdd_hhmmss.CSV	/BIC/ZBESBRNCH	CHAR	10	0						10
+shp_md_yspositi1_attr	pisquare	27	bic_zbescovr	STRING			master	C-pisquare-master	SHP_MD_1_YSPOSITI1_ATTR_yyyymmdd_hhmmss.CSV	/BIC/ZBESCOVR	CHAR	10	0						10
+shp_md_yspositi1_attr	pisquare	28	bic_zbesefngm	STRING			master	C-pisquare-master	SHP_MD_1_YSPOSITI1_ATTR_yyyymmdd_hhmmss.CSV	/BIC/ZBESEFNGM	CHAR	10	0						10
+shp_md_yspositi1_attr	pisquare	29	bic_zbesefwtc	STRING			master	C-pisquare-master	SHP_MD_1_YSPOSITI1_ATTR_yyyymmdd_hhmmss.CSV	/BIC/ZBESEFWTC	CHAR	10	0						10
+shp_md_yspositi1_attr	pisquare	30	country	STRING			master	C-pisquare-master	SHP_MD_1_YSPOSITI1_ATTR_yyyymmdd_hhmmss.CSV	COUNTRY	CHAR	3	0						3
+shp_md_yspositi1_text	pisquare	0	comp_code	STRING			master	C-pisquare-master	SHP_MD_1_YSPOSITI1_TEXT_yyyymmdd_hhmmss.CSV	COMP_CODE	CHAR	4	0					X	4
+shp_md_yspositi1_text	pisquare	1	bic_yspositi	STRING			master	C-pisquare-master	SHP_MD_1_YSPOSITI1_TEXT_yyyymmdd_hhmmss.CSV	/BIC/YSPOSITI1	CHAR	10	0					X	10
+shp_md_yspositi1_text	pisquare	2	txtmd	STRING			master	C-pisquare-master	SHP_MD_1_YSPOSITI1_TEXT_yyyymmdd_hhmmss.CSV	TXTMD	CHAR	40	0						40
+shp_md_yspositi2_attr	pisquare	0	comp_code	STRING			master	C-pisquare-master	SHP_MD_2_YSPOSITI2_ATTR_yyyymmdd_hhmmss.CSV	COMP_CODE	CHAR	4	0					X	4
+shp_md_yspositi2_attr	pisquare	1	bic_yspositi2	STRING			master	C-pisquare-master	SHP_MD_2_YSPOSITI2_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSPOSITI2	CHAR	10	0					X	10
+shp_md_yspositi2_attr	pisquare	2	bic_ysprtmose	STRING			master	C-pisquare-master	SHP_MD_2_YSPOSITI2_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSPRTMOSE	CHAR	10	0						10
+shp_md_yspositi2_text	pisquare	0	comp_code	STRING			master	C-pisquare-master	SHP_MD_2_YSPOSITI2_TEXT_yyyymmdd_hhmmss.CSV	COMP_CODE	CHAR	4	0					X	4
+shp_md_yspositi2_text	pisquare	1	bic_yspositi2	STRING			master	C-pisquare-master	SHP_MD_2_YSPOSITI2_TEXT_yyyymmdd_hhmmss.CSV	/BIC/YSPOSITI2	CHAR	10	0					X	10
+shp_md_yspositi2_text	pisquare	2	langu	STRING			master	C-pisquare-master	SHP_MD_2_YSPOSITI2_TEXT_yyyymmdd_hhmmss.CSV	LANGU	LANG	1	0					X	2
+shp_md_yspositi2_text	pisquare	3	txtmd	STRING			master	C-pisquare-master	SHP_MD_2_YSPOSITI2_TEXT_yyyymmdd_hhmmss.CSV	TXTMD	CHAR	40	0						40
+shp_md_yspositi2_text	pisquare	4	txtlg	STRING			master	C-pisquare-master	SHP_MD_2_YSPOSITI2_TEXT_yyyymmdd_hhmmss.CSV	TXTLG	CHAR	60	0						60
+shp_md_ysprdtyp_text	pisquare	0	bic_ys_soursy	STRING			master	C-pisquare-master	SHP_MD_3_YSPRDTYP_TEXT_yyyymmdd_hhmmss.CSV	/BIC/YS_SOURSY	CHAR	10	0					X	10
+shp_md_ysprdtyp_text	pisquare	1	bic_ysprdtyp	STRING			master	C-pisquare-master	SHP_MD_3_YSPRDTYP_TEXT_yyyymmdd_hhmmss.CSV	/BIC/YSPRDTYP	CHAR	3	0					X	3
+shp_md_ysprdtyp_text	pisquare	2	langu	STRING			master	C-pisquare-master	SHP_MD_3_YSPRDTYP_TEXT_yyyymmdd_hhmmss.CSV	LANGU	LANG	1	0					X	2
+shp_md_ysprdtyp_text	pisquare	3	txtsh	STRING			master	C-pisquare-master	SHP_MD_3_YSPRDTYP_TEXT_yyyymmdd_hhmmss.CSV	TXTSH	CHAR	20	0						20
+shp_md_ysprdtyp_text	pisquare	4	txtmd	STRING			master	C-pisquare-master	SHP_MD_3_YSPRDTYP_TEXT_yyyymmdd_hhmmss.CSV	TXTMD	CHAR	40	0						40
+shp_md_ysproduct_attr	pisquare	0	fs_ctr_tp	STRING			master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	FS_CTR_TP	CHAR	1	0					X	1
+shp_md_ysproduct_attr	pisquare	1	bic_yscompco	STRING			master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSCOMPCO	CHAR	4	0					X	4
+shp_md_ysproduct_attr	pisquare	2	bic_ysproduct	STRING			master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSPRODUCT	CHAR	15	0					X	15
+shp_md_ysproduct_attr	pisquare	3	dateto	TIMESTAMP	yyyymmdd		master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	DATETO	DATS	8	0					X	10
+shp_md_ysproduct_attr	pisquare	4	datefrom	TIMESTAMP	yyyymmdd		master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	DATEFROM	DATS	8	0						10
+shp_md_ysproduct_attr	pisquare	5	fs_prd_tp	STRING			master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	FS_PRD_TP	CHAR	3	0						3
+shp_md_ysproduct_attr	pisquare	6	cfm_tra_tp	STRING			master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	CFM_TRA_TP	CHAR	3	0						3
+shp_md_ysproduct_attr	pisquare	7	bic_zchsedol	STRING			master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	/BIC/ZCHSEDOL	CHAR	20	0						20
+shp_md_ysproduct_attr	pisquare	8	bic_yscusip	STRING			master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSCUSIP	CHAR	20	0						20
+shp_md_ysproduct_attr	pisquare	9	bic_zchaacat	STRING			master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	/BIC/ZCHAACAT	CHAR	10	0						10
+shp_md_ysproduct_attr	pisquare	10	bic_zitcdeuro	STRING			master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	/BIC/ZITCDEURO	CHAR	10	0						10
+shp_md_ysproduct_attr	pisquare	11	bic_zitbalsct	STRING			master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	/BIC/ZITBALSCT	CHAR	10	0						10
+shp_md_ysproduct_attr	pisquare	12	bic_zitbllsti	STRING			master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	/BIC/ZITBLLSTI	CHAR	10	0						10
+shp_md_ysproduct_attr	pisquare	13	bic_zitindex2	STRING			master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	/BIC/ZITINDEX2	CHAR	10	0						10
+shp_md_ysproduct_attr	pisquare	14	bic_zptriskep	STRING			master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	/BIC/ZPTRISKEP	NUMC	4	0						4
+shp_md_ysproduct_attr	pisquare	15	bic_zptispcod	STRING			master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	/BIC/ZPTISPCOD	CHAR	12	0						12
+shp_md_ysproduct_attr	pisquare	16	bic_ysisin	STRING			master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSISIN	CHAR	12	0						12
+shp_md_ysproduct_attr	pisquare	17	bic_ysreflidx	STRING			master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSREFLIDX	CHAR	20	0						20
+shp_md_ysproduct_attr	pisquare	18	bic_yscap	DECIMAL(17,3)	SAP dec		master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSCAP	DEC	17	3						23
+shp_md_ysproduct_attr	pisquare	19	bic_ysfloor	DECIMAL(17,3)	SAP dec		master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSFLOOR	DEC	17	3						23
+shp_md_ysproduct_attr	pisquare	20	bic_zptcic	STRING			master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	/BIC/ZPTCIC	NUMC	4	0						4
+shp_md_ysproduct_attr	pisquare	21	bic_ycexrate	DECIMAL(38,10)	SAP float		master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YCEXRATE	FLTP	16	16						23
+shp_md_ysproduct_attr	pisquare	22	bic_ysfdudate	TIMESTAMP	yyyymmdd		master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSFDUDATE	DATS	8	0						10
+shp_md_ysproduct_attr	pisquare	23	bic_ysmktyeld	DECIMAL(17,3)	SAP dec		master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSMKTYELD	DEC	17	3						23
+shp_md_ysproduct_attr	pisquare	24	cfm_fd_tp	STRING			master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	CFM_FD_TP	NUMC	1	0						1
+shp_md_ysproduct_attr	pisquare	25	bic_ysfmdate	TIMESTAMP	yyyymmdd		master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSFMDATE	DATS	8	0						10
+shp_md_ysproduct_attr	pisquare	26	bic_ysfundtyp	STRING			master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSFUNDTYP	NUMC	1	0						1
+shp_md_ysproduct_attr	pisquare	27	bic_ysstropt	DECIMAL(17,3)	SAP dec		master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSSTROPT	DEC	17	3						23
+shp_md_ysproduct_attr	pisquare	28	fs_trme_d	TIMESTAMP	yyyymmdd		master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	FS_TRME_D	DATS	8	0						10
+shp_md_ysproduct_attr	pisquare	29	cfm_bd_cls	STRING			master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	CFM_BD_CLS	NUMC	3	0						3
+shp_md_ysproduct_attr	pisquare	30	cfm_fd_ct	STRING			master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	CFM_FD_CT	CHAR	2	0						2
+shp_md_ysproduct_attr	pisquare	31	cfm_fd_pub	STRING			master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	CFM_FD_PUB	CHAR	1	0						1
+shp_md_ysproduct_attr	pisquare	32	cfm_sh_str	STRING			master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	CFM_SH_STR	NUMC	2	0						2
+shp_md_ysproduct_attr	pisquare	33	cfm_sh_tp	STRING			master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	CFM_SH_TP	NUMC	2	0						2
+shp_md_ysproduct_attr	pisquare	34	cfm_listed	STRING			master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	CFM_LISTED	CHAR	1	0						1
+shp_md_ysproduct_attr	pisquare	35	cfm_quotat	STRING			master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	CFM_QUOTAT	NUMC	1	0						1
+shp_md_ysproduct_attr	pisquare	36	cfm_ofct	STRING			master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	CFM_OFCT	NUMC	2	0						2
+shp_md_ysproduct_attr	pisquare	37	cfm_oppt	STRING			master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	CFM_OPPT	NUMC	3	0						3
+shp_md_ysproduct_attr	pisquare	38	cfm_setm	STRING			master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	CFM_SETM	CHAR	1	0						1
+shp_md_ysproduct_attr	pisquare	39	cfm_pcid	STRING			master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	CFM_PCID	NUMC	1	0						1
+shp_md_ysproduct_attr	pisquare	40	cfm_seid	STRING			master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	CFM_SEID	CHAR	1	0						1
+shp_md_ysproduct_attr	pisquare	41	cfm_exty	STRING			master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	CFM_EXTY	NUMC	1	0						1
+shp_md_ysproduct_attr	pisquare	42	cfm_expd	TIMESTAMP	yyyymmdd		master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	CFM_EXPD	DATS	8	0						10
+shp_md_ysproduct_attr	pisquare	43	cfm_ltrd	TIMESTAMP	yyyymmdd		master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	CFM_LTRD	DATS	8	0						10
+shp_md_ysproduct_attr	pisquare	44	cfm_setd	TIMESTAMP	yyyymmdd		master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	CFM_SETD	DATS	8	0						10
+shp_md_ysproduct_attr	pisquare	45	factcal_id	STRING			master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	FACTCAL_ID	CHAR	2	0						2
+shp_md_ysproduct_attr	pisquare	46	cfm_sidul	STRING			master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	CFM_SIDUL	CHAR	13	0						13
+shp_md_ysproduct_attr	pisquare	47	cfm_pc_cur	STRING			master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	CFM_PC_CUR	CUKY	5	0						5
+shp_md_ysproduct_attr	pisquare	48	cfm_atick	DECIMAL(17,2)	SAP dec		master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	CFM_ATICK	CURR	17	2						23
+shp_md_ysproduct_attr	pisquare	49	cfm_itick	DECIMAL(17,3)	SAP dec		master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	CFM_ITICK	DEC	17	3						23
+shp_md_ysproduct_attr	pisquare	50	cfm_vtick	DECIMAL(17,2)	SAP dec		master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	CFM_VTICK	CURR	17	2						23
+shp_md_ysproduct_attr	pisquare	51	cfm_nomv	DECIMAL(17,2)	SAP dec		master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	CFM_NOMV	CURR	17	2						23
+shp_md_ysproduct_attr	pisquare	52	cfm_sunit	DECIMAL(17,3)	SAP dec		master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	CFM_SUNIT	DEC	17	3						23
+shp_md_ysproduct_attr	pisquare	53	cfm_pind	DECIMAL(17,2)	SAP dec		master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	CFM_PIND	CURR	17	2						23
+shp_md_ysproduct_attr	pisquare	54	cfm_bstr	DECIMAL(17,2)	SAP dec		master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	CFM_BSTR	CURR	17	2						23
+shp_md_ysproduct_attr	pisquare	55	cfm_pstr	DECIMAL(17,3)	SAP dec		master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	CFM_PSTR	DEC	17	3						23
+shp_md_ysproduct_attr	pisquare	56	cfm_sidxul	STRING			master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	CFM_SIDXUL	CHAR	10	0						10
+shp_md_ysproduct_attr	pisquare	57	cfm_iss_pr	DECIMAL(17,3)	SAP dec		master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	CFM_ISS_PR	DEC	17	3						23
+shp_md_ysproduct_attr	pisquare	58	cfm_issrte	DECIMAL(17,3)	SAP dec		master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	CFM_ISSRTE	DEC	17	3						23
+shp_md_ysproduct_attr	pisquare	59	cfm_el_id	STRING			master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	CFM_EL_ID	CHAR	1	0						1
+shp_md_ysproduct_attr	pisquare	60	cfm_ec_id	STRING			master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	CFM_EC_ID	CHAR	1	0						1
+shp_md_ysproduct_attr	pisquare	61	cfm_es_id	STRING			master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	CFM_ES_ID	CHAR	1	0						1
+shp_md_ysproduct_attr	pisquare	62	cfm_nom_ci	DECIMAL(17,3)	SAP dec		master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	CFM_NOM_CI	DEC	17	3						23
+shp_md_ysproduct_attr	pisquare	63	cfm_fellw	STRING			master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	CFM_FELLW	CHAR	1	0						1
+shp_md_ysproduct_attr	pisquare	64	cfm_fd_vol	DECIMAL(17,3)	SAP dec		master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	CFM_FD_VOL	DEC	17	3						23
+shp_md_ysproduct_attr	pisquare	65	cfm_issprc	DECIMAL(17,3)	SAP dec		master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	CFM_ISSPRC	DEC	17	3						23
+shp_md_ysproduct_attr	pisquare	66	cfm_fgniv	STRING			master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	CFM_FGNIV	CHAR	1	0						1
+shp_md_ysproduct_attr	pisquare	67	cfm_accum	STRING			master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	CFM_ACCUM	CHAR	1	0						1
+shp_md_ysproduct_attr	pisquare	68	cfm_reivdc	DECIMAL(17,3)	SAP dec		master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	CFM_REIVDC	DEC	17	3						23
+shp_md_ysproduct_attr	pisquare	69	cfm_nomtu	DECIMAL(17,3)	SAP dec		master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	CFM_NOMTU	DEC	17	3						23
+shp_md_ysproduct_attr	pisquare	70	cfm_seclo	STRING			master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	CFM_SECLO	CHAR	1	0						1
+shp_md_ysproduct_attr	pisquare	71	cfm_issyld	DECIMAL(17,3)	SAP dec		master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	CFM_ISSYLD	DEC	17	3						23
+shp_md_ysproduct_attr	pisquare	72	fs_rfspr	DECIMAL(17,3)	SAP dec		master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	FS_RFSPR	DEC	17	3						23
+shp_md_ysproduct_attr	pisquare	73	cfm_vtepsh	DECIMAL(17,3)	SAP dec		master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	CFM_VTEPSH	DEC	17	3						23
+shp_md_ysproduct_attr	pisquare	74	cfm_xtrcap	DECIMAL(17,3)	SAP dec		master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	CFM_XTRCAP	DEC	17	3						23
+shp_md_ysproduct_attr	pisquare	75	cfm_prcidx	STRING			master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	CFM_PRCIDX	CHAR	15	0						15
+shp_md_ysproduct_attr	pisquare	76	cfm_rdpst	STRING			master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	CFM_RDPST	CHAR	15	0						15
+shp_md_ysproduct_attr	pisquare	77	cfm_shrout	DECIMAL(17,3)	SAP dec		master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	CFM_SHROUT	DEC	17	3						23
+shp_md_ysproduct_attr	pisquare	78	cfm_ir	DECIMAL(38,10)	SAP float		master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	CFM_IR	FLTP	16	16						23
+shp_md_ysproduct_attr	pisquare	79	fs_icm	STRING			master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	FS_ICM	CHAR	1	0						1
+shp_md_ysproduct_attr	pisquare	80	fs_refir	STRING			master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	FS_REFIR	CHAR	10	0						10
+shp_md_ysproduct_attr	pisquare	81	fs_ymeth	STRING			master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	FS_YMETH	NUMC	1	0						1
+shp_md_ysproduct_attr	pisquare	82	cfm_ctyid	STRING			master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	CFM_CTYID	CHAR	18	0						18
+shp_md_ysproduct_attr	pisquare	83	unit	STRING			master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	UNIT	UNIT	3	0						3
+shp_md_ysproduct_attr	pisquare	84	cfm_cntsiz	DECIMAL(17,3)	SAP dec		master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	CFM_CNTSIZ	QUAN	17	3						23
+shp_md_ysproduct_attr	pisquare	85	cfm_betcty	DECIMAL(17,3)	SAP dec		master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	CFM_BETCTY	DEC	17	3						23
+shp_md_ysproduct_attr	pisquare	86	cfm_bwtcty	DECIMAL(17,3)	SAP dec		master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	CFM_BWTCTY	DEC	17	3						23
+shp_md_ysproduct_attr	pisquare	87	cfm_sec_tp	STRING			master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	CFM_SEC_TP	NUMC	1	0						1
+shp_md_ysproduct_attr	pisquare	88	fs_rptyp	STRING			master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	FS_RPTYP	NUMC	1	0						1
+shp_md_ysproduct_attr	pisquare	89	bic_ysmoddurt	DECIMAL(38,10)	SAP float		master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSMODDURT	FLTP	16	16						23
+shp_md_ysproduct_attr	pisquare	90	bic_ysncldate	TIMESTAMP	yyyymmdd		master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSNCLDATE	DATS	8	0						10
+shp_md_ysproduct_attr	pisquare	91	bic_ysncpdate	TIMESTAMP	yyyymmdd		master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSNCPDATE	DATS	8	0						10
+shp_md_ysproduct_attr	pisquare	92	fs_trms_d	TIMESTAMP	yyyymmdd		master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	FS_TRMS_D	DATS	8	0						10
+shp_md_ysproduct_attr	pisquare	93	cfm_quty	STRING			master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	CFM_QUTY	CHAR	1	0						1
+shp_md_ysproduct_attr	pisquare	94	bic_ysmacdurt	DECIMAL(38,10)	SAP float		master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSMACDURT	FLTP	16	16						23
+shp_md_ysproduct_attr	pisquare	95	bic_ysdpbakn	STRING			master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSDPBAKN	CHAR	12	0						12
+shp_md_ysproduct_attr	pisquare	96	bic_ysmultflw	STRING			master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSMULTFLW	CHAR	9	0						9
+shp_md_ysproduct_attr	pisquare	97	bic_yssmltflw	STRING			master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSSMLTFLW	CHAR	4	0						4
+shp_md_ysproduct_attr	pisquare	98	bic_ysmtstat	STRING			master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSMTSTAT	CHAR	1	0						1
+shp_md_ysproduct_attr	pisquare	99	bic_ystendund	TIMESTAMP	yyyymmdd		master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSTENDUND	DATS	8	0						10
+shp_md_ysproduct_attr	pisquare	100	bic_yststrund	TIMESTAMP	yyyymmdd		master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSTSTRUND	DATS	8	0						10
+shp_md_ysproduct_attr	pisquare	101	fs_cvalcl	STRING			master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	FS_CVALCL	NUMC	4	0						4
+shp_md_ysproduct_attr	pisquare	102	bic_ysund	STRING			master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSUND	CHAR	13	0						13
+shp_md_ysproduct_attr	pisquare	103	cfm_lo_sh	STRING			master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	CFM_LO_SH	CHAR	1	0						1
+shp_md_ysproduct_attr	pisquare	104	cfm_refiri	STRING			master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	CFM_REFIRI	CHAR	10	0						10
+shp_md_ysproduct_attr	pisquare	105	cfm_refiro	STRING			master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	CFM_REFIRO	CHAR	10	0						10
+shp_md_ysproduct_attr	pisquare	106	bic_ysissuer	STRING			master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSISSUER	CHAR	12	0						12
+shp_md_ysproduct_attr	pisquare	107	bic_ysexcode	STRING			master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSEXCODE	CHAR	10	0						10
+shp_md_ysproduct_attr	pisquare	108	bic_zchvalrid	STRING			master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	/BIC/ZCHVALRID	CHAR	20	0						20
+shp_md_ysproduct_attr	pisquare	109	bic_ysbuptcon	STRING			master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSBUPTCON	CHAR	12	0						12
+shp_md_ysproduct_attr	pisquare	110	cfm_tr_cur	STRING			master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	CFM_TR_CUR	CUKY	5	0						5
+shp_md_ysproduct_attr	pisquare	111	bic_yscontdat	TIMESTAMP	yyyymmdd		master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSCONTDAT	DATS	8	0						10
+shp_md_ysproduct_attr	pisquare	112	fs_ddate	TIMESTAMP	yyyymmdd		master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	FS_DDATE	DATS	8	0						10
+shp_md_ysproduct_attr	pisquare	113	bic_ysmultspr	DECIMAL(17,3)	SAP dec		master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSMULTSPR	DEC	17	3						23
+shp_md_ysproduct_attr	pisquare	114	bic_ysaditspr	DECIMAL(17,3)	SAP dec		master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSADITSPR	DEC	17	3						23
+shp_md_ysproduct_attr	pisquare	115	bic_yspayflta	DECIMAL(17,3)	SAP dec		master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSPAYFLTA	DEC	17	3						23
+shp_md_ysproduct_attr	pisquare	116	bic_yspayfltb	DECIMAL(17,3)	SAP dec		master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSPAYFLTB	DEC	17	3						23
+shp_md_ysproduct_attr	pisquare	117	bic_ysrecflta	DECIMAL(17,3)	SAP dec		master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSRECFLTA	DEC	17	3						23
+shp_md_ysproduct_attr	pisquare	118	bic_ysrecfltb	DECIMAL(17,3)	SAP dec		master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSRECFLTB	DEC	17	3						23
+shp_md_ysproduct_attr	pisquare	119	bic_ysreccap	DECIMAL(17,3)	SAP dec		master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSRECCAP	DEC	17	3						23
+shp_md_ysproduct_attr	pisquare	120	bic_ysrecfloo	DECIMAL(17,3)	SAP dec		master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSRECFLOO	DEC	17	3						23
+shp_md_ysproduct_attr	pisquare	121	bic_yspaypfr	DECIMAL(17,3)	SAP dec		master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSPAYPFR	DEC	17	3						23
+shp_md_ysproduct_attr	pisquare	122	bic_yspayrest	DECIMAL(17,3)	SAP dec		master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSPAYREST	DEC	17	3						23
+shp_md_ysproduct_attr	pisquare	123	bic_ysrecpfr	DECIMAL(17,3)	SAP dec		master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSRECPFR	DEC	17	3						23
+shp_md_ysproduct_attr	pisquare	124	bic_yspayratc	DECIMAL(17,3)	SAP dec		master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSPAYRATC	DEC	17	3						23
+shp_md_ysproduct_attr	pisquare	125	bic_yspayref	DECIMAL(17,3)	SAP dec		master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSPAYREF	DEC	17	3						23
+shp_md_ysproduct_attr	pisquare	126	bic_ysrecrest	DECIMAL(17,3)	SAP dec		master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSRECREST	DEC	17	3						23
+shp_md_ysproduct_attr	pisquare	127	bic_ysdivpayc	STRING			master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSDIVPAYC	CUKY	5	0						5
+shp_md_ysproduct_attr	pisquare	128	bic_ysrecratc	DECIMAL(17,3)	SAP dec		master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSRECRATC	DEC	17	3						23
+shp_md_ysproduct_attr	pisquare	129	bic_ysrecref	DECIMAL(17,3)	SAP dec		master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSRECREF	DEC	17	3						23
+shp_md_ysproduct_attr	pisquare	130	bic_ysaxainr	STRING			master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSAXAINR	CHAR	3	0						3
+shp_md_ysproduct_attr	pisquare	131	bic_ysfitchr	STRING			master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSFITCHR	CHAR	3	0						3
+shp_md_ysproduct_attr	pisquare	132	bic_ysmoodyr	STRING			master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSMOODYR	CHAR	3	0						3
+shp_md_ysproduct_attr	pisquare	133	bic_yssandpr	STRING			master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSSANDPR	CHAR	3	0						3
+shp_md_ysproduct_attr	pisquare	134	bic_ysotherr	STRING			master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSOTHERR	CHAR	3	0						3
+shp_md_ysproduct_attr	pisquare	135	bic_ysaxar	STRING			master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSAXAR	CHAR	3	0						3
+shp_md_ysproduct_attr	pisquare	136	bic_yspaycap	DECIMAL(17,3)	SAP dec		master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSPAYCAP	DEC	17	3						23
+shp_md_ysproduct_attr	pisquare	137	bic_yspayfloo	DECIMAL(17,3)	SAP dec		master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSPAYFLOO	DEC	17	3						23
+shp_md_ysproduct_attr	pisquare	138	bic_yslcpdate	TIMESTAMP	yyyymmdd		master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSLCPDATE	DATS	8	0						10
+shp_md_ysproduct_attr	pisquare	139	bic_ys_soursy	STRING			master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YS_SOURSY	CHAR	10	0						10
+shp_md_ysproduct_attr	pisquare	140	bic_ysstatus	STRING			master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSSTATUS	CHAR	1	0						1
+shp_md_ysproduct_attr	pisquare	141	bic_ysnptdate	TIMESTAMP	yyyymmdd		master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSNPTDATE	DATS	8	0						10
+shp_md_ysproduct_attr	pisquare	142	bic_ysoptiony	STRING			master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSOPTIONY	CHAR	10	0						10
+shp_md_ysproduct_attr	pisquare	143	bic_ysseniort	STRING			master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSSENIORT	CHAR	2	0						2
+shp_md_ysproduct_attr	pisquare	144	bic_ysinstpcd	STRING			master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSINSTPCD	CHAR	5	0						5
+shp_md_ysproduct_attr	pisquare	145	bic_yasset_cl	STRING			master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YASSET_CL	CHAR	2	0						2
+shp_md_ysproduct_attr	pisquare	146	bic_ysissuert	STRING			master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSISSUERT	CHAR	2	0						2
+shp_md_ysproduct_attr	pisquare	147	cfm_0021	DECIMAL(17,2)	SAP dec		master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	CFM_0021	CURR	17	2						23
+shp_md_ysproduct_attr	pisquare	148	cfm_in_cur	STRING			master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	CFM_IN_CUR	CUKY	5	0						5
+shp_md_ysproduct_attr	pisquare	149	cfmp0030	DECIMAL(17,2)	SAP dec		master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	CFMP0030	CURR	17	2						23
+shp_md_ysproduct_attr	pisquare	150	cfm_ou_cur	STRING			master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	CFM_OU_CUR	CUKY	5	0						5
+shp_md_ysproduct_attr	pisquare	151	cfmp0032	DECIMAL(17,2)	SAP dec		master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	CFMP0032	CURR	17	2						23
+shp_md_ysproduct_attr	pisquare	152	bic_ysfrequen	DECIMAL(17,3)	SAP dec		master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSFREQUEN	DEC	17	3						23
+shp_md_ysproduct_attr	pisquare	153	bic_ysncalrat	DECIMAL(17,3)	SAP dec		master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSNCALRAT	DEC	17	3						23
+shp_md_ysproduct_attr	pisquare	154	bic_ysnputrat	DECIMAL(17,3)	SAP dec		master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSNPUTRAT	DEC	17	3						23
+shp_md_ysproduct_attr	pisquare	155	bic_yscallrat	DECIMAL(17,3)	SAP dec		master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSCALLRAT	DEC	17	3						23
+shp_md_ysproduct_attr	pisquare	156	bic_ysputrat	DECIMAL(17,3)	SAP dec		master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSPUTRAT	DEC	17	3						23
+shp_md_ysproduct_attr	pisquare	157	bic_ysdalismf	STRING			master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSDALISMF	CHAR	20	0						20
+shp_md_ysproduct_attr	pisquare	158	cfm_sec_cl	STRING			master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	CFM_SEC_CL	CHAR	3	0						3
+shp_md_ysproduct_attr	pisquare	159	bic_ysmatdat	TIMESTAMP	yyyymmdd		master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSMATDAT	DATS	8	0						10
+shp_md_ysproduct_attr	pisquare	160	cfm_charc	STRING			master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	CFM_CHARC	CHAR	25	0						25
+shp_md_ysproduct_attr	pisquare	161	cfm_in_ref	STRING			master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	CFM_IN_REF	CHAR	16	0						16
+shp_md_ysproduct_attr	pisquare	162	bic_yscaldate	TIMESTAMP	yyyymmdd		master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSCALDATE	DATS	8	0						10
+shp_md_ysproduct_attr	pisquare	163	bic_ycondtype	STRING			master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YCONDTYPE	NUMC	4	0						4
+shp_md_ysproduct_attr	pisquare	164	bic_ysciprate	STRING			master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSCIPRATE	CHAR	11	0						11
+shp_md_ysproduct_attr	pisquare	165	bic_yscoi_cur	STRING			master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSCOI_CUR	CUKY	5	0						5
+shp_md_ysproduct_attr	pisquare	166	bic_yspaytime	STRING			master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSPAYTIME	CHAR	3	0						3
+shp_md_ysproduct_attr	pisquare	167	bic_yspaytype	STRING			master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSPAYTYPE	CHAR	10	0						10
+shp_md_ysproduct_attr	pisquare	168	bic_ysrectype	STRING			master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSRECTYPE	CHAR	10	0						10
+shp_md_ysproduct_attr	pisquare	169	bic_ysorddate	TIMESTAMP	yyyymmdd		master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSORDDATE	DATS	8	0						10
+shp_md_ysproduct_attr	pisquare	170	bic_ysexpkey	STRING			master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSEXPKEY	CHAR	1	0						1
+shp_md_ysproduct_attr	pisquare	171	bic_ysembderi	STRING			master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSEMBDERI	CHAR	10	0						10
+shp_md_ysproduct_attr	pisquare	172	bic_yscirrate	STRING			master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSCIRRATE	CHAR	11	0						11
+shp_md_ysproduct_attr	pisquare	173	fs_rfsprin	DECIMAL(17,3)	SAP dec		master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	FS_RFSPRIN	DEC	17	3						23
+shp_md_ysproduct_attr	pisquare	174	fs_rfsprou	DECIMAL(17,3)	SAP dec		master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	FS_RFSPROU	DEC	17	3						23
+shp_md_ysproduct_attr	pisquare	175	cfm_ir_in	DECIMAL(17,3)	SAP dec		master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	CFM_IR_IN	DEC	17	3						23
+shp_md_ysproduct_attr	pisquare	176	cfm_ir_out	DECIMAL(17,3)	SAP dec		master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	CFM_IR_OUT	DEC	17	3						23
+shp_md_ysproduct_attr	pisquare	177	bic_ysstrikep	DECIMAL(38,10)	SAP float		master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSSTRIKEP	FLTP	16	16						23
+shp_md_ysproduct_attr	pisquare	178	fs_effir	STRING			master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	FS_EFFIR	CHAR	11	0						11
+shp_md_ysproduct_attr	pisquare	179	cfm_assmt	STRING			master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	CFM_ASSMT	CHAR	18	0						18
+shp_md_ysproduct_attr	pisquare	180	bic_ysfddate	TIMESTAMP	yyyymmdd		master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSFDDATE	DATS	8	0						10
+shp_md_ysproduct_attr	pisquare	181	bic_ysundtyp	STRING			master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSUNDTYP	CHAR	2	0						2
+shp_md_ysproduct_attr	pisquare	182	bic_ysfrstcpp	STRING			master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSFRSTCPP	CHAR	1	0						1
+shp_md_ysproduct_attr	pisquare	183	bic_yslcurrrt	DECIMAL(17,3)	SAP dec		master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSLCURRRT	DEC	17	3						23
+shp_md_ysproduct_attr	pisquare	184	currency	STRING			master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	CURRENCY	CUKY	5	0						5
+shp_md_ysproduct_attr	pisquare	185	bic_ysnom	DECIMAL(17,2)	SAP dec		master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSNOM	CURR	17	2						23
+shp_md_ysproduct_attr	pisquare	186	cfm_st_ct	STRING			master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	CFM_ST_CT	NUMC	1	0						1
+shp_md_ysproduct_attr	pisquare	187	bic_ysunitsno	DECIMAL(17,3)	SAP dec		master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSUNITSNO	DEC	17	3						23
+shp_md_ysproduct_attr	pisquare	188	bic_ysexpdate	TIMESTAMP	yyyymmdd		master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSEXPDATE	DATS	8	0						10
+shp_md_ysproduct_attr	pisquare	189	bic_ysidiflbp	STRING			master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSIDIFLBP	CHAR	13	0						13
+shp_md_ysproduct_attr	pisquare	190	bic_yscondam	DECIMAL(17,2)	SAP dec		master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSCONDAM	CURR	17	2						23
+shp_md_ysproduct_attr	pisquare	191	bic_ysaxrtdat	TIMESTAMP	yyyymmdd		master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSAXRTDAT	DATS	8	0						10
+shp_md_ysproduct_attr	pisquare	192	bic_ysfltprc	STRING			master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSFLTPRC	CHAR	1	0						1
+shp_md_ysproduct_attr	pisquare	193	bic_ysintgrt	STRING			master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSINTGRT	CHAR	30	0						30
+shp_md_ysproduct_attr	pisquare	194	bic_ysopcvm	DECIMAL(38,10)	SAP float		master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSOPCVM	FLTP	16	16						23
+shp_md_ysproduct_attr	pisquare	195	bic_yselgibl	STRING			master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSELGIBL	CHAR	30	0						30
+shp_md_ysproduct_attr	pisquare	196	bic_ysaditmrg	DECIMAL(38,10)	SAP float		master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSADITMRG	FLTP	16	16						23
+shp_md_ysproduct_attr	pisquare	197	bic_yscgfxfdt	TIMESTAMP	yyyymmdd		master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSCGFXFDT	DATS	8	0						10
+shp_md_ysproduct_attr	pisquare	198	bic_zsopcvmtp	STRING			master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	/BIC/ZSOPCVMTP	CHAR	1	0						1
+shp_md_ysproduct_attr	pisquare	199	bic_zsamfclas	STRING			master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	/BIC/ZSAMFCLAS	CHAR	2	0						2
+shp_md_ysproduct_attr	pisquare	200	bic_zsgarantt	STRING			master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	/BIC/ZSGARANTT	CHAR	50	0						50
+shp_md_ysproduct_attr	pisquare	201	bic_zsmmobdt	STRING			master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	/BIC/ZSMMOBDT	CHAR	30	0						30
+shp_md_ysproduct_attr	pisquare	202	bic_zsgvcr332	STRING			master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	/BIC/ZSGVCR332	CHAR	1	0						1
+shp_md_ysproduct_attr	pisquare	203	bic_zstemisv	STRING			master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	/BIC/ZSTEMISV	CHAR	30	0						30
+shp_md_ysproduct_attr	pisquare	204	bic_zshedgstr	STRING			master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	/BIC/ZSHEDGSTR	CHAR	1	0						1
+shp_md_ysproduct_attr	pisquare	205	bic_zsfrgvcr3	STRING			master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	/BIC/ZSFRGVCR3	CHAR	1	0						1
+shp_md_ysproduct_attr	pisquare	206	bic_zsinflatn	STRING			master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	/BIC/ZSINFLATN	CHAR	1	0						1
+shp_md_ysproduct_attr	pisquare	207	bic_zsallege	STRING			master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	/BIC/ZSALLEGE	CHAR	4	0						4
+shp_md_ysproduct_attr	pisquare	208	bic_ysissuerf	STRING			master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSISSUERF	CHAR	12	0						12
+shp_md_ysproduct_attr	pisquare	209	bic_ysabspcla	STRING			master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSABSPCLA	NUMC	3	0						3
+shp_md_ysproduct_attr	pisquare	210	fs_dimeth	TIMESTAMP	yyyymmdd		master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	FS_DIMETH	DATS	8	0						10
+shp_md_ysproduct_attr	pisquare	211	cml_bnlst	STRING			master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	CML_BNLST	NUMC	2	0						2
+shp_md_ysproduct_attr	pisquare	212	bic_ysunpdtp	STRING			master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSUNPDTP	CHAR	3	0						3
+shp_md_ysproduct_attr	pisquare	213	bic_ysfcpdate	TIMESTAMP	yyyymmdd		master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSFCPDATE	DATS	8	0						10
+shp_md_ysproduct_attr	pisquare	214	bic_zsdedvno	STRING			master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	/BIC/ZSDEDVNO	CHAR	5	0						5
+shp_md_ysproduct_attr	pisquare	215	bic_zsdemw670	STRING			master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	/BIC/ZSDEMW670	CHAR	10	0						10
+shp_md_ysproduct_attr	pisquare	216	bic_zsdemw67	STRING			master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	/BIC/ZSDEMW671	CHAR	10	0						10
+shp_md_ysproduct_attr	pisquare	217	bic_zsdestkba	STRING			master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	/BIC/ZSDESTKBA	CHAR	1	0						1
+shp_md_ysproduct_attr	pisquare	218	bic_zsdedvuan	STRING			master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	/BIC/ZSDEDVUAN	CHAR	2	0						2
+shp_md_ysproduct_attr	pisquare	219	bic_zsdetypba	STRING			master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	/BIC/ZSDETYPBA	CHAR	6	0						6
+shp_md_ysproduct_attr	pisquare	220	bic_zsdemspar	STRING			master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	/BIC/ZSDEMSPAR	CHAR	2	0						2
+shp_md_ysproduct_attr	pisquare	221	bic_zsbloom	STRING			master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	/BIC/ZSBLOOM	CHAR	20	0						20
+shp_md_ysproduct_attr	pisquare	222	bic_zsdesdepm	STRING			master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	/BIC/ZSDESDEPM	CHAR	30	0						30
+shp_md_ysproduct_attr	pisquare	223	bic_zsdeliqsp	STRING			master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	/BIC/ZSDELIQSP	CHAR	1	0						1
+shp_md_ysproduct_attr	pisquare	224	bic_ysoprdtp	STRING			master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSOPRDTP	CHAR	3	0						3
+shp_md_ysproduct_attr	pisquare	225	bic_zsdervind	STRING			master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	/BIC/ZSDERVIND	CHAR	1	0						1
+shp_md_ysproduct_attr	pisquare	226	bic_zsdenotic	STRING			master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	/BIC/ZSDENOTIC	CHAR	1	0						1
+shp_md_ysproduct_attr	pisquare	227	bic_zsdeguaid	STRING			master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	/BIC/ZSDEGUAID	CHAR	30	0						30
+shp_md_ysproduct_attr	pisquare	228	bic_zsdecdo	STRING			master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	/BIC/ZSDECDO	CHAR	1	0						1
+shp_md_ysproduct_attr	pisquare	229	bic_zsdenpcal	TIMESTAMP	yyyymmdd		master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	/BIC/ZSDENPCAL	DATS	8	0						10
+shp_md_ysproduct_attr	pisquare	230	bic_zsdenpput	TIMESTAMP	yyyymmdd		master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	/BIC/ZSDENPPUT	DATS	8	0						10
+shp_md_ysproduct_attr	pisquare	231	bic_zsdegthal	STRING			master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	/BIC/ZSDEGTHAL	CHAR	1	0						1
+shp_md_ysproduct_attr	pisquare	232	bic_zsdepbfnd	STRING			master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	/BIC/ZSDEPBFND	CHAR	1	0						1
+shp_md_ysproduct_attr	pisquare	233	bic_zsdemtsec	STRING			master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	/BIC/ZSDEMTSEC	CHAR	1	0						1
+shp_md_ysproduct_attr	pisquare	234	bic_zsdelnsec	STRING			master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	/BIC/ZSDELNSEC	CHAR	1	0						1
+shp_md_ysproduct_attr	pisquare	235	bic_zsdespred	DECIMAL(17,3)	SAP dec		master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	/BIC/ZSDESPRED	DEC	17	3						23
+shp_md_ysproduct_attr	pisquare	236	bic_zsdecolty	STRING			master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	/BIC/ZSDECOLTY	CHAR	50	0						50
+shp_md_ysproduct_attr	pisquare	237	bic_zsdescal	TIMESTAMP	yyyymmdd		master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	/BIC/ZSDESCAL	DATS	8	0						10
+shp_md_ysproduct_attr	pisquare	238	bic_zsdecrate	DECIMAL(17,3)	SAP dec		master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	/BIC/ZSDECRATE	DEC	17	3						23
+shp_md_ysproduct_attr	pisquare	239	bic_zsdetaxcl	STRING			master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	/BIC/ZSDETAXCL	CHAR	2	0						2
+shp_md_ysproduct_attr	pisquare	240	bic_zsde_emtn	STRING			master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	/BIC/ZSDE_EMTN	CHAR	1	0						1
+shp_md_ysproduct_attr	pisquare	241	bic_yslrmr	STRING			master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSLRMR	CHAR	3	0						3
+shp_md_ysproduct_attr	pisquare	242	bic_yslcsr	STRING			master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSLCSR	CHAR	3	0						3
+shp_md_ysproduct_attr	pisquare	243	bic_yslubsr	STRING			master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSLUBSR	CHAR	3	0						3
+shp_md_ysproduct_attr	pisquare	244	bic_yslzkbr	STRING			master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSLZKBR	CHAR	3	0						3
+shp_md_ysproduct_attr	pisquare	245	bic_ysrfhazul	STRING			master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSRFHAZUL	NUMC	5	0						5
+shp_md_ysproduct_attr	pisquare	246	bic_zsisp_cla	STRING			master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	/BIC/ZSISP_CLA	CHAR	10	0						10
+shp_md_ysproduct_attr	pisquare	247	cfm_ex_ref	STRING			master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	CFM_EX_REF	CHAR	16	0						16
+shp_md_ysproduct_attr	pisquare	248	bic_ysulparnr	STRING			master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSULPARNR	CHAR	12	0						12
+shp_md_ysproduct_attr	pisquare	249	bic_zsdeesfon	STRING			master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	/BIC/ZSDEESFON	CHAR	1	0						1
+shp_md_ysproduct_attr	pisquare	250	bic_zsdecorp	STRING			master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	/BIC/ZSDECORP	CHAR	2	0						2
+shp_md_ysproduct_attr	pisquare	251	bic_zsdemulmt	STRING			master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	/BIC/ZSDEMULMT	CHAR	1	0						1
+shp_md_ysproduct_attr	pisquare	252	bic_zsdenw673	STRING			master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	/BIC/ZSDENW673	CHAR	2	0						2
+shp_md_ysproduct_attr	pisquare	253	bic_ysintfs	STRING			master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSINTFS	NUMC	3	0						3
+shp_md_ysproduct_attr	pisquare	254	bic_ysintfl	STRING			master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSINTFL	NUMC	3	0						3
+shp_md_ysproduct_attr	pisquare	255	contrstart	TIMESTAMP	yyyymmdd		master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	CONTRSTART	DATS	8	0						10
+shp_md_ysproduct_attr	pisquare	256	bic_ysperc_rt	DECIMAL(38,10)	SAP float		master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSPERC_RT	FLTP	16	16						23
+shp_md_ysproduct_attr	pisquare	257	fs_loan_tp	STRING			master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	FS_LOAN_TP	NUMC	3	0						3
+shp_md_ysproduct_attr	pisquare	258	bic_zbesaccac	STRING			master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	/BIC/ZBESACCAC	CHAR	5	0						5
+shp_md_ysproduct_attr	pisquare	259	bic_zbesardti	STRING			master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	/BIC/ZBESARDTI	CHAR	1	0						1
+shp_md_ysproduct_attr	pisquare	260	bic_zbesacomc	STRING			master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	/BIC/ZBESACOMC	CHAR	5	0						5
+shp_md_ysproduct_attr	pisquare	261	bic_zbesocasc	STRING			master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	/BIC/ZBESOCASC	CHAR	10	0						10
+shp_md_ysproduct_attr	pisquare	262	bic_zbesrefcd	STRING			master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	/BIC/ZBESREFCD	CHAR	30	0						30
+shp_md_ysproduct_attr	pisquare	263	bic_zbesatc	STRING			master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	/BIC/ZBESATC	CHAR	10	0						10
+shp_md_ysproduct_attr	pisquare	264	bic_zbesncdat	TIMESTAMP	yyyymmdd		master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	/BIC/ZBESNCDAT	DATS	8	0						10
+shp_md_ysproduct_attr	pisquare	265	bic_zbesaincp	DECIMAL(17,2)	SAP dec		master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	/BIC/ZBESAINCP	CURR	17	2						23
+shp_md_ysproduct_attr	pisquare	266	bic_zlusardti	STRING			master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	/BIC/ZLUSARDTI	CHAR	1	0						1
+shp_md_ysproduct_attr	pisquare	267	bic_zlusrefcd	STRING			master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	/BIC/ZLUSREFCD	CHAR	30	0						30
+shp_md_ysproduct_attr	pisquare	268	bic_zlusatc	STRING			master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	/BIC/ZLUSATC	CHAR	10	0						10
+shp_md_ysproduct_attr	pisquare	269	bic_zbesiuval	DECIMAL(17,3)	SAP dec		master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	/BIC/ZBESIUVAL	DEC	17	3						23
+shp_md_ysproduct_attr	pisquare	270	cfm_fwdprc	DECIMAL(17,3)	SAP dec		master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	CFM_FWDPRC	DEC	17	3						23
+shp_md_ysproduct_attr	pisquare	271	cfm_spotrt	DECIMAL(17,3)	SAP dec		master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	CFM_SPOTRT	DEC	17	3						23
+shp_md_ysproduct_attr	pisquare	272	bic_zbesswtyp	STRING			master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	/BIC/ZBESSWTYP	NUMC	1	0						1
+shp_md_ysproduct_attr	pisquare	273	cfmp0640	DECIMAL(17,2)	SAP dec		master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	CFMP0640	CURR	17	2						23
+shp_md_ysproduct_attr	pisquare	274	loc_currcy	STRING			master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	LOC_CURRCY	CUKY	5	0						5
+shp_md_ysproduct_attr	pisquare	275	cfm_0642	DECIMAL(17,2)	SAP dec		master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	CFM_0642	CURR	17	2						23
+shp_md_ysproduct_attr	pisquare	276	bic_zbesmfltp	STRING			master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	/BIC/ZBESMFLTP	CHAR	4	0						4
+shp_md_ysproduct_attr	pisquare	277	bic_zbesoutnu	DECIMAL(17,3)	SAP dec		master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	/BIC/ZBESOUTNU	DEC	17	3						23
+shp_md_ysproduct_attr	pisquare	278	bic_zbesloang	STRING			master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	/BIC/ZBESLOANG	CHAR	10	0						10
+shp_md_ysproduct_attr	pisquare	279	bic_zlusloang	STRING			master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	/BIC/ZLUSLOANG	CHAR	10	0						10
+shp_md_ysproduct_attr	pisquare	280	bic_zsdecntry	STRING			master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	/BIC/ZSDECNTRY	CHAR	3	0						3
+shp_md_ysproduct_attr	pisquare	281	bic_yslagency	STRING			master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSLAGENCY	CHAR	3	0						3
+shp_md_ysproduct_attr	pisquare	282	bic_yspoolfac	DECIMAL(38,10)	SAP float		master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSPOOLFAC	FLTP	16	16						23
+shp_md_ysproduct_attr	pisquare	283	bic_yscicland	STRING			master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSCICLAND	CHAR	3	0						3
+shp_md_ysproduct_attr	pisquare	284	bic_yscicacls	STRING			master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSCICACLS	CHAR	2	0						2
+shp_md_ysproduct_attr	pisquare	285	bic_ysncpdout	TIMESTAMP	yyyymmdd		master	C-pisquare-master	SHP_MD_1_YSPRODUCT_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSNCPDOUT	DATS	8	0						10
+shp_md_ysproduct_text	pisquare	0	fs_ctr_tp	STRING			master	C-pisquare-master	SHP_MD_1_YSPRODUCT_TEXT_yyyymmdd_hhmmss.CSV	FS_CTR_TP	CHAR	1	0					X	1
+shp_md_ysproduct_text	pisquare	1	bic_yscompco	STRING			master	C-pisquare-master	SHP_MD_1_YSPRODUCT_TEXT_yyyymmdd_hhmmss.CSV	/BIC/YSCOMPCO	CHAR	4	0					X	4
+shp_md_ysproduct_text	pisquare	2	bic_ysproduct	STRING			master	C-pisquare-master	SHP_MD_1_YSPRODUCT_TEXT_yyyymmdd_hhmmss.CSV	/BIC/YSPRODUCT	CHAR	15	0					X	15
+shp_md_ysproduct_text	pisquare	3	txtsh	STRING			master	C-pisquare-master	SHP_MD_1_YSPRODUCT_TEXT_yyyymmdd_hhmmss.CSV	TXTSH	CHAR	20	0						20
+shp_md_ysproduct_text	pisquare	4	txtlg	STRING			master	C-pisquare-master	SHP_MD_1_YSPRODUCT_TEXT_yyyymmdd_hhmmss.CSV	TXTLG	CHAR	60	0						60
+shp_md_ysprsrc_attr	pisquare	0	bic_ysprsrc	STRING			master	C-pisquare-master	SHP_MD_2_YSPRSRC_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSPRSRC	CHAR	10	0					X	10
+shp_md_ysprsrc_attr	pisquare	1	bic_zptbascot	STRING			master	C-pisquare-master	SHP_MD_2_YSPRSRC_ATTR_yyyymmdd_hhmmss.CSV	/BIC/ZPTBASCOT	CHAR	3	0						3
+shp_md_ysprsrc_text	pisquare	0	bic_ysprsrc	STRING			master	C-pisquare-master	SHP_MD_2_YSPRSRC_TEXT_yyyymmdd_hhmmss.CSV	/BIC/YSPRSRC	CHAR	10	0					X	10
+shp_md_ysprsrc_text	pisquare	1	txtsh	STRING			master	C-pisquare-master	SHP_MD_2_YSPRSRC_TEXT_yyyymmdd_hhmmss.CSV	TXTSH	CHAR	20	0						20
+shp_md_yssecftd_attr	pisquare	0	bic_yssecftd	STRING			master	C-pisquare-master	SHP_MD_1_YSSECFTD_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSSECFTD	CHAR	13	0					X	13
+shp_md_yssecftd_attr	pisquare	1	dateto	TIMESTAMP	yyyymmdd		master	C-pisquare-master	SHP_MD_1_YSSECFTD_ATTR_yyyymmdd_hhmmss.CSV	DATETO	DATS	8	0					X	10
+shp_md_yssecftd_attr	pisquare	2	datefrom	TIMESTAMP	yyyymmdd		master	C-pisquare-master	SHP_MD_1_YSSECFTD_ATTR_yyyymmdd_hhmmss.CSV	DATEFROM	DATS	8	0						10
+shp_md_yssecftd_attr	pisquare	3	cfm_bp_iss	STRING			master	C-pisquare-master	SHP_MD_1_YSSECFTD_ATTR_yyyymmdd_hhmmss.CSV	CFM_BP_ISS	CHAR	10	0						10
+shp_md_yssecftd_attr	pisquare	4	cfm_pc_cur	STRING			master	C-pisquare-master	SHP_MD_1_YSSECFTD_ATTR_yyyymmdd_hhmmss.CSV	CFM_PC_CUR	CUKY	5	0						5
+shp_md_yssecftd_attr	pisquare	5	cfm_sec_cl	STRING			master	C-pisquare-master	SHP_MD_1_YSSECFTD_ATTR_yyyymmdd_hhmmss.CSV	CFM_SEC_CL	CHAR	3	0						3
+shp_md_yssecftd_attr	pisquare	6	fs_prd_tp	STRING			master	C-pisquare-master	SHP_MD_1_YSSECFTD_ATTR_yyyymmdd_hhmmss.CSV	FS_PRD_TP	CHAR	3	0						3
+shp_md_yssecftd_attr	pisquare	7	fs_sec_ct	STRING			master	C-pisquare-master	SHP_MD_1_YSSECFTD_ATTR_yyyymmdd_hhmmss.CSV	FS_SEC_CT	NUMC	3	0						3
+shp_md_yssecftd_attr	pisquare	8	fs_trms_d	TIMESTAMP	yyyymmdd		master	C-pisquare-master	SHP_MD_1_YSSECFTD_ATTR_yyyymmdd_hhmmss.CSV	FS_TRMS_D	DATS	8	0						10
+shp_md_yssecftd_attr	pisquare	9	fs_trme_d	TIMESTAMP	yyyymmdd		master	C-pisquare-master	SHP_MD_1_YSSECFTD_ATTR_yyyymmdd_hhmmss.CSV	FS_TRME_D	DATS	8	0						10
+shp_md_yssecftd_attr	pisquare	10	cfm_secrat	STRING			master	C-pisquare-master	SHP_MD_1_YSSECFTD_ATTR_yyyymmdd_hhmmss.CSV	CFM_SECRAT	CHAR	3	0						3
+shp_md_yssecftd_attr	pisquare	11	cfm_sec_tp	STRING			master	C-pisquare-master	SHP_MD_1_YSSECFTD_ATTR_yyyymmdd_hhmmss.CSV	CFM_SEC_TP	NUMC	1	0						1
+shp_md_yssecftd_attr	pisquare	12	cfm_bd_cls	STRING			master	C-pisquare-master	SHP_MD_1_YSSECFTD_ATTR_yyyymmdd_hhmmss.CSV	CFM_BD_CLS	NUMC	3	0						3
+shp_md_yssecftd_attr	pisquare	13	cfm_st_ct	STRING			master	C-pisquare-master	SHP_MD_1_YSSECFTD_ATTR_yyyymmdd_hhmmss.CSV	CFM_ST_CT	NUMC	1	0						1
+shp_md_yssecftd_attr	pisquare	14	cfm_st_frm	STRING			master	C-pisquare-master	SHP_MD_1_YSSECFTD_ATTR_yyyymmdd_hhmmss.CSV	CFM_ST_FRM	NUMC	1	0						1
+shp_md_yssecftd_attr	pisquare	15	cfm_fd_ct	STRING			master	C-pisquare-master	SHP_MD_1_YSSECFTD_ATTR_yyyymmdd_hhmmss.CSV	CFM_FD_CT	CHAR	2	0						2
+shp_md_yssecftd_attr	pisquare	16	cfm_fd_tp	STRING			master	C-pisquare-master	SHP_MD_1_YSSECFTD_ATTR_yyyymmdd_hhmmss.CSV	CFM_FD_TP	NUMC	1	0						1
+shp_md_yssecftd_attr	pisquare	17	cfm_fd_pub	STRING			master	C-pisquare-master	SHP_MD_1_YSSECFTD_ATTR_yyyymmdd_hhmmss.CSV	CFM_FD_PUB	CHAR	1	0						1
+shp_md_yssecftd_attr	pisquare	18	cfm_sh_str	STRING			master	C-pisquare-master	SHP_MD_1_YSSECFTD_ATTR_yyyymmdd_hhmmss.CSV	CFM_SH_STR	NUMC	2	0						2
+shp_md_yssecftd_attr	pisquare	19	cfm_sh_tp	STRING			master	C-pisquare-master	SHP_MD_1_YSSECFTD_ATTR_yyyymmdd_hhmmss.CSV	CFM_SH_TP	NUMC	2	0						2
+shp_md_yssecftd_attr	pisquare	20	cfm_listed	STRING			master	C-pisquare-master	SHP_MD_1_YSSECFTD_ATTR_yyyymmdd_hhmmss.CSV	CFM_LISTED	CHAR	1	0						1
+shp_md_yssecftd_attr	pisquare	21	cfm_quotat	STRING			master	C-pisquare-master	SHP_MD_1_YSSECFTD_ATTR_yyyymmdd_hhmmss.CSV	CFM_QUOTAT	NUMC	1	0						1
+shp_md_yssecftd_attr	pisquare	22	cfm_ofct	STRING			master	C-pisquare-master	SHP_MD_1_YSSECFTD_ATTR_yyyymmdd_hhmmss.CSV	CFM_OFCT	NUMC	2	0						2
+shp_md_yssecftd_attr	pisquare	23	cfm_oppt	STRING			master	C-pisquare-master	SHP_MD_1_YSSECFTD_ATTR_yyyymmdd_hhmmss.CSV	CFM_OPPT	NUMC	3	0						3
+shp_md_yssecftd_attr	pisquare	24	cfm_setm	STRING			master	C-pisquare-master	SHP_MD_1_YSSECFTD_ATTR_yyyymmdd_hhmmss.CSV	CFM_SETM	CHAR	1	0						1
+shp_md_yssecftd_attr	pisquare	25	cfm_quty	STRING			master	C-pisquare-master	SHP_MD_1_YSSECFTD_ATTR_yyyymmdd_hhmmss.CSV	CFM_QUTY	CHAR	1	0						1
+shp_md_yssecftd_attr	pisquare	26	cfm_pcid	STRING			master	C-pisquare-master	SHP_MD_1_YSSECFTD_ATTR_yyyymmdd_hhmmss.CSV	CFM_PCID	NUMC	1	0						1
+shp_md_yssecftd_attr	pisquare	27	cfm_seid	STRING			master	C-pisquare-master	SHP_MD_1_YSSECFTD_ATTR_yyyymmdd_hhmmss.CSV	CFM_SEID	CHAR	1	0						1
+shp_md_yssecftd_attr	pisquare	28	cfm_exty	STRING			master	C-pisquare-master	SHP_MD_1_YSSECFTD_ATTR_yyyymmdd_hhmmss.CSV	CFM_EXTY	NUMC	1	0						1
+shp_md_yssecftd_attr	pisquare	29	cfm_expd	TIMESTAMP	yyyymmdd		master	C-pisquare-master	SHP_MD_1_YSSECFTD_ATTR_yyyymmdd_hhmmss.CSV	CFM_EXPD	DATS	8	0						10
+shp_md_yssecftd_attr	pisquare	30	cfm_ltrd	TIMESTAMP	yyyymmdd		master	C-pisquare-master	SHP_MD_1_YSSECFTD_ATTR_yyyymmdd_hhmmss.CSV	CFM_LTRD	DATS	8	0						10
+shp_md_yssecftd_attr	pisquare	31	cfm_setd	TIMESTAMP	yyyymmdd		master	C-pisquare-master	SHP_MD_1_YSSECFTD_ATTR_yyyymmdd_hhmmss.CSV	CFM_SETD	DATS	8	0						10
+shp_md_yssecftd_attr	pisquare	32	factcal_id	STRING			master	C-pisquare-master	SHP_MD_1_YSSECFTD_ATTR_yyyymmdd_hhmmss.CSV	FACTCAL_ID	CHAR	2	0						2
+shp_md_yssecftd_attr	pisquare	33	fs_ddate	TIMESTAMP	yyyymmdd		master	C-pisquare-master	SHP_MD_1_YSSECFTD_ATTR_yyyymmdd_hhmmss.CSV	FS_DDATE	DATS	8	0						10
+shp_md_yssecftd_attr	pisquare	34	cfm_sidul	STRING			master	C-pisquare-master	SHP_MD_1_YSSECFTD_ATTR_yyyymmdd_hhmmss.CSV	CFM_SIDUL	CHAR	13	0						13
+shp_md_yssecftd_attr	pisquare	35	cfm_atick	DECIMAL(17,2)	SAP dec		master	C-pisquare-master	SHP_MD_1_YSSECFTD_ATTR_yyyymmdd_hhmmss.CSV	CFM_ATICK	CURR	17	2						23
+shp_md_yssecftd_attr	pisquare	36	cfm_itick	DECIMAL(17,3)	SAP dec		master	C-pisquare-master	SHP_MD_1_YSSECFTD_ATTR_yyyymmdd_hhmmss.CSV	CFM_ITICK	DEC	17	3						23
+shp_md_yssecftd_attr	pisquare	37	cfm_vtick	DECIMAL(17,2)	SAP dec		master	C-pisquare-master	SHP_MD_1_YSSECFTD_ATTR_yyyymmdd_hhmmss.CSV	CFM_VTICK	CURR	17	2						23
+shp_md_yssecftd_attr	pisquare	38	cfm_nomv	DECIMAL(17,2)	SAP dec		master	C-pisquare-master	SHP_MD_1_YSSECFTD_ATTR_yyyymmdd_hhmmss.CSV	CFM_NOMV	CURR	17	2						23
+shp_md_yssecftd_attr	pisquare	39	cfm_sunit	DECIMAL(17,3)	SAP dec		master	C-pisquare-master	SHP_MD_1_YSSECFTD_ATTR_yyyymmdd_hhmmss.CSV	CFM_SUNIT	DEC	17	3						23
+shp_md_yssecftd_attr	pisquare	40	cfm_pind	DECIMAL(17,2)	SAP dec		master	C-pisquare-master	SHP_MD_1_YSSECFTD_ATTR_yyyymmdd_hhmmss.CSV	CFM_PIND	CURR	17	2						23
+shp_md_yssecftd_attr	pisquare	41	cfm_bstr	DECIMAL(17,2)	SAP dec		master	C-pisquare-master	SHP_MD_1_YSSECFTD_ATTR_yyyymmdd_hhmmss.CSV	CFM_BSTR	CURR	17	2						23
+shp_md_yssecftd_attr	pisquare	42	cfm_pstr	DECIMAL(17,3)	SAP dec		master	C-pisquare-master	SHP_MD_1_YSSECFTD_ATTR_yyyymmdd_hhmmss.CSV	CFM_PSTR	DEC	17	3						23
+shp_md_yssecftd_attr	pisquare	43	cfm_sidxul	STRING			master	C-pisquare-master	SHP_MD_1_YSSECFTD_ATTR_yyyymmdd_hhmmss.CSV	CFM_SIDXUL	CHAR	10	0						10
+shp_md_yssecftd_attr	pisquare	44	cfm_iss_pr	DECIMAL(17,3)	SAP dec		master	C-pisquare-master	SHP_MD_1_YSSECFTD_ATTR_yyyymmdd_hhmmss.CSV	CFM_ISS_PR	DEC	17	3						23
+shp_md_yssecftd_attr	pisquare	45	cfm_issrte	DECIMAL(17,3)	SAP dec		master	C-pisquare-master	SHP_MD_1_YSSECFTD_ATTR_yyyymmdd_hhmmss.CSV	CFM_ISSRTE	DEC	17	3						23
+shp_md_yssecftd_attr	pisquare	46	cfm_el_id	STRING			master	C-pisquare-master	SHP_MD_1_YSSECFTD_ATTR_yyyymmdd_hhmmss.CSV	CFM_EL_ID	CHAR	1	0						1
+shp_md_yssecftd_attr	pisquare	47	cfm_ec_id	STRING			master	C-pisquare-master	SHP_MD_1_YSSECFTD_ATTR_yyyymmdd_hhmmss.CSV	CFM_EC_ID	CHAR	1	0						1
+shp_md_yssecftd_attr	pisquare	48	cfm_es_id	STRING			master	C-pisquare-master	SHP_MD_1_YSSECFTD_ATTR_yyyymmdd_hhmmss.CSV	CFM_ES_ID	CHAR	1	0						1
+shp_md_yssecftd_attr	pisquare	49	cfm_nom_ci	DECIMAL(17,3)	SAP dec		master	C-pisquare-master	SHP_MD_1_YSSECFTD_ATTR_yyyymmdd_hhmmss.CSV	CFM_NOM_CI	DEC	17	3						23
+shp_md_yssecftd_attr	pisquare	50	cfm_fellw	STRING			master	C-pisquare-master	SHP_MD_1_YSSECFTD_ATTR_yyyymmdd_hhmmss.CSV	CFM_FELLW	CHAR	1	0						1
+shp_md_yssecftd_attr	pisquare	51	cfm_fd_vol	DECIMAL(17,3)	SAP dec		master	C-pisquare-master	SHP_MD_1_YSSECFTD_ATTR_yyyymmdd_hhmmss.CSV	CFM_FD_VOL	DEC	17	3						23
+shp_md_yssecftd_attr	pisquare	52	cfm_issprc	DECIMAL(17,3)	SAP dec		master	C-pisquare-master	SHP_MD_1_YSSECFTD_ATTR_yyyymmdd_hhmmss.CSV	CFM_ISSPRC	DEC	17	3						23
+shp_md_yssecftd_attr	pisquare	53	cfm_fgniv	STRING			master	C-pisquare-master	SHP_MD_1_YSSECFTD_ATTR_yyyymmdd_hhmmss.CSV	CFM_FGNIV	CHAR	1	0						1
+shp_md_yssecftd_attr	pisquare	54	cfm_accum	STRING			master	C-pisquare-master	SHP_MD_1_YSSECFTD_ATTR_yyyymmdd_hhmmss.CSV	CFM_ACCUM	CHAR	1	0						1
+shp_md_yssecftd_attr	pisquare	55	cfm_reivdc	DECIMAL(17,3)	SAP dec		master	C-pisquare-master	SHP_MD_1_YSSECFTD_ATTR_yyyymmdd_hhmmss.CSV	CFM_REIVDC	DEC	17	3						23
+shp_md_yssecftd_attr	pisquare	56	cfm_nomtu	DECIMAL(17,3)	SAP dec		master	C-pisquare-master	SHP_MD_1_YSSECFTD_ATTR_yyyymmdd_hhmmss.CSV	CFM_NOMTU	DEC	17	3						23
+shp_md_yssecftd_attr	pisquare	57	cfm_seclo	STRING			master	C-pisquare-master	SHP_MD_1_YSSECFTD_ATTR_yyyymmdd_hhmmss.CSV	CFM_SECLO	CHAR	1	0						1
+shp_md_yssecftd_attr	pisquare	58	cfm_issyld	DECIMAL(17,3)	SAP dec		master	C-pisquare-master	SHP_MD_1_YSSECFTD_ATTR_yyyymmdd_hhmmss.CSV	CFM_ISSYLD	DEC	17	3						23
+shp_md_yssecftd_attr	pisquare	59	fs_rfspr	DECIMAL(17,3)	SAP dec		master	C-pisquare-master	SHP_MD_1_YSSECFTD_ATTR_yyyymmdd_hhmmss.CSV	FS_RFSPR	DEC	17	3						23
+shp_md_yssecftd_attr	pisquare	60	cfm_vtepsh	DECIMAL(17,3)	SAP dec		master	C-pisquare-master	SHP_MD_1_YSSECFTD_ATTR_yyyymmdd_hhmmss.CSV	CFM_VTEPSH	DEC	17	3						23
+shp_md_yssecftd_attr	pisquare	61	cfm_xtrcap	DECIMAL(17,3)	SAP dec		master	C-pisquare-master	SHP_MD_1_YSSECFTD_ATTR_yyyymmdd_hhmmss.CSV	CFM_XTRCAP	DEC	17	3						23
+shp_md_yssecftd_attr	pisquare	62	cfm_prcidx	STRING			master	C-pisquare-master	SHP_MD_1_YSSECFTD_ATTR_yyyymmdd_hhmmss.CSV	CFM_PRCIDX	CHAR	15	0						15
+shp_md_yssecftd_attr	pisquare	63	cfm_rdpst	STRING			master	C-pisquare-master	SHP_MD_1_YSSECFTD_ATTR_yyyymmdd_hhmmss.CSV	CFM_RDPST	CHAR	15	0						15
+shp_md_yssecftd_attr	pisquare	64	cfm_shrout	DECIMAL(17,3)	SAP dec		master	C-pisquare-master	SHP_MD_1_YSSECFTD_ATTR_yyyymmdd_hhmmss.CSV	CFM_SHROUT	DEC	17	3						23
+shp_md_yssecftd_attr	pisquare	65	cfm_ir	DECIMAL(38,10)	SAP float		master	C-pisquare-master	SHP_MD_1_YSSECFTD_ATTR_yyyymmdd_hhmmss.CSV	CFM_IR	FLTP	16	16						23
+shp_md_yssecftd_attr	pisquare	66	fs_icm	STRING			master	C-pisquare-master	SHP_MD_1_YSSECFTD_ATTR_yyyymmdd_hhmmss.CSV	FS_ICM	CHAR	1	0						1
+shp_md_yssecftd_attr	pisquare	67	fs_refir	STRING			master	C-pisquare-master	SHP_MD_1_YSSECFTD_ATTR_yyyymmdd_hhmmss.CSV	FS_REFIR	CHAR	10	0						10
+shp_md_yssecftd_attr	pisquare	68	fs_ymeth	STRING			master	C-pisquare-master	SHP_MD_1_YSSECFTD_ATTR_yyyymmdd_hhmmss.CSV	FS_YMETH	NUMC	1	0						1
+shp_md_yssecftd_attr	pisquare	69	cfm_ctyid	STRING			master	C-pisquare-master	SHP_MD_1_YSSECFTD_ATTR_yyyymmdd_hhmmss.CSV	CFM_CTYID	CHAR	18	0						18
+shp_md_yssecftd_attr	pisquare	70	unit	STRING			master	C-pisquare-master	SHP_MD_1_YSSECFTD_ATTR_yyyymmdd_hhmmss.CSV	UNIT	UNIT	3	0						3
+shp_md_yssecftd_attr	pisquare	71	cfm_cntsiz	DECIMAL(17,3)	SAP dec		master	C-pisquare-master	SHP_MD_1_YSSECFTD_ATTR_yyyymmdd_hhmmss.CSV	CFM_CNTSIZ	QUAN	17	3						23
+shp_md_yssecftd_attr	pisquare	72	cfm_betcty	DECIMAL(17,3)	SAP dec		master	C-pisquare-master	SHP_MD_1_YSSECFTD_ATTR_yyyymmdd_hhmmss.CSV	CFM_BETCTY	DEC	17	3						23
+shp_md_yssecftd_attr	pisquare	73	cfm_bwtcty	DECIMAL(17,3)	SAP dec		master	C-pisquare-master	SHP_MD_1_YSSECFTD_ATTR_yyyymmdd_hhmmss.CSV	CFM_BWTCTY	DEC	17	3						23
+shp_md_yssecftd_attr	pisquare	74	bic_ysisin	STRING			master	C-pisquare-master	SHP_MD_1_YSSECFTD_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSISIN	CHAR	12	0						12
+shp_md_yssecftd_attr	pisquare	75	bic_yslcpdate	TIMESTAMP	yyyymmdd		master	C-pisquare-master	SHP_MD_1_YSSECFTD_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSLCPDATE	DATS	8	0						10
+shp_md_yssecftd_attr	pisquare	76	bic_ysncldate	TIMESTAMP	yyyymmdd		master	C-pisquare-master	SHP_MD_1_YSSECFTD_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSNCLDATE	DATS	8	0						10
+shp_md_yssecftd_attr	pisquare	77	bic_ysncpdate	TIMESTAMP	yyyymmdd		master	C-pisquare-master	SHP_MD_1_YSSECFTD_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSNCPDATE	DATS	8	0						10
+shp_md_yssecftd_attr	pisquare	78	bic_zchaacat	STRING			master	C-pisquare-master	SHP_MD_1_YSSECFTD_ATTR_yyyymmdd_hhmmss.CSV	/BIC/ZCHAACAT	CHAR	10	0						10
+shp_md_yssecftd_attr	pisquare	79	bic_zchsedol	STRING			master	C-pisquare-master	SHP_MD_1_YSSECFTD_ATTR_yyyymmdd_hhmmss.CSV	/BIC/ZCHSEDOL	CHAR	20	0						20
+shp_md_yssecftd_attr	pisquare	80	bic_zchvalrid	STRING			master	C-pisquare-master	SHP_MD_1_YSSECFTD_ATTR_yyyymmdd_hhmmss.CSV	/BIC/ZCHVALRID	CHAR	20	0						20
+shp_md_yssecftd_attr	pisquare	81	bic_zitbalsct	STRING			master	C-pisquare-master	SHP_MD_1_YSSECFTD_ATTR_yyyymmdd_hhmmss.CSV	/BIC/ZITBALSCT	CHAR	10	0						10
+shp_md_yssecftd_attr	pisquare	82	bic_zitbllsti	STRING			master	C-pisquare-master	SHP_MD_1_YSSECFTD_ATTR_yyyymmdd_hhmmss.CSV	/BIC/ZITBLLSTI	CHAR	10	0						10
+shp_md_yssecftd_attr	pisquare	83	bic_zitcdeuro	STRING			master	C-pisquare-master	SHP_MD_1_YSSECFTD_ATTR_yyyymmdd_hhmmss.CSV	/BIC/ZITCDEURO	CHAR	10	0						10
+shp_md_yssecftd_attr	pisquare	84	bic_zitindex2	STRING			master	C-pisquare-master	SHP_MD_1_YSSECFTD_ATTR_yyyymmdd_hhmmss.CSV	/BIC/ZITINDEX2	CHAR	10	0						10
+shp_md_yssecftd_attr	pisquare	85	bic_ysembderi	STRING			master	C-pisquare-master	SHP_MD_1_YSSECFTD_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSEMBDERI	CHAR	10	0						10
+shp_md_yssecftd_attr	pisquare	86	bic_zittprate	STRING			master	C-pisquare-master	SHP_MD_1_YSSECFTD_ATTR_yyyymmdd_hhmmss.CSV	/BIC/ZITTPRATE	CHAR	2	0						2
+shp_md_yssecftd_attr	pisquare	87	bic_ysmacdurt	DECIMAL(38,10)	SAP float		master	C-pisquare-master	SHP_MD_1_YSSECFTD_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSMACDURT	FLTP	16	16						23
+shp_md_yssecftd_attr	pisquare	88	bic_ysmoddurt	DECIMAL(38,10)	SAP float		master	C-pisquare-master	SHP_MD_1_YSSECFTD_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSMODDURT	FLTP	16	16						23
+shp_md_yssecftd_attr	pisquare	89	bic_ysrepagfl	STRING			master	C-pisquare-master	SHP_MD_1_YSSECFTD_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSREPAGFL	CHAR	4	0						4
+shp_md_yssecftd_attr	pisquare	90	bic_yscap	DECIMAL(17,3)	SAP dec		master	C-pisquare-master	SHP_MD_1_YSSECFTD_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSCAP	DEC	17	3						23
+shp_md_yssecftd_attr	pisquare	91	bic_ysfloor	DECIMAL(17,3)	SAP dec		master	C-pisquare-master	SHP_MD_1_YSSECFTD_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSFLOOR	DEC	17	3						23
+shp_md_yssecftd_attr	pisquare	92	bic_ysmultspr	DECIMAL(17,3)	SAP dec		master	C-pisquare-master	SHP_MD_1_YSSECFTD_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSMULTSPR	DEC	17	3						23
+shp_md_yssecftd_attr	pisquare	93	bic_ysaditspr	DECIMAL(17,3)	SAP dec		master	C-pisquare-master	SHP_MD_1_YSSECFTD_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSADITSPR	DEC	17	3						23
+shp_md_yssecftd_attr	pisquare	94	bic_ysstropt	DECIMAL(17,3)	SAP dec		master	C-pisquare-master	SHP_MD_1_YSSECFTD_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSSTROPT	DEC	17	3						23
+shp_md_yssecftd_attr	pisquare	95	bic_zitcodpbr	STRING			master	C-pisquare-master	SHP_MD_1_YSSECFTD_ATTR_yyyymmdd_hhmmss.CSV	/BIC/ZITCODPBR	CHAR	4	0						4
+shp_md_yssecftd_attr	pisquare	96	bic_ycexrate	DECIMAL(38,10)	SAP float		master	C-pisquare-master	SHP_MD_1_YSSECFTD_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YCEXRATE	FLTP	16	16						23
+shp_md_yssecftd_attr	pisquare	97	bic_ysexcode	STRING			master	C-pisquare-master	SHP_MD_1_YSSECFTD_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSEXCODE	CHAR	10	0						10
+shp_md_yssecftd_attr	pisquare	98	bic_ysissclas	STRING			master	C-pisquare-master	SHP_MD_1_YSSECFTD_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSISSCLAS	CHAR	3	0						3
+shp_md_yssecftd_attr	pisquare	99	bic_ysissuer	STRING			master	C-pisquare-master	SHP_MD_1_YSSECFTD_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSISSUER	CHAR	12	0						12
+shp_md_yssecftd_attr	pisquare	100	bic_ysdivpayc	STRING			master	C-pisquare-master	SHP_MD_1_YSSECFTD_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSDIVPAYC	CUKY	5	0						5
+shp_md_yssecftd_attr	pisquare	101	fs_rptyp	STRING			master	C-pisquare-master	SHP_MD_1_YSSECFTD_ATTR_yyyymmdd_hhmmss.CSV	FS_RPTYP	NUMC	1	0						1
+shp_md_yssecftd_attr	pisquare	102	bic_ysdpbakn	STRING			master	C-pisquare-master	SHP_MD_1_YSSECFTD_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSDPBAKN	CHAR	12	0						12
+shp_md_yssecftd_attr	pisquare	103	bic_ysmktyeld	DECIMAL(17,3)	SAP dec		master	C-pisquare-master	SHP_MD_1_YSSECFTD_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSMKTYELD	DEC	17	3						23
+shp_md_yssecftd_attr	pisquare	104	fs_ctr_tp	STRING			master	C-pisquare-master	SHP_MD_1_YSSECFTD_ATTR_yyyymmdd_hhmmss.CSV	FS_CTR_TP	CHAR	1	0						1
+shp_md_yssecftd_attr	pisquare	105	bic_ysncalrat	DECIMAL(17,3)	SAP dec		master	C-pisquare-master	SHP_MD_1_YSSECFTD_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSNCALRAT	DEC	17	3						23
+shp_md_yssecftd_attr	pisquare	106	bic_ysnputrat	DECIMAL(17,3)	SAP dec		master	C-pisquare-master	SHP_MD_1_YSSECFTD_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSNPUTRAT	DEC	17	3						23
+shp_md_yssecftd_attr	pisquare	107	bic_ysputrat	DECIMAL(17,3)	SAP dec		master	C-pisquare-master	SHP_MD_1_YSSECFTD_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSPUTRAT	DEC	17	3						23
+shp_md_yssecftd_attr	pisquare	108	bic_yscallrat	DECIMAL(17,3)	SAP dec		master	C-pisquare-master	SHP_MD_1_YSSECFTD_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSCALLRAT	DEC	17	3						23
+shp_md_yssecftd_attr	pisquare	109	bic_yasset_cl	STRING			master	C-pisquare-master	SHP_MD_1_YSSECFTD_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YASSET_CL	CHAR	2	0						2
+shp_md_yssecftd_attr	pisquare	110	bic_ysinstpcd	STRING			master	C-pisquare-master	SHP_MD_1_YSSECFTD_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSINSTPCD	CHAR	5	0						5
+shp_md_yssecftd_attr	pisquare	111	bic_ysfrequen	DECIMAL(17,3)	SAP dec		master	C-pisquare-master	SHP_MD_1_YSSECFTD_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSFREQUEN	DEC	17	3						23
+shp_md_yssecftd_attr	pisquare	112	bic_ysseniort	STRING			master	C-pisquare-master	SHP_MD_1_YSSECFTD_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSSENIORT	CHAR	2	0						2
+shp_md_yssecftd_attr	pisquare	113	bic_ysdalismf	STRING			master	C-pisquare-master	SHP_MD_1_YSSECFTD_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSDALISMF	CHAR	20	0						20
+shp_md_yssecftd_attr	pisquare	114	bic_yscusip	STRING			master	C-pisquare-master	SHP_MD_1_YSSECFTD_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSCUSIP	CHAR	20	0						20
+shp_md_yssecftd_attr	pisquare	115	bic_ysoptiony	STRING			master	C-pisquare-master	SHP_MD_1_YSSECFTD_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSOPTIONY	CHAR	10	0						10
+shp_md_yssecftd_attr	pisquare	116	bic_ysissuert	STRING			master	C-pisquare-master	SHP_MD_1_YSSECFTD_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSISSUERT	CHAR	2	0						2
+shp_md_yssecftd_attr	pisquare	117	bic_ysmatdat	TIMESTAMP	yyyymmdd		master	C-pisquare-master	SHP_MD_1_YSSECFTD_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSMATDAT	DATS	8	0						10
+shp_md_yssecftd_attr	pisquare	118	bic_ysnptdate	TIMESTAMP	yyyymmdd		master	C-pisquare-master	SHP_MD_1_YSSECFTD_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSNPTDATE	DATS	8	0						10
+shp_md_yssecftd_attr	pisquare	119	bic_ysreflidx	STRING			master	C-pisquare-master	SHP_MD_1_YSSECFTD_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSREFLIDX	CHAR	20	0						20
+shp_md_yssecftd_attr	pisquare	120	bic_yscaldate	TIMESTAMP	yyyymmdd		master	C-pisquare-master	SHP_MD_1_YSSECFTD_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSCALDATE	DATS	8	0						10
+shp_md_yssecftd_attr	pisquare	121	bic_zptispcod	STRING			master	C-pisquare-master	SHP_MD_1_YSSECFTD_ATTR_yyyymmdd_hhmmss.CSV	/BIC/ZPTISPCOD	CHAR	12	0						12
+shp_md_yssecftd_attr	pisquare	122	bic_ycondtype	STRING			master	C-pisquare-master	SHP_MD_1_YSSECFTD_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YCONDTYPE	NUMC	4	0						4
+shp_md_yssecftd_attr	pisquare	123	bic_ysfdudate	TIMESTAMP	yyyymmdd		master	C-pisquare-master	SHP_MD_1_YSSECFTD_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSFDUDATE	DATS	8	0						10
+shp_md_yssecftd_attr	pisquare	124	bic_ysciprate	STRING			master	C-pisquare-master	SHP_MD_1_YSSECFTD_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSCIPRATE	CHAR	11	0						11
+shp_md_yssecftd_attr	pisquare	125	bic_yscoi_cur	STRING			master	C-pisquare-master	SHP_MD_1_YSSECFTD_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSCOI_CUR	CUKY	5	0						5
+shp_md_yssecftd_attr	pisquare	126	bic_yscirrate	STRING			master	C-pisquare-master	SHP_MD_1_YSSECFTD_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSCIRRATE	CHAR	11	0						11
+shp_md_yssecftd_attr	pisquare	127	bic_zptcic	STRING			master	C-pisquare-master	SHP_MD_1_YSSECFTD_ATTR_yyyymmdd_hhmmss.CSV	/BIC/ZPTCIC	NUMC	4	0						4
+shp_md_yssecftd_attr	pisquare	128	bic_ysfrstcpp	STRING			master	C-pisquare-master	SHP_MD_1_YSSECFTD_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSFRSTCPP	CHAR	1	0						1
+shp_md_yssecftd_attr	pisquare	129	bic_ysidiflbp	STRING			master	C-pisquare-master	SHP_MD_1_YSSECFTD_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSIDIFLBP	CHAR	13	0						13
+shp_md_yssecftd_attr	pisquare	130	bic_yscondam	DECIMAL(17,2)	SAP dec		master	C-pisquare-master	SHP_MD_1_YSSECFTD_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSCONDAM	CURR	17	2						23
+shp_md_yssecftd_attr	pisquare	131	bic_ysfltprc	STRING			master	C-pisquare-master	SHP_MD_1_YSSECFTD_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSFLTPRC	CHAR	1	0						1
+shp_md_yssecftd_attr	pisquare	132	bic_ysopcvm	DECIMAL(38,10)	SAP float		master	C-pisquare-master	SHP_MD_1_YSSECFTD_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSOPCVM	FLTP	16	16						23
+shp_md_yssecftd_attr	pisquare	133	bic_yselgibl	STRING			master	C-pisquare-master	SHP_MD_1_YSSECFTD_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSELGIBL	CHAR	30	0						30
+shp_md_yssecftd_attr	pisquare	134	bic_ysaditmrg	DECIMAL(38,10)	SAP float		master	C-pisquare-master	SHP_MD_1_YSSECFTD_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSADITMRG	FLTP	16	16						23
+shp_md_yssecftd_attr	pisquare	135	bic_yscgfxfdt	TIMESTAMP	yyyymmdd		master	C-pisquare-master	SHP_MD_1_YSSECFTD_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSCGFXFDT	DATS	8	0						10
+shp_md_yssecftd_attr	pisquare	136	bic_ysintgrt	STRING			master	C-pisquare-master	SHP_MD_1_YSSECFTD_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSINTGRT	CHAR	30	0						30
+shp_md_yssecftd_attr	pisquare	137	bic_zsopcvmtp	STRING			master	C-pisquare-master	SHP_MD_1_YSSECFTD_ATTR_yyyymmdd_hhmmss.CSV	/BIC/ZSOPCVMTP	CHAR	1	0						1
+shp_md_yssecftd_attr	pisquare	138	bic_zsamfclas	STRING			master	C-pisquare-master	SHP_MD_1_YSSECFTD_ATTR_yyyymmdd_hhmmss.CSV	/BIC/ZSAMFCLAS	CHAR	2	0						2
+shp_md_yssecftd_attr	pisquare	139	bic_zsgarantt	STRING			master	C-pisquare-master	SHP_MD_1_YSSECFTD_ATTR_yyyymmdd_hhmmss.CSV	/BIC/ZSGARANTT	CHAR	50	0						50
+shp_md_yssecftd_attr	pisquare	140	bic_zsmmobdt	STRING			master	C-pisquare-master	SHP_MD_1_YSSECFTD_ATTR_yyyymmdd_hhmmss.CSV	/BIC/ZSMMOBDT	CHAR	30	0						30
+shp_md_yssecftd_attr	pisquare	141	bic_zsgvcr332	STRING			master	C-pisquare-master	SHP_MD_1_YSSECFTD_ATTR_yyyymmdd_hhmmss.CSV	/BIC/ZSGVCR332	CHAR	1	0						1
+shp_md_yssecftd_attr	pisquare	142	bic_zstemisv	STRING			master	C-pisquare-master	SHP_MD_1_YSSECFTD_ATTR_yyyymmdd_hhmmss.CSV	/BIC/ZSTEMISV	CHAR	30	0						30
+shp_md_yssecftd_attr	pisquare	143	bic_zsallege	STRING			master	C-pisquare-master	SHP_MD_1_YSSECFTD_ATTR_yyyymmdd_hhmmss.CSV	/BIC/ZSALLEGE	CHAR	4	0						4
+shp_md_yssecftd_attr	pisquare	144	fs_dimeth	TIMESTAMP	yyyymmdd		master	C-pisquare-master	SHP_MD_1_YSSECFTD_ATTR_yyyymmdd_hhmmss.CSV	FS_DIMETH	DATS	8	0						10
+shp_md_yssecftd_attr	pisquare	145	cml_bnlst	STRING			master	C-pisquare-master	SHP_MD_1_YSSECFTD_ATTR_yyyymmdd_hhmmss.CSV	CML_BNLST	NUMC	2	0						2
+shp_md_yssecftd_attr	pisquare	146	bic_zsbloom	STRING			master	C-pisquare-master	SHP_MD_1_YSSECFTD_ATTR_yyyymmdd_hhmmss.CSV	/BIC/ZSBLOOM	CHAR	20	0						20
+shp_md_yssecftd_attr	pisquare	147	bic_ysfcpdate	TIMESTAMP	yyyymmdd		master	C-pisquare-master	SHP_MD_1_YSSECFTD_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSFCPDATE	DATS	8	0						10
+shp_md_yssecftd_attr	pisquare	148	bic_zsdesdepm	STRING			master	C-pisquare-master	SHP_MD_1_YSSECFTD_ATTR_yyyymmdd_hhmmss.CSV	/BIC/ZSDESDEPM	CHAR	30	0						30
+shp_md_yssecftd_attr	pisquare	149	bic_ys_soursy	STRING			master	C-pisquare-master	SHP_MD_1_YSSECFTD_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YS_SOURSY	CHAR	10	0						10
+shp_md_yssecftd_attr	pisquare	150	bic_ysoprdtp	STRING			master	C-pisquare-master	SHP_MD_1_YSSECFTD_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSOPRDTP	CHAR	3	0						3
+shp_md_yssecftd_attr	pisquare	151	bic_zsdervind	STRING			master	C-pisquare-master	SHP_MD_1_YSSECFTD_ATTR_yyyymmdd_hhmmss.CSV	/BIC/ZSDERVIND	CHAR	1	0						1
+shp_md_yssecftd_attr	pisquare	152	bic_zsdenotic	STRING			master	C-pisquare-master	SHP_MD_1_YSSECFTD_ATTR_yyyymmdd_hhmmss.CSV	/BIC/ZSDENOTIC	CHAR	1	0						1
+shp_md_yssecftd_attr	pisquare	153	bic_zsdeguaid	STRING			master	C-pisquare-master	SHP_MD_1_YSSECFTD_ATTR_yyyymmdd_hhmmss.CSV	/BIC/ZSDEGUAID	CHAR	30	0						30
+shp_md_yssecftd_attr	pisquare	154	bic_zsdecdo	STRING			master	C-pisquare-master	SHP_MD_1_YSSECFTD_ATTR_yyyymmdd_hhmmss.CSV	/BIC/ZSDECDO	CHAR	1	0						1
+shp_md_yssecftd_attr	pisquare	155	bic_zsdenpcal	TIMESTAMP	yyyymmdd		master	C-pisquare-master	SHP_MD_1_YSSECFTD_ATTR_yyyymmdd_hhmmss.CSV	/BIC/ZSDENPCAL	DATS	8	0						10
+shp_md_yssecftd_attr	pisquare	156	bic_zsdenpput	TIMESTAMP	yyyymmdd		master	C-pisquare-master	SHP_MD_1_YSSECFTD_ATTR_yyyymmdd_hhmmss.CSV	/BIC/ZSDENPPUT	DATS	8	0						10
+shp_md_yssecftd_attr	pisquare	157	bic_zsdegthal	STRING			master	C-pisquare-master	SHP_MD_1_YSSECFTD_ATTR_yyyymmdd_hhmmss.CSV	/BIC/ZSDEGTHAL	CHAR	1	0						1
+shp_md_yssecftd_attr	pisquare	158	bic_zsdepbfnd	STRING			master	C-pisquare-master	SHP_MD_1_YSSECFTD_ATTR_yyyymmdd_hhmmss.CSV	/BIC/ZSDEPBFND	CHAR	1	0						1
+shp_md_yssecftd_attr	pisquare	159	bic_zsdemtsec	STRING			master	C-pisquare-master	SHP_MD_1_YSSECFTD_ATTR_yyyymmdd_hhmmss.CSV	/BIC/ZSDEMTSEC	CHAR	1	0						1
+shp_md_yssecftd_attr	pisquare	160	bic_zsdelnsec	STRING			master	C-pisquare-master	SHP_MD_1_YSSECFTD_ATTR_yyyymmdd_hhmmss.CSV	/BIC/ZSDELNSEC	CHAR	1	0						1
+shp_md_yssecftd_attr	pisquare	161	bic_zsdespred	DECIMAL(17,3)	SAP dec		master	C-pisquare-master	SHP_MD_1_YSSECFTD_ATTR_yyyymmdd_hhmmss.CSV	/BIC/ZSDESPRED	DEC	17	3						23
+shp_md_yssecftd_attr	pisquare	162	bic_zsdecolty	STRING			master	C-pisquare-master	SHP_MD_1_YSSECFTD_ATTR_yyyymmdd_hhmmss.CSV	/BIC/ZSDECOLTY	CHAR	50	0						50
+shp_md_yssecftd_attr	pisquare	163	bic_zsdescal	TIMESTAMP	yyyymmdd		master	C-pisquare-master	SHP_MD_1_YSSECFTD_ATTR_yyyymmdd_hhmmss.CSV	/BIC/ZSDESCAL	DATS	8	0						10
+shp_md_yssecftd_attr	pisquare	164	bic_zsdecrate	DECIMAL(17,3)	SAP dec		master	C-pisquare-master	SHP_MD_1_YSSECFTD_ATTR_yyyymmdd_hhmmss.CSV	/BIC/ZSDECRATE	DEC	17	3						23
+shp_md_yssecftd_attr	pisquare	165	bic_zsdetaxcl	STRING			master	C-pisquare-master	SHP_MD_1_YSSECFTD_ATTR_yyyymmdd_hhmmss.CSV	/BIC/ZSDETAXCL	CHAR	2	0						2
+shp_md_yssecftd_attr	pisquare	166	bic_zsde_emtn	STRING			master	C-pisquare-master	SHP_MD_1_YSSECFTD_ATTR_yyyymmdd_hhmmss.CSV	/BIC/ZSDE_EMTN	CHAR	1	0						1
+shp_md_yssecftd_attr	pisquare	167	bic_ysabspcla	STRING			master	C-pisquare-master	SHP_MD_1_YSSECFTD_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSABSPCLA	NUMC	3	0						3
+shp_md_yssecftd_attr	pisquare	168	bic_zsisp_cla	STRING			master	C-pisquare-master	SHP_MD_1_YSSECFTD_ATTR_yyyymmdd_hhmmss.CSV	/BIC/ZSISP_CLA	CHAR	10	0						10
+shp_md_yssecftd_attr	pisquare	169	bic_zsdeesfon	STRING			master	C-pisquare-master	SHP_MD_1_YSSECFTD_ATTR_yyyymmdd_hhmmss.CSV	/BIC/ZSDEESFON	CHAR	1	0						1
+shp_md_yssecftd_attr	pisquare	170	bic_zsdecorp	STRING			master	C-pisquare-master	SHP_MD_1_YSSECFTD_ATTR_yyyymmdd_hhmmss.CSV	/BIC/ZSDECORP	CHAR	2	0						2
+shp_md_yssecftd_attr	pisquare	171	bic_zsdemulmt	STRING			master	C-pisquare-master	SHP_MD_1_YSSECFTD_ATTR_yyyymmdd_hhmmss.CSV	/BIC/ZSDEMULMT	CHAR	1	0						1
+shp_md_yssecftd_attr	pisquare	172	bic_zsdenw673	STRING			master	C-pisquare-master	SHP_MD_1_YSSECFTD_ATTR_yyyymmdd_hhmmss.CSV	/BIC/ZSDENW673	CHAR	2	0						2
+shp_md_yssecftd_attr	pisquare	173	bic_zbesaccac	STRING			master	C-pisquare-master	SHP_MD_1_YSSECFTD_ATTR_yyyymmdd_hhmmss.CSV	/BIC/ZBESACCAC	CHAR	5	0						5
+shp_md_yssecftd_attr	pisquare	174	bic_zbesardti	STRING			master	C-pisquare-master	SHP_MD_1_YSSECFTD_ATTR_yyyymmdd_hhmmss.CSV	/BIC/ZBESARDTI	CHAR	1	0						1
+shp_md_yssecftd_attr	pisquare	175	bic_zbesacomc	STRING			master	C-pisquare-master	SHP_MD_1_YSSECFTD_ATTR_yyyymmdd_hhmmss.CSV	/BIC/ZBESACOMC	CHAR	5	0						5
+shp_md_yssecftd_attr	pisquare	176	bic_zbesocasc	STRING			master	C-pisquare-master	SHP_MD_1_YSSECFTD_ATTR_yyyymmdd_hhmmss.CSV	/BIC/ZBESOCASC	CHAR	10	0						10
+shp_md_yssecftd_attr	pisquare	177	bic_zbesrefcd	STRING			master	C-pisquare-master	SHP_MD_1_YSSECFTD_ATTR_yyyymmdd_hhmmss.CSV	/BIC/ZBESREFCD	CHAR	30	0						30
+shp_md_yssecftd_attr	pisquare	178	bic_zbesatc	STRING			master	C-pisquare-master	SHP_MD_1_YSSECFTD_ATTR_yyyymmdd_hhmmss.CSV	/BIC/ZBESATC	CHAR	10	0						10
+shp_md_yssecftd_attr	pisquare	179	bic_zlusardti	STRING			master	C-pisquare-master	SHP_MD_1_YSSECFTD_ATTR_yyyymmdd_hhmmss.CSV	/BIC/ZLUSARDTI	CHAR	1	0						1
+shp_md_yssecftd_attr	pisquare	180	bic_zlusrefcd	STRING			master	C-pisquare-master	SHP_MD_1_YSSECFTD_ATTR_yyyymmdd_hhmmss.CSV	/BIC/ZLUSREFCD	CHAR	30	0						30
+shp_md_yssecftd_attr	pisquare	181	bic_zlusatc	STRING			master	C-pisquare-master	SHP_MD_1_YSSECFTD_ATTR_yyyymmdd_hhmmss.CSV	/BIC/ZLUSATC	CHAR	10	0						10
+shp_md_yssecftd_attr	pisquare	182	bic_zbesloang	STRING			master	C-pisquare-master	SHP_MD_1_YSSECFTD_ATTR_yyyymmdd_hhmmss.CSV	/BIC/ZBESLOANG	CHAR	10	0						10
+shp_md_yssecftd_attr	pisquare	183	bic_zlusloang	STRING			master	C-pisquare-master	SHP_MD_1_YSSECFTD_ATTR_yyyymmdd_hhmmss.CSV	/BIC/ZLUSLOANG	CHAR	10	0						10
+shp_md_yssecftd_attr	pisquare	184	bic_yscicland	STRING			master	C-pisquare-master	SHP_MD_1_YSSECFTD_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSCICLAND	CHAR	3	0						3
+shp_md_yssecftd_attr	pisquare	185	bic_yscicacls	STRING			master	C-pisquare-master	SHP_MD_1_YSSECFTD_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSCICACLS	CHAR	2	0						2
+shp_md_yssecftd_attr	pisquare	186	bic_ysidcode	STRING			master	C-pisquare-master	SHP_MD_1_YSSECFTD_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSIDCODE	CHAR	20	0						20
+shp_md_yssecftd_attr	pisquare	187	bic_ysidcodtp	STRING			master	C-pisquare-master	SHP_MD_1_YSSECFTD_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSIDCODTP	CHAR	2	0						2
+shp_md_yssecftd_attr	pisquare	188	bic_ysric	STRING			master	C-pisquare-master	SHP_MD_1_YSSECFTD_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSRIC	CHAR	20	0						20
+shp_md_yssecftd_attr	pisquare	189	bic_ysfdnaut	STRING			master	C-pisquare-master	SHP_MD_1_YSSECFTD_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSFDNAUT	CHAR	10	0						10
+shp_md_yssecftd_text	pisquare	0	bic_yssecftd	STRING			master	C-pisquare-master	SHP_MD_1_YSSECFTD_TEXT_yyyymmdd_hhmmss.CSV	/BIC/YSSECFTD	CHAR	13	0					X	13
+shp_md_yssecftd_text	pisquare	1	txtsh	STRING			master	C-pisquare-master	SHP_MD_1_YSSECFTD_TEXT_yyyymmdd_hhmmss.CSV	TXTSH	CHAR	20	0						20
+shp_md_yssecftd_text	pisquare	2	txtlg	STRING			master	C-pisquare-master	SHP_MD_1_YSSECFTD_TEXT_yyyymmdd_hhmmss.CSV	TXTLG	CHAR	60	0						60
+shp_md_yssrprod_attr	pisquare	0	fs_ctr_tp	STRING			master	C-pisquare-master	SHP_MD_1_YSSRPROD_ATTR_yyyymmdd_hhmmss.CSV	FS_CTR_TP	CHAR	1	0					X	1
+shp_md_yssrprod_attr	pisquare	1	comp_code	STRING			master	C-pisquare-master	SHP_MD_1_YSSRPROD_ATTR_yyyymmdd_hhmmss.CSV	COMP_CODE	CHAR	4	0					X	4
+shp_md_yssrprod_attr	pisquare	2	bic_yspositi	STRING			master	C-pisquare-master	SHP_MD_1_YSSRPROD_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSPOSITI1	CHAR	10	0					X	10
+shp_md_yssrprod_attr	pisquare	3	bic_yscompco	STRING			master	C-pisquare-master	SHP_MD_1_YSSRPROD_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSCOMPCO	CHAR	4	0					X	4
+shp_md_yssrprod_attr	pisquare	4	bic_ysproduct	STRING			master	C-pisquare-master	SHP_MD_1_YSSRPROD_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSPRODUCT	CHAR	15	0					X	15
+shp_md_yssrprod_attr	pisquare	5	bic_yssrprod	STRING			master	C-pisquare-master	SHP_MD_1_YSSRPROD_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSSRPROD	CHAR	15	0					X	15
+shp_md_yssrprod_attr	pisquare	6	dateto	TIMESTAMP	yyyymmdd		master	C-pisquare-master	SHP_MD_1_YSSRPROD_ATTR_yyyymmdd_hhmmss.CSV	DATETO	DATS	8	0					X	8
+shp_md_yssrprod_attr	pisquare	7	datefrom	TIMESTAMP	yyyymmdd		master	C-pisquare-master	SHP_MD_1_YSSRPROD_ATTR_yyyymmdd_hhmmss.CSV	DATEFROM	DATS	8	0						8
+shp_md_yssrprod_attr	pisquare	8	bic_zsdeseqnb	STRING			master	C-pisquare-master	SHP_MD_1_YSSRPROD_ATTR_yyyymmdd_hhmmss.CSV	/BIC/ZSDESEQNB	NUMC	4	0						4
+shp_md_yssrprod_attr	pisquare	9	bic_zsdecovar	STRING			master	C-pisquare-master	SHP_MD_1_YSSRPROD_ATTR_yyyymmdd_hhmmss.CSV	/BIC/ZSDECOVAR	CHAR	4	0						4
+shp_md_yssrprod_attr	pisquare	10	fs_sec_ct	STRING			master	C-pisquare-master	SHP_MD_1_YSSRPROD_ATTR_yyyymmdd_hhmmss.CSV	FS_SEC_CT	NUMC	3	0						3
+shp_md_yssrprod_attr	pisquare	11	bic_ys_soursy	STRING			master	C-pisquare-master	SHP_MD_1_YSSRPROD_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YS_SOURSY	CHAR	10	0						10
+shp_md_yssrprod_attr	pisquare	12	bic_ysprdtyp	STRING			master	C-pisquare-master	SHP_MD_1_YSSRPROD_ATTR_yyyymmdd_hhmmss.CSV	/BIC/YSPRDTYP	CHAR	3	0						3
+shp_md_yssrprod_attr	pisquare	13	cfm_sec_ac	STRING			master	C-pisquare-master	SHP_MD_1_YSSRPROD_ATTR_yyyymmdd_hhmmss.CSV	CFM_SEC_AC	CHAR	10	0						10
+shp_md_yssrprod_attr	pisquare	14	bic_zsdeacgrp	STRING			master	C-pisquare-master	SHP_MD_1_YSSRPROD_ATTR_yyyymmdd_hhmmss.CSV	/BIC/ZSDEACGRP	CHAR	10	0						10
+shp_md_yssrprod_attr	pisquare	15	bic_zsdedvno	STRING			master	C-pisquare-master	SHP_MD_1_YSSRPROD_ATTR_yyyymmdd_hhmmss.CSV	/BIC/ZSDEDVNO	CHAR	5	0						5
+shp_md_yssrprod_attr	pisquare	16	bic_zsdedvuan	STRING			master	C-pisquare-master	SHP_MD_1_YSSRPROD_ATTR_yyyymmdd_hhmmss.CSV	/BIC/ZSDEDVUAN	CHAR	2	0						2
+shp_md_yssrprod_attr	pisquare	17	bic_zsdem7_0	STRING			master	C-pisquare-master	SHP_MD_1_YSSRPROD_ATTR_yyyymmdd_hhmmss.CSV	/BIC/ZSDEM7101	CHAR	4	0						4
+shp_md_yssrprod_attr	pisquare	18	bic_zsdem7_02	STRING			master	C-pisquare-master	SHP_MD_1_YSSRPROD_ATTR_yyyymmdd_hhmmss.CSV	/BIC/ZSDEM7102	CHAR	4	0						4
+shp_md_yssrprod_attr	pisquare	19	bic_zsdem7_03	STRING			master	C-pisquare-master	SHP_MD_1_YSSRPROD_ATTR_yyyymmdd_hhmmss.CSV	/BIC/ZSDEM7103	CHAR	4	0						4
+shp_md_yssrprod_attr	pisquare	20	bic_zsdem7_04	STRING			master	C-pisquare-master	SHP_MD_1_YSSRPROD_ATTR_yyyymmdd_hhmmss.CSV	/BIC/ZSDEM7104	CHAR	4	0						4
+shp_md_yssrprod_attr	pisquare	21	bic_zsdemspar	STRING			master	C-pisquare-master	SHP_MD_1_YSSRPROD_ATTR_yyyymmdd_hhmmss.CSV	/BIC/ZSDEMSPAR	CHAR	2	0						2
+shp_md_yssrprod_attr	pisquare	22	bic_zsdemw_0	STRING			master	C-pisquare-master	SHP_MD_1_YSSRPROD_ATTR_yyyymmdd_hhmmss.CSV	/BIC/ZSDEMW101	CHAR	4	0						4
+shp_md_yssrprod_attr	pisquare	23	bic_zsdemw_02	STRING			master	C-pisquare-master	SHP_MD_1_YSSRPROD_ATTR_yyyymmdd_hhmmss.CSV	/BIC/ZSDEMW102	CHAR	5	0						5
+shp_md_yssrprod_attr	pisquare	24	bic_zsdemw20	STRING			master	C-pisquare-master	SHP_MD_1_YSSRPROD_ATTR_yyyymmdd_hhmmss.CSV	/BIC/ZSDEMW201	CHAR	5	0						5
+shp_md_yssrprod_attr	pisquare	25	bic_zsdemw600	STRING			master	C-pisquare-master	SHP_MD_1_YSSRPROD_ATTR_yyyymmdd_hhmmss.CSV	/BIC/ZSDEMW600	CHAR	4	0						4
+shp_md_yssrprod_attr	pisquare	26	bic_zsdemw670	STRING			master	C-pisquare-master	SHP_MD_1_YSSRPROD_ATTR_yyyymmdd_hhmmss.CSV	/BIC/ZSDEMW670	CHAR	10	0						10
+shp_md_yssrprod_attr	pisquare	27	bic_zsdemw67	STRING			master	C-pisquare-master	SHP_MD_1_YSSRPROD_ATTR_yyyymmdd_hhmmss.CSV	/BIC/ZSDEMW671	CHAR	10	0						10
+shp_md_yssrprod_attr	pisquare	28	bic_zsdemw703	STRING			master	C-pisquare-master	SHP_MD_1_YSSRPROD_ATTR_yyyymmdd_hhmmss.CSV	/BIC/ZSDEMW703	CHAR	1	0						1
+shp_md_yssrprod_attr	pisquare	29	bic_zsdemw704	STRING			master	C-pisquare-master	SHP_MD_1_YSSRPROD_ATTR_yyyymmdd_hhmmss.CSV	/BIC/ZSDEMW704	CHAR	2	0						2
+shp_md_yssrprod_attr	pisquare	30	bic_zsdemw705	STRING			master	C-pisquare-master	SHP_MD_1_YSSRPROD_ATTR_yyyymmdd_hhmmss.CSV	/BIC/ZSDEMW705	CHAR	2	0						2
+shp_md_yssrprod_attr	pisquare	31	bic_zsdemw706	STRING			master	C-pisquare-master	SHP_MD_1_YSSRPROD_ATTR_yyyymmdd_hhmmss.CSV	/BIC/ZSDEMW706	CHAR	1	0						1
+shp_md_yssrprod_attr	pisquare	32	bic_zsdemw708	STRING			master	C-pisquare-master	SHP_MD_1_YSSRPROD_ATTR_yyyymmdd_hhmmss.CSV	/BIC/ZSDEMW708	CHAR	1	0						1
+shp_md_yssrprod_attr	pisquare	33	bic_zsdemwid	STRING			master	C-pisquare-master	SHP_MD_1_YSSRPROD_ATTR_yyyymmdd_hhmmss.CSV	/BIC/ZSDEMWID	CHAR	22	0						22
+shp_md_yssrprod_attr	pisquare	34	bic_zsdestkba	STRING			master	C-pisquare-master	SHP_MD_1_YSSRPROD_ATTR_yyyymmdd_hhmmss.CSV	/BIC/ZSDESTKBA	CHAR	1	0						1
+shp_md_yssrprod_attr	pisquare	35	bic_zsdetypba	STRING			master	C-pisquare-master	SHP_MD_1_YSSRPROD_ATTR_yyyymmdd_hhmmss.CSV	/BIC/ZSDETYPBA	CHAR	6	0						6
+shp_md_yssrprod_attr	pisquare	36	fs_edate	TIMESTAMP	yyyymmdd		master	C-pisquare-master	SHP_MD_1_YSSRPROD_ATTR_yyyymmdd_hhmmss.CSV	FS_EDATE	DATS	8	0						8
+shp_md_yssrprod_attr	pisquare	37	fs_loan_cl	STRING			master	C-pisquare-master	SHP_MD_1_YSSRPROD_ATTR_yyyymmdd_hhmmss.CSV	FS_LOAN_CL	NUMC	3	0						3
+shp_md_yssrprod_attr	pisquare	38	fs_assgi	STRING			master	C-pisquare-master	SHP_MD_1_YSSRPROD_ATTR_yyyymmdd_hhmmss.CSV	FS_ASSGI	NUMC	4	0						4
+shp_md_yssrprod_attr	pisquare	39	bic_zsdeembeg	TIMESTAMP	yyyymmdd		master	C-pisquare-master	SHP_MD_1_YSSRPROD_ATTR_yyyymmdd_hhmmss.CSV	/BIC/ZSDEEMBEG	DATS	8	0						8
+shp_md_yssrprod_attr	pisquare	40	bic_zsdekzdnk	STRING			master	C-pisquare-master	SHP_MD_1_YSSRPROD_ATTR_yyyymmdd_hhmmss.CSV	/BIC/ZSDEKZDNK	CHAR	1	0						1
+shp_md_yssrprod_attr	pisquare	41	bic_zsdegarca	DECIMAL(17,2)	SAP dec		master	C-pisquare-master	SHP_MD_1_YSSRPROD_ATTR_yyyymmdd_hhmmss.CSV	/BIC/ZSDEGARCA	CURR	17	2						17
+shp_md_yssrprod_attr	pisquare	42	bic_zsdeskuea	STRING			master	C-pisquare-master	SHP_MD_1_YSSRPROD_ATTR_yyyymmdd_hhmmss.CSV	/BIC/ZSDESKUEA	NUMC	3	0						3
+shp_md_yssrprod_attr	pisquare	43	bic_zsdeskued	STRING			master	C-pisquare-master	SHP_MD_1_YSSRPROD_ATTR_yyyymmdd_hhmmss.CSV	/BIC/ZSDESKUED	NUMC	3	0						3
+shp_md_yssrprod_attr	pisquare	44	bic_zsdetyplz	STRING			master	C-pisquare-master	SHP_MD_1_YSSRPROD_ATTR_yyyymmdd_hhmmss.CSV	/BIC/ZSDETYPLZ	NUMC	4	0						4
+shp_md_yssrprod_attr	pisquare	45	bic_zsdecptyp	STRING			master	C-pisquare-master	SHP_MD_1_YSSRPROD_ATTR_yyyymmdd_hhmmss.CSV	/BIC/ZSDECPTYP	CHAR	12	0						12
+shp_md_yssrprod_attr	pisquare	46	bic_zsdeissub	STRING			master	C-pisquare-master	SHP_MD_1_YSSRPROD_ATTR_yyyymmdd_hhmmss.CSV	/BIC/ZSDEISSUB	CHAR	1	0						1
+shp_md_yssrprod_attr	pisquare	47	bic_zsdetpbke	STRING			master	C-pisquare-master	SHP_MD_1_YSSRPROD_ATTR_yyyymmdd_hhmmss.CSV	/BIC/ZSDETPBKE	CHAR	16	0						16
+shp_md_yssrprod_attr	pisquare	48	bic_zsdemwspa	STRING			master	C-pisquare-master	SHP_MD_1_YSSRPROD_ATTR_yyyymmdd_hhmmss.CSV	/BIC/ZSDEMWSPA	CHAR	2	0						2
+shp_md_yssrprod_attr	pisquare	49	bic_zsdemwsto	STRING			master	C-pisquare-master	SHP_MD_1_YSSRPROD_ATTR_yyyymmdd_hhmmss.CSV	/BIC/ZSDEMWSTO	CHAR	1	0						1
+shp_md_yssrprod_attr	pisquare	50	bic_zsdemaxva	TIMESTAMP	yyyymmdd		master	C-pisquare-master	SHP_MD_1_YSSRPROD_ATTR_yyyymmdd_hhmmss.CSV	/BIC/ZSDEMAXVA	DATS	8	0						8
+shp_md_yssrprod_attr	pisquare	51	currency	STRING			master	C-pisquare-master	SHP_MD_1_YSSRPROD_ATTR_yyyymmdd_hhmmss.CSV	CURRENCY	CUKY	5	0						5
+shp_md_zsdeso06	pisquare	0	bic_zsdebshie	STRING			master	C-pisquare-master	SHP_MD_2_ZSDESO06_yyyymmdd_hhmmss.CSV	/BIC/ZSDEBSHIE	CHAR	10	0					X	10
+shp_md_zsdeso06	pisquare	1	bic_zsdeseqnb	STRING			master	C-pisquare-master	SHP_MD_2_ZSDESO06_yyyymmdd_hhmmss.CSV	/BIC/ZSDESEQNB	NUMC	4	0					X	4
+shp_md_zsdeso06	pisquare	2	gl_account	STRING			master	C-pisquare-master	SHP_MD_2_ZSDESO06_yyyymmdd_hhmmss.CSV	GL_ACCOUNT	CHAR	10	0						10
+shp_md_zsdeso06	pisquare	3	chrt_accts	STRING			master	C-pisquare-master	SHP_MD_2_ZSDESO06_yyyymmdd_hhmmss.CSV	CHRT_ACCTS	CHAR	4	0						4
+shp_md_zsdeso06	pisquare	4	recordmode	STRING			master	C-pisquare-master	SHP_MD_2_ZSDESO06_yyyymmdd_hhmmss.CSV	RECORDMODE	CHAR	1	0						1
+shp_md_zsdeso06	pisquare	5	bic_zsdenode	STRING			master	C-pisquare-master	SHP_MD_2_ZSDESO06_yyyymmdd_hhmmss.CSV	/BIC/ZSDENODE	NUMC	8	0						8
+shp_md_zsdeso06	pisquare	6	bic_zsdelevel	STRING			master	C-pisquare-master	SHP_MD_2_ZSDESO06_yyyymmdd_hhmmss.CSV	/BIC/ZSDELEVEL	NUMC	2	0						2
+shp_md_zsdeso06	pisquare	7	bic_zsdeparid	STRING			master	C-pisquare-master	SHP_MD_2_ZSDESO06_yyyymmdd_hhmmss.CSV	/BIC/ZSDEPARID	NUMC	8	0						8
+shp_md_zsdeso06	pisquare	8	bic_zsdechild	STRING			master	C-pisquare-master	SHP_MD_2_ZSDESO06_yyyymmdd_hhmmss.CSV	/BIC/ZSDECHILD	NUMC	8	0						8
+shp_md_zsdeso06	pisquare	9	bic_zsdenext	STRING			master	C-pisquare-master	SHP_MD_2_ZSDESO06_yyyymmdd_hhmmss.CSV	/BIC/ZSDENEXT	NUMC	8	0						8
+shp_md_zsdeso06	pisquare	10	dateto	TIMESTAMP	yyyymmdd		master	C-pisquare-master	SHP_MD_2_ZSDESO06_yyyymmdd_hhmmss.CSV	DATETO	DATS	8	0						10
+shp_md_zsdeso06	pisquare	11	datefrom	TIMESTAMP	yyyymmdd		master	C-pisquare-master	SHP_MD_2_ZSDESO06_yyyymmdd_hhmmss.CSV	DATEFROM	DATS	8	0						10
+shp_md_zsdeso06	pisquare	12	bic_zsdebspar	STRING			master	C-pisquare-master	SHP_MD_2_ZSDESO06_yyyymmdd_hhmmss.CSV	/BIC/ZSDEBSPAR	CHAR	10	0						10
+shp_md_zsdeso06	pisquare	13	txtsh	STRING			master	C-pisquare-master	SHP_MD_2_ZSDESO06_yyyymmdd_hhmmss.CSV	TXTSH	CHAR	20	0						20
+shp_md_zsdeso06	pisquare	14	txtmd	STRING			master	C-pisquare-master	SHP_MD_2_ZSDESO06_yyyymmdd_hhmmss.CSV	TXTMD	CHAR	40	0						40
+shp_md_zsdeso06	pisquare	15	txtlg	STRING			master	C-pisquare-master	SHP_MD_2_ZSDESO06_yyyymmdd_hhmmss.CSV	TXTLG	CHAR	60	0						60

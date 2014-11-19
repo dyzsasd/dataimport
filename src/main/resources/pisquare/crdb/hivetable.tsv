@@ -1,0 +1,216 @@
+crdb_der	pisquare	0	type_of_derivative_code	STRING		Type of Derivative(Code)	crdb	C-pisquare-crdb	RPT_DER_yyyymm.csv	Type of Derivative(Code)	Text								
+crdb_der	pisquare	1	sophis_position_id	STRING		Sophis Position ID	crdb	C-pisquare-crdb	RPT_DER_yyyymm.csv	Sophis Position ID	Text								
+crdb_der	pisquare	2	axa_entity	STRING		AXA Entity	crdb	C-pisquare-crdb	RPT_DER_yyyymm.csv	AXA Entity	Text								
+crdb_der	pisquare	3	nature_of_fund	STRING		Nature Of Fund	crdb	C-pisquare-crdb	RPT_DER_yyyymm.csv	Nature Of Fund	Text								
+crdb_der	pisquare	4	shareholder_exposure	STRING		Shareholder Exposure	crdb	C-pisquare-crdb	RPT_DER_yyyymm.csv	Shareholder Exposure	Text								
+crdb_der	pisquare	5	company_name	STRING		Company Name	crdb	C-pisquare-crdb	RPT_DER_yyyymm.csv	Company Name	Text								
+crdb_der	pisquare	6	portfolio	STRING		Portfolio	crdb	C-pisquare-crdb	RPT_DER_yyyymm.csv	Portfolio	Text								
+crdb_der	pisquare	7	ara_portfolio	STRING		ARA Portfolio	crdb	C-pisquare-crdb	RPT_DER_yyyymm.csv	ARA Portfolio	Text								
+crdb_der	pisquare	8	type_of_derivative_name	STRING		Type of Derivative (name)	crdb	C-pisquare-crdb	RPT_DER_yyyymm.csv	Type of Derivative (name)	Text								
+crdb_der	pisquare	9	long_payer_short_receiver	STRING		Long (Payer) _ Short (receiver)	crdb	C-pisquare-crdb	RPT_DER_yyyymm.csv	Long (Payer) _ Short (receiver)	Text								
+crdb_der	pisquare	10	axa_instrument	STRING		Axa Instrument	crdb	C-pisquare-crdb	RPT_DER_yyyymm.csv	Axa Instrument	Text								
+crdb_der	pisquare	11	instrument_name	STRING		Instrument Name	crdb	C-pisquare-crdb	RPT_DER_yyyymm.csv	Instrument Name	Text								
+crdb_der	pisquare	12	market_value	DECIMAL(20,4)		Market Value	crdb	C-pisquare-crdb	RPT_DER_yyyymm.csv	Market Value	Number			4 decimal char, 20 before separator, not spaces beween char, use point separator					
+crdb_der	pisquare	13	mtm_after_collateral	DECIMAL(20,4)		MTM After Collateral	crdb	C-pisquare-crdb	RPT_DER_yyyymm.csv	MTM After Collateral	Number			4 decimal char, 20 before separator, not spaces beween char, use point separator					
+crdb_der	pisquare	14	notional	DECIMAL(20,4)		Notional	crdb	C-pisquare-crdb	RPT_DER_yyyymm.csv	Notional	Number			4 decimal char, 20 before separator, not spaces beween char, use point separator					
+crdb_der	pisquare	15	quantity	DECIMAL(20,4)		Quantity	crdb	C-pisquare-crdb	RPT_DER_yyyymm.csv	Quantity	Number			4 decimal char, 20 before separator, not spaces beween char, use point separator					
+crdb_der	pisquare	16	economic_exposure	STRING		Economic Exposure	crdb	C-pisquare-crdb	RPT_DER_yyyymm.csv	Economic Exposure	Text								
+crdb_der	pisquare	17	asset_manager	STRING		Asset Manager	crdb	C-pisquare-crdb	RPT_DER_yyyymm.csv	Asset Manager	Text								
+crdb_der	pisquare	18	valuation_type	STRING		Valuation Type	crdb	C-pisquare-crdb	RPT_DER_yyyymm.csv	Valuation Type	Text								
+crdb_der	pisquare	19	unit_price	DECIMAL(20,4)		Unit Price	crdb	C-pisquare-crdb	RPT_DER_yyyymm.csv	Unit Price	Number			4 decimal char, 20 before separator, not spaces beween char, use point separator					
+crdb_der	pisquare	20	unit_price_currency	STRING		Unit Price Currency	crdb	C-pisquare-crdb	RPT_DER_yyyymm.csv	Unit Price Currency	Text			ISO code					
+crdb_der	pisquare	21	unit_price_exchange_rate	DECIMAL(20,4)		Unit price Exchange Rate	crdb	C-pisquare-crdb	RPT_DER_yyyymm.csv	Unit price Exchange Rate	Number			4 decimal char, 20 before separator, not spaces beween char, use point separator					
+crdb_der	pisquare	22	issue_date	TIMESTAMP	yyyymmdd	Issue Date	crdb	C-pisquare-crdb	RPT_DER_yyyymm.csv	Issue Date	Date			yyyyMMdd					
+crdb_der	pisquare	23	starting_date	TIMESTAMP	yyyymmdd	Starting Date	crdb	C-pisquare-crdb	RPT_DER_yyyymm.csv	Starting Date	Date			yyyyMMdd					
+crdb_der	pisquare	24	maturity_date	TIMESTAMP	yyyymmdd	Maturity Date	crdb	C-pisquare-crdb	RPT_DER_yyyymm.csv	Maturity Date	Date			yyyyMMdd					
+crdb_der	pisquare	25	maturity_category	STRING		Maturity Category	crdb	C-pisquare-crdb	RPT_DER_yyyymm.csv	Maturity Category	Text								
+crdb_der	pisquare	26	currency	STRING		Currency	crdb	C-pisquare-crdb	RPT_DER_yyyymm.csv	Currency	Text			ISO code					
+crdb_der	pisquare	27	package_code	STRING		Package Code	crdb	C-pisquare-crdb	RPT_DER_yyyymm.csv	Package Code	Text								
+crdb_der	pisquare	28	basket_strategy	STRING		Basket_strategy	crdb	C-pisquare-crdb	RPT_DER_yyyymm.csv	Basket_strategy	Text								
+crdb_der	pisquare	29	segment	STRING		Segment	crdb	C-pisquare-crdb	RPT_DER_yyyymm.csv	Segment	Text			Segment for Segmental Reporting					
+crdb_der	pisquare	30	magnitude_account	STRING		Magnitude Account	crdb	C-pisquare-crdb	RPT_DER_yyyymm.csv	Magnitude Account	Text								
+crdb_der	pisquare	31	magnitude_package	STRING		Magnitude Package	crdb	C-pisquare-crdb	RPT_DER_yyyymm.csv	Magnitude Package	Text								
+crdb_der	pisquare	32	magnitude_annex_account	STRING		Magnitude Annex Account	crdb	C-pisquare-crdb	RPT_DER_yyyymm.csv	Magnitude Annex Account	Text								
+crdb_der	pisquare	33	hedge_accounting_category	STRING		Hedge Accounting Category	crdb	C-pisquare-crdb	RPT_DER_yyyymm.csv	Hedge Accounting Category	Text								
+crdb_der	pisquare	34	mutual_fund_code	STRING		Mutual Fund code	crdb	C-pisquare-crdb	RPT_DER_yyyymm.csv	Mutual Fund code	Text								
+crdb_der	pisquare	35	mutual_fund_name	STRING		Mutual Fund Name	crdb	C-pisquare-crdb	RPT_DER_yyyymm.csv	Mutual Fund Name	Text								
+crdb_der	pisquare	36	mutual_fund_code_2	STRING		Mutual Fund Code 2	crdb	C-pisquare-crdb	RPT_DER_yyyymm.csv	Mutual Fund Code 2	Text								
+crdb_der	pisquare	37	mutual_fund_name_2	STRING		Mutual Fund Name 2	crdb	C-pisquare-crdb	RPT_DER_yyyymm.csv	Mutual Fund Name 2	Text								
+crdb_der	pisquare	38	isda	STRING		ISDA	crdb	C-pisquare-crdb	RPT_DER_yyyymm.csv	ISDA	Text								
+crdb_der	pisquare	39	counterparty_name	STRING		Counterparty Name	crdb	C-pisquare-crdb	RPT_DER_yyyymm.csv	Counterparty Name	Text								
+crdb_der	pisquare	40	counterparty_code	STRING		Counterparty Code	crdb	C-pisquare-crdb	RPT_DER_yyyymm.csv	Counterparty Code	Text								
+crdb_der	pisquare	41	counterparty_rating	STRING		Counterparty rating	crdb	C-pisquare-crdb	RPT_DER_yyyymm.csv	Counterparty rating	Text			AXA rating list					
+crdb_der	pisquare	42	counterparty_rating_origin	STRING		counterparty rating origin	crdb	C-pisquare-crdb	RPT_DER_yyyymm.csv	counterparty rating origin	Text								
+crdb_der	pisquare	43	counterparty_sector	STRING		counterparty sector	crdb	C-pisquare-crdb	RPT_DER_yyyymm.csv	counterparty sector	Text								
+crdb_der	pisquare	44	counterparty_issuer_industry_group	STRING		Counterparty issuer industry group	crdb	C-pisquare-crdb	RPT_DER_yyyymm.csv	Counterparty issuer industry group	Text								
+crdb_der	pisquare	45	counterparty_issuer_industry_subgroup	STRING		Counterparty issuer industry subgroup	crdb	C-pisquare-crdb	RPT_DER_yyyymm.csv	Counterparty issuer industry subgroup	Text								
+crdb_der	pisquare	46	counterparty_country	STRING		Counterparty Country	crdb	C-pisquare-crdb	RPT_DER_yyyymm.csv	Counterparty Country	Text								
+crdb_der	pisquare	47	counterparty_ultimateshareholder_name	STRING		Counterparty ultimateshareholder name	crdb	C-pisquare-crdb	RPT_DER_yyyymm.csv	Counterparty ultimateshareholder name	Text								
+crdb_der	pisquare	48	counterparty_ultimateshareholder_axa_rating	STRING		Counterparty ultimateshareholder Axa rating	crdb	C-pisquare-crdb	RPT_DER_yyyymm.csv	Counterparty ultimateshareholder Axa rating	Text			AXA rating list					
+crdb_der	pisquare	49	counterparty_ultimateshareholder_rating_origin	STRING		Counterparty ultimateshareholder rating origin	crdb	C-pisquare-crdb	RPT_DER_yyyymm.csv	Counterparty ultimateshareholder rating origin	Text								
+crdb_der	pisquare	50	counterparty_ultimateshareholder_country	STRING		Counterparty ultimateshareholder Country	crdb	C-pisquare-crdb	RPT_DER_yyyymm.csv	Counterparty ultimateshareholder Country	Text								
+crdb_der	pisquare	51	rl_issuer_name	STRING		RL Issuer Name	crdb	C-pisquare-crdb	RPT_DER_yyyymm.csv	RL Issuer Name	Text								
+crdb_der	pisquare	52	rl_issuer_idbb_company	STRING		RL Issuer IDBB Company	crdb	C-pisquare-crdb	RPT_DER_yyyymm.csv	RL Issuer IDBB Company	Text								
+crdb_der	pisquare	53	rl_issuer_rating	STRING		RL Issuer Rating	crdb	C-pisquare-crdb	RPT_DER_yyyymm.csv	RL Issuer Rating	Text			AXA rating list					
+crdb_der	pisquare	54	rl_issuer_rating_origin	STRING		RL Issuer Rating Origin	crdb	C-pisquare-crdb	RPT_DER_yyyymm.csv	RL Issuer Rating Origin	Text								
+crdb_der	pisquare	55	rl_issuer_sector	STRING		RL Issuer Sector	crdb	C-pisquare-crdb	RPT_DER_yyyymm.csv	RL Issuer Sector	Text								
+crdb_der	pisquare	56	rl_issuer_industry_group	STRING		RL issuer industry group	crdb	C-pisquare-crdb	RPT_DER_yyyymm.csv	RL issuer industry group	Text								
+crdb_der	pisquare	57	rl_issuer_industry_subgroup	STRING		RL issuer industry subgroup	crdb	C-pisquare-crdb	RPT_DER_yyyymm.csv	RL issuer industry subgroup	Text								
+crdb_der	pisquare	58	rl_issuer_country	STRING		RL Issuer Country	crdb	C-pisquare-crdb	RPT_DER_yyyymm.csv	RL Issuer Country	Text								
+crdb_der	pisquare	59	rl_ultimateshareholder_name	STRING		RL ultimateshareholder Name	crdb	C-pisquare-crdb	RPT_DER_yyyymm.csv	RL ultimateshareholder Name	Text								
+crdb_der	pisquare	60	rl_ultimateshareholder_axa_rating	STRING		RL ultimateshareholder Axa Rating	crdb	C-pisquare-crdb	RPT_DER_yyyymm.csv	RL ultimateshareholder Axa Rating	Text			AXA rating list					
+crdb_der	pisquare	61	rl_ultimateshareholder_rating_origin	STRING		RL ultimateshareholder Rating Origin	crdb	C-pisquare-crdb	RPT_DER_yyyymm.csv	RL ultimateshareholder Rating Origin	Text								
+crdb_der	pisquare	62	rl_ultimateshareholder_country	STRING		RL ultimateshareholder Country	crdb	C-pisquare-crdb	RPT_DER_yyyymm.csv	RL ultimateshareholder Country	Text								
+crdb_der	pisquare	63	rl_index_name	STRING		RL Index Name	crdb	C-pisquare-crdb	RPT_DER_yyyymm.csv	RL Index Name	Text								
+crdb_der	pisquare	64	rl_index_type	STRING		RL Index Type	crdb	C-pisquare-crdb	RPT_DER_yyyymm.csv	RL Index Type	Text								
+crdb_der	pisquare	65	rl_security_code_type	STRING		RL Security Code Type	crdb	C-pisquare-crdb	RPT_DER_yyyymm.csv	RL Security Code Type	Text								
+crdb_der	pisquare	66	rl_security_code	STRING		RL Security Code	crdb	C-pisquare-crdb	RPT_DER_yyyymm.csv	RL Security Code	Text								
+crdb_der	pisquare	67	rl_security_rating	STRING		RL Security Rating	crdb	C-pisquare-crdb	RPT_DER_yyyymm.csv	RL Security Rating	Text			AXA rating list					
+crdb_der	pisquare	68	rl_security_rating_origin	STRING		RL Security Rating Origin	crdb	C-pisquare-crdb	RPT_DER_yyyymm.csv	RL Security Rating Origin	Text								
+crdb_der	pisquare	69	rl_security_seniority	STRING		RL Security Seniority	crdb	C-pisquare-crdb	RPT_DER_yyyymm.csv	RL Security Seniority	Text								
+crdb_der	pisquare	70	rl_nature_of_underlying	STRING		RL Nature of Underlying	crdb	C-pisquare-crdb	RPT_DER_yyyymm.csv	RL Nature of Underlying	Text								
+crdb_der	pisquare	71	rl_payment_frequency	DECIMAL(20,4)		RL Payment Frequency	crdb	C-pisquare-crdb	RPT_DER_yyyymm.csv	RL Payment Frequency	Number			4 decimal char, 20 before separator, not spaces beween char, use point separator					
+crdb_der	pisquare	72	rl_spread_strike_forex	DECIMAL(20,4)		RL Spread_Strike_Forex	crdb	C-pisquare-crdb	RPT_DER_yyyymm.csv	RL Spread_Strike_Forex	Number			4 decimal char, 20 before separator, not spaces beween char, use point separator					
+crdb_der	pisquare	73	rl_spot_of_reference	DECIMAL(20,4)		RL Spot Of Reference	crdb	C-pisquare-crdb	RPT_DER_yyyymm.csv	RL Spot Of Reference	Number			4 decimal char, 20 before separator, not spaces beween char, use point separator					
+crdb_der	pisquare	74	rl_currency	STRING		RL Currency	crdb	C-pisquare-crdb	RPT_DER_yyyymm.csv	RL Currency	Text			ISO code					
+crdb_der	pisquare	75	rl_day_count_basis	STRING		RL Day Count Basis	crdb	C-pisquare-crdb	RPT_DER_yyyymm.csv	RL Day Count Basis	Text								
+crdb_der	pisquare	76	pl_issuer_name	STRING		PL Issuer Name	crdb	C-pisquare-crdb	RPT_DER_yyyymm.csv	PL Issuer Name	Text								
+crdb_der	pisquare	77	pl_issuer_bb_code	STRING		PL Issuer BB Code	crdb	C-pisquare-crdb	RPT_DER_yyyymm.csv	PL Issuer BB Code	Text								
+crdb_der	pisquare	78	pl_issuer_axa_rating	STRING		PL Issuer Axa Rating	crdb	C-pisquare-crdb	RPT_DER_yyyymm.csv	PL Issuer Axa Rating	Text			AXA rating list					
+crdb_der	pisquare	79	pl_issuer_axa_rating_origin	STRING		PL Issuer Axa Rating Origin	crdb	C-pisquare-crdb	RPT_DER_yyyymm.csv	PL Issuer Axa Rating Origin	Text								
+crdb_der	pisquare	80	pl_issuer_industry_sector	STRING		PL Issuer Industry Sector	crdb	C-pisquare-crdb	RPT_DER_yyyymm.csv	PL Issuer Industry Sector	Text								
+crdb_der	pisquare	81	pl_issuer_industry_group	STRING		PL issuer industry group	crdb	C-pisquare-crdb	RPT_DER_yyyymm.csv	PL issuer industry group	Text								
+crdb_der	pisquare	82	pl_issuer_industry_subgroup	STRING		PL issuer industry subgroup	crdb	C-pisquare-crdb	RPT_DER_yyyymm.csv	PL issuer industry subgroup	Text								
+crdb_der	pisquare	83	pl_issuer_country	STRING		PL Issuer Country	crdb	C-pisquare-crdb	RPT_DER_yyyymm.csv	PL Issuer Country	Text								
+crdb_der	pisquare	84	pl_ultimateshareholder_name	STRING		PL ultimateshareholder Name	crdb	C-pisquare-crdb	RPT_DER_yyyymm.csv	PL ultimateshareholder Name	Text								
+crdb_der	pisquare	85	pl_ultimateshareholder_axa_rating	STRING		PL ultimateshareholder Axa Rating	crdb	C-pisquare-crdb	RPT_DER_yyyymm.csv	PL ultimateshareholder Axa Rating	Text			AXA rating list					
+crdb_der	pisquare	86	pl_ultimateshareholder_rating_origin	STRING		PL ultimateshareholder Rating Origin	crdb	C-pisquare-crdb	RPT_DER_yyyymm.csv	PL ultimateshareholder Rating Origin	Text								
+crdb_der	pisquare	87	pl_ultimateshareholder_country	STRING		PL ultimateshareholder Country	crdb	C-pisquare-crdb	RPT_DER_yyyymm.csv	PL ultimateshareholder Country	Text								
+crdb_der	pisquare	88	pl_index_name	STRING		PL Index Name	crdb	C-pisquare-crdb	RPT_DER_yyyymm.csv	PL Index Name	Text								
+crdb_der	pisquare	89	pl_index_type	STRING		PL index type	crdb	C-pisquare-crdb	RPT_DER_yyyymm.csv	PL index type	Text								
+crdb_der	pisquare	90	pl_security_code_type	STRING		PL Security Code Type	crdb	C-pisquare-crdb	RPT_DER_yyyymm.csv	PL Security Code Type	Text								
+crdb_der	pisquare	91	pl_security_code	STRING		PL Security Code	crdb	C-pisquare-crdb	RPT_DER_yyyymm.csv	PL Security Code	Text								
+crdb_der	pisquare	92	pl_security_rating	STRING		PL Security Rating	crdb	C-pisquare-crdb	RPT_DER_yyyymm.csv	PL Security Rating	Text			AXA rating list					
+crdb_der	pisquare	93	pl_security_rating_origin	STRING		PL Security Rating Origin	crdb	C-pisquare-crdb	RPT_DER_yyyymm.csv	PL Security Rating Origin	Text								
+crdb_der	pisquare	94	pl_seniority	STRING		PL Seniority	crdb	C-pisquare-crdb	RPT_DER_yyyymm.csv	PL Seniority	Text								
+crdb_der	pisquare	95	pl_nature_of_underlying	STRING		PL Nature of Underlying	crdb	C-pisquare-crdb	RPT_DER_yyyymm.csv	PL Nature of Underlying	Text								
+crdb_der	pisquare	96	pl_payment_frequency	DECIMAL(20,4)		PL Payment Frequency	crdb	C-pisquare-crdb	RPT_DER_yyyymm.csv	PL Payment Frequency	Number			4 decimal char, 20 before separator, not spaces beween char, use point separator					
+crdb_der	pisquare	97	pl_spread_strike_forex	DECIMAL(20,4)		PL Spread_strike_Forex	crdb	C-pisquare-crdb	RPT_DER_yyyymm.csv	PL Spread_strike_Forex	Number			4 decimal char, 20 before separator, not spaces beween char, use point separator					
+crdb_der	pisquare	98	pl_spot_of_reference	DECIMAL(20,4)		PL spot of reference	crdb	C-pisquare-crdb	RPT_DER_yyyymm.csv	PL spot of reference	Number			4 decimal char, 20 before separator, not spaces beween char, use point separator					
+crdb_der	pisquare	99	pl_currency	STRING		PL Currency	crdb	C-pisquare-crdb	RPT_DER_yyyymm.csv	PL Currency	Text			ISO code					
+crdb_der	pisquare	100	pl_day_count_basis	STRING		PL Day count Basis	crdb	C-pisquare-crdb	RPT_DER_yyyymm.csv	PL Day count Basis	Text								
+crdb_der	pisquare	101	upload_origin	STRING		Upload Origin	crdb	C-pisquare-crdb	RPT_DER_yyyymm.csv	Upload Origin	Text								
+crdb_der	pisquare	102	stec_upload	STRING		STEC upload	crdb	C-pisquare-crdb	RPT_DER_yyyymm.csv	STEC upload	Text			Y or N					
+crdb_der	pisquare	103	initial_forex_rate	DECIMAL(20,4)		Initial Forex Rate	crdb	C-pisquare-crdb	RPT_DER_yyyymm.csv	Initial Forex Rate	Number			4 decimal char, 20 before separator, not spaces beween char, use point separator					
+crdb_der	pisquare	104	exchage_notional	STRING		Exchage Notional	crdb	C-pisquare-crdb	RPT_DER_yyyymm.csv	Exchage Notional	Text								
+crdb_der	pisquare	105	barrier_level	DECIMAL(20,4)		Barrier level	crdb	C-pisquare-crdb	RPT_DER_yyyymm.csv	Barrier level	Number			4 decimal char, 20 before separator, not spaces beween char, use point separator					
+crdb_der	pisquare	106	type_of_barier	STRING		Type of Barier	crdb	C-pisquare-crdb	RPT_DER_yyyymm.csv	Type of Barier	Text								
+crdb_der	pisquare	107	proceed_ratio	DECIMAL(20,4)		Proceed Ratio	crdb	C-pisquare-crdb	RPT_DER_yyyymm.csv	Proceed Ratio	Number			4 decimal char, 20 before separator, not spaces beween char, use point separator					
+crdb_der	pisquare	108	rl_notional	DECIMAL(20,4)		RL Notional	crdb	C-pisquare-crdb	RPT_DER_yyyymm.csv	RL Notional	Number			4 decimal char, 20 before separator, not spaces beween char, use point separator					
+crdb_der	pisquare	109	pl_notional	DECIMAL(20,4)		PL Notional	crdb	C-pisquare-crdb	RPT_DER_yyyymm.csv	PL Notional	Number			4 decimal char, 20 before separator, not spaces beween char, use point separator					
+crdb_der	pisquare	110	prorata_temporis	STRING		Prorata Temporis	crdb	C-pisquare-crdb	RPT_DER_yyyymm.csv	Prorata Temporis	Text			Yes or No					
+crdb_der	pisquare	111	internal_transaction_indicator	STRING		Internal Transaction Indicator	crdb	C-pisquare-crdb	RPT_DER_yyyymm.csv	Internal Transaction Indicator	Text								
+crdb_der	pisquare	112	notional_deflation_protected	STRING		Notional Deflation Protected	crdb	C-pisquare-crdb	RPT_DER_yyyymm.csv	Notional Deflation Protected	Text			Yes or No					
+crdb_phy	pisquare	0	issuer_long_name	STRING		Issuer Long Name	crdb	C-pisquare-crdb	RPT_PHY_yyyymm.csv	Issuer Long Name	Text								
+crdb_phy	pisquare	1	entity	STRING		Entity	crdb	C-pisquare-crdb	RPT_PHY_yyyymm.csv	Entity	Text								
+crdb_phy	pisquare	2	axa_holding_type	STRING		Axa Holding Type	crdb	C-pisquare-crdb	RPT_PHY_yyyymm.csv	Axa Holding Type	Text								
+crdb_phy	pisquare	3	detailed_instrument	STRING		Detailed Instrument	crdb	C-pisquare-crdb	RPT_PHY_yyyymm.csv	Detailed Instrument	Text								
+crdb_phy	pisquare	4	technical_quantity	DECIMAL(38,10)		Technical Quantity	crdb	C-pisquare-crdb	RPT_PHY_yyyymm.csv	Technical Quantity	Number			10 decimal char, 38 before separator, not spaces beween char, uses point separator					
+crdb_phy	pisquare	5	axa_market_value_currency	DECIMAL(38,10)		Axa Market Value Currency	crdb	C-pisquare-crdb	RPT_PHY_yyyymm.csv	Axa Market Value Currency	Number			10 decimal char, 38 before separator, not spaces beween char, uses point separator					
+crdb_phy	pisquare	6	net_amount	DECIMAL(38,10)		Net Amount	crdb	C-pisquare-crdb	RPT_PHY_yyyymm.csv	Net Amount	Number			10 decimal char, 38 before separator, not spaces beween char, uses point separator					
+crdb_phy	pisquare	7	unit_price_mark_to_market	DECIMAL(38,10)		Unit Price Mark To Market	crdb	C-pisquare-crdb	RPT_PHY_yyyymm.csv	Unit Price Mark To Market	Number			10 decimal char, 38 before separator, not spaces beween char, uses point separator					
+crdb_phy	pisquare	8	unit_price_currency	STRING		Unit Price Currency	crdb	C-pisquare-crdb	RPT_PHY_yyyymm.csv	Unit Price Currency	Text			ISO Code					
+crdb_phy	pisquare	9	unit_price_forex_rate	DECIMAL(38,10)		Unit Price Forex Rate	crdb	C-pisquare-crdb	RPT_PHY_yyyymm.csv	Unit Price Forex Rate	Number			10 decimal char, 38 before separator, not spaces beween char, uses point separator					
+crdb_phy	pisquare	10	unit_price_mark_to_model	DECIMAL(38,10)		Unit Price Mark To Model	crdb	C-pisquare-crdb	RPT_PHY_yyyymm.csv	Unit Price Mark To Model	Number			10 decimal char, 38 before separator, not spaces beween char, uses point separator					
+crdb_phy	pisquare	11	market_value_mark_to_model	DECIMAL(38,10)		Market Value Mark To Model	crdb	C-pisquare-crdb	RPT_PHY_yyyymm.csv	Market Value Mark To Model	Number			10 decimal char, 38 before separator, not spaces beween char, uses point separator					
+crdb_phy	pisquare	12	accrued_interest	DECIMAL(38,10)		Accrued Interest	crdb	C-pisquare-crdb	RPT_PHY_yyyymm.csv	Accrued Interest	Number			10 decimal char, 38 before separator, not spaces beween char, uses point separator					
+crdb_phy	pisquare	13	axa_external_issuer_rating	STRING		Axa External Issuer Rating	crdb	C-pisquare-crdb	RPT_PHY_yyyymm.csv	Axa External Issuer Rating	Text			AXA rating list					
+crdb_phy	pisquare	14	axa_internal_issuer_rating	STRING		Axa Internal Issuer Rating	crdb	C-pisquare-crdb	RPT_PHY_yyyymm.csv	Axa Internal Issuer Rating	Text			AXA rating list					
+crdb_phy	pisquare	15	axa_internal_issuer_rating_origin	STRING		Axa Internal Issuer Rating Origin	crdb	C-pisquare-crdb	RPT_PHY_yyyymm.csv	Axa Internal Issuer Rating Origin	Text								
+crdb_phy	pisquare	16	axa_external_rating	STRING		Axa External Rating	crdb	C-pisquare-crdb	RPT_PHY_yyyymm.csv	Axa External Rating	Text			AXA rating list					
+crdb_phy	pisquare	17	axa_internal_rating	STRING		Axa Internal Rating	crdb	C-pisquare-crdb	RPT_PHY_yyyymm.csv	Axa Internal Rating	Text			AXA rating list					
+crdb_phy	pisquare	18	axa_internal_rating_origin	STRING		Axa Internal Rating Origin	crdb	C-pisquare-crdb	RPT_PHY_yyyymm.csv	Axa Internal Rating Origin	Text								
+crdb_phy	pisquare	19	issuer_industry_sector	STRING		Issuer Industry Sector	crdb	C-pisquare-crdb	RPT_PHY_yyyymm.csv	Issuer Industry Sector	Text								
+crdb_phy	pisquare	20	issuer_nationality	STRING		Issuer Nationality	crdb	C-pisquare-crdb	RPT_PHY_yyyymm.csv	Issuer Nationality	Text								
+crdb_phy	pisquare	21	nature_of_fund	STRING		Nature Of Fund	crdb	C-pisquare-crdb	RPT_PHY_yyyymm.csv	Nature Of Fund	Text								
+crdb_phy	pisquare	22	quantity	DECIMAL(38,10)		Quantity	crdb	C-pisquare-crdb	RPT_PHY_yyyymm.csv	Quantity	Number			10 decimal char, 38 before separator, not spaces beween char, uses point separator					
+crdb_phy	pisquare	23	magnitude_account	STRING		Magnitude Account	crdb	C-pisquare-crdb	RPT_PHY_yyyymm.csv	Magnitude Account	Text								
+crdb_phy	pisquare	24	magnitude_accounting_category	STRING		Magnitude Accounting Category	crdb	C-pisquare-crdb	RPT_PHY_yyyymm.csv	Magnitude Accounting Category	Text								
+crdb_phy	pisquare	25	magnitude_package	STRING		Magnitude Package	crdb	C-pisquare-crdb	RPT_PHY_yyyymm.csv	Magnitude Package	Text								
+crdb_phy	pisquare	26	operating_company	STRING		Operating Company	crdb	C-pisquare-crdb	RPT_PHY_yyyymm.csv	Operating Company	Text								
+crdb_phy	pisquare	27	portfolio_code	STRING		Portfolio Code	crdb	C-pisquare-crdb	RPT_PHY_yyyymm.csv	Portfolio Code	Text								
+crdb_phy	pisquare	28	portfolio_ara_code	STRING		Portfolio ARA Code	crdb	C-pisquare-crdb	RPT_PHY_yyyymm.csv	Portfolio ARA Code	Text								
+crdb_phy	pisquare	29	isin_code	STRING		ISIN Code	crdb	C-pisquare-crdb	RPT_PHY_yyyymm.csv	ISIN Code	Text								
+crdb_phy	pisquare	30	local_code_type	STRING		Local Code Type	crdb	C-pisquare-crdb	RPT_PHY_yyyymm.csv	Local Code Type	Text								
+crdb_phy	pisquare	31	local_code	STRING		Local Code	crdb	C-pisquare-crdb	RPT_PHY_yyyymm.csv	Local Code	Text								
+crdb_phy	pisquare	32	bloomberg_id_security	BIGINT		Bloomberg ID Security	crdb	C-pisquare-crdb	RPT_PHY_yyyymm.csv	Bloomberg ID Security	Integer								
+crdb_phy	pisquare	33	bloomberg_id_unique	STRING		Bloomberg ID Unique	crdb	C-pisquare-crdb	RPT_PHY_yyyymm.csv	Bloomberg ID Unique	Text								
+crdb_phy	pisquare	34	issuer_short_name	STRING		Issuer Short Name	crdb	C-pisquare-crdb	RPT_PHY_yyyymm.csv	Issuer Short Name	Text								
+crdb_phy	pisquare	35	ultimate_shareholder	STRING		Ultimate Shareholder	crdb	C-pisquare-crdb	RPT_PHY_yyyymm.csv	Ultimate Shareholder	Text								
+crdb_phy	pisquare	36	ultimate_shareholder_rating	STRING		Ultimate ShareHolder Rating	crdb	C-pisquare-crdb	RPT_PHY_yyyymm.csv	Ultimate ShareHolder Rating	Text			AXA rating list					
+crdb_phy	pisquare	37	ultimate_shareholder_country	STRING		Ultimate ShareHolder Country	crdb	C-pisquare-crdb	RPT_PHY_yyyymm.csv	Ultimate ShareHolder Country	Text								
+crdb_phy	pisquare	38	mutual_fund_code	STRING		Mutual Fund code	crdb	C-pisquare-crdb	RPT_PHY_yyyymm.csv	Mutual Fund code	Text								
+crdb_phy	pisquare	39	mutual_fund_name	STRING		Mutual Fund Name	crdb	C-pisquare-crdb	RPT_PHY_yyyymm.csv	Mutual Fund Name	Text								
+crdb_phy	pisquare	40	mutual_fund_code_2	STRING		Mutual Fund Code 2	crdb	C-pisquare-crdb	RPT_PHY_yyyymm.csv	Mutual Fund Code 2	Text								
+crdb_phy	pisquare	41	mutual_fund_name_2	STRING		Mutual Fund Name 2	crdb	C-pisquare-crdb	RPT_PHY_yyyymm.csv	Mutual Fund Name 2	Text								
+crdb_phy	pisquare	42	industry_sector_level_2	STRING		Industry Sector Level 2	crdb	C-pisquare-crdb	RPT_PHY_yyyymm.csv	Industry Sector Level 2	Text								
+crdb_phy	pisquare	43	industry_sector_level_3	STRING		Industry Sector Level 3	crdb	C-pisquare-crdb	RPT_PHY_yyyymm.csv	Industry Sector Level 3	Text								
+crdb_phy	pisquare	44	shareholder_exposure	STRING		Shareholder Exposure	crdb	C-pisquare-crdb	RPT_PHY_yyyymm.csv	Shareholder Exposure	Text								
+crdb_phy	pisquare	45	instrument_bloomberg	STRING		Instrument Bloomberg	crdb	C-pisquare-crdb	RPT_PHY_yyyymm.csv	Instrument Bloomberg	Text								
+crdb_phy	pisquare	46	guarantor_s_name	STRING		Guarantor's Name	crdb	C-pisquare-crdb	RPT_PHY_yyyymm.csv	Guarantor's Name	Text								
+crdb_phy	pisquare	47	collateral_type	STRING		Collateral Type	crdb	C-pisquare-crdb	RPT_PHY_yyyymm.csv	Collateral Type	Text								
+crdb_phy	pisquare	48	bloomberg_type_of_fund	STRING		Bloomberg Type of Fund	crdb	C-pisquare-crdb	RPT_PHY_yyyymm.csv	Bloomberg Type of Fund	Text								
+crdb_phy	pisquare	49	nature_of_holding	STRING		Nature of Holding	crdb	C-pisquare-crdb	RPT_PHY_yyyymm.csv	Nature of Holding	Text								
+crdb_phy	pisquare	50	repo_strategy	STRING		Repo _ Strategy	crdb	C-pisquare-crdb	RPT_PHY_yyyymm.csv	Repo _ Strategy	Text								
+crdb_phy	pisquare	51	total_number_of_shares	DECIMAL(38,10)		Total Number of Shares	crdb	C-pisquare-crdb	RPT_PHY_yyyymm.csv	Total Number of Shares	Number			10 decimal char, 38 before separator, not spaces beween char, uses point separator					
+crdb_phy	pisquare	52	voting_rights	DECIMAL(38,10)		Voting Rights	crdb	C-pisquare-crdb	RPT_PHY_yyyymm.csv	Voting Rights	Number			10 decimal char, 38 before separator, not spaces beween char, uses point separator					
+crdb_phy	pisquare	53	asset_manager	STRING		Asset Manager	crdb	C-pisquare-crdb	RPT_PHY_yyyymm.csv	Asset Manager	Text								
+crdb_phy	pisquare	54	currency_of_cotation	STRING		Currency of Cotation	crdb	C-pisquare-crdb	RPT_PHY_yyyymm.csv	Currency of Cotation	Text			ISO Code					
+crdb_phy	pisquare	55	physical_underlying_assets_code	STRING		Physical _ Underlying Assets Code	crdb	C-pisquare-crdb	RPT_PHY_yyyymm.csv	Physical _ Underlying Assets Code	Text			PHY or CDS 					
+crdb_phy	pisquare	56	is_index_linked	STRING		Is Index Linked	crdb	C-pisquare-crdb	RPT_PHY_yyyymm.csv	Is Index Linked	Text			Y or N					
+crdb_phy	pisquare	57	coupon_type	STRING		Coupon Type	crdb	C-pisquare-crdb	RPT_PHY_yyyymm.csv	Coupon Type	Text								
+crdb_phy	pisquare	58	index_floater	STRING		Index Floater	crdb	C-pisquare-crdb	RPT_PHY_yyyymm.csv	Index Floater	Text								
+crdb_phy	pisquare	59	margin_floater	DECIMAL(38,10)		Margin Floater	crdb	C-pisquare-crdb	RPT_PHY_yyyymm.csv	Margin Floater	Number			10 decimal char, 38 before separator, not spaces beween char, uses point separator					
+crdb_phy	pisquare	60	coupon_frequency	DECIMAL(38,10)		Coupon Frequency	crdb	C-pisquare-crdb	RPT_PHY_yyyymm.csv	Coupon Frequency	Number			10 decimal char, 38 before separator, not spaces beween char, uses point separator					
+crdb_phy	pisquare	61	convertible	STRING		Convertible	crdb	C-pisquare-crdb	RPT_PHY_yyyymm.csv	Convertible	Text			Y or N					
+crdb_phy	pisquare	62	optionality	STRING		Optionality	crdb	C-pisquare-crdb	RPT_PHY_yyyymm.csv	Optionality	Text								
+crdb_phy	pisquare	63	next_option_date	STRING		Next Option Date	crdb	C-pisquare-crdb	RPT_PHY_yyyymm.csv	Next Option Date	Text								
+crdb_phy	pisquare	64	next_option_price	DECIMAL(38,10)		Next Option Price	crdb	C-pisquare-crdb	RPT_PHY_yyyymm.csv	Next Option Price	Number			10 decimal char, 38 before separator, not spaces beween char, uses point separator					
+crdb_phy	pisquare	65	issue_date	TIMESTAMP	yyyymmdd	Issue Date	crdb	C-pisquare-crdb	RPT_PHY_yyyymm.csv	Issue Date	Date			yyyyMMdd					
+crdb_phy	pisquare	66	is_perpetual	STRING		Is Perpetual	crdb	C-pisquare-crdb	RPT_PHY_yyyymm.csv	Is Perpetual	Text			Y or N					
+crdb_phy	pisquare	67	is_subordinated	STRING		Is Subordinated	crdb	C-pisquare-crdb	RPT_PHY_yyyymm.csv	Is Subordinated	Text			Y or N					
+crdb_phy	pisquare	68	seniority	STRING		Seniority	crdb	C-pisquare-crdb	RPT_PHY_yyyymm.csv	Seniority	Text								
+crdb_phy	pisquare	69	maturity_category	STRING		Maturity Category	crdb	C-pisquare-crdb	RPT_PHY_yyyymm.csv	Maturity Category	Text								
+crdb_phy	pisquare	70	maturity	STRING		Maturity	crdb	C-pisquare-crdb	RPT_PHY_yyyymm.csv	Maturity	Text			yyyyMMdd					
+crdb_phy	pisquare	71	vintage	BIGINT		Vintage	crdb	C-pisquare-crdb	RPT_PHY_yyyymm.csv	Vintage	Integer								
+crdb_phy	pisquare	72	weighted_average_life	STRING		Weighted average life	crdb	C-pisquare-crdb	RPT_PHY_yyyymm.csv	Weighted average life	Text			yyyyMMdd					
+crdb_phy	pisquare	73	abs_class	STRING		ABS class	crdb	C-pisquare-crdb	RPT_PHY_yyyymm.csv	ABS class	Text								
+crdb_phy	pisquare	74	abs_type	STRING		ABS Type	crdb	C-pisquare-crdb	RPT_PHY_yyyymm.csv	ABS Type	Text								
+crdb_phy	pisquare	75	scheduled_payment_date	STRING		Scheduled Payment Date	crdb	C-pisquare-crdb	RPT_PHY_yyyymm.csv	Scheduled Payment Date	Text			yyyyMMdd					
+crdb_phy	pisquare	76	next_coupon_date	STRING		Next Coupon Date	crdb	C-pisquare-crdb	RPT_PHY_yyyymm.csv	Next Coupon Date	Text			yyyyMMdd					
+crdb_phy	pisquare	77	dividend_coupon	DECIMAL(38,10)		Dividend_Coupon	crdb	C-pisquare-crdb	RPT_PHY_yyyymm.csv	Dividend_Coupon	Number			10 decimal char, 38 before separator, not spaces beween char, uses point separator					
+crdb_phy	pisquare	78	divident_payment_currency	STRING		Divident Payment Currency	crdb	C-pisquare-crdb	RPT_PHY_yyyymm.csv	Divident Payment Currency	Text			ISO Code					
+crdb_phy	pisquare	79	financial_data_origin	STRING		Financial Data Origin	crdb	C-pisquare-crdb	RPT_PHY_yyyymm.csv	Financial Data Origin	Text								
+crdb_phy	pisquare	80	axa_instrument_level_2	STRING		Axa Instrument Level 2	crdb	C-pisquare-crdb	RPT_PHY_yyyymm.csv	Axa Instrument Level 2	Text								
+crdb_phy	pisquare	81	alternative_investment_style	STRING		Alternative Investment Style	crdb	C-pisquare-crdb	RPT_PHY_yyyymm.csv	Alternative Investment Style	Text								
+crdb_phy	pisquare	82	alternative_investment_region	STRING		Alternative Investment Region	crdb	C-pisquare-crdb	RPT_PHY_yyyymm.csv	Alternative Investment Region	Text								
+crdb_phy	pisquare	83	upload_origin	STRING		Upload Origin	crdb	C-pisquare-crdb	RPT_PHY_yyyymm.csv	Upload Origin	Text								
+crdb_phy	pisquare	84	issuer_outlook_s_p	STRING		Issuer Outlook S&P	crdb	C-pisquare-crdb	RPT_PHY_yyyymm.csv	Issuer Outlook S&P	Text								
+crdb_phy	pisquare	85	issuer_outlook_moody	STRING		Issuer Outlook Moody	crdb	C-pisquare-crdb	RPT_PHY_yyyymm.csv	Issuer Outlook Moody	Text								
+crdb_phy	pisquare	86	issuer_outlook_fitch	STRING		Issuer Outlook Fitch	crdb	C-pisquare-crdb	RPT_PHY_yyyymm.csv	Issuer Outlook Fitch	Text								
+crdb_phy	pisquare	87	pool_factor	DECIMAL(38,10)		Pool Factor	crdb	C-pisquare-crdb	RPT_PHY_yyyymm.csv	Pool Factor	Number			10 decimal char, 38 before separator, not spaces beween char, uses point separator					
+crdb_phy	pisquare	88	dali_id	STRING		Dali ID	crdb	C-pisquare-crdb	RPT_PHY_yyyymm.csv	Dali ID	Text								
+crdb_phy	pisquare	89	is_domestic_govies	STRING		Is Domestic Govies	crdb	C-pisquare-crdb	RPT_PHY_yyyymm.csv	Is Domestic Govies	Text			Y or N					
+crdb_phy	pisquare	90	gct_rating	STRING		GCT Rating	crdb	C-pisquare-crdb	RPT_PHY_yyyymm.csv	GCT Rating	Text			AXA rating list					
+crdb_phy	pisquare	91	notional	DECIMAL(38,10)		Notional	crdb	C-pisquare-crdb	RPT_PHY_yyyymm.csv	Notional	Number			10 decimal char, 38 before separator, not spaces beween char, uses point separator					
+crdb_phy	pisquare	92	unit_price_clean	DECIMAL(38,10)		Unit Price Clean	crdb	C-pisquare-crdb	RPT_PHY_yyyymm.csv	Unit Price Clean	Number			10 decimal char, 38 before separator, not spaces beween char, uses point separator					
+crdb_phy	pisquare	93	loan_to_value	DECIMAL(38,10)		Loan to value	crdb	C-pisquare-crdb	RPT_PHY_yyyymm.csv	Loan to value	Number			10 decimal char, 38 before separator, not spaces beween char, uses point separator					
+crdb_phy	pisquare	94	probability_of_default	DECIMAL(38,10)		Probability of default	crdb	C-pisquare-crdb	RPT_PHY_yyyymm.csv	Probability of default	Number			10 decimal char, 38 before separator, not spaces beween char, uses point separator					
+crdb_phy	pisquare	95	local_agency	STRING		Local Agency	crdb	C-pisquare-crdb	RPT_PHY_yyyymm.csv	Local Agency	Text			AXA rating list					
+crdb_phy	pisquare	96	local_rating	STRING		Local Rating	crdb	C-pisquare-crdb	RPT_PHY_yyyymm.csv	Local Rating	Text			AXA rating list					
+crdb_phy	pisquare	97	net_of_pb_tax	DECIMAL(38,10)		Net of PB & Tax	crdb	C-pisquare-crdb	RPT_PHY_yyyymm.csv	Net of PB & Tax	Number			10 decimal char, 38 before separator, not spaces beween char, uses point separator					
+crdb_phy	pisquare	98	securitization_type	STRING		Securitization Type	crdb	C-pisquare-crdb	RPT_PHY_yyyymm.csv	Securitization Type	Text								
+crdb_phy	pisquare	99	notional_deflation_protected	STRING		Notional Deflation Protected	crdb	C-pisquare-crdb	RPT_PHY_yyyymm.csv	Notional Deflation Protected	Text			Yes or No					
+crdb_phy	pisquare	100	first_sink_date	STRING		First Sink Date	crdb	C-pisquare-crdb	RPT_PHY_yyyymm.csv	First Sink Date	Text			None or dd_mm_yy					
+crdb_phy	pisquare	101	sink_frequency	BIGINT		Sink Frequency	crdb	C-pisquare-crdb	RPT_PHY_yyyymm.csv	Sink Frequency	Integer								
+crdb_phy	pisquare	102	issuer_gct_code	STRING		Issuer GCT Code	crdb	C-pisquare-crdb	RPT_PHY_yyyymm.csv	Issuer GCT Code	Text								

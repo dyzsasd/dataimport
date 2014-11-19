@@ -1,0 +1,96 @@
+omega_faits_flux_activites	iard_en	0	region	STRING		Région	root	C-iard_en-root	iard_en_omega_SRC001_YYYYMMDD_HHMMSS.csv	Région	VARCHAR							N	
+omega_faits_flux_activites	iard_en	1	branche	STRING		Branche	root	C-iard_en-root	iard_en_omega_SRC001_YYYYMMDD_HHMMSS.csv	Branche	VARCHAR							N	
+omega_faits_flux_activites	iard_en	2	sous_branche	STRING		Sous_branche	root	C-iard_en-root	iard_en_omega_SRC001_YYYYMMDD_HHMMSS.csv	Sous_branche	VARCHAR							N	
+omega_faits_flux_activites	iard_en	3	canal_entree	STRING		Canal_entrée	root	C-iard_en-root	iard_en_omega_SRC001_YYYYMMDD_HHMMSS.csv	Canal_entrée	VARCHAR							N	
+omega_faits_flux_activites	iard_en	4	date_reception	TIMESTAMP	yyyy/mm/dd	Date_réception	root	C-iard_en-root	iard_en_omega_SRC001_YYYYMMDD_HHMMSS.csv	Date_réception	DATETIME							N	
+omega_faits_flux_activites	iard_en	5	date_classement	TIMESTAMP	yyyy/mm/dd	Date_classement	root	C-iard_en-root	iard_en_omega_SRC001_YYYYMMDD_HHMMSS.csv	Date_classement	DATETIME							N	
+omega_faits_flux_activites	iard_en	6	n_saisine	STRING		N_saisine	root	C-iard_en-root	iard_en_omega_SRC001_YYYYMMDD_HHMMSS.csv	N_saisine	VARCHAR							N	
+omega_faits_flux_activites	iard_en	7	n_contrat	STRING		N_contrat	root	C-iard_en-root	iard_en_omega_SRC001_YYYYMMDD_HHMMSS.csv	N_contrat	VARCHAR							N	
+omega_faits_flux_activites	iard_en	8	code_portefeuille	STRING		Code_portefeuille	root	C-iard_en-root	iard_en_omega_SRC001_YYYYMMDD_HHMMSS.csv	Code_portefeuille	VARCHAR							N	
+omega_faits_flux_activites	iard_en	9	code_siret	STRING		Code_SIRET	root	C-iard_en-root	iard_en_omega_SRC001_YYYYMMDD_HHMMSS.csv	Code_SIRET	VARCHAR							N	
+omega_faits_flux_activites	iard_en	10	nom_client	STRING		Nom_client	root	C-iard_en-root	iard_en_omega_SRC001_YYYYMMDD_HHMMSS.csv	Nom_client	VARCHAR							N	
+omega_faits_flux_activites	iard_en	11	importance_client	STRING		Importance_client	root	C-iard_en-root	iard_en_omega_SRC001_YYYYMMDD_HHMMSS.csv	Importance_client	VARCHAR							N	
+omega_faits_flux_activites	iard_en	12	nom_intermediaire	STRING		Nom_intermédiaire	root	C-iard_en-root	iard_en_omega_SRC001_YYYYMMDD_HHMMSS.csv	Nom_intermédiaire	VARCHAR							N	
+omega_faits_flux_activites	iard_en	13	type_intermediaire	STRING		Type_intermédiaire	root	C-iard_en-root	iard_en_omega_SRC001_YYYYMMDD_HHMMSS.csv	Type_intermédiaire	VARCHAR							N	
+omega_faits_flux_activites	iard_en	14	departement_intermediaire	STRING		Département_intermédiaire	root	C-iard_en-root	iard_en_omega_SRC001_YYYYMMDD_HHMMSS.csv	Département_intermédiaire	NUMERIC							N	
+omega_faits_flux_activites	iard_en	15	type_produit	STRING		Type_produit	root	C-iard_en-root	iard_en_omega_SRC001_YYYYMMDD_HHMMSS.csv	Type_produit	VARCHAR							N	
+omega_faits_flux_activites	iard_en	16	libelle_processus_suffixe	STRING		Libelle_Processus_Suffixe	root	C-iard_en-root	iard_en_omega_SRC001_YYYYMMDD_HHMMSS.csv	Processus	VARCHAR							N	
+omega_faits_flux_activites	iard_en	17	libelle_processus	STRING		Libelle_Processus	root	C-iard_en-root	iard_en_omega_SRC001_YYYYMMDD_HHMMSS.csv	Processus	VARCHAR							N	
+omega_faits_flux_activites	iard_en	18	motif_indexation	STRING		Motif_indexation	root	C-iard_en-root	iard_en_omega_SRC001_YYYYMMDD_HHMMSS.csv	Motif_indexation	VARCHAR							N	
+omega_faits_flux_activites	iard_en	19	domaine_activite	STRING		Domaine_activité	root	C-iard_en-root	iard_en_omega_SRC001_YYYYMMDD_HHMMSS.csv	Domaine_activité	VARCHAR							N	
+omega_faits_flux_activites	iard_en	20	collaborateur	STRING		Collaborateur	root	C-iard_en-root	iard_en_omega_SRC001_YYYYMMDD_HHMMSS.csv	Collaborateur	VARCHAR							N	
+omega_faits_flux_activites	iard_en	21	site_collaborateur	STRING		Site_collaborateur	root	C-iard_en-root	iard_en_omega_SRC001_YYYYMMDD_HHMMSS.csv	Site_collaborateur	VARCHAR							N	
+omega_faits_flux_activites	iard_en	22	statut	STRING		Statut	root	C-iard_en-root	iard_en_omega_SRC001_YYYYMMDD_HHMMSS.csv	Statut	VARCHAR							N	
+omega_faits_flux_activites	iard_en	23	date_dernier_statut	TIMESTAMP	yyyy/mm/dd	Date_dernier_statut	root	C-iard_en-root	iard_en_omega_SRC001_YYYYMMDD_HHMMSS.csv	Date_dernier_statut	DATETIME							N	
+omega_faits_flux_activites	iard_en	24	engagement	BIGINT		Engagement	root	C-iard_en-root	iard_en_omega_SRC001_YYYYMMDD_HHMMSS.csv	Engagement	NUMERIC							N	
+omega_faits_flux_activites	iard_en	25	poids	BIGINT		Poids	root	C-iard_en-root	iard_en_omega_SRC001_YYYYMMDD_HHMMSS.csv	Poids	NUMERIC							N	
+omega_faits_flux_activites	iard_en	26	engagement_axa	STRING		Engagement_AXA	root	C-iard_en-root	iard_en_omega_SRC001_YYYYMMDD_HHMMSS.csv	Engagement_AXA	VARCHAR							N	
+omega_faits_flux_activites	iard_en	27	esop_s_idutilisateur	STRING		ESOP_S_IDUTILISATEUR	root	C-iard_en-root	iard_en_omega_SRC001_YYYYMMDD_HHMMSS.csv	ESOP_S_IDUTILISATEUR	VARCHAR							N	
+omega_faits_flux_activites	iard_en	28	esop_s_codetre	STRING		ESOP_S_CODETRE	root	C-iard_en-root	iard_en_omega_SRC001_YYYYMMDD_HHMMSS.csv	ESOP_S_CODETRE	VARCHAR							N	
+omega_faits_flux_activites	iard_en	29	esop_s_libelletre	STRING		ESOP_S_LIBELLETRE	root	C-iard_en-root	iard_en_omega_SRC001_YYYYMMDD_HHMMSS.csv	ESOP_S_LIBELLETRE	VARCHAR							N	
+omega_faits_flux_activites	iard_en	30	esop_s_montantsmp	DECIMAL(10,2)		ESOP_S_MONTANTSMP	root	C-iard_en-root	iard_en_omega_SRC001_YYYYMMDD_HHMMSS.csv	ESOP_S_MONTANTSMP	NUMERIC(10,2)							N	
+omega_faits_flux_activites	iard_en	31	esop_s_grpsegmentation	STRING		ESOP_S_GRPSEGMENTATION	root	C-iard_en-root	iard_en_omega_SRC001_YYYYMMDD_HHMMSS.csv	ESOP_S_GRPSEGMENTATION	VARCHAR							N	
+omega_faits_flux_activites	iard_en	32	esop_s_clauseensemble	STRING		ESOP_S_CLAUSEENSEMBLE1	root	C-iard_en-root	iard_en_omega_SRC001_YYYYMMDD_HHMMSS.csv	ESOP_S_CLAUSEENSEMBLE1	VARCHAR							N	
+omega_faits_flux_activites	iard_en	33	esop_s_clauseensemble2	STRING		ESOP_S_CLAUSEENSEMBLE2	root	C-iard_en-root	iard_en_omega_SRC001_YYYYMMDD_HHMMSS.csv	ESOP_S_CLAUSEENSEMBLE2	VARCHAR							N	
+omega_faits_flux_activites	iard_en	34	type_engagement	STRING		TypeEngagement	root	C-iard_en-root	iard_en_omega_SRC001_YYYYMMDD_HHMMSS.csv	TypeEngagement	VARCHAR							N	
+omega_faits_flux_activites	iard_en	35	typereponse	STRING		TypeReponse	root	C-iard_en-root	iard_en_omega_SRC001_YYYYMMDD_HHMMSS.csv	TypeReponse	VARCHAR							N	
+omega_faits_flux_activites	iard_en	36	topdossiercomplet	STRING		TopDossierComplet	root	C-iard_en-root	iard_en_omega_SRC001_YYYYMMDD_HHMMSS.csv	TopDossierComplet	VARCHAR							N	
+omega_faits_flux_activites	iard_en	37	dateindexation	TIMESTAMP	yyyy/mm/dd	DateIndexation	root	C-iard_en-root	iard_en_omega_SRC001_YYYYMMDD_HHMMSS.csv	DateIndexation	DATETIME							N	
+omega_faits_flux_activites	iard_en	38	codesyndic	STRING		CodeSyndic	root	C-iard_en-root	iard_en_omega_SRC001_YYYYMMDD_HHMMSS.csv	CodeSyndic	VARCHAR							N	
+omega_faits_flux_activites	iard_en	39	nombal	STRING		NomBAL	root	C-iard_en-root	iard_en_omega_SRC001_YYYYMMDD_HHMMSS.csv	NomBAL	VARCHAR							N	
+omega_faits_flux_activites	iard_en	40	codenaf	STRING		CodeNAF	root	C-iard_en-root	iard_en_omega_SRC001_YYYYMMDD_HHMMSS.csv	CodeNAF	VARCHAR							N	
+omega_faits_flux_activites	iard_en	41	libellenaf	STRING		LibelleNAF	root	C-iard_en-root	iard_en_omega_SRC001_YYYYMMDD_HHMMSS.csv	LibelleNAF	VARCHAR							N	
+omega_faits_flux_activites	iard_en	42	segmentnaf	STRING		SegmentNAF	root	C-iard_en-root	iard_en_omega_SRC001_YYYYMMDD_HHMMSS.csv	SegmentNAF	VARCHAR							N	
+omega_faits_flux_activites	iard_en	43	chif_freaffaire	BIGINT		ChiffreAffaire	root	C-iard_en-root	iard_en_omega_SRC001_YYYYMMDD_HHMMSS.csv	ChiffreAffaire	NUMERIC							N	
+omega_faits_flux_activites	iard_en	44	identifiant_flux	BIGINT		Identifiant_Flux	root	C-iard_en-root	iard_en_omega_SRC001_YYYYMMDD_HHMMSS.csv	Identifiant_Flux	NUMERIC							Y	
+omega_faits_flux_activites	iard_en	45	date_vision	TIMESTAMP	yyyy/mm/dd	Date_vision	root	C-iard_en-root	iard_en_omega_SRC001_YYYYMMDD_HHMMSS.csv	DT_extraction	DATETIME							N	
+omega_ref_branches	iard_en	0	libelle_branche	STRING		Libelle_Branche	root	C-iard_en-root	iard_en_omega_SRC006_YYYYMMDD_HHMMSS.csv	Libelle_Branche	VARCHAR2(30)							Y	
+omega_ref_collaborateurs	iard_en	0	matricule	STRING		Matricule	root	C-iard_en-root	iard_en_omega_SRC002_YYYYMMDD_HHMMSS.csv	Matricule	VARCHAR2(10)							Y	
+omega_ref_collaborateurs	iard_en	1	nom	STRING		Nom	root	C-iard_en-root	iard_en_omega_SRC002_YYYYMMDD_HHMMSS.csv	Nom	VARCHAR2(30)							N	
+omega_ref_collaborateurs	iard_en	2	prenom	STRING		Prenom	root	C-iard_en-root	iard_en_omega_SRC002_YYYYMMDD_HHMMSS.csv	Prenom	VARCHAR2(30)							N	
+omega_ref_collaborateurs	iard_en	3	profil	STRING		Profil	root	C-iard_en-root	iard_en_omega_SRC002_YYYYMMDD_HHMMSS.csv	Profil	VARCHAR2(30)							N	
+omega_ref_collaborateurs	iard_en	4	region	STRING		Region	root	C-iard_en-root	iard_en_omega_SRC002_YYYYMMDD_HHMMSS.csv	Region	VARCHAR2(30)							N	
+omega_ref_collaborateurs	iard_en	5	branche	STRING		Branche	root	C-iard_en-root	iard_en_omega_SRC002_YYYYMMDD_HHMMSS.csv	Branche	VARCHAR2(30)							N	
+omega_ref_collaborateurs	iard_en	6	branche_2	STRING		Branche_2	root	C-iard_en-root	iard_en_omega_SRC002_YYYYMMDD_HHMMSS.csv	Branche_2	VARCHAR2(30)							N	
+omega_ref_collaborateurs	iard_en	7	branche_3	STRING		Branche_3	root	C-iard_en-root	iard_en_omega_SRC002_YYYYMMDD_HHMMSS.csv	Branche_3	VARCHAR2(30)							N	
+omega_ref_collaborateurs	iard_en	8	site	STRING		Site	root	C-iard_en-root	iard_en_omega_SRC002_YYYYMMDD_HHMMSS.csv	Site	VARCHAR2(30)							N	
+omega_ref_collaborateurs	iard_en	9	domaine_activite	STRING		Domaine_Activite	root	C-iard_en-root	iard_en_omega_SRC002_YYYYMMDD_HHMMSS.csv	Domaine_Activite	VARCHAR2(30)							N	
+omega_ref_collaborateurs	iard_en	10	domaine_activite_2	STRING		Domaine_Activite_2	root	C-iard_en-root	iard_en_omega_SRC002_YYYYMMDD_HHMMSS.csv	Domaine_Activite_2	VARCHAR2(30)							N	
+omega_ref_collaborateurs	iard_en	11	type_formulaire	STRING		Type_Formulaire	root	C-iard_en-root	iard_en_omega_SRC002_YYYYMMDD_HHMMSS.csv	Type_Formulaire	VARCHAR2(32)							N	
+omega_ref_collaborateurs	iard_en	12	adresse_mail_service	STRING		Adresse_Mail_Service	root	C-iard_en-root	iard_en_omega_SRC002_YYYYMMDD_HHMMSS.csv	Adresse_Mail_Service	VARCHAR2(100)							N	
+omega_ref_collaborateurs	iard_en	13	adresse_mail_archivage_service	STRING		Adresse_Mail_Archivage_Service	root	C-iard_en-root	iard_en_omega_SRC002_YYYYMMDD_HHMMSS.csv	Adresse_Mail_Archivage_Service	VARCHAR2(100)							N	
+omega_ref_doms_activite	iard_en	0	libelle_domaine_activite	STRING		Libelle_Domaine_Activite	root	C-iard_en-root	iard_en_omega_SRC016_YYYYMMDD_HHMMSS.csv	Libelle_Domaine_Activite	VARCHAR2(30)							Y	
+omega_ref_doms_activite	iard_en	1	libelle_region	STRING		Libelle_Region	root	C-iard_en-root	iard_en_omega_SRC016_YYYYMMDD_HHMMSS.csv	Libelle_Region	VARCHAR2(30)							N	
+omega_ref_doms_activite	iard_en	2	libelle_branche	STRING		Libelle_Branche	root	C-iard_en-root	iard_en_omega_SRC016_YYYYMMDD_HHMMSS.csv	Libelle_Branche	VARCHAR2(30)							N	
+omega_ref_processus	iard_en	0	libelle_processus	STRING		Libelle_Processus	root	C-iard_en-root	iard_en_omega_SRC011_YYYYMMDD_HHMMSS.csv	Libelle_Processus_Suffixe	VARCHAR2(100)							Y	
+omega_ref_processus	iard_en	1	identifiant_processus_ged	STRING		Identifiant_Processus_GED	root	C-iard_en-root	iard_en_omega_SRC011_YYYYMMDD_HHMMSS.csv	Identifiant_Processus_GED	VARCHAR2(50)							N	
+omega_ref_processus	iard_en	2	libelle_branche	STRING		Libelle_Branche	root	C-iard_en-root	iard_en_omega_SRC011_YYYYMMDD_HHMMSS.csv	Libelle_Branche	VARCHAR2(30)							N	
+omega_ref_regions	iard_en	0	libelle_region	STRING		Libelle_Region	root	C-iard_en-root	iard_en_omega_SRC009_YYYYMMDD_HHMMSS.csv	Libelle_Region	VARCHAR2(30)							Y	
+user_faits_presences_collaborateurs	iard_en	0	matricule	STRING		Matricule	root	C-iard_en-root	iard_en_user_SRC003_YYYYMMDD_HHMMSS.csv	Matricule	VARCHAR(255)							Y	
+user_faits_presences_collaborateurs	iard_en	1	jour	TIMESTAMP	dd/mm/yyyy	Jour	root	C-iard_en-root	iard_en_user_SRC003_YYYYMMDD_HHMMSS.csv	Jour	DATETIME								
+user_faits_presences_collaborateurs	iard_en	2	libelle_activite_presence	STRING		Libelle_Activite_Presence	root	C-iard_en-root	iard_en_user_SRC003_YYYYMMDD_HHMMSS.csv	Libelle_Activite_Presence	VARCHAR(255)								
+user_faits_presences_collaborateurs	iard_en	3	valeur_presence	DECIMAL(2,1)		Valeur_presence	root	C-iard_en-root	iard_en_user_SRC003_YYYYMMDD_HHMMSS.csv	Valeur_presence	NUMERIC(2,1)							N	
+user_ref_activites_presences	iard_en	0	libelle_activite_presence	STRING		Libelle_Activite_Presence	root	C-iard_en-root	iard_en_user_SRC017_YYYYMMDD_HHMMSS.csv	Libelle_Activite_Presence	VARCHAR(255)							Y	
+user_ref_motifs_indexation	iard_en	0	libelle_motif_indexation	STRING		Libelle_Motif_Indexation	root	C-iard_en-root	iard_en_user_SRC012_YYYYMMDD_HHMMSS.csv	Libelle_Motif_Indexation	VARCHAR(255)							Y	
+user_ref_sites	iard_en	0	libelle_site	STRING		Libelle_Site	root	C-iard_en-root	iard_en_user_SRC010_YYYYMMDD_HHMMSS.csv	Libelle_Site	VARCHAR(255)							Y	
+user_ref_sites	iard_en	1	libelle_site_regroupement	STRING		Libelle_Site_Regroupement	root	C-iard_en-root	iard_en_user_SRC010_YYYYMMDD_HHMMSS.csv	Libelle_Site_Regroupement	VARCHAR(255)							N	
+user_ref_sites_rattachement_distributeurs	iard_en	0	libelle_branche	STRING		Libelle_Branche	root	C-iard_en-root	iard_en_user_SRC014_YYYYMMDD_HHMMSS.csv	Libelle_Branche	VARCHAR(255)							Y	
+user_ref_sites_rattachement_distributeurs	iard_en	1	departement_distributeur	STRING		Departement_Distributeur	root	C-iard_en-root	iard_en_user_SRC014_YYYYMMDD_HHMMSS.csv	Departement_Distributeur	NUMERIC								
+user_ref_sites_rattachement_distributeurs	iard_en	2	libelle_type_produit	STRING		Libelle_Type_Produit	root	C-iard_en-root	iard_en_user_SRC014_YYYYMMDD_HHMMSS.csv	Libelle_Type_Produit	VARCHAR(255)								
+user_ref_sites_rattachement_distributeurs	iard_en	3	libelle_site_distributeur	STRING		Libelle_Site_Distributeur	root	C-iard_en-root	iard_en_user_SRC014_YYYYMMDD_HHMMSS.csv	Libelle_Site_Distributeur	VARCHAR(255)							N	
+user_ref_sous_branches	iard_en	0	libelle_sous_branche	STRING		Libelle_Sous_Branche	root	C-iard_en-root	iard_en_user_SRC007_YYYYMMDD_HHMMSS.csv	Libelle_Sous_Branche	VARCHAR(255)							Y	
+user_ref_statuts	iard_en	0	libelle_statut	STRING		Libelle_Statut	root	C-iard_en-root	iard_en_user_SRC005_YYYYMMDD_HHMMSS.csv	Libelle_Statut	VARCHAR(255)							Y	
+user_ref_types_engagements	iard_en	0	libelle_processus	STRING		Libelle_Processus	root	C-iard_en-root	iard_en_user_SRC015_YYYYMMDD_HHMMSS.csv	Libelle_Processus	VARCHAR(255)							Y	
+user_ref_types_engagements	iard_en	1	libelle_motif_indexation	STRING		Libelle_Motif_indexation	root	C-iard_en-root	iard_en_user_SRC015_YYYYMMDD_HHMMSS.csv	Libelle_Motif_indexation	VARCHAR(255)								
+user_ref_types_engagements	iard_en	2	libelle_type_engagement	STRING		Libelle_Type_Engagement	root	C-iard_en-root	iard_en_user_SRC015_YYYYMMDD_HHMMSS.csv	Libelle_Type_Engagement	VARCHAR(255)							N	
+user_ref_types_flux_processus_motif	iard_en	0	libelle_processus	STRING		Libelle_Processus	root	C-iard_en-root	iard_en_user_SRC013_YYYYMMDD_HHMMSS.csv	Libelle_Processus	VARCHAR(255)							Y	
+user_ref_types_flux_processus_motif	iard_en	1	libelle_motif_indexation	STRING		Libelle_Motif_Indexation	root	C-iard_en-root	iard_en_user_SRC013_YYYYMMDD_HHMMSS.csv	Libelle_Motif_Indexation	VARCHAR(255)								
+user_ref_types_flux_processus_motif	iard_en	2	libelle_adrk	STRING		Libelle_ADRK	root	C-iard_en-root	iard_en_user_SRC013_YYYYMMDD_HHMMSS.csv	Libelle_ADRK	VARCHAR(255)							N	
+user_ref_types_flux_processus_motif	iard_en	3	libelle_type_flux	STRING		Libelle_Type_Flux	root	C-iard_en-root	iard_en_user_SRC013_YYYYMMDD_HHMMSS.csv	Libelle_Type_Flux	VARCHAR(255)							N	
+user_ref_types_flux_processus_motif	iard_en	4	libelle_type_flux_detail	STRING		Libelle_Type_Flux_Detail	root	C-iard_en-root	iard_en_user_SRC013_YYYYMMDD_HHMMSS.csv	Libelle_Type_Flux_Detail	VARCHAR(255)							N	
+user_ref_types_flux_processus_motif	iard_en	5	libelle_type_flux_2	STRING		Libelle_Type_Flux_2	root	C-iard_en-root	iard_en_user_SRC013_YYYYMMDD_HHMMSS.csv	Libelle_Type_Flux_2	VARCHAR(255)							N	
+user_ref_types_flux_processus_motif	iard_en	6	libelle_type_flux_3	STRING		Libelle_Type_Flux_3	root	C-iard_en-root	iard_en_user_SRC013_YYYYMMDD_HHMMSS.csv	Libelle_Type_Flux_3	VARCHAR(255)							N	
+user_ref_types_flux_processus_motif	iard_en	7	libelle_type_flux_4	STRING		Libelle_Type_Flux_4	root	C-iard_en-root	iard_en_user_SRC013_YYYYMMDD_HHMMSS.csv	Libelle_Type_Flux_4	VARCHAR(255)							N	
+user_ref_types_produits	iard_en	0	libelle_type_produit	STRING		Libelle_Type_Produit	root	C-iard_en-root	iard_en_user_SRC008_YYYYMMDD_HHMMSS.csv	Libelle_Type_Produit	VARCHAR(255)							Y	
+user_ref_types_produits	iard_en	1	libelle_regroup_produit	STRING		Libelle_Regroup_Produit	root	C-iard_en-root	iard_en_user_SRC008_YYYYMMDD_HHMMSS.csv	Libelle_Regroup_Produit	VARCHAR(255)							N	
+user_ref_types_produits	iard_en	2	no_type_produit	STRING		No_Type_Produit	root	C-iard_en-root	iard_en_user_SRC008_YYYYMMDD_HHMMSS.csv	No_Type_Produit	VARCHAR(255)							N	
