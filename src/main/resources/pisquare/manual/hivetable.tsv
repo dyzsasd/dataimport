@@ -1,0 +1,1002 @@
+ab_participation	pisquare	0	participation_as_of	TIMESTAMP	dd/mm/yyyy	Participation as of	manual	C-pisquare-manual	MNL_AB_Participation_yyyymmdd_hhmmss.csv	Participation as of	Date									1.3							
+ab_participation	pisquare	1	fund_id	BIGINT		Fund Id	manual	C-pisquare-manual	MNL_AB_Participation_yyyymmdd_hhmmss.csv	Fund Id	Integer									1.3							
+ab_participation	pisquare	2	fund_name	STRING		Fund Name	manual	C-pisquare-manual	MNL_AB_Participation_yyyymmdd_hhmmss.csv	Fund Name	String									1.3							
+ab_participation	pisquare	3	fund_isin_code	STRING		Fund ISIN Code	manual	C-pisquare-manual	MNL_AB_Participation_yyyymmdd_hhmmss.csv	Fund ISIN Code	String									1.3							
+ab_participation	pisquare	4	portfolio_id	STRING		Portfolio ID	manual	C-pisquare-manual	MNL_AB_Participation_yyyymmdd_hhmmss.csv	Portfolio ID	String									1.3							
+ab_participation	pisquare	5	portfolio_name	STRING		Portfolio Name	manual	C-pisquare-manual	MNL_AB_Participation_yyyymmdd_hhmmss.csv	Portfolio Name	String									1.3							
+ab_participation	pisquare	6	held_shares_in_units_shares	DECIMAL(20,6)		Held Shares (in units/shares)	manual	C-pisquare-manual	MNL_AB_Participation_yyyymmdd_hhmmss.csv	Held Shares (in units/shares)	Real									1.3							
+ab_participation	pisquare	7	held_share	DECIMAL(20,6)		Held Share	manual	C-pisquare-manual	MNL_AB_Participation_yyyymmdd_hhmmss.csv	Held Share	Real									1.3							
+ab_participation	pisquare	8	total_units_shares_axa_portfolios	DECIMAL(20,6)		Total Units / Shares (AXA Portfolios)	manual	C-pisquare-manual	MNL_AB_Participation_yyyymmdd_hhmmss.csv	Total Units / Shares (AXA Portfolios)	Real									1.3							
+ab_trades	pisquare	0	portfolio_dali_id	STRING		Portfolio Dali Id	manual	C-pisquare-manual	MNL_AB_Trades_yyyymmdd_hhmmss.csv	Portfolio Dali Id	String									1.3							
+ab_trades	pisquare	1	portfolio_name	STRING		Portfolio Name	manual	C-pisquare-manual	MNL_AB_Trades_yyyymmdd_hhmmss.csv	Portfolio Name	String									1.3							
+ab_trades	pisquare	2	carveout_ptf_dali_id	STRING		CarveOut/Ptf Dali Id	manual	C-pisquare-manual	MNL_AB_Trades_yyyymmdd_hhmmss.csv	CarveOut/Ptf Dali Id	String									1.3							
+ab_trades	pisquare	3	carveout_ptf_name	STRING		CarveOut/Ptf Name	manual	C-pisquare-manual	MNL_AB_Trades_yyyymmdd_hhmmss.csv	CarveOut/Ptf Name	String									1.3							
+ab_trades	pisquare	4	carveout_ptf_currency	STRING		CarveOut/Ptf CURRENCY	manual	C-pisquare-manual	MNL_AB_Trades_yyyymmdd_hhmmss.csv	CarveOut/Ptf CURRENCY	String									1.3							
+ab_trades	pisquare	5	category_name	STRING		Category Name	manual	C-pisquare-manual	MNL_AB_Trades_yyyymmdd_hhmmss.csv	Category Name	String									1.3							
+ab_trades	pisquare	6	tra_trade_date	TIMESTAMP	dd/mm/yyyy	Tra Trade Date	manual	C-pisquare-manual	MNL_AB_Trades_yyyymmdd_hhmmss.csv	Tra Trade Date	Date									1.3							
+ab_trades	pisquare	7	tra_settlement_date	TIMESTAMP	dd/mm/yyyy	Tra Settlement Date	manual	C-pisquare-manual	MNL_AB_Trades_yyyymmdd_hhmmss.csv	Tra Settlement Date	Date									1.3							
+ab_trades	pisquare	8	tra_settlement_currency	STRING		Tra Settlement CURRENCY	manual	C-pisquare-manual	MNL_AB_Trades_yyyymmdd_hhmmss.csv	Tra Settlement CURRENCY	String									1.3							
+ab_trades	pisquare	9	inst_local_currency	STRING		Inst Local CURRENCY	manual	C-pisquare-manual	MNL_AB_Trades_yyyymmdd_hhmmss.csv	Inst Local CURRENCY	String									1.3							
+ab_trades	pisquare	10	inst_long_name	STRING		Inst Long Name	manual	C-pisquare-manual	MNL_AB_Trades_yyyymmdd_hhmmss.csv	Inst Long Name	String									1.3							
+ab_trades	pisquare	11	inst_dali_code	STRING		Inst Dali Code	manual	C-pisquare-manual	MNL_AB_Trades_yyyymmdd_hhmmss.csv	Inst Dali Code	String									1.3							
+ab_trades	pisquare	12	inst_isin_code	STRING		Inst Isin Code	manual	C-pisquare-manual	MNL_AB_Trades_yyyymmdd_hhmmss.csv	Inst Isin Code	String									1.3							
+ab_trades	pisquare	13	inst_type_name	STRING		Inst Type Name	manual	C-pisquare-manual	MNL_AB_Trades_yyyymmdd_hhmmss.csv	Inst Type Name	String									1.3							
+ab_trades	pisquare	14	tra_nominal_quantity	STRING		Tra Nominal Quantity	manual	C-pisquare-manual	MNL_AB_Trades_yyyymmdd_hhmmss.csv	Tra Nominal Quantity	String									1.3							
+ab_trades	pisquare	15	settlement_cash_amount_settl_cur	DECIMAL(20,3)		Settlement Cash Amount (Settl Cur)	manual	C-pisquare-manual	MNL_AB_Trades_yyyymmdd_hhmmss.csv	Settlement Cash Amount (Settl Cur)	Real									1.3							
+ab_trades	pisquare	16	settlement_cash_amount_ptf_cur	DECIMAL(20,3)		Settlement Cash Amount (Ptf Cur)	manual	C-pisquare-manual	MNL_AB_Trades_yyyymmdd_hhmmss.csv	Settlement Cash Amount (Ptf Cur)	Real									1.3							
+ab_trades	pisquare	17	tra_accrued_interest_lcl_cur	DECIMAL(20,3)		Tra Accrued Interest (Lcl Cur)	manual	C-pisquare-manual	MNL_AB_Trades_yyyymmdd_hhmmss.csv	Tra Accrued Interest (Lcl Cur)	Real									1.3							
+ab_trades	pisquare	18	tra_accrued_interest_ptf_cur	DECIMAL(20,3)		Tra Accrued Interest (Ptf Cur)	manual	C-pisquare-manual	MNL_AB_Trades_yyyymmdd_hhmmss.csv	Tra Accrued Interest (Ptf Cur)	Real									1.3							
+ab_trades	pisquare	19	ytm	DECIMAL(20,3)		YTM	manual	C-pisquare-manual	MNL_AB_Trades_yyyymmdd_hhmmss.csv	YTM	Real									1.3							
+ab_trades	pisquare	20	modified_duration	DECIMAL(20,3)		Modified duration	manual	C-pisquare-manual	MNL_AB_Trades_yyyymmdd_hhmmss.csv	Modified duration	Real									1.3							
+ab_trades	pisquare	21	bloomberg_ticker	STRING		BLOOMBERG TICKER	manual	C-pisquare-manual	MNL_AB_Trades_yyyymmdd_hhmmss.csv	BLOOMBERG TICKER	String									1.3							
+ab_trades	pisquare	22	issuer_third_party_country	STRING		Issuer/Third Party COUNTRY	manual	C-pisquare-manual	MNL_AB_Trades_yyyymmdd_hhmmss.csv	Issuer/Third Party COUNTRY	String									1.3							
+ab_trades	pisquare	23	issue_date	TIMESTAMP	dd/mm/yyyy	ISSUE DATE	manual	C-pisquare-manual	MNL_AB_Trades_yyyymmdd_hhmmss.csv	ISSUE DATE	Date									1.3							
+ab_trades	pisquare	24	issuer_ctp_id	BIGINT		ISSUER CTP ID	manual	C-pisquare-manual	MNL_AB_Trades_yyyymmdd_hhmmss.csv	ISSUER CTP ID	Integer									1.3							
+ab_trades	pisquare	25	issuer_dali_code	STRING		Issuer Dali Code	manual	C-pisquare-manual	MNL_AB_Trades_yyyymmdd_hhmmss.csv	Issuer Dali Code	String									1.3							
+ab_trades	pisquare	26	issuer_third_party_long_name	STRING		Issuer/Third Party LONG NAME	manual	C-pisquare-manual	MNL_AB_Trades_yyyymmdd_hhmmss.csv	Issuer/Third Party LONG NAME	String									1.3							
+ab_trades	pisquare	27	maturity_date	TIMESTAMP	dd/mm/yyyy	MATURITY DATE	manual	C-pisquare-manual	MNL_AB_Trades_yyyymmdd_hhmmss.csv	MATURITY DATE	Date									1.3							
+ab_trades	pisquare	28	coupon_frequency	STRING		COUPON FREQUENCY	manual	C-pisquare-manual	MNL_AB_Trades_yyyymmdd_hhmmss.csv	COUPON FREQUENCY	String									1.3							
+ab_trades	pisquare	29	coupon_rate	DECIMAL(20,6)		COUPON RATE	manual	C-pisquare-manual	MNL_AB_Trades_yyyymmdd_hhmmss.csv	COUPON RATE	Real									1.3							
+ab_trades	pisquare	30	rate_type	STRING		RATE TYPE	manual	C-pisquare-manual	MNL_AB_Trades_yyyymmdd_hhmmss.csv	RATE TYPE	String									1.3							
+ab_trades	pisquare	31	first_coupon_date	TIMESTAMP	dd/mm/yyyy	FIRST COUPON DATE	manual	C-pisquare-manual	MNL_AB_Trades_yyyymmdd_hhmmss.csv	FIRST COUPON DATE	Date									1.3							
+ab_trades	pisquare	32	redemption_amount	DECIMAL(20,6)		REDEMPTION AMOUNT	manual	C-pisquare-manual	MNL_AB_Trades_yyyymmdd_hhmmss.csv	REDEMPTION AMOUNT	Real									1.3							
+ab_trades	pisquare	33	next_call_date	TIMESTAMP	dd/mm/yyyy	NEXT CALL DATE	manual	C-pisquare-manual	MNL_AB_Trades_yyyymmdd_hhmmss.csv	NEXT CALL DATE	Date									1.3							
+ab_trades	pisquare	34	next_call_price	DECIMAL(20,6)		NEXT CALL PRICE	manual	C-pisquare-manual	MNL_AB_Trades_yyyymmdd_hhmmss.csv	NEXT CALL PRICE	Real									1.3							
+ab_trades	pisquare	35	next_put_date	TIMESTAMP	dd/mm/yyyy	NEXT PUT DATE	manual	C-pisquare-manual	MNL_AB_Trades_yyyymmdd_hhmmss.csv	NEXT PUT DATE	Date									1.3							
+ab_trades	pisquare	36	next_put_price	DECIMAL(20,6)		NEXT PUT PRICE	manual	C-pisquare-manual	MNL_AB_Trades_yyyymmdd_hhmmss.csv	NEXT PUT PRICE	Real									1.3							
+ab_trades	pisquare	37	is_index_linked	STRING		IS INDEX LINKED	manual	C-pisquare-manual	MNL_AB_Trades_yyyymmdd_hhmmss.csv	IS INDEX LINKED	String									1.3							
+ab_trades	pisquare	38	base_index	STRING		BASE INDEX	manual	C-pisquare-manual	MNL_AB_Trades_yyyymmdd_hhmmss.csv	BASE INDEX	String									1.3							
+ab_trades	pisquare	39	fund_asset_class_focus	STRING		FUND ASSET CLASS FOCUS	manual	C-pisquare-manual	MNL_AB_Trades_yyyymmdd_hhmmss.csv	FUND ASSET CLASS FOCUS	String									1.3							
+ab_trades	pisquare	40	market_sector	STRING		MARKET SECTOR	manual	C-pisquare-manual	MNL_AB_Trades_yyyymmdd_hhmmss.csv	MARKET SECTOR	String									1.3							
+ab_trades	pisquare	41	s_p_long_term_rating_instrument	STRING		S&P long term rating instrument	manual	C-pisquare-manual	MNL_AB_Trades_yyyymmdd_hhmmss.csv	S&P long term rating instrument	String									1.3							
+ab_trades	pisquare	42	moodys_long_term_rating_instrument	STRING		Moody's long term rating instrument	manual	C-pisquare-manual	MNL_AB_Trades_yyyymmdd_hhmmss.csv	Moody's long term rating instrument	String									1.3							
+ab_trades	pisquare	43	fitch_long_term_rating_instrument	STRING		Fitch long term rating instrument	manual	C-pisquare-manual	MNL_AB_Trades_yyyymmdd_hhmmss.csv	Fitch long term rating instrument	String									1.3							
+ab_trades	pisquare	44	issue_country	STRING		ISSUE COUNTRY	manual	C-pisquare-manual	MNL_AB_Trades_yyyymmdd_hhmmss.csv	ISSUE COUNTRY	String									1.3							
+ab_trades	pisquare	45	is_perpetual	STRING		IS PERPETUAL	manual	C-pisquare-manual	MNL_AB_Trades_yyyymmdd_hhmmss.csv	IS PERPETUAL	String									1.3							
+ab_trades	pisquare	46	is_step_up	STRING		IS STEP UP	manual	C-pisquare-manual	MNL_AB_Trades_yyyymmdd_hhmmss.csv	IS STEP UP	String									1.3							
+ab_trades	pisquare	47	redemption_type	STRING		REDEMPTION TYPE	manual	C-pisquare-manual	MNL_AB_Trades_yyyymmdd_hhmmss.csv	REDEMPTION TYPE	String									1.3							
+ab_trades	pisquare	48	is_callable	STRING		IS CALLABLE	manual	C-pisquare-manual	MNL_AB_Trades_yyyymmdd_hhmmss.csv	IS CALLABLE	String									1.3							
+ab_trades	pisquare	49	is_subordinated	STRING		IS SUBORDINATED	manual	C-pisquare-manual	MNL_AB_Trades_yyyymmdd_hhmmss.csv	IS SUBORDINATED	String									1.3							
+ab_trades	pisquare	50	fund_strategy	STRING		FUND STRATEGY	manual	C-pisquare-manual	MNL_AB_Trades_yyyymmdd_hhmmss.csv	FUND STRATEGY	String									1.3							
+ab_trades	pisquare	51	collateral_type	STRING		COLLATERAL TYPE	manual	C-pisquare-manual	MNL_AB_Trades_yyyymmdd_hhmmss.csv	COLLATERAL TYPE	String									1.3							
+ab_trades	pisquare	52	issuer_ultimate_parent_bloomberg_id	STRING		ISSUER ULTIMATE PARENT BLOOMBERG ID	manual	C-pisquare-manual	MNL_AB_Trades_yyyymmdd_hhmmss.csv	ISSUER ULTIMATE PARENT BLOOMBERG ID	String									1.3							
+ab_trades	pisquare	53	third_party_external_bloomberg_issuer_number	STRING		THIRD PARTY EXTERNAL BLOOMBERG ISSUER NUMBER	manual	C-pisquare-manual	MNL_AB_Trades_yyyymmdd_hhmmss.csv	THIRD PARTY EXTERNAL BLOOMBERG ISSUER NUMBER	String									1.3							
+ab_trades	pisquare	54	issuer_third_party_ultimate_parent_company_code	STRING		Issuer/Third Party ULTIMATE PARENT COMPANY CODE	manual	C-pisquare-manual	MNL_AB_Trades_yyyymmdd_hhmmss.csv	Issuer/Third Party ULTIMATE PARENT COMPANY CODE	String									1.3							
+ab_trades	pisquare	55	issuer_third_party_ultimate_parent_company_name	STRING		Issuer/Third Party ULTIMATE PARENT COMPANY NAME	manual	C-pisquare-manual	MNL_AB_Trades_yyyymmdd_hhmmss.csv	Issuer/Third Party ULTIMATE PARENT COMPANY NAME	String									1.3							
+ab_trades	pisquare	56	s_p_long_term_rating_issuer_third_party	STRING		S&P long term rating Issuer/Third Party	manual	C-pisquare-manual	MNL_AB_Trades_yyyymmdd_hhmmss.csv	S&P long term rating Issuer/Third Party	String									1.3							
+ab_trades	pisquare	57	moodys_long_term_rating_issuer_third_party	STRING		Moody's long term rating  Issuer/Third Party	manual	C-pisquare-manual	MNL_AB_Trades_yyyymmdd_hhmmss.csv	Moody's long term rating  Issuer/Third Party	String									1.3							
+ab_trades	pisquare	58	fitch_long_term_rating_issuer_third_party	STRING		Fitch long term rating  Issuer/Third Party	manual	C-pisquare-manual	MNL_AB_Trades_yyyymmdd_hhmmss.csv	Fitch long term rating  Issuer/Third Party	String									1.3							
+activity_ccode	pisquare	0	company_code	STRING			manual	C-pisquare-manual	MNL_activity_ccode_yyyymmdd_hhmmss.csv											2.1							
+activity_ccode	pisquare	1	company_code_name	STRING			manual	C-pisquare-manual	MNL_activity_ccode_yyyymmdd_hhmmss.csv											2.1							
+activity_ccode	pisquare	2	activity_ccode	STRING			manual	C-pisquare-manual	MNL_activity_ccode_yyyymmdd_hhmmss.csv											2.1							
+activity_ccode	pisquare	3	isin	STRING			manual	C-pisquare-manual	MNL_activity_ccode_yyyymmdd_hhmmss.csv											2.1							
+activity_profit_center	pisquare	0	profit_center	STRING			manual	C-pisquare-manual	MNL_activity_profit_center_yyyymmdd_hhmmss.csv											2.1							
+activity_profit_center	pisquare	1	profit_center_name	STRING			manual	C-pisquare-manual	MNL_activity_profit_center_yyyymmdd_hhmmss.csv											2.1							
+activity_profit_center	pisquare	2	activity_profit_center	STRING			manual	C-pisquare-manual	MNL_activity_profit_center_yyyymmdd_hhmmss.csv											2.1							
+activity_ptf_type	pisquare	0	portfolio_type_of_portfolio_key	BIGINT			manual	C-pisquare-manual	MNL_activity_ptf_type_yyyymmdd_hhmmss.csv											2.1							
+activity_ptf_type	pisquare	1	portfolio_type_of_portfolio_long_name	STRING			manual	C-pisquare-manual	MNL_activity_ptf_type_yyyymmdd_hhmmss.csv											2.1							
+activity_ptf_type	pisquare	2	activity_ptf_type	STRING			manual	C-pisquare-manual	MNL_activity_ptf_type_yyyymmdd_hhmmss.csv											2.1							
+activity_split	pisquare	0	company_code	STRING			manual	C-pisquare-manual	MNL_activity_split_yyyymmdd_hhmmss.csv											2.1							
+activity_split	pisquare	1	company_code_name	STRING			manual	C-pisquare-manual	MNL_activity_split_yyyymmdd_hhmmss.csv											2.1							
+activity_split	pisquare	2	activity_split	STRING			manual	C-pisquare-manual	MNL_activity_split_yyyymmdd_hhmmss.csv											2.1							
+activity_split	pisquare	3	split_ratio	DECIMAL(10,6)			manual	C-pisquare-manual	MNL_activity_split_yyyymmdd_hhmmss.csv											2.1							
+aggregated_ip_be	pisquare	0	area	STRING		Area	manual	C-pisquare-manual	MNL_Aggregated_IP_BE_yyyymmdd_hhmmss.csv	Area	String									1.3							
+aggregated_ip_be	pisquare	1	region	STRING		Region	manual	C-pisquare-manual	MNL_Aggregated_IP_BE_yyyymmdd_hhmmss.csv	Region	String									1.3							
+aggregated_ip_be	pisquare	2	activity	STRING		Activity	manual	C-pisquare-manual	MNL_Aggregated_IP_BE_yyyymmdd_hhmmss.csv	Activity	String									1.3							
+aggregated_ip_be	pisquare	3	entity	STRING		Entity	manual	C-pisquare-manual	MNL_Aggregated_IP_BE_yyyymmdd_hhmmss.csv	Entity	String									1.3							
+aggregated_ip_be	pisquare	4	macro_asset_class	STRING		Macro Asset Class	manual	C-pisquare-manual	MNL_Aggregated_IP_BE_yyyymmdd_hhmmss.csv	Macro Asset Class	String									1.3							
+aggregated_ip_be	pisquare	5	caa_asset_class	STRING		CAA Asset Class	manual	C-pisquare-manual	MNL_Aggregated_IP_BE_yyyymmdd_hhmmss.csv	CAA Asset Class	String									1.3							
+aggregated_ip_be	pisquare	6	ip_asset_class	STRING		IP Asset Class	manual	C-pisquare-manual	MNL_Aggregated_IP_BE_yyyymmdd_hhmmss.csv	IP Asset Class	String									1.3							
+aggregated_ip_be	pisquare	7	averagerating	STRING		AverageRating	manual	C-pisquare-manual	MNL_Aggregated_IP_BE_yyyymmdd_hhmmss.csv	AverageRating	String									1.3							
+aggregated_ip_be	pisquare	8	instrument_ccy	STRING		Instrument ccy	manual	C-pisquare-manual	MNL_Aggregated_IP_BE_yyyymmdd_hhmmss.csv	Instrument ccy	String									1.3							
+aggregated_ip_be	pisquare	9	issuer_country	STRING		Issuer Country	manual	C-pisquare-manual	MNL_Aggregated_IP_BE_yyyymmdd_hhmmss.csv	Issuer Country	String									1.3							
+aggregated_ip_be	pisquare	10	strategy	STRING		Strategy	manual	C-pisquare-manual	MNL_Aggregated_IP_BE_yyyymmdd_hhmmss.csv	Strategy	String									1.3							
+aggregated_ip_be	pisquare	11	year	BIGINT		Year	manual	C-pisquare-manual	MNL_Aggregated_IP_BE_yyyymmdd_hhmmss.csv	Year	Integer									1.3							
+aggregated_ip_be	pisquare	12	month	STRING		Month	manual	C-pisquare-manual	MNL_Aggregated_IP_BE_yyyymmdd_hhmmss.csv	Month	String									1.3							
+aggregated_ip_be	pisquare	13	period	STRING		Period	manual	C-pisquare-manual	MNL_Aggregated_IP_BE_yyyymmdd_hhmmss.csv	Period	String									1.3							
+aggregated_ip_be	pisquare	14	flow	STRING		Flow	manual	C-pisquare-manual	MNL_Aggregated_IP_BE_yyyymmdd_hhmmss.csv	Flow	String									1.3							
+aggregated_ip_be	pisquare	15	rate	STRING		Rate	manual	C-pisquare-manual	MNL_Aggregated_IP_BE_yyyymmdd_hhmmss.csv	Rate	String									1.3							
+aggregated_ip_be	pisquare	16	amount	DECIMAL(20,3)		Amount	manual	C-pisquare-manual	MNL_Aggregated_IP_BE_yyyymmdd_hhmmss.csv	Amount	Real									1.3							
+aggregated_ip_be	pisquare	17	amount_eur	DECIMAL(20,3)		Amount €	manual	C-pisquare-manual	MNL_Aggregated_IP_BE_yyyymmdd_hhmmss.csv	Amount €	Real									1.3							
+aggregated_ip_be	pisquare	18	ir_duration	DECIMAL(20,3)		IR Duration	manual	C-pisquare-manual	MNL_Aggregated_IP_BE_yyyymmdd_hhmmss.csv	IR Duration	Real									1.3							
+aggregated_ip_be	pisquare	19	credit_duration	DECIMAL(20,3)		Credit Duration	manual	C-pisquare-manual	MNL_Aggregated_IP_BE_yyyymmdd_hhmmss.csv	Credit Duration	Real									1.3							
+aggregated_ip_be	pisquare	20	yield	DECIMAL(20,3)		Yield	manual	C-pisquare-manual	MNL_Aggregated_IP_BE_yyyymmdd_hhmmss.csv	Yield	Real									1.3							
+aggregated_ip_be	pisquare	21	hedged_fx	DECIMAL(20,3)		Hedged FX (%)	manual	C-pisquare-manual	MNL_Aggregated_IP_BE_yyyymmdd_hhmmss.csv	Hedged FX (%)	Real									1.3							
+aggregated_ip_be	pisquare	22	yield_net	DECIMAL(20,3)		Yield net	manual	C-pisquare-manual	MNL_Aggregated_IP_BE_yyyymmdd_hhmmss.csv	Yield net	Real									1.3							
+aggregated_ip_be	pisquare	23	spread	DECIMAL(20,3)		Spread 	manual	C-pisquare-manual	MNL_Aggregated_IP_BE_yyyymmdd_hhmmss.csv	Spread 	Real									1.3							
+aggregated_ip_be	pisquare	24	comments	STRING		Comments	manual	C-pisquare-manual	MNL_Aggregated_IP_BE_yyyymmdd_hhmmss.csv	Comments	String									1.3							
+aggregated_ip_be	pisquare	25	fx_rate_used	DECIMAL(20,3)		FX Rate Used	manual	C-pisquare-manual	MNL_Aggregated_IP_BE_yyyymmdd_hhmmss.csv	FX Rate Used	Real									1.3							
+aggregated_ip_be	pisquare	26	control_quali_on_basics	STRING		Control quali on basics	manual	C-pisquare-manual	MNL_Aggregated_IP_BE_yyyymmdd_hhmmss.csv	Control quali on basics	String									1.3							
+aggregated_ip_be	pisquare	27	control_quali	STRING		Control quali	manual	C-pisquare-manual	MNL_Aggregated_IP_BE_yyyymmdd_hhmmss.csv	Control quali	String									1.3							
+aggregated_ip_be	pisquare	28	control_quanti	STRING		Control quanti	manual	C-pisquare-manual	MNL_Aggregated_IP_BE_yyyymmdd_hhmmss.csv	Control quanti	String									1.3							
+aggregated_ip_be	pisquare	29	warning	STRING		Warning	manual	C-pisquare-manual	MNL_Aggregated_IP_BE_yyyymmdd_hhmmss.csv	Warning	String									1.3							
+aggregated_ip_be	pisquare	30	amount_euro_ir_duration	DECIMAL(20,3)		Amount Euro*IR Duration	manual	C-pisquare-manual	MNL_Aggregated_IP_BE_yyyymmdd_hhmmss.csv	Amount Euro*IR Duration	Real									1.3							
+aggregated_ip_be	pisquare	31	amount_euro_spread_duration	DECIMAL(20,3)		Amount Euro*Spread Duration	manual	C-pisquare-manual	MNL_Aggregated_IP_BE_yyyymmdd_hhmmss.csv	Amount Euro*Spread Duration	Real									1.3							
+aggregated_ip_be	pisquare	32	amount_yield	DECIMAL(20,3)		Amount*Yield	manual	C-pisquare-manual	MNL_Aggregated_IP_BE_yyyymmdd_hhmmss.csv	Amount*Yield	Real									1.3							
+aggregated_ip_be	pisquare	33	amount_euro_rating	DECIMAL(20,3)		Amount Euro*Rating	manual	C-pisquare-manual	MNL_Aggregated_IP_BE_yyyymmdd_hhmmss.csv	Amount Euro*Rating	Real									1.3							
+aggregated_ip_be	pisquare	34	gia_macro_class	STRING		GIA Macro Class	manual	C-pisquare-manual	MNL_Aggregated_IP_BE_yyyymmdd_hhmmss.csv	GIA Macro Class	String									1.3							
+aggregated_ip_be	pisquare	35	delta	DECIMAL(20,3)		Delta	manual	C-pisquare-manual	MNL_Aggregated_IP_BE_yyyymmdd_hhmmss.csv	Delta	Real									1.3							
+aggregated_ip_be	pisquare	36	gamma	DECIMAL(20,3)		Gamma	manual	C-pisquare-manual	MNL_Aggregated_IP_BE_yyyymmdd_hhmmss.csv	Gamma	Real									1.3							
+aggregated_ip_be	pisquare	37	stec_asset_class	STRING		STEC ASSET CLASS	manual	C-pisquare-manual	MNL_Aggregated_IP_BE_yyyymmdd_hhmmss.csv	STEC ASSET CLASS	String									1.3							
+aggregated_ip_be	pisquare	38	ip_asset_class_for_mim_restit	STRING		IP asset class for MIM restit	manual	C-pisquare-manual	MNL_Aggregated_IP_BE_yyyymmdd_hhmmss.csv	IP asset class for MIM restit	String									1.3							
+aggregated_ip_be	pisquare	39	gic_views_saa	STRING		GIC views --> SAA	manual	C-pisquare-manual	MNL_Aggregated_IP_BE_yyyymmdd_hhmmss.csv	GIC views --> SAA	String									1.3							
+aggregated_ip_be	pisquare	40	gic_views_focus	STRING		GIC views --> Focus	manual	C-pisquare-manual	MNL_Aggregated_IP_BE_yyyymmdd_hhmmss.csv	GIC views --> Focus	String									1.3							
+aggregated_ip_ch	pisquare	0	area	STRING		Area	manual	C-pisquare-manual	MNL_Aggregated_IP_CH_yyyymmdd_hhmmss.csv	Area	String									1.3							
+aggregated_ip_ch	pisquare	1	region	STRING		Region	manual	C-pisquare-manual	MNL_Aggregated_IP_CH_yyyymmdd_hhmmss.csv	Region	String									1.3							
+aggregated_ip_ch	pisquare	2	activity	STRING		Activity	manual	C-pisquare-manual	MNL_Aggregated_IP_CH_yyyymmdd_hhmmss.csv	Activity	String									1.3							
+aggregated_ip_ch	pisquare	3	entity	STRING		Entity	manual	C-pisquare-manual	MNL_Aggregated_IP_CH_yyyymmdd_hhmmss.csv	Entity	String									1.3							
+aggregated_ip_ch	pisquare	4	macro_asset_class	STRING		Macro Asset Class	manual	C-pisquare-manual	MNL_Aggregated_IP_CH_yyyymmdd_hhmmss.csv	Macro Asset Class	String									1.3							
+aggregated_ip_ch	pisquare	5	caa_asset_class	STRING		CAA Asset Class	manual	C-pisquare-manual	MNL_Aggregated_IP_CH_yyyymmdd_hhmmss.csv	CAA Asset Class	String									1.3							
+aggregated_ip_ch	pisquare	6	ip_asset_class	STRING		IP Asset Class	manual	C-pisquare-manual	MNL_Aggregated_IP_CH_yyyymmdd_hhmmss.csv	IP Asset Class	String									1.3							
+aggregated_ip_ch	pisquare	7	averagerating	STRING		AverageRating	manual	C-pisquare-manual	MNL_Aggregated_IP_CH_yyyymmdd_hhmmss.csv	AverageRating	String									1.3							
+aggregated_ip_ch	pisquare	8	instrument_ccy	STRING		Instrument ccy	manual	C-pisquare-manual	MNL_Aggregated_IP_CH_yyyymmdd_hhmmss.csv	Instrument ccy	String									1.3							
+aggregated_ip_ch	pisquare	9	issuer_country	STRING		Issuer Country	manual	C-pisquare-manual	MNL_Aggregated_IP_CH_yyyymmdd_hhmmss.csv	Issuer Country	String									1.3							
+aggregated_ip_ch	pisquare	10	strategy	STRING		Strategy	manual	C-pisquare-manual	MNL_Aggregated_IP_CH_yyyymmdd_hhmmss.csv	Strategy	String									1.3							
+aggregated_ip_ch	pisquare	11	year	BIGINT		Year	manual	C-pisquare-manual	MNL_Aggregated_IP_CH_yyyymmdd_hhmmss.csv	Year	Integer									1.3							
+aggregated_ip_ch	pisquare	12	month	STRING		Month	manual	C-pisquare-manual	MNL_Aggregated_IP_CH_yyyymmdd_hhmmss.csv	Month	String									1.3							
+aggregated_ip_ch	pisquare	13	period	STRING		Period	manual	C-pisquare-manual	MNL_Aggregated_IP_CH_yyyymmdd_hhmmss.csv	Period	String									1.3							
+aggregated_ip_ch	pisquare	14	flow	STRING		Flow	manual	C-pisquare-manual	MNL_Aggregated_IP_CH_yyyymmdd_hhmmss.csv	Flow	String									1.3							
+aggregated_ip_ch	pisquare	15	rate	STRING		Rate	manual	C-pisquare-manual	MNL_Aggregated_IP_CH_yyyymmdd_hhmmss.csv	Rate	String									1.3							
+aggregated_ip_ch	pisquare	16	amount	DECIMAL(20,3)		Amount	manual	C-pisquare-manual	MNL_Aggregated_IP_CH_yyyymmdd_hhmmss.csv	Amount	Real									1.3							
+aggregated_ip_ch	pisquare	17	amount_eur	DECIMAL(20,3)		Amount €	manual	C-pisquare-manual	MNL_Aggregated_IP_CH_yyyymmdd_hhmmss.csv	Amount €	Real									1.3							
+aggregated_ip_ch	pisquare	18	ir_duration	DECIMAL(20,3)		IR Duration	manual	C-pisquare-manual	MNL_Aggregated_IP_CH_yyyymmdd_hhmmss.csv	IR Duration	Real									1.3							
+aggregated_ip_ch	pisquare	19	credit_duration	DECIMAL(20,3)		Credit Duration	manual	C-pisquare-manual	MNL_Aggregated_IP_CH_yyyymmdd_hhmmss.csv	Credit Duration	Real									1.3							
+aggregated_ip_ch	pisquare	20	yield	DECIMAL(20,3)		Yield	manual	C-pisquare-manual	MNL_Aggregated_IP_CH_yyyymmdd_hhmmss.csv	Yield	Real									1.3							
+aggregated_ip_ch	pisquare	21	hedged_fx	DECIMAL(20,3)		Hedged FX (%)	manual	C-pisquare-manual	MNL_Aggregated_IP_CH_yyyymmdd_hhmmss.csv	Hedged FX (%)	Real									1.3							
+aggregated_ip_ch	pisquare	22	yield_net	DECIMAL(20,3)		Yield net	manual	C-pisquare-manual	MNL_Aggregated_IP_CH_yyyymmdd_hhmmss.csv	Yield net	Real									1.3							
+aggregated_ip_ch	pisquare	23	spread	DECIMAL(20,3)		Spread 	manual	C-pisquare-manual	MNL_Aggregated_IP_CH_yyyymmdd_hhmmss.csv	Spread 	Real									1.3							
+aggregated_ip_ch	pisquare	24	comments	STRING		Comments	manual	C-pisquare-manual	MNL_Aggregated_IP_CH_yyyymmdd_hhmmss.csv	Comments	String									1.3							
+aggregated_ip_ch	pisquare	25	fx_rate_used	DECIMAL(20,3)		FX Rate Used	manual	C-pisquare-manual	MNL_Aggregated_IP_CH_yyyymmdd_hhmmss.csv	FX Rate Used	Real									1.3							
+aggregated_ip_ch	pisquare	26	control_quali_on_basics	STRING		Control quali on basics	manual	C-pisquare-manual	MNL_Aggregated_IP_CH_yyyymmdd_hhmmss.csv	Control quali on basics	String									1.3							
+aggregated_ip_ch	pisquare	27	control_quali	STRING		Control quali	manual	C-pisquare-manual	MNL_Aggregated_IP_CH_yyyymmdd_hhmmss.csv	Control quali	String									1.3							
+aggregated_ip_ch	pisquare	28	control_quanti	STRING		Control quanti	manual	C-pisquare-manual	MNL_Aggregated_IP_CH_yyyymmdd_hhmmss.csv	Control quanti	String									1.3							
+aggregated_ip_ch	pisquare	29	warning	STRING		Warning	manual	C-pisquare-manual	MNL_Aggregated_IP_CH_yyyymmdd_hhmmss.csv	Warning	String									1.3							
+aggregated_ip_ch	pisquare	30	amount_euro_ir_duration	DECIMAL(20,3)		Amount Euro*IR Duration	manual	C-pisquare-manual	MNL_Aggregated_IP_CH_yyyymmdd_hhmmss.csv	Amount Euro*IR Duration	Real									1.3							
+aggregated_ip_ch	pisquare	31	amount_euro_spread_duration	DECIMAL(20,3)		Amount Euro*Spread Duration	manual	C-pisquare-manual	MNL_Aggregated_IP_CH_yyyymmdd_hhmmss.csv	Amount Euro*Spread Duration	Real									1.3							
+aggregated_ip_ch	pisquare	32	amount_yield	DECIMAL(20,3)		Amount*Yield	manual	C-pisquare-manual	MNL_Aggregated_IP_CH_yyyymmdd_hhmmss.csv	Amount*Yield	Real									1.3							
+aggregated_ip_ch	pisquare	33	amount_euro_rating	DECIMAL(20,3)		Amount Euro*Rating	manual	C-pisquare-manual	MNL_Aggregated_IP_CH_yyyymmdd_hhmmss.csv	Amount Euro*Rating	Real									1.3							
+aggregated_ip_ch	pisquare	34	gia_macro_class	STRING		GIA Macro Class	manual	C-pisquare-manual	MNL_Aggregated_IP_CH_yyyymmdd_hhmmss.csv	GIA Macro Class	String									1.3							
+aggregated_ip_ch	pisquare	35	delta	DECIMAL(20,3)		Delta	manual	C-pisquare-manual	MNL_Aggregated_IP_CH_yyyymmdd_hhmmss.csv	Delta	Real									1.3							
+aggregated_ip_ch	pisquare	36	gamma	DECIMAL(20,3)		Gamma	manual	C-pisquare-manual	MNL_Aggregated_IP_CH_yyyymmdd_hhmmss.csv	Gamma	Real									1.3							
+aggregated_ip_ch	pisquare	37	stec_asset_class	STRING		STEC ASSET CLASS	manual	C-pisquare-manual	MNL_Aggregated_IP_CH_yyyymmdd_hhmmss.csv	STEC ASSET CLASS	String									1.3							
+aggregated_ip_ch	pisquare	38	ip_asset_class_for_mim_restit	STRING		IP asset class for MIM restit	manual	C-pisquare-manual	MNL_Aggregated_IP_CH_yyyymmdd_hhmmss.csv	IP asset class for MIM restit	String									1.3							
+aggregated_ip_ch	pisquare	39	gic_views_saa	STRING		GIC views --> SAA	manual	C-pisquare-manual	MNL_Aggregated_IP_CH_yyyymmdd_hhmmss.csv	GIC views --> SAA	String									1.3							
+aggregated_ip_ch	pisquare	40	gic_views_focus	STRING		GIC views --> Focus	manual	C-pisquare-manual	MNL_Aggregated_IP_CH_yyyymmdd_hhmmss.csv	GIC views --> Focus	String									1.3							
+aggregated_ip_de	pisquare	0	area	STRING		Area	manual	C-pisquare-manual	MNL_Aggregated_IP_DE_yyyymmdd_hhmmss.csv	Area	String									1.3							
+aggregated_ip_de	pisquare	1	region	STRING		Region	manual	C-pisquare-manual	MNL_Aggregated_IP_DE_yyyymmdd_hhmmss.csv	Region	String									1.3							
+aggregated_ip_de	pisquare	2	activity	STRING		Activity	manual	C-pisquare-manual	MNL_Aggregated_IP_DE_yyyymmdd_hhmmss.csv	Activity	String									1.3							
+aggregated_ip_de	pisquare	3	entity	STRING		Entity	manual	C-pisquare-manual	MNL_Aggregated_IP_DE_yyyymmdd_hhmmss.csv	Entity	String									1.3							
+aggregated_ip_de	pisquare	4	macro_asset_class	STRING		Macro Asset Class	manual	C-pisquare-manual	MNL_Aggregated_IP_DE_yyyymmdd_hhmmss.csv	Macro Asset Class	String									1.3							
+aggregated_ip_de	pisquare	5	caa_asset_class	STRING		CAA Asset Class	manual	C-pisquare-manual	MNL_Aggregated_IP_DE_yyyymmdd_hhmmss.csv	CAA Asset Class	String									1.3							
+aggregated_ip_de	pisquare	6	ip_asset_class	STRING		IP Asset Class	manual	C-pisquare-manual	MNL_Aggregated_IP_DE_yyyymmdd_hhmmss.csv	IP Asset Class	String									1.3							
+aggregated_ip_de	pisquare	7	averagerating	STRING		AverageRating	manual	C-pisquare-manual	MNL_Aggregated_IP_DE_yyyymmdd_hhmmss.csv	AverageRating	String									1.3							
+aggregated_ip_de	pisquare	8	instrument_ccy	STRING		Instrument ccy	manual	C-pisquare-manual	MNL_Aggregated_IP_DE_yyyymmdd_hhmmss.csv	Instrument ccy	String									1.3							
+aggregated_ip_de	pisquare	9	issuer_country	STRING		Issuer Country	manual	C-pisquare-manual	MNL_Aggregated_IP_DE_yyyymmdd_hhmmss.csv	Issuer Country	String									1.3							
+aggregated_ip_de	pisquare	10	strategy	STRING		Strategy	manual	C-pisquare-manual	MNL_Aggregated_IP_DE_yyyymmdd_hhmmss.csv	Strategy	String									1.3							
+aggregated_ip_de	pisquare	11	year	BIGINT		Year	manual	C-pisquare-manual	MNL_Aggregated_IP_DE_yyyymmdd_hhmmss.csv	Year	Integer									1.3							
+aggregated_ip_de	pisquare	12	month	STRING		Month	manual	C-pisquare-manual	MNL_Aggregated_IP_DE_yyyymmdd_hhmmss.csv	Month	String									1.3							
+aggregated_ip_de	pisquare	13	period	STRING		Period	manual	C-pisquare-manual	MNL_Aggregated_IP_DE_yyyymmdd_hhmmss.csv	Period	String									1.3							
+aggregated_ip_de	pisquare	14	flow	STRING		Flow	manual	C-pisquare-manual	MNL_Aggregated_IP_DE_yyyymmdd_hhmmss.csv	Flow	String									1.3							
+aggregated_ip_de	pisquare	15	rate	STRING		Rate	manual	C-pisquare-manual	MNL_Aggregated_IP_DE_yyyymmdd_hhmmss.csv	Rate	String									1.3							
+aggregated_ip_de	pisquare	16	amount	DECIMAL(20,3)		Amount	manual	C-pisquare-manual	MNL_Aggregated_IP_DE_yyyymmdd_hhmmss.csv	Amount	Real									1.3							
+aggregated_ip_de	pisquare	17	amount_eur	DECIMAL(20,3)		Amount €	manual	C-pisquare-manual	MNL_Aggregated_IP_DE_yyyymmdd_hhmmss.csv	Amount €	Real									1.3							
+aggregated_ip_de	pisquare	18	ir_duration	DECIMAL(20,3)		IR Duration	manual	C-pisquare-manual	MNL_Aggregated_IP_DE_yyyymmdd_hhmmss.csv	IR Duration	Real									1.3							
+aggregated_ip_de	pisquare	19	credit_duration	DECIMAL(20,3)		Credit Duration	manual	C-pisquare-manual	MNL_Aggregated_IP_DE_yyyymmdd_hhmmss.csv	Credit Duration	Real									1.3							
+aggregated_ip_de	pisquare	20	yield	DECIMAL(20,3)		Yield	manual	C-pisquare-manual	MNL_Aggregated_IP_DE_yyyymmdd_hhmmss.csv	Yield	Real									1.3							
+aggregated_ip_de	pisquare	21	hedged_fx	DECIMAL(20,3)		Hedged FX (%)	manual	C-pisquare-manual	MNL_Aggregated_IP_DE_yyyymmdd_hhmmss.csv	Hedged FX (%)	Real									1.3							
+aggregated_ip_de	pisquare	22	yield_net	DECIMAL(20,3)		Yield net	manual	C-pisquare-manual	MNL_Aggregated_IP_DE_yyyymmdd_hhmmss.csv	Yield net	Real									1.3							
+aggregated_ip_de	pisquare	23	spread	DECIMAL(20,3)		Spread 	manual	C-pisquare-manual	MNL_Aggregated_IP_DE_yyyymmdd_hhmmss.csv	Spread 	Real									1.3							
+aggregated_ip_de	pisquare	24	comments	STRING		Comments	manual	C-pisquare-manual	MNL_Aggregated_IP_DE_yyyymmdd_hhmmss.csv	Comments	String									1.3							
+aggregated_ip_de	pisquare	25	fx_rate_used	DECIMAL(20,3)		FX Rate Used	manual	C-pisquare-manual	MNL_Aggregated_IP_DE_yyyymmdd_hhmmss.csv	FX Rate Used	Real									1.3							
+aggregated_ip_de	pisquare	26	control_quali_on_basics	STRING		Control quali on basics	manual	C-pisquare-manual	MNL_Aggregated_IP_DE_yyyymmdd_hhmmss.csv	Control quali on basics	String									1.3							
+aggregated_ip_de	pisquare	27	control_quali	STRING		Control quali	manual	C-pisquare-manual	MNL_Aggregated_IP_DE_yyyymmdd_hhmmss.csv	Control quali	String									1.3							
+aggregated_ip_de	pisquare	28	control_quanti	STRING		Control quanti	manual	C-pisquare-manual	MNL_Aggregated_IP_DE_yyyymmdd_hhmmss.csv	Control quanti	String									1.3							
+aggregated_ip_de	pisquare	29	warning	STRING		Warning	manual	C-pisquare-manual	MNL_Aggregated_IP_DE_yyyymmdd_hhmmss.csv	Warning	String									1.3							
+aggregated_ip_de	pisquare	30	amount_euro_ir_duration	DECIMAL(20,3)		Amount Euro*IR Duration	manual	C-pisquare-manual	MNL_Aggregated_IP_DE_yyyymmdd_hhmmss.csv	Amount Euro*IR Duration	Real									1.3							
+aggregated_ip_de	pisquare	31	amount_euro_spread_duration	DECIMAL(20,3)		Amount Euro*Spread Duration	manual	C-pisquare-manual	MNL_Aggregated_IP_DE_yyyymmdd_hhmmss.csv	Amount Euro*Spread Duration	Real									1.3							
+aggregated_ip_de	pisquare	32	amount_yield	DECIMAL(20,3)		Amount*Yield	manual	C-pisquare-manual	MNL_Aggregated_IP_DE_yyyymmdd_hhmmss.csv	Amount*Yield	Real									1.3							
+aggregated_ip_de	pisquare	33	amount_euro_rating	DECIMAL(20,3)		Amount Euro*Rating	manual	C-pisquare-manual	MNL_Aggregated_IP_DE_yyyymmdd_hhmmss.csv	Amount Euro*Rating	Real									1.3							
+aggregated_ip_de	pisquare	34	gia_macro_class	STRING		GIA Macro Class	manual	C-pisquare-manual	MNL_Aggregated_IP_DE_yyyymmdd_hhmmss.csv	GIA Macro Class	String									1.3							
+aggregated_ip_de	pisquare	35	delta	DECIMAL(20,3)		Delta	manual	C-pisquare-manual	MNL_Aggregated_IP_DE_yyyymmdd_hhmmss.csv	Delta	Real									1.3							
+aggregated_ip_de	pisquare	36	gamma	DECIMAL(20,3)		Gamma	manual	C-pisquare-manual	MNL_Aggregated_IP_DE_yyyymmdd_hhmmss.csv	Gamma	Real									1.3							
+aggregated_ip_de	pisquare	37	stec_asset_class	STRING		STEC ASSET CLASS	manual	C-pisquare-manual	MNL_Aggregated_IP_DE_yyyymmdd_hhmmss.csv	STEC ASSET CLASS	String									1.3							
+aggregated_ip_de	pisquare	38	ip_asset_class_for_mim_restit	STRING		IP asset class for MIM restit	manual	C-pisquare-manual	MNL_Aggregated_IP_DE_yyyymmdd_hhmmss.csv	IP asset class for MIM restit	String									1.3							
+aggregated_ip_de	pisquare	39	gic_views_saa	STRING		GIC views --> SAA	manual	C-pisquare-manual	MNL_Aggregated_IP_DE_yyyymmdd_hhmmss.csv	GIC views --> SAA	String									1.3							
+aggregated_ip_de	pisquare	40	gic_views_focus	STRING		GIC views --> Focus	manual	C-pisquare-manual	MNL_Aggregated_IP_DE_yyyymmdd_hhmmss.csv	GIC views --> Focus	String									1.3							
+aggregated_ip_fr	pisquare	0	area	STRING		Area	manual	C-pisquare-manual	MNL_Aggregated_IP_FR_yyyymmdd_hhmmss.csv	Area	String									1.3							
+aggregated_ip_fr	pisquare	1	region	STRING		Region	manual	C-pisquare-manual	MNL_Aggregated_IP_FR_yyyymmdd_hhmmss.csv	Region	String									1.3							
+aggregated_ip_fr	pisquare	2	activity	STRING		Activity	manual	C-pisquare-manual	MNL_Aggregated_IP_FR_yyyymmdd_hhmmss.csv	Activity	String									1.3							
+aggregated_ip_fr	pisquare	3	entity	STRING		Entity	manual	C-pisquare-manual	MNL_Aggregated_IP_FR_yyyymmdd_hhmmss.csv	Entity	String									1.3							
+aggregated_ip_fr	pisquare	4	macro_asset_class	STRING		Macro Asset Class	manual	C-pisquare-manual	MNL_Aggregated_IP_FR_yyyymmdd_hhmmss.csv	Macro Asset Class	String									1.3							
+aggregated_ip_fr	pisquare	5	caa_asset_class	STRING		CAA Asset Class	manual	C-pisquare-manual	MNL_Aggregated_IP_FR_yyyymmdd_hhmmss.csv	CAA Asset Class	String									1.3							
+aggregated_ip_fr	pisquare	6	ip_asset_class	STRING		IP Asset Class	manual	C-pisquare-manual	MNL_Aggregated_IP_FR_yyyymmdd_hhmmss.csv	IP Asset Class	String									1.3							
+aggregated_ip_fr	pisquare	7	averagerating	STRING		AverageRating	manual	C-pisquare-manual	MNL_Aggregated_IP_FR_yyyymmdd_hhmmss.csv	AverageRating	String									1.3							
+aggregated_ip_fr	pisquare	8	instrument_ccy	STRING		Instrument ccy	manual	C-pisquare-manual	MNL_Aggregated_IP_FR_yyyymmdd_hhmmss.csv	Instrument ccy	String									1.3							
+aggregated_ip_fr	pisquare	9	issuer_country	STRING		Issuer Country	manual	C-pisquare-manual	MNL_Aggregated_IP_FR_yyyymmdd_hhmmss.csv	Issuer Country	String									1.3							
+aggregated_ip_fr	pisquare	10	strategy	STRING		Strategy	manual	C-pisquare-manual	MNL_Aggregated_IP_FR_yyyymmdd_hhmmss.csv	Strategy	String									1.3							
+aggregated_ip_fr	pisquare	11	year	BIGINT		Year	manual	C-pisquare-manual	MNL_Aggregated_IP_FR_yyyymmdd_hhmmss.csv	Year	Integer									1.3							
+aggregated_ip_fr	pisquare	12	month	STRING		Month	manual	C-pisquare-manual	MNL_Aggregated_IP_FR_yyyymmdd_hhmmss.csv	Month	String									1.3							
+aggregated_ip_fr	pisquare	13	period	STRING		Period	manual	C-pisquare-manual	MNL_Aggregated_IP_FR_yyyymmdd_hhmmss.csv	Period	String									1.3							
+aggregated_ip_fr	pisquare	14	flow	STRING		Flow	manual	C-pisquare-manual	MNL_Aggregated_IP_FR_yyyymmdd_hhmmss.csv	Flow	String									1.3							
+aggregated_ip_fr	pisquare	15	rate	STRING		Rate	manual	C-pisquare-manual	MNL_Aggregated_IP_FR_yyyymmdd_hhmmss.csv	Rate	String									1.3							
+aggregated_ip_fr	pisquare	16	amount	DECIMAL(20,3)		Amount	manual	C-pisquare-manual	MNL_Aggregated_IP_FR_yyyymmdd_hhmmss.csv	Amount	Real									1.3							
+aggregated_ip_fr	pisquare	17	amount_eur	DECIMAL(20,3)		Amount €	manual	C-pisquare-manual	MNL_Aggregated_IP_FR_yyyymmdd_hhmmss.csv	Amount €	Real									1.3							
+aggregated_ip_fr	pisquare	18	ir_duration	DECIMAL(20,3)		IR Duration	manual	C-pisquare-manual	MNL_Aggregated_IP_FR_yyyymmdd_hhmmss.csv	IR Duration	Real									1.3							
+aggregated_ip_fr	pisquare	19	credit_duration	DECIMAL(20,3)		Credit Duration	manual	C-pisquare-manual	MNL_Aggregated_IP_FR_yyyymmdd_hhmmss.csv	Credit Duration	Real									1.3							
+aggregated_ip_fr	pisquare	20	yield	DECIMAL(20,3)		Yield	manual	C-pisquare-manual	MNL_Aggregated_IP_FR_yyyymmdd_hhmmss.csv	Yield	Real									1.3							
+aggregated_ip_fr	pisquare	21	hedged_fx	DECIMAL(20,3)		Hedged FX (%)	manual	C-pisquare-manual	MNL_Aggregated_IP_FR_yyyymmdd_hhmmss.csv	Hedged FX (%)	Real									1.3							
+aggregated_ip_fr	pisquare	22	yield_net	DECIMAL(20,3)		Yield net	manual	C-pisquare-manual	MNL_Aggregated_IP_FR_yyyymmdd_hhmmss.csv	Yield net	Real									1.3							
+aggregated_ip_fr	pisquare	23	spread	DECIMAL(20,3)		Spread 	manual	C-pisquare-manual	MNL_Aggregated_IP_FR_yyyymmdd_hhmmss.csv	Spread 	Real									1.3							
+aggregated_ip_fr	pisquare	24	comments	STRING		Comments	manual	C-pisquare-manual	MNL_Aggregated_IP_FR_yyyymmdd_hhmmss.csv	Comments	String									1.3							
+aggregated_ip_fr	pisquare	25	fx_rate_used	DECIMAL(20,3)		FX Rate Used	manual	C-pisquare-manual	MNL_Aggregated_IP_FR_yyyymmdd_hhmmss.csv	FX Rate Used	Real									1.3							
+aggregated_ip_fr	pisquare	26	control_quali_on_basics	STRING		Control quali on basics	manual	C-pisquare-manual	MNL_Aggregated_IP_FR_yyyymmdd_hhmmss.csv	Control quali on basics	String									1.3							
+aggregated_ip_fr	pisquare	27	control_quali	STRING		Control quali	manual	C-pisquare-manual	MNL_Aggregated_IP_FR_yyyymmdd_hhmmss.csv	Control quali	String									1.3							
+aggregated_ip_fr	pisquare	28	control_quanti	STRING		Control quanti	manual	C-pisquare-manual	MNL_Aggregated_IP_FR_yyyymmdd_hhmmss.csv	Control quanti	String									1.3							
+aggregated_ip_fr	pisquare	29	warning	STRING		Warning	manual	C-pisquare-manual	MNL_Aggregated_IP_FR_yyyymmdd_hhmmss.csv	Warning	String									1.3							
+aggregated_ip_fr	pisquare	30	amount_euro_ir_duration	DECIMAL(20,3)		Amount Euro*IR Duration	manual	C-pisquare-manual	MNL_Aggregated_IP_FR_yyyymmdd_hhmmss.csv	Amount Euro*IR Duration	Real									1.3							
+aggregated_ip_fr	pisquare	31	amount_euro_spread_duration	DECIMAL(20,3)		Amount Euro*Spread Duration	manual	C-pisquare-manual	MNL_Aggregated_IP_FR_yyyymmdd_hhmmss.csv	Amount Euro*Spread Duration	Real									1.3							
+aggregated_ip_fr	pisquare	32	amount_yield	DECIMAL(20,3)		Amount*Yield	manual	C-pisquare-manual	MNL_Aggregated_IP_FR_yyyymmdd_hhmmss.csv	Amount*Yield	Real									1.3							
+aggregated_ip_fr	pisquare	33	amount_euro_rating	DECIMAL(20,3)		Amount Euro*Rating	manual	C-pisquare-manual	MNL_Aggregated_IP_FR_yyyymmdd_hhmmss.csv	Amount Euro*Rating	Real									1.3							
+aggregated_ip_fr	pisquare	34	gia_macro_class	STRING		GIA Macro Class	manual	C-pisquare-manual	MNL_Aggregated_IP_FR_yyyymmdd_hhmmss.csv	GIA Macro Class	String									1.3							
+aggregated_ip_fr	pisquare	35	delta	DECIMAL(20,3)		Delta	manual	C-pisquare-manual	MNL_Aggregated_IP_FR_yyyymmdd_hhmmss.csv	Delta	Real									1.3							
+aggregated_ip_fr	pisquare	36	gamma	DECIMAL(20,3)		Gamma	manual	C-pisquare-manual	MNL_Aggregated_IP_FR_yyyymmdd_hhmmss.csv	Gamma	Real									1.3							
+aggregated_ip_fr	pisquare	37	stec_asset_class	STRING		STEC ASSET CLASS	manual	C-pisquare-manual	MNL_Aggregated_IP_FR_yyyymmdd_hhmmss.csv	STEC ASSET CLASS	String									1.3							
+aggregated_ip_fr	pisquare	38	ip_asset_class_for_mim_restit	STRING		IP asset class for MIM restit	manual	C-pisquare-manual	MNL_Aggregated_IP_FR_yyyymmdd_hhmmss.csv	IP asset class for MIM restit	String									1.3							
+aggregated_ip_fr	pisquare	39	gic_views_saa	STRING		GIC views --> SAA	manual	C-pisquare-manual	MNL_Aggregated_IP_FR_yyyymmdd_hhmmss.csv	GIC views --> SAA	String									1.3							
+aggregated_ip_fr	pisquare	40	gic_views_focus	STRING		GIC views --> Focus	manual	C-pisquare-manual	MNL_Aggregated_IP_FR_yyyymmdd_hhmmss.csv	GIC views --> Focus	String									1.3							
+aggregated_ip_hk	pisquare	0	area	STRING		Area	manual	C-pisquare-manual	MNL_Aggregated_IP_HK_yyyymmdd_hhmmss.csv	Area	String									1.3							
+aggregated_ip_hk	pisquare	1	region	STRING		Region	manual	C-pisquare-manual	MNL_Aggregated_IP_HK_yyyymmdd_hhmmss.csv	Region	String									1.3							
+aggregated_ip_hk	pisquare	2	activity	STRING		Activity	manual	C-pisquare-manual	MNL_Aggregated_IP_HK_yyyymmdd_hhmmss.csv	Activity	String									1.3							
+aggregated_ip_hk	pisquare	3	entity	STRING		Entity	manual	C-pisquare-manual	MNL_Aggregated_IP_HK_yyyymmdd_hhmmss.csv	Entity	String									1.3							
+aggregated_ip_hk	pisquare	4	macro_asset_class	STRING		Macro Asset Class	manual	C-pisquare-manual	MNL_Aggregated_IP_HK_yyyymmdd_hhmmss.csv	Macro Asset Class	String									1.3							
+aggregated_ip_hk	pisquare	5	caa_asset_class	STRING		CAA Asset Class	manual	C-pisquare-manual	MNL_Aggregated_IP_HK_yyyymmdd_hhmmss.csv	CAA Asset Class	String									1.3							
+aggregated_ip_hk	pisquare	6	ip_asset_class	STRING		IP Asset Class	manual	C-pisquare-manual	MNL_Aggregated_IP_HK_yyyymmdd_hhmmss.csv	IP Asset Class	String									1.3							
+aggregated_ip_hk	pisquare	7	averagerating	STRING		AverageRating	manual	C-pisquare-manual	MNL_Aggregated_IP_HK_yyyymmdd_hhmmss.csv	AverageRating	String									1.3							
+aggregated_ip_hk	pisquare	8	instrument_ccy	STRING		Instrument ccy	manual	C-pisquare-manual	MNL_Aggregated_IP_HK_yyyymmdd_hhmmss.csv	Instrument ccy	String									1.3							
+aggregated_ip_hk	pisquare	9	issuer_country	STRING		Issuer Country	manual	C-pisquare-manual	MNL_Aggregated_IP_HK_yyyymmdd_hhmmss.csv	Issuer Country	String									1.3							
+aggregated_ip_hk	pisquare	10	strategy	STRING		Strategy	manual	C-pisquare-manual	MNL_Aggregated_IP_HK_yyyymmdd_hhmmss.csv	Strategy	String									1.3							
+aggregated_ip_hk	pisquare	11	year	BIGINT		Year	manual	C-pisquare-manual	MNL_Aggregated_IP_HK_yyyymmdd_hhmmss.csv	Year	Integer									1.3							
+aggregated_ip_hk	pisquare	12	month	STRING		Month	manual	C-pisquare-manual	MNL_Aggregated_IP_HK_yyyymmdd_hhmmss.csv	Month	String									1.3							
+aggregated_ip_hk	pisquare	13	period	STRING		Period	manual	C-pisquare-manual	MNL_Aggregated_IP_HK_yyyymmdd_hhmmss.csv	Period	String									1.3							
+aggregated_ip_hk	pisquare	14	flow	STRING		Flow	manual	C-pisquare-manual	MNL_Aggregated_IP_HK_yyyymmdd_hhmmss.csv	Flow	String									1.3							
+aggregated_ip_hk	pisquare	15	rate	STRING		Rate	manual	C-pisquare-manual	MNL_Aggregated_IP_HK_yyyymmdd_hhmmss.csv	Rate	String									1.3							
+aggregated_ip_hk	pisquare	16	amount	DECIMAL(20,3)		Amount	manual	C-pisquare-manual	MNL_Aggregated_IP_HK_yyyymmdd_hhmmss.csv	Amount	Real									1.3							
+aggregated_ip_hk	pisquare	17	amount_eur	DECIMAL(20,3)		Amount €	manual	C-pisquare-manual	MNL_Aggregated_IP_HK_yyyymmdd_hhmmss.csv	Amount €	Real									1.3							
+aggregated_ip_hk	pisquare	18	ir_duration	DECIMAL(20,3)		IR Duration	manual	C-pisquare-manual	MNL_Aggregated_IP_HK_yyyymmdd_hhmmss.csv	IR Duration	Real									1.3							
+aggregated_ip_hk	pisquare	19	credit_duration	DECIMAL(20,3)		Credit Duration	manual	C-pisquare-manual	MNL_Aggregated_IP_HK_yyyymmdd_hhmmss.csv	Credit Duration	Real									1.3							
+aggregated_ip_hk	pisquare	20	yield	DECIMAL(20,3)		Yield	manual	C-pisquare-manual	MNL_Aggregated_IP_HK_yyyymmdd_hhmmss.csv	Yield	Real									1.3							
+aggregated_ip_hk	pisquare	21	hedged_fx	DECIMAL(20,3)		Hedged FX (%)	manual	C-pisquare-manual	MNL_Aggregated_IP_HK_yyyymmdd_hhmmss.csv	Hedged FX (%)	Real									1.3							
+aggregated_ip_hk	pisquare	22	yield_net	DECIMAL(20,3)		Yield net	manual	C-pisquare-manual	MNL_Aggregated_IP_HK_yyyymmdd_hhmmss.csv	Yield net	Real									1.3							
+aggregated_ip_hk	pisquare	23	spread	DECIMAL(20,3)		Spread 	manual	C-pisquare-manual	MNL_Aggregated_IP_HK_yyyymmdd_hhmmss.csv	Spread 	Real									1.3							
+aggregated_ip_hk	pisquare	24	comments	STRING		Comments	manual	C-pisquare-manual	MNL_Aggregated_IP_HK_yyyymmdd_hhmmss.csv	Comments	String									1.3							
+aggregated_ip_hk	pisquare	25	fx_rate_used	DECIMAL(20,3)		FX Rate Used	manual	C-pisquare-manual	MNL_Aggregated_IP_HK_yyyymmdd_hhmmss.csv	FX Rate Used	Real									1.3							
+aggregated_ip_hk	pisquare	26	control_quali_on_basics	STRING		Control quali on basics	manual	C-pisquare-manual	MNL_Aggregated_IP_HK_yyyymmdd_hhmmss.csv	Control quali on basics	String									1.3							
+aggregated_ip_hk	pisquare	27	control_quali	STRING		Control quali	manual	C-pisquare-manual	MNL_Aggregated_IP_HK_yyyymmdd_hhmmss.csv	Control quali	String									1.3							
+aggregated_ip_hk	pisquare	28	control_quanti	STRING		Control quanti	manual	C-pisquare-manual	MNL_Aggregated_IP_HK_yyyymmdd_hhmmss.csv	Control quanti	String									1.3							
+aggregated_ip_hk	pisquare	29	warning	STRING		Warning	manual	C-pisquare-manual	MNL_Aggregated_IP_HK_yyyymmdd_hhmmss.csv	Warning	String									1.3							
+aggregated_ip_hk	pisquare	30	amount_euro_ir_duration	DECIMAL(20,3)		Amount Euro*IR Duration	manual	C-pisquare-manual	MNL_Aggregated_IP_HK_yyyymmdd_hhmmss.csv	Amount Euro*IR Duration	Real									1.3							
+aggregated_ip_hk	pisquare	31	amount_euro_spread_duration	DECIMAL(20,3)		Amount Euro*Spread Duration	manual	C-pisquare-manual	MNL_Aggregated_IP_HK_yyyymmdd_hhmmss.csv	Amount Euro*Spread Duration	Real									1.3							
+aggregated_ip_hk	pisquare	32	amount_yield	DECIMAL(20,3)		Amount*Yield	manual	C-pisquare-manual	MNL_Aggregated_IP_HK_yyyymmdd_hhmmss.csv	Amount*Yield	Real									1.3							
+aggregated_ip_hk	pisquare	33	amount_euro_rating	DECIMAL(20,3)		Amount Euro*Rating	manual	C-pisquare-manual	MNL_Aggregated_IP_HK_yyyymmdd_hhmmss.csv	Amount Euro*Rating	Real									1.3							
+aggregated_ip_hk	pisquare	34	gia_macro_class	STRING		GIA Macro Class	manual	C-pisquare-manual	MNL_Aggregated_IP_HK_yyyymmdd_hhmmss.csv	GIA Macro Class	String									1.3							
+aggregated_ip_hk	pisquare	35	delta	DECIMAL(20,3)		Delta	manual	C-pisquare-manual	MNL_Aggregated_IP_HK_yyyymmdd_hhmmss.csv	Delta	Real									1.3							
+aggregated_ip_hk	pisquare	36	gamma	DECIMAL(20,3)		Gamma	manual	C-pisquare-manual	MNL_Aggregated_IP_HK_yyyymmdd_hhmmss.csv	Gamma	Real									1.3							
+aggregated_ip_hk	pisquare	37	stec_asset_class	STRING		STEC ASSET CLASS	manual	C-pisquare-manual	MNL_Aggregated_IP_HK_yyyymmdd_hhmmss.csv	STEC ASSET CLASS	String									1.3							
+aggregated_ip_hk	pisquare	38	ip_asset_class_for_mim_restit	STRING		IP asset class for MIM restit	manual	C-pisquare-manual	MNL_Aggregated_IP_HK_yyyymmdd_hhmmss.csv	IP asset class for MIM restit	String									1.3							
+aggregated_ip_hk	pisquare	39	gic_views_saa	STRING		GIC views --> SAA	manual	C-pisquare-manual	MNL_Aggregated_IP_HK_yyyymmdd_hhmmss.csv	GIC views --> SAA	String									1.3							
+aggregated_ip_hk	pisquare	40	gic_views_focus	STRING		GIC views --> Focus	manual	C-pisquare-manual	MNL_Aggregated_IP_HK_yyyymmdd_hhmmss.csv	GIC views --> Focus	String									1.3							
+aggregated_ip_jp	pisquare	0	area	STRING		Area	manual	C-pisquare-manual	MNL_Aggregated_IP_JP_yyyymmdd_hhmmss.csv	Area	String									1.3							
+aggregated_ip_jp	pisquare	1	region	STRING		Region	manual	C-pisquare-manual	MNL_Aggregated_IP_JP_yyyymmdd_hhmmss.csv	Region	String									1.3							
+aggregated_ip_jp	pisquare	2	activity	STRING		Activity	manual	C-pisquare-manual	MNL_Aggregated_IP_JP_yyyymmdd_hhmmss.csv	Activity	String									1.3							
+aggregated_ip_jp	pisquare	3	entity	STRING		Entity	manual	C-pisquare-manual	MNL_Aggregated_IP_JP_yyyymmdd_hhmmss.csv	Entity	String									1.3							
+aggregated_ip_jp	pisquare	4	macro_asset_class	STRING		Macro Asset Class	manual	C-pisquare-manual	MNL_Aggregated_IP_JP_yyyymmdd_hhmmss.csv	Macro Asset Class	String									1.3							
+aggregated_ip_jp	pisquare	5	caa_asset_class	STRING		CAA Asset Class	manual	C-pisquare-manual	MNL_Aggregated_IP_JP_yyyymmdd_hhmmss.csv	CAA Asset Class	String									1.3							
+aggregated_ip_jp	pisquare	6	ip_asset_class	STRING		IP Asset Class	manual	C-pisquare-manual	MNL_Aggregated_IP_JP_yyyymmdd_hhmmss.csv	IP Asset Class	String									1.3							
+aggregated_ip_jp	pisquare	7	averagerating	STRING		AverageRating	manual	C-pisquare-manual	MNL_Aggregated_IP_JP_yyyymmdd_hhmmss.csv	AverageRating	String									1.3							
+aggregated_ip_jp	pisquare	8	instrument_ccy	STRING		Instrument ccy	manual	C-pisquare-manual	MNL_Aggregated_IP_JP_yyyymmdd_hhmmss.csv	Instrument ccy	String									1.3							
+aggregated_ip_jp	pisquare	9	issuer_country	STRING		Issuer Country	manual	C-pisquare-manual	MNL_Aggregated_IP_JP_yyyymmdd_hhmmss.csv	Issuer Country	String									1.3							
+aggregated_ip_jp	pisquare	10	strategy	STRING		Strategy	manual	C-pisquare-manual	MNL_Aggregated_IP_JP_yyyymmdd_hhmmss.csv	Strategy	String									1.3							
+aggregated_ip_jp	pisquare	11	year	BIGINT		Year	manual	C-pisquare-manual	MNL_Aggregated_IP_JP_yyyymmdd_hhmmss.csv	Year	Integer									1.3							
+aggregated_ip_jp	pisquare	12	month	STRING		Month	manual	C-pisquare-manual	MNL_Aggregated_IP_JP_yyyymmdd_hhmmss.csv	Month	String									1.3							
+aggregated_ip_jp	pisquare	13	period	STRING		Period	manual	C-pisquare-manual	MNL_Aggregated_IP_JP_yyyymmdd_hhmmss.csv	Period	String									1.3							
+aggregated_ip_jp	pisquare	14	flow	STRING		Flow	manual	C-pisquare-manual	MNL_Aggregated_IP_JP_yyyymmdd_hhmmss.csv	Flow	String									1.3							
+aggregated_ip_jp	pisquare	15	rate	STRING		Rate	manual	C-pisquare-manual	MNL_Aggregated_IP_JP_yyyymmdd_hhmmss.csv	Rate	String									1.3							
+aggregated_ip_jp	pisquare	16	amount	DECIMAL(20,3)		Amount	manual	C-pisquare-manual	MNL_Aggregated_IP_JP_yyyymmdd_hhmmss.csv	Amount	Real									1.3							
+aggregated_ip_jp	pisquare	17	amount_eur	DECIMAL(20,3)		Amount €	manual	C-pisquare-manual	MNL_Aggregated_IP_JP_yyyymmdd_hhmmss.csv	Amount €	Real									1.3							
+aggregated_ip_jp	pisquare	18	ir_duration	DECIMAL(20,3)		IR Duration	manual	C-pisquare-manual	MNL_Aggregated_IP_JP_yyyymmdd_hhmmss.csv	IR Duration	Real									1.3							
+aggregated_ip_jp	pisquare	19	credit_duration	DECIMAL(20,3)		Credit Duration	manual	C-pisquare-manual	MNL_Aggregated_IP_JP_yyyymmdd_hhmmss.csv	Credit Duration	Real									1.3							
+aggregated_ip_jp	pisquare	20	yield	DECIMAL(20,3)		Yield	manual	C-pisquare-manual	MNL_Aggregated_IP_JP_yyyymmdd_hhmmss.csv	Yield	Real									1.3							
+aggregated_ip_jp	pisquare	21	hedged_fx	DECIMAL(20,3)		Hedged FX (%)	manual	C-pisquare-manual	MNL_Aggregated_IP_JP_yyyymmdd_hhmmss.csv	Hedged FX (%)	Real									1.3							
+aggregated_ip_jp	pisquare	22	yield_net	DECIMAL(20,3)		Yield net	manual	C-pisquare-manual	MNL_Aggregated_IP_JP_yyyymmdd_hhmmss.csv	Yield net	Real									1.3							
+aggregated_ip_jp	pisquare	23	spread	DECIMAL(20,3)		Spread 	manual	C-pisquare-manual	MNL_Aggregated_IP_JP_yyyymmdd_hhmmss.csv	Spread 	Real									1.3							
+aggregated_ip_jp	pisquare	24	comments	STRING		Comments	manual	C-pisquare-manual	MNL_Aggregated_IP_JP_yyyymmdd_hhmmss.csv	Comments	String									1.3							
+aggregated_ip_jp	pisquare	25	fx_rate_used	DECIMAL(20,3)		FX Rate Used	manual	C-pisquare-manual	MNL_Aggregated_IP_JP_yyyymmdd_hhmmss.csv	FX Rate Used	Real									1.3							
+aggregated_ip_jp	pisquare	26	control_quali_on_basics	STRING		Control quali on basics	manual	C-pisquare-manual	MNL_Aggregated_IP_JP_yyyymmdd_hhmmss.csv	Control quali on basics	String									1.3							
+aggregated_ip_jp	pisquare	27	control_quali	STRING		Control quali	manual	C-pisquare-manual	MNL_Aggregated_IP_JP_yyyymmdd_hhmmss.csv	Control quali	String									1.3							
+aggregated_ip_jp	pisquare	28	control_quanti	STRING		Control quanti	manual	C-pisquare-manual	MNL_Aggregated_IP_JP_yyyymmdd_hhmmss.csv	Control quanti	String									1.3							
+aggregated_ip_jp	pisquare	29	warning	STRING		Warning	manual	C-pisquare-manual	MNL_Aggregated_IP_JP_yyyymmdd_hhmmss.csv	Warning	String									1.3							
+aggregated_ip_jp	pisquare	30	amount_euro_ir_duration	DECIMAL(20,3)		Amount Euro*IR Duration	manual	C-pisquare-manual	MNL_Aggregated_IP_JP_yyyymmdd_hhmmss.csv	Amount Euro*IR Duration	Real									1.3							
+aggregated_ip_jp	pisquare	31	amount_euro_spread_duration	DECIMAL(20,3)		Amount Euro*Spread Duration	manual	C-pisquare-manual	MNL_Aggregated_IP_JP_yyyymmdd_hhmmss.csv	Amount Euro*Spread Duration	Real									1.3							
+aggregated_ip_jp	pisquare	32	amount_yield	DECIMAL(20,3)		Amount*Yield	manual	C-pisquare-manual	MNL_Aggregated_IP_JP_yyyymmdd_hhmmss.csv	Amount*Yield	Real									1.3							
+aggregated_ip_jp	pisquare	33	amount_euro_rating	DECIMAL(20,3)		Amount Euro*Rating	manual	C-pisquare-manual	MNL_Aggregated_IP_JP_yyyymmdd_hhmmss.csv	Amount Euro*Rating	Real									1.3							
+aggregated_ip_jp	pisquare	34	gia_macro_class	STRING		GIA Macro Class	manual	C-pisquare-manual	MNL_Aggregated_IP_JP_yyyymmdd_hhmmss.csv	GIA Macro Class	String									1.3							
+aggregated_ip_jp	pisquare	35	delta	DECIMAL(20,3)		Delta	manual	C-pisquare-manual	MNL_Aggregated_IP_JP_yyyymmdd_hhmmss.csv	Delta	Real									1.3							
+aggregated_ip_jp	pisquare	36	gamma	DECIMAL(20,3)		Gamma	manual	C-pisquare-manual	MNL_Aggregated_IP_JP_yyyymmdd_hhmmss.csv	Gamma	Real									1.3							
+aggregated_ip_jp	pisquare	37	stec_asset_class	STRING		STEC ASSET CLASS	manual	C-pisquare-manual	MNL_Aggregated_IP_JP_yyyymmdd_hhmmss.csv	STEC ASSET CLASS	String									1.3							
+aggregated_ip_jp	pisquare	38	ip_asset_class_for_mim_restit	STRING		IP asset class for MIM restit	manual	C-pisquare-manual	MNL_Aggregated_IP_JP_yyyymmdd_hhmmss.csv	IP asset class for MIM restit	String									1.3							
+aggregated_ip_jp	pisquare	39	gic_views_saa	STRING		GIC views --> SAA	manual	C-pisquare-manual	MNL_Aggregated_IP_JP_yyyymmdd_hhmmss.csv	GIC views --> SAA	String									1.3							
+aggregated_ip_jp	pisquare	40	gic_views_focus	STRING		GIC views --> Focus	manual	C-pisquare-manual	MNL_Aggregated_IP_JP_yyyymmdd_hhmmss.csv	GIC views --> Focus	String									1.3							
+aggregated_ip_medla	pisquare	0	area	STRING		Area	manual	C-pisquare-manual	MNL_Aggregated_IP_MEDLA_yyyymmdd_hhmmss.csv	Area	String									1.3							
+aggregated_ip_medla	pisquare	1	region	STRING		Region	manual	C-pisquare-manual	MNL_Aggregated_IP_MEDLA_yyyymmdd_hhmmss.csv	Region	String									1.3							
+aggregated_ip_medla	pisquare	2	activity	STRING		Activity	manual	C-pisquare-manual	MNL_Aggregated_IP_MEDLA_yyyymmdd_hhmmss.csv	Activity	String									1.3							
+aggregated_ip_medla	pisquare	3	entity	STRING		Entity	manual	C-pisquare-manual	MNL_Aggregated_IP_MEDLA_yyyymmdd_hhmmss.csv	Entity	String									1.3							
+aggregated_ip_medla	pisquare	4	macro_asset_class	STRING		Macro Asset Class	manual	C-pisquare-manual	MNL_Aggregated_IP_MEDLA_yyyymmdd_hhmmss.csv	Macro Asset Class	String									1.3							
+aggregated_ip_medla	pisquare	5	caa_asset_class	STRING		CAA Asset Class	manual	C-pisquare-manual	MNL_Aggregated_IP_MEDLA_yyyymmdd_hhmmss.csv	CAA Asset Class	String									1.3							
+aggregated_ip_medla	pisquare	6	ip_asset_class	STRING		IP Asset Class	manual	C-pisquare-manual	MNL_Aggregated_IP_MEDLA_yyyymmdd_hhmmss.csv	IP Asset Class	String									1.3							
+aggregated_ip_medla	pisquare	7	averagerating	STRING		AverageRating	manual	C-pisquare-manual	MNL_Aggregated_IP_MEDLA_yyyymmdd_hhmmss.csv	AverageRating	String									1.3							
+aggregated_ip_medla	pisquare	8	instrument_ccy	STRING		Instrument ccy	manual	C-pisquare-manual	MNL_Aggregated_IP_MEDLA_yyyymmdd_hhmmss.csv	Instrument ccy	String									1.3							
+aggregated_ip_medla	pisquare	9	issuer_country	STRING		Issuer Country	manual	C-pisquare-manual	MNL_Aggregated_IP_MEDLA_yyyymmdd_hhmmss.csv	Issuer Country	String									1.3							
+aggregated_ip_medla	pisquare	10	strategy	STRING		Strategy	manual	C-pisquare-manual	MNL_Aggregated_IP_MEDLA_yyyymmdd_hhmmss.csv	Strategy	String									1.3							
+aggregated_ip_medla	pisquare	11	year	BIGINT		Year	manual	C-pisquare-manual	MNL_Aggregated_IP_MEDLA_yyyymmdd_hhmmss.csv	Year	Integer									1.3							
+aggregated_ip_medla	pisquare	12	month	STRING		Month	manual	C-pisquare-manual	MNL_Aggregated_IP_MEDLA_yyyymmdd_hhmmss.csv	Month	String									1.3							
+aggregated_ip_medla	pisquare	13	period	STRING		Period	manual	C-pisquare-manual	MNL_Aggregated_IP_MEDLA_yyyymmdd_hhmmss.csv	Period	String									1.3							
+aggregated_ip_medla	pisquare	14	flow	STRING		Flow	manual	C-pisquare-manual	MNL_Aggregated_IP_MEDLA_yyyymmdd_hhmmss.csv	Flow	String									1.3							
+aggregated_ip_medla	pisquare	15	rate	STRING		Rate	manual	C-pisquare-manual	MNL_Aggregated_IP_MEDLA_yyyymmdd_hhmmss.csv	Rate	String									1.3							
+aggregated_ip_medla	pisquare	16	amount	DECIMAL(20,3)		Amount	manual	C-pisquare-manual	MNL_Aggregated_IP_MEDLA_yyyymmdd_hhmmss.csv	Amount	Real									1.3							
+aggregated_ip_medla	pisquare	17	amount_eur	DECIMAL(20,3)		Amount €	manual	C-pisquare-manual	MNL_Aggregated_IP_MEDLA_yyyymmdd_hhmmss.csv	Amount €	Real									1.3							
+aggregated_ip_medla	pisquare	18	ir_duration	DECIMAL(20,3)		IR Duration	manual	C-pisquare-manual	MNL_Aggregated_IP_MEDLA_yyyymmdd_hhmmss.csv	IR Duration	Real									1.3							
+aggregated_ip_medla	pisquare	19	credit_duration	DECIMAL(20,3)		Credit Duration	manual	C-pisquare-manual	MNL_Aggregated_IP_MEDLA_yyyymmdd_hhmmss.csv	Credit Duration	Real									1.3							
+aggregated_ip_medla	pisquare	20	yield	DECIMAL(20,3)		Yield	manual	C-pisquare-manual	MNL_Aggregated_IP_MEDLA_yyyymmdd_hhmmss.csv	Yield	Real									1.3							
+aggregated_ip_medla	pisquare	21	hedged_fx	DECIMAL(20,3)		Hedged FX (%)	manual	C-pisquare-manual	MNL_Aggregated_IP_MEDLA_yyyymmdd_hhmmss.csv	Hedged FX (%)	Real									1.3							
+aggregated_ip_medla	pisquare	22	yield_net	DECIMAL(20,3)		Yield net	manual	C-pisquare-manual	MNL_Aggregated_IP_MEDLA_yyyymmdd_hhmmss.csv	Yield net	Real									1.3							
+aggregated_ip_medla	pisquare	23	spread	DECIMAL(20,3)		Spread 	manual	C-pisquare-manual	MNL_Aggregated_IP_MEDLA_yyyymmdd_hhmmss.csv	Spread 	Real									1.3							
+aggregated_ip_medla	pisquare	24	comments	STRING		Comments	manual	C-pisquare-manual	MNL_Aggregated_IP_MEDLA_yyyymmdd_hhmmss.csv	Comments	String									1.3							
+aggregated_ip_medla	pisquare	25	fx_rate_used	DECIMAL(20,3)		FX Rate Used	manual	C-pisquare-manual	MNL_Aggregated_IP_MEDLA_yyyymmdd_hhmmss.csv	FX Rate Used	Real									1.3							
+aggregated_ip_medla	pisquare	26	control_quali_on_basics	STRING		Control quali on basics	manual	C-pisquare-manual	MNL_Aggregated_IP_MEDLA_yyyymmdd_hhmmss.csv	Control quali on basics	String									1.3							
+aggregated_ip_medla	pisquare	27	control_quali	STRING		Control quali	manual	C-pisquare-manual	MNL_Aggregated_IP_MEDLA_yyyymmdd_hhmmss.csv	Control quali	String									1.3							
+aggregated_ip_medla	pisquare	28	control_quanti	STRING		Control quanti	manual	C-pisquare-manual	MNL_Aggregated_IP_MEDLA_yyyymmdd_hhmmss.csv	Control quanti	String									1.3							
+aggregated_ip_medla	pisquare	29	warning	STRING		Warning	manual	C-pisquare-manual	MNL_Aggregated_IP_MEDLA_yyyymmdd_hhmmss.csv	Warning	String									1.3							
+aggregated_ip_medla	pisquare	30	amount_euro_ir_duration	DECIMAL(20,3)		Amount Euro*IR Duration	manual	C-pisquare-manual	MNL_Aggregated_IP_MEDLA_yyyymmdd_hhmmss.csv	Amount Euro*IR Duration	Real									1.3							
+aggregated_ip_medla	pisquare	31	amount_euro_spread_duration	DECIMAL(20,3)		Amount Euro*Spread Duration	manual	C-pisquare-manual	MNL_Aggregated_IP_MEDLA_yyyymmdd_hhmmss.csv	Amount Euro*Spread Duration	Real									1.3							
+aggregated_ip_medla	pisquare	32	amount_yield	DECIMAL(20,3)		Amount*Yield	manual	C-pisquare-manual	MNL_Aggregated_IP_MEDLA_yyyymmdd_hhmmss.csv	Amount*Yield	Real									1.3							
+aggregated_ip_medla	pisquare	33	amount_euro_rating	DECIMAL(20,3)		Amount Euro*Rating	manual	C-pisquare-manual	MNL_Aggregated_IP_MEDLA_yyyymmdd_hhmmss.csv	Amount Euro*Rating	Real									1.3							
+aggregated_ip_medla	pisquare	34	gia_macro_class	STRING		GIA Macro Class	manual	C-pisquare-manual	MNL_Aggregated_IP_MEDLA_yyyymmdd_hhmmss.csv	GIA Macro Class	String									1.3							
+aggregated_ip_medla	pisquare	35	delta	DECIMAL(20,3)		Delta	manual	C-pisquare-manual	MNL_Aggregated_IP_MEDLA_yyyymmdd_hhmmss.csv	Delta	Real									1.3							
+aggregated_ip_medla	pisquare	36	gamma	DECIMAL(20,3)		Gamma	manual	C-pisquare-manual	MNL_Aggregated_IP_MEDLA_yyyymmdd_hhmmss.csv	Gamma	Real									1.3							
+aggregated_ip_medla	pisquare	37	stec_asset_class	STRING		STEC ASSET CLASS	manual	C-pisquare-manual	MNL_Aggregated_IP_MEDLA_yyyymmdd_hhmmss.csv	STEC ASSET CLASS	String									1.3							
+aggregated_ip_medla	pisquare	38	ip_asset_class_for_mim_restit	STRING		IP asset class for MIM restit	manual	C-pisquare-manual	MNL_Aggregated_IP_MEDLA_yyyymmdd_hhmmss.csv	IP asset class for MIM restit	String									1.3							
+aggregated_ip_medla	pisquare	39	gic_views_saa	STRING		GIC views --> SAA	manual	C-pisquare-manual	MNL_Aggregated_IP_MEDLA_yyyymmdd_hhmmss.csv	GIC views --> SAA	String									1.3							
+aggregated_ip_medla	pisquare	40	gic_views_focus	STRING		GIC views --> Focus	manual	C-pisquare-manual	MNL_Aggregated_IP_MEDLA_yyyymmdd_hhmmss.csv	GIC views --> Focus	String									1.3							
+aggregated_ip_uk	pisquare	0	area	STRING		Area	manual	C-pisquare-manual	MNL_Aggregated_IP_UK_yyyymmdd_hhmmss.csv	Area	String									1.3							
+aggregated_ip_uk	pisquare	1	region	STRING		Region	manual	C-pisquare-manual	MNL_Aggregated_IP_UK_yyyymmdd_hhmmss.csv	Region	String									1.3							
+aggregated_ip_uk	pisquare	2	activity	STRING		Activity	manual	C-pisquare-manual	MNL_Aggregated_IP_UK_yyyymmdd_hhmmss.csv	Activity	String									1.3							
+aggregated_ip_uk	pisquare	3	entity	STRING		Entity	manual	C-pisquare-manual	MNL_Aggregated_IP_UK_yyyymmdd_hhmmss.csv	Entity	String									1.3							
+aggregated_ip_uk	pisquare	4	macro_asset_class	STRING		Macro Asset Class	manual	C-pisquare-manual	MNL_Aggregated_IP_UK_yyyymmdd_hhmmss.csv	Macro Asset Class	String									1.3							
+aggregated_ip_uk	pisquare	5	caa_asset_class	STRING		CAA Asset Class	manual	C-pisquare-manual	MNL_Aggregated_IP_UK_yyyymmdd_hhmmss.csv	CAA Asset Class	String									1.3							
+aggregated_ip_uk	pisquare	6	ip_asset_class	STRING		IP Asset Class	manual	C-pisquare-manual	MNL_Aggregated_IP_UK_yyyymmdd_hhmmss.csv	IP Asset Class	String									1.3							
+aggregated_ip_uk	pisquare	7	averagerating	STRING		AverageRating	manual	C-pisquare-manual	MNL_Aggregated_IP_UK_yyyymmdd_hhmmss.csv	AverageRating	String									1.3							
+aggregated_ip_uk	pisquare	8	instrument_ccy	STRING		Instrument ccy	manual	C-pisquare-manual	MNL_Aggregated_IP_UK_yyyymmdd_hhmmss.csv	Instrument ccy	String									1.3							
+aggregated_ip_uk	pisquare	9	issuer_country	STRING		Issuer Country	manual	C-pisquare-manual	MNL_Aggregated_IP_UK_yyyymmdd_hhmmss.csv	Issuer Country	String									1.3							
+aggregated_ip_uk	pisquare	10	strategy	STRING		Strategy	manual	C-pisquare-manual	MNL_Aggregated_IP_UK_yyyymmdd_hhmmss.csv	Strategy	String									1.3							
+aggregated_ip_uk	pisquare	11	year	BIGINT		Year	manual	C-pisquare-manual	MNL_Aggregated_IP_UK_yyyymmdd_hhmmss.csv	Year	Integer									1.3							
+aggregated_ip_uk	pisquare	12	month	STRING		Month	manual	C-pisquare-manual	MNL_Aggregated_IP_UK_yyyymmdd_hhmmss.csv	Month	String									1.3							
+aggregated_ip_uk	pisquare	13	period	STRING		Period	manual	C-pisquare-manual	MNL_Aggregated_IP_UK_yyyymmdd_hhmmss.csv	Period	String									1.3							
+aggregated_ip_uk	pisquare	14	flow	STRING		Flow	manual	C-pisquare-manual	MNL_Aggregated_IP_UK_yyyymmdd_hhmmss.csv	Flow	String									1.3							
+aggregated_ip_uk	pisquare	15	rate	STRING		Rate	manual	C-pisquare-manual	MNL_Aggregated_IP_UK_yyyymmdd_hhmmss.csv	Rate	String									1.3							
+aggregated_ip_uk	pisquare	16	amount	DECIMAL(20,3)		Amount	manual	C-pisquare-manual	MNL_Aggregated_IP_UK_yyyymmdd_hhmmss.csv	Amount	Real									1.3							
+aggregated_ip_uk	pisquare	17	amount_eur	DECIMAL(20,3)		Amount €	manual	C-pisquare-manual	MNL_Aggregated_IP_UK_yyyymmdd_hhmmss.csv	Amount €	Real									1.3							
+aggregated_ip_uk	pisquare	18	ir_duration	DECIMAL(20,3)		IR Duration	manual	C-pisquare-manual	MNL_Aggregated_IP_UK_yyyymmdd_hhmmss.csv	IR Duration	Real									1.3							
+aggregated_ip_uk	pisquare	19	credit_duration	DECIMAL(20,3)		Credit Duration	manual	C-pisquare-manual	MNL_Aggregated_IP_UK_yyyymmdd_hhmmss.csv	Credit Duration	Real									1.3							
+aggregated_ip_uk	pisquare	20	yield	DECIMAL(20,3)		Yield	manual	C-pisquare-manual	MNL_Aggregated_IP_UK_yyyymmdd_hhmmss.csv	Yield	Real									1.3							
+aggregated_ip_uk	pisquare	21	hedged_fx	DECIMAL(20,3)		Hedged FX (%)	manual	C-pisquare-manual	MNL_Aggregated_IP_UK_yyyymmdd_hhmmss.csv	Hedged FX (%)	Real									1.3							
+aggregated_ip_uk	pisquare	22	yield_net	DECIMAL(20,3)		Yield net	manual	C-pisquare-manual	MNL_Aggregated_IP_UK_yyyymmdd_hhmmss.csv	Yield net	Real									1.3							
+aggregated_ip_uk	pisquare	23	spread	DECIMAL(20,3)		Spread 	manual	C-pisquare-manual	MNL_Aggregated_IP_UK_yyyymmdd_hhmmss.csv	Spread 	Real									1.3							
+aggregated_ip_uk	pisquare	24	comments	STRING		Comments	manual	C-pisquare-manual	MNL_Aggregated_IP_UK_yyyymmdd_hhmmss.csv	Comments	String									1.3							
+aggregated_ip_uk	pisquare	25	fx_rate_used	DECIMAL(20,3)		FX Rate Used	manual	C-pisquare-manual	MNL_Aggregated_IP_UK_yyyymmdd_hhmmss.csv	FX Rate Used	Real									1.3							
+aggregated_ip_uk	pisquare	26	control_quali_on_basics	STRING		Control quali on basics	manual	C-pisquare-manual	MNL_Aggregated_IP_UK_yyyymmdd_hhmmss.csv	Control quali on basics	String									1.3							
+aggregated_ip_uk	pisquare	27	control_quali	STRING		Control quali	manual	C-pisquare-manual	MNL_Aggregated_IP_UK_yyyymmdd_hhmmss.csv	Control quali	String									1.3							
+aggregated_ip_uk	pisquare	28	control_quanti	STRING		Control quanti	manual	C-pisquare-manual	MNL_Aggregated_IP_UK_yyyymmdd_hhmmss.csv	Control quanti	String									1.3							
+aggregated_ip_uk	pisquare	29	warning	STRING		Warning	manual	C-pisquare-manual	MNL_Aggregated_IP_UK_yyyymmdd_hhmmss.csv	Warning	String									1.3							
+aggregated_ip_uk	pisquare	30	amount_euro_ir_duration	DECIMAL(20,3)		Amount Euro*IR Duration	manual	C-pisquare-manual	MNL_Aggregated_IP_UK_yyyymmdd_hhmmss.csv	Amount Euro*IR Duration	Real									1.3							
+aggregated_ip_uk	pisquare	31	amount_euro_spread_duration	DECIMAL(20,3)		Amount Euro*Spread Duration	manual	C-pisquare-manual	MNL_Aggregated_IP_UK_yyyymmdd_hhmmss.csv	Amount Euro*Spread Duration	Real									1.3							
+aggregated_ip_uk	pisquare	32	amount_yield	DECIMAL(20,3)		Amount*Yield	manual	C-pisquare-manual	MNL_Aggregated_IP_UK_yyyymmdd_hhmmss.csv	Amount*Yield	Real									1.3							
+aggregated_ip_uk	pisquare	33	amount_euro_rating	DECIMAL(20,3)		Amount Euro*Rating	manual	C-pisquare-manual	MNL_Aggregated_IP_UK_yyyymmdd_hhmmss.csv	Amount Euro*Rating	Real									1.3							
+aggregated_ip_uk	pisquare	34	gia_macro_class	STRING		GIA Macro Class	manual	C-pisquare-manual	MNL_Aggregated_IP_UK_yyyymmdd_hhmmss.csv	GIA Macro Class	String									1.3							
+aggregated_ip_uk	pisquare	35	delta	DECIMAL(20,3)		Delta	manual	C-pisquare-manual	MNL_Aggregated_IP_UK_yyyymmdd_hhmmss.csv	Delta	Real									1.3							
+aggregated_ip_uk	pisquare	36	gamma	DECIMAL(20,3)		Gamma	manual	C-pisquare-manual	MNL_Aggregated_IP_UK_yyyymmdd_hhmmss.csv	Gamma	Real									1.3							
+aggregated_ip_uk	pisquare	37	stec_asset_class	STRING		STEC ASSET CLASS	manual	C-pisquare-manual	MNL_Aggregated_IP_UK_yyyymmdd_hhmmss.csv	STEC ASSET CLASS	String									1.3							
+aggregated_ip_uk	pisquare	38	ip_asset_class_for_mim_restit	STRING		IP asset class for MIM restit	manual	C-pisquare-manual	MNL_Aggregated_IP_UK_yyyymmdd_hhmmss.csv	IP asset class for MIM restit	String									1.3							
+aggregated_ip_uk	pisquare	39	gic_views_saa	STRING		GIC views --> SAA	manual	C-pisquare-manual	MNL_Aggregated_IP_UK_yyyymmdd_hhmmss.csv	GIC views --> SAA	String									1.3							
+aggregated_ip_uk	pisquare	40	gic_views_focus	STRING		GIC views --> Focus	manual	C-pisquare-manual	MNL_Aggregated_IP_UK_yyyymmdd_hhmmss.csv	GIC views --> Focus	String									1.3							
+aggregated_ip_us	pisquare	0	area	STRING		Area	manual	C-pisquare-manual	MNL_Aggregated_IP_US_yyyymmdd_hhmmss.csv	Area	String									1.3							
+aggregated_ip_us	pisquare	1	region	STRING		Region	manual	C-pisquare-manual	MNL_Aggregated_IP_US_yyyymmdd_hhmmss.csv	Region	String									1.3							
+aggregated_ip_us	pisquare	2	activity	STRING		Activity	manual	C-pisquare-manual	MNL_Aggregated_IP_US_yyyymmdd_hhmmss.csv	Activity	String									1.3							
+aggregated_ip_us	pisquare	3	entity	STRING		Entity	manual	C-pisquare-manual	MNL_Aggregated_IP_US_yyyymmdd_hhmmss.csv	Entity	String									1.3							
+aggregated_ip_us	pisquare	4	macro_asset_class	STRING		Macro Asset Class	manual	C-pisquare-manual	MNL_Aggregated_IP_US_yyyymmdd_hhmmss.csv	Macro Asset Class	String									1.3							
+aggregated_ip_us	pisquare	5	caa_asset_class	STRING		CAA Asset Class	manual	C-pisquare-manual	MNL_Aggregated_IP_US_yyyymmdd_hhmmss.csv	CAA Asset Class	String									1.3							
+aggregated_ip_us	pisquare	6	ip_asset_class	STRING		IP Asset Class	manual	C-pisquare-manual	MNL_Aggregated_IP_US_yyyymmdd_hhmmss.csv	IP Asset Class	String									1.3							
+aggregated_ip_us	pisquare	7	averagerating	STRING		AverageRating	manual	C-pisquare-manual	MNL_Aggregated_IP_US_yyyymmdd_hhmmss.csv	AverageRating	String									1.3							
+aggregated_ip_us	pisquare	8	instrument_ccy	STRING		Instrument ccy	manual	C-pisquare-manual	MNL_Aggregated_IP_US_yyyymmdd_hhmmss.csv	Instrument ccy	String									1.3							
+aggregated_ip_us	pisquare	9	issuer_country	STRING		Issuer Country	manual	C-pisquare-manual	MNL_Aggregated_IP_US_yyyymmdd_hhmmss.csv	Issuer Country	String									1.3							
+aggregated_ip_us	pisquare	10	strategy	STRING		Strategy	manual	C-pisquare-manual	MNL_Aggregated_IP_US_yyyymmdd_hhmmss.csv	Strategy	String									1.3							
+aggregated_ip_us	pisquare	11	year	BIGINT		Year	manual	C-pisquare-manual	MNL_Aggregated_IP_US_yyyymmdd_hhmmss.csv	Year	Integer									1.3							
+aggregated_ip_us	pisquare	12	month	STRING		Month	manual	C-pisquare-manual	MNL_Aggregated_IP_US_yyyymmdd_hhmmss.csv	Month	String									1.3							
+aggregated_ip_us	pisquare	13	period	STRING		Period	manual	C-pisquare-manual	MNL_Aggregated_IP_US_yyyymmdd_hhmmss.csv	Period	String									1.3							
+aggregated_ip_us	pisquare	14	flow	STRING		Flow	manual	C-pisquare-manual	MNL_Aggregated_IP_US_yyyymmdd_hhmmss.csv	Flow	String									1.3							
+aggregated_ip_us	pisquare	15	rate	STRING		Rate	manual	C-pisquare-manual	MNL_Aggregated_IP_US_yyyymmdd_hhmmss.csv	Rate	String									1.3							
+aggregated_ip_us	pisquare	16	amount	DECIMAL(20,3)		Amount	manual	C-pisquare-manual	MNL_Aggregated_IP_US_yyyymmdd_hhmmss.csv	Amount	Real									1.3							
+aggregated_ip_us	pisquare	17	amount_eur	DECIMAL(20,3)		Amount €	manual	C-pisquare-manual	MNL_Aggregated_IP_US_yyyymmdd_hhmmss.csv	Amount €	Real									1.3							
+aggregated_ip_us	pisquare	18	ir_duration	DECIMAL(20,3)		IR Duration	manual	C-pisquare-manual	MNL_Aggregated_IP_US_yyyymmdd_hhmmss.csv	IR Duration	Real									1.3							
+aggregated_ip_us	pisquare	19	credit_duration	DECIMAL(20,3)		Credit Duration	manual	C-pisquare-manual	MNL_Aggregated_IP_US_yyyymmdd_hhmmss.csv	Credit Duration	Real									1.3							
+aggregated_ip_us	pisquare	20	yield	DECIMAL(20,3)		Yield	manual	C-pisquare-manual	MNL_Aggregated_IP_US_yyyymmdd_hhmmss.csv	Yield	Real									1.3							
+aggregated_ip_us	pisquare	21	hedged_fx	DECIMAL(20,3)		Hedged FX (%)	manual	C-pisquare-manual	MNL_Aggregated_IP_US_yyyymmdd_hhmmss.csv	Hedged FX (%)	Real									1.3							
+aggregated_ip_us	pisquare	22	yield_net	DECIMAL(20,3)		Yield net	manual	C-pisquare-manual	MNL_Aggregated_IP_US_yyyymmdd_hhmmss.csv	Yield net	Real									1.3							
+aggregated_ip_us	pisquare	23	spread	DECIMAL(20,3)		Spread 	manual	C-pisquare-manual	MNL_Aggregated_IP_US_yyyymmdd_hhmmss.csv	Spread 	Real									1.3							
+aggregated_ip_us	pisquare	24	comments	STRING		Comments	manual	C-pisquare-manual	MNL_Aggregated_IP_US_yyyymmdd_hhmmss.csv	Comments	String									1.3							
+aggregated_ip_us	pisquare	25	fx_rate_used	DECIMAL(20,3)		FX Rate Used	manual	C-pisquare-manual	MNL_Aggregated_IP_US_yyyymmdd_hhmmss.csv	FX Rate Used	Real									1.3							
+aggregated_ip_us	pisquare	26	control_quali_on_basics	STRING		Control quali on basics	manual	C-pisquare-manual	MNL_Aggregated_IP_US_yyyymmdd_hhmmss.csv	Control quali on basics	String									1.3							
+aggregated_ip_us	pisquare	27	control_quali	STRING		Control quali	manual	C-pisquare-manual	MNL_Aggregated_IP_US_yyyymmdd_hhmmss.csv	Control quali	String									1.3							
+aggregated_ip_us	pisquare	28	control_quanti	STRING		Control quanti	manual	C-pisquare-manual	MNL_Aggregated_IP_US_yyyymmdd_hhmmss.csv	Control quanti	String									1.3							
+aggregated_ip_us	pisquare	29	warning	STRING		Warning	manual	C-pisquare-manual	MNL_Aggregated_IP_US_yyyymmdd_hhmmss.csv	Warning	String									1.3							
+aggregated_ip_us	pisquare	30	amount_euro_ir_duration	DECIMAL(20,3)		Amount Euro*IR Duration	manual	C-pisquare-manual	MNL_Aggregated_IP_US_yyyymmdd_hhmmss.csv	Amount Euro*IR Duration	Real									1.3							
+aggregated_ip_us	pisquare	31	amount_euro_spread_duration	DECIMAL(20,3)		Amount Euro*Spread Duration	manual	C-pisquare-manual	MNL_Aggregated_IP_US_yyyymmdd_hhmmss.csv	Amount Euro*Spread Duration	Real									1.3							
+aggregated_ip_us	pisquare	32	amount_yield	DECIMAL(20,3)		Amount*Yield	manual	C-pisquare-manual	MNL_Aggregated_IP_US_yyyymmdd_hhmmss.csv	Amount*Yield	Real									1.3							
+aggregated_ip_us	pisquare	33	amount_euro_rating	DECIMAL(20,3)		Amount Euro*Rating	manual	C-pisquare-manual	MNL_Aggregated_IP_US_yyyymmdd_hhmmss.csv	Amount Euro*Rating	Real									1.3							
+aggregated_ip_us	pisquare	34	gia_macro_class	STRING		GIA Macro Class	manual	C-pisquare-manual	MNL_Aggregated_IP_US_yyyymmdd_hhmmss.csv	GIA Macro Class	String									1.3							
+aggregated_ip_us	pisquare	35	delta	DECIMAL(20,3)		Delta	manual	C-pisquare-manual	MNL_Aggregated_IP_US_yyyymmdd_hhmmss.csv	Delta	Real									1.3							
+aggregated_ip_us	pisquare	36	gamma	DECIMAL(20,3)		Gamma	manual	C-pisquare-manual	MNL_Aggregated_IP_US_yyyymmdd_hhmmss.csv	Gamma	Real									1.3							
+aggregated_ip_us	pisquare	37	stec_asset_class	STRING		STEC ASSET CLASS	manual	C-pisquare-manual	MNL_Aggregated_IP_US_yyyymmdd_hhmmss.csv	STEC ASSET CLASS	String									1.3							
+aggregated_ip_us	pisquare	38	ip_asset_class_for_mim_restit	STRING		IP asset class for MIM restit	manual	C-pisquare-manual	MNL_Aggregated_IP_US_yyyymmdd_hhmmss.csv	IP asset class for MIM restit	String									1.3							
+aggregated_ip_us	pisquare	39	gic_views_saa	STRING		GIC views --> SAA	manual	C-pisquare-manual	MNL_Aggregated_IP_US_yyyymmdd_hhmmss.csv	GIC views --> SAA	String									1.3							
+aggregated_ip_us	pisquare	40	gic_views_focus	STRING		GIC views --> Focus	manual	C-pisquare-manual	MNL_Aggregated_IP_US_yyyymmdd_hhmmss.csv	GIC views --> Focus	String									1.3							
+alternative_credit_fund_name	pisquare	0	dali_id	STRING			manual	C-pisquare-manual	MNL_alternative_credit_fund_name_yyyymmdd_hhmmss.csv											2.1							
+alternative_credit_fund_name	pisquare	1	description	STRING			manual	C-pisquare-manual	MNL_alternative_credit_fund_name_yyyymmdd_hhmmss.csv											2.1							
+alternative_credit_fund_name	pisquare	2	alternative_credit_fund_name	STRING			manual	C-pisquare-manual	MNL_alternative_credit_fund_name_yyyymmdd_hhmmss.csv											2.1							
+area_region_entity	pisquare	0	company_code	STRING			manual	C-pisquare-manual	MNL_area_region_entity_yyyymmdd_hhmmss.csv											2.1							
+area_region_entity	pisquare	1	company_code_name	STRING			manual	C-pisquare-manual	MNL_area_region_entity_yyyymmdd_hhmmss.csv											2.1							
+area_region_entity	pisquare	2	area	STRING			manual	C-pisquare-manual	MNL_area_region_entity_yyyymmdd_hhmmss.csv											2.1							
+area_region_entity	pisquare	3	region	STRING			manual	C-pisquare-manual	MNL_area_region_entity_yyyymmdd_hhmmss.csv											2.1							
+area_region_entity	pisquare	4	entity	STRING			manual	C-pisquare-manual	MNL_area_region_entity_yyyymmdd_hhmmss.csv											2.1							
+asset_class_hierarchy	pisquare	0	final_ip_asset_class	STRING			manual	C-pisquare-manual	MNL_asset_class_hierarchy_yyyymmdd_hhmmss.csv											2.1							
+asset_class_hierarchy	pisquare	1	asset_class	STRING			manual	C-pisquare-manual	MNL_asset_class_hierarchy_yyyymmdd_hhmmss.csv											2.1							
+asset_class_hierarchy	pisquare	2	caa	STRING			manual	C-pisquare-manual	MNL_asset_class_hierarchy_yyyymmdd_hhmmss.csv											2.1							
+asset_class_hierarchy	pisquare	3	saa	STRING			manual	C-pisquare-manual	MNL_asset_class_hierarchy_yyyymmdd_hhmmss.csv											2.1							
+asset_class_hierarchy	pisquare	4	funded_name	STRING			manual	C-pisquare-manual	MNL_asset_class_hierarchy_yyyymmdd_hhmmss.csv											2.1							
+asset_class_hierarchy	pisquare	5	total	STRING			manual	C-pisquare-manual	MNL_asset_class_hierarchy_yyyymmdd_hhmmss.csv											2.1							
+asset_class_hierarchy	pisquare	6	sub_total	STRING			manual	C-pisquare-manual	MNL_asset_class_hierarchy_yyyymmdd_hhmmss.csv											2.1							
+axa_im_participation	pisquare	0	portfolio_dali_id	TIMESTAMP	dd/mm/yyyy	Portfolio Dali Id	manual	C-pisquare-manual	MNL_AXA_IM_Participation_yyyymmdd_hhmmss.csv	Participation as of	Date									1.3							
+axa_im_participation	pisquare	1	portfolio_name	STRING		Portfolio Name	manual	C-pisquare-manual	MNL_AXA_IM_Participation_yyyymmdd_hhmmss.csv	Fund ISIN Code	String									1.3							
+axa_im_participation	pisquare	2	carveout_ptf_dali_id	STRING		CarveOut/Ptf Dali Id	manual	C-pisquare-manual	MNL_AXA_IM_Participation_yyyymmdd_hhmmss.csv	Fund Name	String									1.3							
+axa_im_participation	pisquare	3	carveout_ptf_name	STRING		CarveOut/Ptf Name	manual	C-pisquare-manual	MNL_AXA_IM_Participation_yyyymmdd_hhmmss.csv	Share Holder Name	String									1.3							
+axa_im_participation	pisquare	4	carveout_ptf_currency	DECIMAL(20,2)		CarveOut/Ptf CURRENCY	manual	C-pisquare-manual	MNL_AXA_IM_Participation_yyyymmdd_hhmmss.csv	Held Share	Real									1.3							
+axa_im_participation	pisquare	5	category_name	BIGINT		Category Name	manual	C-pisquare-manual	MNL_AXA_IM_Participation_yyyymmdd_hhmmss.csv	Held Share (in units/shares)	Integer									1.3							
+axa_im_participation	pisquare	6	tra_trade_date	BIGINT		Tra Trade Date	manual	C-pisquare-manual	MNL_AXA_IM_Participation_yyyymmdd_hhmmss.csv	Total Units / Shares	Integer									1.3							
+axa_im_trades	pisquare	0	portfolio_dali_id	STRING		Portfolio Dali Id	manual	C-pisquare-manual	MNL_AXA_IM_Trades_yyyymmdd_hhmmss.csv	Portfolio Dali Id	String									1.3							
+axa_im_trades	pisquare	1	portfolio_name	STRING		Portfolio Name	manual	C-pisquare-manual	MNL_AXA_IM_Trades_yyyymmdd_hhmmss.csv	Portfolio Name	String									1.3							
+axa_im_trades	pisquare	2	carveout_ptf_dali_id	STRING		CarveOut/Ptf Dali Id	manual	C-pisquare-manual	MNL_AXA_IM_Trades_yyyymmdd_hhmmss.csv	CarveOut/Ptf Dali Id	String									1.3							
+axa_im_trades	pisquare	3	carveout_ptf_name	STRING		CarveOut/Ptf Name	manual	C-pisquare-manual	MNL_AXA_IM_Trades_yyyymmdd_hhmmss.csv	CarveOut/Ptf Name	String									1.3							
+axa_im_trades	pisquare	4	carveout_ptf_currency	STRING		CarveOut/Ptf CURRENCY	manual	C-pisquare-manual	MNL_AXA_IM_Trades_yyyymmdd_hhmmss.csv	CarveOut/Ptf CURRENCY	String									1.3							
+axa_im_trades	pisquare	5	category_name	STRING		Category Name	manual	C-pisquare-manual	MNL_AXA_IM_Trades_yyyymmdd_hhmmss.csv	Category Name	Date									1.3							
+axa_im_trades	pisquare	6	tra_trade_date	TIMESTAMP	dd/mm/yyyy	Tra Trade Date	manual	C-pisquare-manual	MNL_AXA_IM_Trades_yyyymmdd_hhmmss.csv	Tra Trade Date	Date									1.3							
+axa_im_trades	pisquare	7	tra_settlement_date	TIMESTAMP	dd/mm/yyyy	Tra Settlement Date	manual	C-pisquare-manual	MNL_AXA_IM_Trades_yyyymmdd_hhmmss.csv	Tra Settlement Date	String									1.3							
+axa_im_trades	pisquare	8	tra_settlement_currency	STRING		Tra Settlement CURRENCY	manual	C-pisquare-manual	MNL_AXA_IM_Trades_yyyymmdd_hhmmss.csv	Tra Settlement CURRENCY	String									1.3							
+axa_im_trades	pisquare	9	inst_local_currency	STRING		Inst Local CURRENCY	manual	C-pisquare-manual	MNL_AXA_IM_Trades_yyyymmdd_hhmmss.csv	Inst Local CURRENCY	String									1.3							
+axa_im_trades	pisquare	10	inst_long_name	STRING		Inst Long Name	manual	C-pisquare-manual	MNL_AXA_IM_Trades_yyyymmdd_hhmmss.csv	Inst Long Name	String									1.3							
+axa_im_trades	pisquare	11	inst_dali_code	STRING		Inst Dali Code	manual	C-pisquare-manual	MNL_AXA_IM_Trades_yyyymmdd_hhmmss.csv	Inst Dali Code	String									1.3							
+axa_im_trades	pisquare	12	inst_isin_code	STRING		Inst Isin Code	manual	C-pisquare-manual	MNL_AXA_IM_Trades_yyyymmdd_hhmmss.csv	Inst Isin Code	String									1.3							
+axa_im_trades	pisquare	13	tra_nominal_quantity	STRING		Tra Nominal Quantity	manual	C-pisquare-manual	MNL_AXA_IM_Trades_yyyymmdd_hhmmss.csv	Tra Nominal Quantity	String									1.3							
+axa_im_trades	pisquare	14	settlement_cash_amount_settl_cur	DECIMAL(20,2)		Settlement Cash Amount (Settl Cur)	manual	C-pisquare-manual	MNL_AXA_IM_Trades_yyyymmdd_hhmmss.csv	Settlement Cash Amount (Settl Cur)	Real									1.3							
+axa_im_trades	pisquare	15	settlement_cash_amount_ptf_cur	DECIMAL(20,3)		Settlement Cash Amount (Ptf Cur)	manual	C-pisquare-manual	MNL_AXA_IM_Trades_yyyymmdd_hhmmss.csv	Settlement Cash Amount (Ptf Cur)	Real									1.3							
+axa_im_trades	pisquare	16	tra_accrued_interest_lcl_cur	DECIMAL(20,2)		Tra Accrued Interest (Lcl Cur)	manual	C-pisquare-manual	MNL_AXA_IM_Trades_yyyymmdd_hhmmss.csv	Tra Accrued Interest (Lcl Cur)	Real									1.3							
+axa_im_trades	pisquare	17	tra_accrued_interest_ptf_cur	DECIMAL(20,2)		Tra Accrued Interest (Ptf Cur)	manual	C-pisquare-manual	MNL_AXA_IM_Trades_yyyymmdd_hhmmss.csv	Tra Accrued Interest (Ptf Cur)	Real									1.3							
+axa_im_trades	pisquare	18	ytm	DECIMAL(20,3)		YTM	manual	C-pisquare-manual	MNL_AXA_IM_Trades_yyyymmdd_hhmmss.csv	YTM	Real									1.3							
+axa_im_trades	pisquare	19	modified_duration	DECIMAL(20,3)		Modified Duration	manual	C-pisquare-manual	MNL_AXA_IM_Trades_yyyymmdd_hhmmss.csv	Modified Duration	Real									1.3							
+axa_im_trades	pisquare	20	bloomberg_ticker	STRING		BLOOMBERG TICKER	manual	C-pisquare-manual	MNL_AXA_IM_Trades_yyyymmdd_hhmmss.csv	BLOOMBERG TICKER	String									1.3							
+axa_im_trades	pisquare	21	cusip	STRING		CUSIP	manual	C-pisquare-manual	MNL_AXA_IM_Trades_yyyymmdd_hhmmss.csv	CUSIP	String									1.3							
+axa_im_trades	pisquare	22	bloomberg_se_curity_type	STRING		BLOOMBERG SECURITY TYPE 1	manual	C-pisquare-manual	MNL_AXA_IM_Trades_yyyymmdd_hhmmss.csv	BLOOMBERG SECURITY TYPE 1	String									1.3							
+axa_im_trades	pisquare	23	bloomberg_se_curity_type_2	STRING		BLOOMBERG SECURITY TYPE 2	manual	C-pisquare-manual	MNL_AXA_IM_Trades_yyyymmdd_hhmmss.csv	BLOOMBERG SECURITY TYPE 2	String									1.3							
+axa_im_trades	pisquare	24	issue_country	STRING		ISSUE COUNTRY	manual	C-pisquare-manual	MNL_AXA_IM_Trades_yyyymmdd_hhmmss.csv	ISSUE COUNTRY	String									1.3							
+axa_im_trades	pisquare	25	issue_date	TIMESTAMP	dd/mm/yyyy	ISSUE DATE	manual	C-pisquare-manual	MNL_AXA_IM_Trades_yyyymmdd_hhmmss.csv	ISSUE DATE	Date									1.3							
+axa_im_trades	pisquare	26	issuer_id	STRING		ISSUER ID	manual	C-pisquare-manual	MNL_AXA_IM_Trades_yyyymmdd_hhmmss.csv	ISSUER ID	String									1.3							
+axa_im_trades	pisquare	27	issuer_name	STRING		ISSUER NAME	manual	C-pisquare-manual	MNL_AXA_IM_Trades_yyyymmdd_hhmmss.csv	ISSUER NAME	String									1.3							
+axa_im_trades	pisquare	28	maturity_date	TIMESTAMP	dd/mm/yyyy	MATURITY DATE	manual	C-pisquare-manual	MNL_AXA_IM_Trades_yyyymmdd_hhmmss.csv	MATURITY DATE	Date									1.3							
+axa_im_trades	pisquare	29	is_listed	STRING		IS LISTED	manual	C-pisquare-manual	MNL_AXA_IM_Trades_yyyymmdd_hhmmss.csv	IS LISTED	String									1.3							
+axa_im_trades	pisquare	30	is_preferred_share	STRING		IS PREFERRED SHARE	manual	C-pisquare-manual	MNL_AXA_IM_Trades_yyyymmdd_hhmmss.csv	IS PREFERRED SHARE	String									1.3							
+axa_im_trades	pisquare	31	coupon_currency	STRING		COUPON CURRENCY	manual	C-pisquare-manual	MNL_AXA_IM_Trades_yyyymmdd_hhmmss.csv	COUPON CURRENCY	String									1.3							
+axa_im_trades	pisquare	32	coupon_frequency	STRING		COUPON FREQUENCY	manual	C-pisquare-manual	MNL_AXA_IM_Trades_yyyymmdd_hhmmss.csv	COUPON FREQUENCY	String									1.3							
+axa_im_trades	pisquare	33	coupon_rate	DECIMAL(20,6)		COUPON RATE	manual	C-pisquare-manual	MNL_AXA_IM_Trades_yyyymmdd_hhmmss.csv	COUPON RATE	Real									1.3							
+axa_im_trades	pisquare	34	first_coupon_date	TIMESTAMP	dd/mm/yyyy	FIRST COUPON DATE	manual	C-pisquare-manual	MNL_AXA_IM_Trades_yyyymmdd_hhmmss.csv	FIRST COUPON DATE	Date									1.3							
+axa_im_trades	pisquare	35	additive_margin_spread	DECIMAL(20,4)		ADDITIVE MARGIN SPREAD	manual	C-pisquare-manual	MNL_AXA_IM_Trades_yyyymmdd_hhmmss.csv	ADDITIVE MARGIN SPREAD	Real									1.3							
+axa_im_trades	pisquare	36	is_perpetual	STRING		IS PERPETUAL	manual	C-pisquare-manual	MNL_AXA_IM_Trades_yyyymmdd_hhmmss.csv	IS PERPETUAL	String									1.3							
+axa_im_trades	pisquare	37	is_step_up	STRING		IS STEP UP	manual	C-pisquare-manual	MNL_AXA_IM_Trades_yyyymmdd_hhmmss.csv	IS STEP UP	String									1.3							
+axa_im_trades	pisquare	38	rate_type	STRING		RATE TYPE	manual	C-pisquare-manual	MNL_AXA_IM_Trades_yyyymmdd_hhmmss.csv	RATE TYPE	String									1.3							
+axa_im_trades	pisquare	39	redemption_amount	DECIMAL(20,2)		REDEMPTION AMOUNT	manual	C-pisquare-manual	MNL_AXA_IM_Trades_yyyymmdd_hhmmss.csv	REDEMPTION AMOUNT	Real									1.3							
+axa_im_trades	pisquare	40	redemption_currency	STRING		REDEMPTION CURRENCY	manual	C-pisquare-manual	MNL_AXA_IM_Trades_yyyymmdd_hhmmss.csv	REDEMPTION CURRENCY	String									1.3							
+axa_im_trades	pisquare	41	redemption_type	STRING		REDEMPTION TYPE	manual	C-pisquare-manual	MNL_AXA_IM_Trades_yyyymmdd_hhmmss.csv	REDEMPTION TYPE	String									1.3							
+axa_im_trades	pisquare	42	is_fix_to_float	STRING		IS FIX TO FLOAT	manual	C-pisquare-manual	MNL_AXA_IM_Trades_yyyymmdd_hhmmss.csv	IS FIX TO FLOAT	String									1.3							
+axa_im_trades	pisquare	43	is_float_to_fix	STRING		IS FLOAT TO FIX	manual	C-pisquare-manual	MNL_AXA_IM_Trades_yyyymmdd_hhmmss.csv	IS FLOAT TO FIX	String									1.3							
+axa_im_trades	pisquare	44	is_callable	STRING		IS CALLABLE	manual	C-pisquare-manual	MNL_AXA_IM_Trades_yyyymmdd_hhmmss.csv	IS CALLABLE	String									1.3							
+axa_im_trades	pisquare	45	next_call_date	TIMESTAMP	dd/mm/yyyy	NEXT CALL DATE	manual	C-pisquare-manual	MNL_AXA_IM_Trades_yyyymmdd_hhmmss.csv	NEXT CALL DATE	Date									1.3							
+axa_im_trades	pisquare	46	next_call_price	DECIMAL(20,6)		NEXT CALL PRICE	manual	C-pisquare-manual	MNL_AXA_IM_Trades_yyyymmdd_hhmmss.csv	NEXT CALL PRICE	Real									1.3							
+axa_im_trades	pisquare	47	is_putable	STRING		IS PUTABLE	manual	C-pisquare-manual	MNL_AXA_IM_Trades_yyyymmdd_hhmmss.csv	IS PUTABLE	String									1.3							
+axa_im_trades	pisquare	48	next_put_date	TIMESTAMP	dd/mm/yyyy	NEXT PUT DATE	manual	C-pisquare-manual	MNL_AXA_IM_Trades_yyyymmdd_hhmmss.csv	NEXT PUT DATE	Date									1.3							
+axa_im_trades	pisquare	49	next_put_price	DECIMAL(20,6)		NEXT PUT PRICE	manual	C-pisquare-manual	MNL_AXA_IM_Trades_yyyymmdd_hhmmss.csv	NEXT PUT PRICE	Real									1.3							
+axa_im_trades	pisquare	50	is_capped	STRING		IS CAPPED	manual	C-pisquare-manual	MNL_AXA_IM_Trades_yyyymmdd_hhmmss.csv	IS CAPPED	String									1.3							
+axa_im_trades	pisquare	51	cap_rate	DECIMAL(20,4)		CAP RATE	manual	C-pisquare-manual	MNL_AXA_IM_Trades_yyyymmdd_hhmmss.csv	CAP RATE	Real									1.3							
+axa_im_trades	pisquare	52	is_floored	STRING		IS FLOORED	manual	C-pisquare-manual	MNL_AXA_IM_Trades_yyyymmdd_hhmmss.csv	IS FLOORED	String									1.3							
+axa_im_trades	pisquare	53	floor_rate	DECIMAL(20,4)		FLOOR RATE	manual	C-pisquare-manual	MNL_AXA_IM_Trades_yyyymmdd_hhmmss.csv	FLOOR RATE	Real									1.3							
+axa_im_trades	pisquare	54	is_sinkable	STRING		IS SINKABLE	manual	C-pisquare-manual	MNL_AXA_IM_Trades_yyyymmdd_hhmmss.csv	IS SINKABLE	String									1.3							
+axa_im_trades	pisquare	55	is_subordinated	STRING		IS SUBORDINATED	manual	C-pisquare-manual	MNL_AXA_IM_Trades_yyyymmdd_hhmmss.csv	IS SUBORDINATED	String									1.3							
+axa_im_trades	pisquare	56	seniority_level	STRING		SENIORITY LEVEL	manual	C-pisquare-manual	MNL_AXA_IM_Trades_yyyymmdd_hhmmss.csv	SENIORITY LEVEL	String									1.3							
+axa_im_trades	pisquare	57	is_covered	STRING		IS COVERED	manual	C-pisquare-manual	MNL_AXA_IM_Trades_yyyymmdd_hhmmss.csv	IS COVERED	String									1.3							
+axa_im_trades	pisquare	58	is_convertible	STRING		IS CONVERTIBLE	manual	C-pisquare-manual	MNL_AXA_IM_Trades_yyyymmdd_hhmmss.csv	IS CONVERTIBLE	String									1.3							
+axa_im_trades	pisquare	59	is_index_linked	STRING		IS INDEX LINKED	manual	C-pisquare-manual	MNL_AXA_IM_Trades_yyyymmdd_hhmmss.csv	IS INDEX LINKED	String									1.3							
+axa_im_trades	pisquare	60	base_index	STRING		BASE INDEX	manual	C-pisquare-manual	MNL_AXA_IM_Trades_yyyymmdd_hhmmss.csv	BASE INDEX	String									1.3							
+axa_im_trades	pisquare	61	fund_asset_class_focus	STRING		FUND ASSET CLASS FOCUS	manual	C-pisquare-manual	MNL_AXA_IM_Trades_yyyymmdd_hhmmss.csv	FUND ASSET CLASS FOCUS	String									1.3							
+axa_im_trades	pisquare	62	fund_strategy	STRING		FUND STRATEGY	manual	C-pisquare-manual	MNL_AXA_IM_Trades_yyyymmdd_hhmmss.csv	FUND STRATEGY	String									1.3							
+axa_im_trades	pisquare	63	collateral_type	STRING		COLLATERAL TYPE	manual	C-pisquare-manual	MNL_AXA_IM_Trades_yyyymmdd_hhmmss.csv	COLLATERAL TYPE	String									1.3							
+axa_im_trades	pisquare	64	grand_fathered	STRING		GRAND-FATHERED	manual	C-pisquare-manual	MNL_AXA_IM_Trades_yyyymmdd_hhmmss.csv	GRAND-FATHERED	String									1.3							
+axa_im_trades	pisquare	65	market_sector	STRING		MARKET SECTOR	manual	C-pisquare-manual	MNL_AXA_IM_Trades_yyyymmdd_hhmmss.csv	MARKET SECTOR	String									1.3							
+axa_im_trades	pisquare	66	nominal_currency	STRING		NOMINAL CURRENCY	manual	C-pisquare-manual	MNL_AXA_IM_Trades_yyyymmdd_hhmmss.csv	NOMINAL CURRENCY	String									1.3							
+axa_im_trades	pisquare	67	bond_type	STRING		BOND TYPE	manual	C-pisquare-manual	MNL_AXA_IM_Trades_yyyymmdd_hhmmss.csv	BOND TYPE	String									1.3							
+axa_im_trades	pisquare	68	issuer_ultimate_parent_bloomberg_id	STRING		ISSUER ULTIMATE PARENT BLOOMBERG ID	manual	C-pisquare-manual	MNL_AXA_IM_Trades_yyyymmdd_hhmmss.csv	ISSUER ULTIMATE PARENT BLOOMBERG ID	String									1.3							
+axa_im_trades	pisquare	69	is_mortgage_se_cured	STRING		IS MORTGAGE SECURED	manual	C-pisquare-manual	MNL_AXA_IM_Trades_yyyymmdd_hhmmss.csv	IS MORTGAGE SECURED	String									1.3							
+axa_im_trades	pisquare	70	is_public_loan_se_cured	STRING		IS PUBLIC LOAN  SECURED	manual	C-pisquare-manual	MNL_AXA_IM_Trades_yyyymmdd_hhmmss.csv	IS PUBLIC LOAN  SECURED	String									1.3							
+axa_im_trades	pisquare	71	paymennt_rank_bloomberg	STRING		Paymennt rank (bloomberg)	manual	C-pisquare-manual	MNL_AXA_IM_Trades_yyyymmdd_hhmmss.csv	Paymennt rank (bloomberg)	String									1.3							
+axa_im_trades	pisquare	72	collateral_description_bloonberg	STRING		Collateral description (Bloonberg)	manual	C-pisquare-manual	MNL_AXA_IM_Trades_yyyymmdd_hhmmss.csv	Collateral description (Bloonberg)	String									1.3							
+axa_im_trades	pisquare	73	s_p_long_term_rating_instrument	STRING		S&P long term rating instrument	manual	C-pisquare-manual	MNL_AXA_IM_Trades_yyyymmdd_hhmmss.csv	S&P long term rating instrument	String									1.3							
+axa_im_trades	pisquare	74	moody_s_long_term_rating_instrument	STRING		Moody's long term rating instrument	manual	C-pisquare-manual	MNL_AXA_IM_Trades_yyyymmdd_hhmmss.csv	Moody's long term rating instrument	String									1.3							
+axa_im_trades	pisquare	75	fitch_long_term_rating_instrument	STRING		Fitch long term rating instrument	manual	C-pisquare-manual	MNL_AXA_IM_Trades_yyyymmdd_hhmmss.csv	Fitch long term rating instrument	String									1.3							
+axa_im_trades	pisquare	76	third_party_external_bloomberg_issuer_number	STRING		THIRD PARTY EXTERNAL BLOOMBERG ISSUER NUMBER	manual	C-pisquare-manual	MNL_AXA_IM_Trades_yyyymmdd_hhmmss.csv	THIRD PARTY EXTERNAL BLOOMBERG ISSUER NUMBER	String									1.3							
+axa_im_trades	pisquare	77	issuer_third_party_long_name	STRING		Issuer/Third Party LONG NAME	manual	C-pisquare-manual	MNL_AXA_IM_Trades_yyyymmdd_hhmmss.csv	Issuer/Third Party LONG NAME	String									1.3							
+axa_im_trades	pisquare	78	issuer_third_party_country	STRING		Issuer/Third Party COUNTRY	manual	C-pisquare-manual	MNL_AXA_IM_Trades_yyyymmdd_hhmmss.csv	Issuer/Third Party COUNTRY	String									1.3							
+axa_im_trades	pisquare	79	issuer_third_party_bics_industry_sector_subgroup	STRING		Issuer/Third Party - BICS - Industry sector subgroup	manual	C-pisquare-manual	MNL_AXA_IM_Trades_yyyymmdd_hhmmss.csv	Issuer/Third Party - BICS - Industry sector subgroup	String									1.3							
+axa_im_trades	pisquare	80	issuer_third_party_gics_industry	STRING		Issuer/Third Party - GICS-Industry	manual	C-pisquare-manual	MNL_AXA_IM_Trades_yyyymmdd_hhmmss.csv	Issuer/Third Party - GICS-Industry	String									1.3							
+axa_im_trades	pisquare	81	issuer_third_party_ultimate_parent_company_code	STRING		Issuer/Third Party ULTIMATE PARENT COMPANY CODE	manual	C-pisquare-manual	MNL_AXA_IM_Trades_yyyymmdd_hhmmss.csv	Issuer/Third Party ULTIMATE PARENT COMPANY CODE	String									1.3							
+axa_im_trades	pisquare	82	issuer_third_party_ultimate_parent_company_name	STRING		Issuer/Third Party ULTIMATE PARENT COMPANY NAME	manual	C-pisquare-manual	MNL_AXA_IM_Trades_yyyymmdd_hhmmss.csv	Issuer/Third Party ULTIMATE PARENT COMPANY NAME	String									1.3							
+axa_im_trades	pisquare	83	s_p_long_term_rating_issuer_third_party	STRING		S&P long term rating Issuer/Third Party	manual	C-pisquare-manual	MNL_AXA_IM_Trades_yyyymmdd_hhmmss.csv	S&P long term rating Issuer/Third Party	String									1.3							
+axa_im_trades	pisquare	84	moody_s_long_term_rating_issuer_third_party	STRING		Moody's long term rating  Issuer/Third Party	manual	C-pisquare-manual	MNL_AXA_IM_Trades_yyyymmdd_hhmmss.csv	Moody's long term rating  Issuer/Third Party	String									1.3							
+axa_im_trades	pisquare	85	fitch_long_term_rating_issuer_third_party	STRING		Fitch long term rating  Issuer/Third Party	manual	C-pisquare-manual	MNL_AXA_IM_Trades_yyyymmdd_hhmmss.csv	Fitch long term rating  Issuer/Third Party	String									1.3							
+crdb_industry	pisquare	0	client	STRING			manual	C-pisquare-manual	MNL_crdb_industry_yyyymmdd_hhmmss.csv											2.1							
+crdb_industry	pisquare	1	industry	STRING			manual	C-pisquare-manual	MNL_crdb_industry_yyyymmdd_hhmmss.csv											2.1							
+crdb_industry	pisquare	2	crdb_industry_sector	STRING			manual	C-pisquare-manual	MNL_crdb_industry_yyyymmdd_hhmmss.csv											2.1							
+crdb_industry	pisquare	3	crdb_industry_sector_description	STRING			manual	C-pisquare-manual	MNL_crdb_industry_yyyymmdd_hhmmss.csv											2.1							
+dali_structure	pisquare	0	dali_id	STRING		DALI ID	manual	C-pisquare-manual	MNL_DALI_yyyymmdd_hhmmss.csv	DALI ID	String									1.3							
+dali_structure	pisquare	1	isin_code	STRING		ISIN CODE	manual	C-pisquare-manual	MNL_DALI_yyyymmdd_hhmmss.csv	ISIN CODE	String									1.3							
+dali_structure	pisquare	2	bloomberg_ticker	STRING		BLOOMBERG TICKER	manual	C-pisquare-manual	MNL_DALI_yyyymmdd_hhmmss.csv	BLOOMBERG TICKER	String									1.3							
+dali_structure	pisquare	3	cusip	STRING		CUSIP	manual	C-pisquare-manual	MNL_DALI_yyyymmdd_hhmmss.csv	CUSIP	String									1.3							
+dali_structure	pisquare	4	bloomberg_se_curity_type	STRING		BLOOMBERG SECURITY TYPE 1	manual	C-pisquare-manual	MNL_DALI_yyyymmdd_hhmmss.csv	BLOOMBERG SECURITY TYPE 1	String									1.3							
+dali_structure	pisquare	5	bloomberg_se_curity_type_2	STRING		BLOOMBERG SECURITY TYPE 2	manual	C-pisquare-manual	MNL_DALI_yyyymmdd_hhmmss.csv	BLOOMBERG SECURITY TYPE 2	String									1.3							
+dali_structure	pisquare	6	se_curity_long_name	STRING		SECURITY LONG NAME	manual	C-pisquare-manual	MNL_DALI_yyyymmdd_hhmmss.csv	SECURITY LONG NAME	String									1.3							
+dali_structure	pisquare	7	issue_country	STRING		ISSUE COUNTRY	manual	C-pisquare-manual	MNL_DALI_yyyymmdd_hhmmss.csv	ISSUE COUNTRY	String									1.3							
+dali_structure	pisquare	8	issue_currency	STRING		ISSUE CURRENCY	manual	C-pisquare-manual	MNL_DALI_yyyymmdd_hhmmss.csv	ISSUE CURRENCY	String									1.3							
+dali_structure	pisquare	9	issue_date	TIMESTAMP	yyyymmdd	ISSUE DATE	manual	C-pisquare-manual	MNL_DALI_yyyymmdd_hhmmss.csv	ISSUE DATE	Date									1.3							
+dali_structure	pisquare	10	issuer_id	STRING		ISSUER ID	manual	C-pisquare-manual	MNL_DALI_yyyymmdd_hhmmss.csv	ISSUER ID	String									1.3							
+dali_structure	pisquare	11	issuer_name	STRING		ISSUER NAME	manual	C-pisquare-manual	MNL_DALI_yyyymmdd_hhmmss.csv	ISSUER NAME	String									1.3							
+dali_structure	pisquare	12	maturity_date	TIMESTAMP	yyyymmdd	MATURITY DATE	manual	C-pisquare-manual	MNL_DALI_yyyymmdd_hhmmss.csv	MATURITY DATE	Date									1.3							
+dali_structure	pisquare	13	is_listed	STRING		IS LISTED	manual	C-pisquare-manual	MNL_DALI_yyyymmdd_hhmmss.csv	IS LISTED	String									1.3							
+dali_structure	pisquare	14	is_preferred_share	STRING		IS PREFERRED SHARE	manual	C-pisquare-manual	MNL_DALI_yyyymmdd_hhmmss.csv	IS PREFERRED SHARE	String									1.3							
+dali_structure	pisquare	15	coupon_currency	STRING		COUPON CURRENCY	manual	C-pisquare-manual	MNL_DALI_yyyymmdd_hhmmss.csv	COUPON CURRENCY	String									1.3							
+dali_structure	pisquare	16	coupon_frequency	STRING		COUPON FREQUENCY	manual	C-pisquare-manual	MNL_DALI_yyyymmdd_hhmmss.csv	COUPON FREQUENCY	String									1.3							
+dali_structure	pisquare	17	coupon_rate	DECIMAL(20,4)		COUPON RATE	manual	C-pisquare-manual	MNL_DALI_yyyymmdd_hhmmss.csv	COUPON RATE	Real									1.3							
+dali_structure	pisquare	18	first_coupon_date	TIMESTAMP	yyyymmdd	FIRST COUPON DATE	manual	C-pisquare-manual	MNL_DALI_yyyymmdd_hhmmss.csv	FIRST COUPON DATE	Date									1.3							
+dali_structure	pisquare	19	additive_margin_spread	DECIMAL(20,4)		ADDITIVE MARGIN SPREAD	manual	C-pisquare-manual	MNL_DALI_yyyymmdd_hhmmss.csv	ADDITIVE MARGIN SPREAD	Real									1.3							
+dali_structure	pisquare	20	is_perpetual	STRING		IS PERPETUAL	manual	C-pisquare-manual	MNL_DALI_yyyymmdd_hhmmss.csv	IS PERPETUAL	String									1.3							
+dali_structure	pisquare	21	is_step_up	STRING		IS STEP UP	manual	C-pisquare-manual	MNL_DALI_yyyymmdd_hhmmss.csv	IS STEP UP	String									1.3							
+dali_structure	pisquare	22	rate_type	STRING		RATE TYPE	manual	C-pisquare-manual	MNL_DALI_yyyymmdd_hhmmss.csv	RATE TYPE	String									1.3							
+dali_structure	pisquare	23	redemption_amount	DECIMAL(20,4)		REDEMPTION AMOUNT	manual	C-pisquare-manual	MNL_DALI_yyyymmdd_hhmmss.csv	REDEMPTION AMOUNT	Real									1.3							
+dali_structure	pisquare	24	redemption_currency	STRING		REDEMPTION CURRENCY	manual	C-pisquare-manual	MNL_DALI_yyyymmdd_hhmmss.csv	REDEMPTION CURRENCY	String									1.3							
+dali_structure	pisquare	25	redemption_type	STRING		REDEMPTION TYPE	manual	C-pisquare-manual	MNL_DALI_yyyymmdd_hhmmss.csv	REDEMPTION TYPE	String									1.3							
+dali_structure	pisquare	26	is_fix_to_float	STRING		IS FIX TO FLOAT	manual	C-pisquare-manual	MNL_DALI_yyyymmdd_hhmmss.csv	IS FIX TO FLOAT	String									1.3							
+dali_structure	pisquare	27	is_float_to_fix	STRING		IS FLOAT TO FIX	manual	C-pisquare-manual	MNL_DALI_yyyymmdd_hhmmss.csv	IS FLOAT TO FIX	String									1.3							
+dali_structure	pisquare	28	is_callable	STRING		IS CALLABLE	manual	C-pisquare-manual	MNL_DALI_yyyymmdd_hhmmss.csv	IS CALLABLE	String									1.3							
+dali_structure	pisquare	29	next_call_date	TIMESTAMP	yyyymmdd	NEXT CALL DATE	manual	C-pisquare-manual	MNL_DALI_yyyymmdd_hhmmss.csv	NEXT CALL DATE	Date									1.3							
+dali_structure	pisquare	30	next_call_price	DECIMAL(20,4)		NEXT CALL PRICE	manual	C-pisquare-manual	MNL_DALI_yyyymmdd_hhmmss.csv	NEXT CALL PRICE	Real									1.3							
+dali_structure	pisquare	31	is_putable	STRING		IS PUTABLE	manual	C-pisquare-manual	MNL_DALI_yyyymmdd_hhmmss.csv	IS PUTABLE	String									1.3							
+dali_structure	pisquare	32	next_put_date	TIMESTAMP	yyyymmdd	NEXT PUT DATE	manual	C-pisquare-manual	MNL_DALI_yyyymmdd_hhmmss.csv	NEXT PUT DATE	Date									1.3							
+dali_structure	pisquare	33	next_put_price	DECIMAL(20,4)		NEXT PUT PRICE	manual	C-pisquare-manual	MNL_DALI_yyyymmdd_hhmmss.csv	NEXT PUT PRICE	Real									1.3							
+dali_structure	pisquare	34	is_capped	STRING		IS CAPPED	manual	C-pisquare-manual	MNL_DALI_yyyymmdd_hhmmss.csv	IS CAPPED	String									1.3							
+dali_structure	pisquare	35	cap_rate	DECIMAL(20,4)		CAP RATE	manual	C-pisquare-manual	MNL_DALI_yyyymmdd_hhmmss.csv	CAP RATE	Real									1.3							
+dali_structure	pisquare	36	is_floored	STRING		IS FLOORED	manual	C-pisquare-manual	MNL_DALI_yyyymmdd_hhmmss.csv	IS FLOORED	String									1.3							
+dali_structure	pisquare	37	floor_rate	DECIMAL(20,4)		FLOOR RATE	manual	C-pisquare-manual	MNL_DALI_yyyymmdd_hhmmss.csv	FLOOR RATE	Real									1.3							
+dali_structure	pisquare	38	is_sinkable	STRING		IS SINKABLE	manual	C-pisquare-manual	MNL_DALI_yyyymmdd_hhmmss.csv	IS SINKABLE	String									1.3							
+dali_structure	pisquare	39	is_subordinated	STRING		IS SUBORDINATED	manual	C-pisquare-manual	MNL_DALI_yyyymmdd_hhmmss.csv	IS SUBORDINATED	String									1.3							
+dali_structure	pisquare	40	seniority_level	STRING		SENIORITY LEVEL	manual	C-pisquare-manual	MNL_DALI_yyyymmdd_hhmmss.csv	SENIORITY LEVEL	String									1.3							
+dali_structure	pisquare	41	is_covered	STRING		IS COVERED	manual	C-pisquare-manual	MNL_DALI_yyyymmdd_hhmmss.csv	IS COVERED	String									1.3							
+dali_structure	pisquare	42	is_convertible	STRING		IS CONVERTIBLE	manual	C-pisquare-manual	MNL_DALI_yyyymmdd_hhmmss.csv	IS CONVERTIBLE	String									1.3							
+dali_structure	pisquare	43	is_index_linked	STRING		IS INDEX LINKED	manual	C-pisquare-manual	MNL_DALI_yyyymmdd_hhmmss.csv	IS INDEX LINKED	String									1.3							
+dali_structure	pisquare	44	fund_asset_class_focus	STRING		FUND ASSET CLASS FOCUS	manual	C-pisquare-manual	MNL_DALI_yyyymmdd_hhmmss.csv	FUND ASSET CLASS FOCUS	String									1.3							
+dali_structure	pisquare	45	fund_strategy	STRING		FUND STRATEGY	manual	C-pisquare-manual	MNL_DALI_yyyymmdd_hhmmss.csv	FUND STRATEGY	String									1.3							
+dali_structure	pisquare	46	collateral_type	STRING		COLLATERAL TYPE	manual	C-pisquare-manual	MNL_DALI_yyyymmdd_hhmmss.csv	COLLATERAL TYPE	String									1.3							
+dali_structure	pisquare	47	grand_fathered	STRING		GRAND-FATHERED	manual	C-pisquare-manual	MNL_DALI_yyyymmdd_hhmmss.csv	GRAND-FATHERED	String									1.3							
+dali_structure	pisquare	48	market_sector	STRING		MARKET SECTOR	manual	C-pisquare-manual	MNL_DALI_yyyymmdd_hhmmss.csv	MARKET SECTOR	String									1.3							
+dali_structure	pisquare	49	nominal_currency	STRING		NOMINAL CURRENCY	manual	C-pisquare-manual	MNL_DALI_yyyymmdd_hhmmss.csv	NOMINAL CURRENCY	String									1.3							
+dali_structure	pisquare	50	bond_type	STRING		BOND TYPE	manual	C-pisquare-manual	MNL_DALI_yyyymmdd_hhmmss.csv	BOND TYPE	String									1.3							
+dali_structure	pisquare	51	issuer_ultimate_parent_bloomberg_id	STRING		ISSUER ULTIMATE PARENT BLOOMBERG ID	manual	C-pisquare-manual	MNL_DALI_yyyymmdd_hhmmss.csv	ISSUER ULTIMATE PARENT BLOOMBERG ID	String									1.3							
+dali_structure	pisquare	52	is_mortgage_se_cured	STRING		IS MORTGAGE SECURED	manual	C-pisquare-manual	MNL_DALI_yyyymmdd_hhmmss.csv	IS MORTGAGE SECURED	String									1.3							
+dali_structure	pisquare	53	is_public_loan_se_cured	STRING		IS PUBLIC LOAN  SECURED	manual	C-pisquare-manual	MNL_DALI_yyyymmdd_hhmmss.csv	IS PUBLIC LOAN  SECURED	String									1.3							
+dali_structure	pisquare	54	paymennt_rank_bloomberg	STRING		Paymennt rank (bloomberg)	manual	C-pisquare-manual	MNL_DALI_yyyymmdd_hhmmss.csv	Paymennt rank (bloomberg)	String									1.3							
+dali_structure	pisquare	55	collateral_description_bloonberg	STRING		Collateral description (Bloonberg)	manual	C-pisquare-manual	MNL_DALI_yyyymmdd_hhmmss.csv	Collateral description (Bloonberg)	String									1.3							
+dali_structure	pisquare	56	s_p_long_term_rating_instrument	STRING		S&P long term rating instrument	manual	C-pisquare-manual	MNL_DALI_yyyymmdd_hhmmss.csv	S&P long term rating instrument	String									1.3							
+dali_structure	pisquare	57	moody_s_long_term_rating_instrument	STRING		Moody's long term rating instrument	manual	C-pisquare-manual	MNL_DALI_yyyymmdd_hhmmss.csv	Moody's long term rating instrument	String									1.3							
+dali_structure	pisquare	58	fitch_long_term_rating_instrument	STRING		Fitch long term rating instrument	manual	C-pisquare-manual	MNL_DALI_yyyymmdd_hhmmss.csv	Fitch long term rating instrument	String									1.3							
+dali_structure	pisquare	59	third_party_external_bloomberg_issuer_number	STRING		THIRD PARTY EXTERNAL BLOOMBERG ISSUER NUMBER	manual	C-pisquare-manual	MNL_DALI_yyyymmdd_hhmmss.csv	THIRD PARTY EXTERNAL BLOOMBERG ISSUER NUMBER	String									1.3							
+dali_structure	pisquare	60	issuer_third_party_long_name	STRING		Issuer/Third Party LONG NAME	manual	C-pisquare-manual	MNL_DALI_yyyymmdd_hhmmss.csv	Issuer/Third Party LONG NAME	String									1.3							
+dali_structure	pisquare	61	issuer_third_party_country	STRING		Issuer/Third Party COUNTRY	manual	C-pisquare-manual	MNL_DALI_yyyymmdd_hhmmss.csv	Issuer/Third Party COUNTRY	String									1.3							
+dali_structure	pisquare	62	issuer_third_party_bics_industry_sector_subgroup	STRING		Issuer/Third Party - BICS - Industry sector subgroup	manual	C-pisquare-manual	MNL_DALI_yyyymmdd_hhmmss.csv	Issuer/Third Party - BICS - Industry sector subgroup	String									1.3							
+dali_structure	pisquare	63	issuer_third_party_gics_industry	STRING		Issuer/Third Party - GICS-Industry	manual	C-pisquare-manual	MNL_DALI_yyyymmdd_hhmmss.csv	Issuer/Third Party - GICS-Industry	String									1.3							
+dali_structure	pisquare	64	issuer_third_party_ultimate_parent_company_code	STRING		Issuer/Third Party ULTIMATE PARENT COMPANY CODE	manual	C-pisquare-manual	MNL_DALI_yyyymmdd_hhmmss.csv	Issuer/Third Party ULTIMATE PARENT COMPANY CODE	String									1.3							
+dali_structure	pisquare	65	issuer_third_party_ultimate_parent_company_name	STRING		Issuer/Third Party ULTIMATE PARENT COMPANY NAME	manual	C-pisquare-manual	MNL_DALI_yyyymmdd_hhmmss.csv	Issuer/Third Party ULTIMATE PARENT COMPANY NAME	String									1.3							
+dali_structure	pisquare	66	s_p_long_term_rating_issuer_third_party	STRING		S&P long term rating Issuer/Third Party	manual	C-pisquare-manual	MNL_DALI_yyyymmdd_hhmmss.csv	S&P long term rating Issuer/Third Party	String									1.3							
+dali_structure	pisquare	67	moody_s_long_term_rating_issuer_third_party	STRING		Moody's long term rating  Issuer/Third Party	manual	C-pisquare-manual	MNL_DALI_yyyymmdd_hhmmss.csv	Moody's long term rating  Issuer/Third Party	String									1.3							
+dali_structure	pisquare	68	fitch_long_term_rating_issuer_third_party	STRING		Fitch long term rating  Issuer/Third Party	manual	C-pisquare-manual	MNL_DALI_yyyymmdd_hhmmss.csv	Fitch long term rating  Issuer/Third Party	String									1.3							
+dali_structure	pisquare	69	base_index	STRING		Base Index	manual	C-pisquare-manual	MNL_DALI_yyyymmdd_hhmmss.csv	Base Index	String									1.3							
+entity_trades_derivatives	pisquare	0	type_of_derivative_code	STRING		Type of Derivative (code)	manual	C-pisquare-manual	MNL_Entity_Trades_Derivatives_yyyymmdd_hhmmss.csv	Type of Derivative (code)	String									1.3							
+entity_trades_derivatives	pisquare	1	sophis_position_id	STRING		Sophis Position ID	manual	C-pisquare-manual	MNL_Entity_Trades_Derivatives_yyyymmdd_hhmmss.csv	Sophis Position ID	String									1.3							
+entity_trades_derivatives	pisquare	2	axa_entity	STRING		AXA Entity	manual	C-pisquare-manual	MNL_Entity_Trades_Derivatives_yyyymmdd_hhmmss.csv	AXA Entity	String									1.3							
+entity_trades_derivatives	pisquare	3	nature_of_fund	STRING		Nature of fund	manual	C-pisquare-manual	MNL_Entity_Trades_Derivatives_yyyymmdd_hhmmss.csv	Nature of fund	String									1.3							
+entity_trades_derivatives	pisquare	4	shareholder_exposure	STRING		Shareholder exposure	manual	C-pisquare-manual	MNL_Entity_Trades_Derivatives_yyyymmdd_hhmmss.csv	Shareholder exposure	String									1.3							
+entity_trades_derivatives	pisquare	5	company_name	STRING		Company Name	manual	C-pisquare-manual	MNL_Entity_Trades_Derivatives_yyyymmdd_hhmmss.csv	Company Name	String									1.3							
+entity_trades_derivatives	pisquare	6	portfolio	STRING		Portfolio	manual	C-pisquare-manual	MNL_Entity_Trades_Derivatives_yyyymmdd_hhmmss.csv	Portfolio	String									1.3							
+entity_trades_derivatives	pisquare	7	ara_portfolio	STRING		ARA Portfolio	manual	C-pisquare-manual	MNL_Entity_Trades_Derivatives_yyyymmdd_hhmmss.csv	ARA Portfolio	String									1.3							
+entity_trades_derivatives	pisquare	8	type_of_derivative_name	STRING		Type of Derivative (name)	manual	C-pisquare-manual	MNL_Entity_Trades_Derivatives_yyyymmdd_hhmmss.csv	Type of Derivative (name)	String									1.3							
+entity_trades_derivatives	pisquare	9	long_payer_short_receiver	STRING		Long (Payer) / Short (Receiver)	manual	C-pisquare-manual	MNL_Entity_Trades_Derivatives_yyyymmdd_hhmmss.csv	Long (Payer) / Short (Receiver)	String									1.3							
+entity_trades_derivatives	pisquare	10	axa_instrument	STRING		AXA instrument	manual	C-pisquare-manual	MNL_Entity_Trades_Derivatives_yyyymmdd_hhmmss.csv	AXA instrument	String									1.3							
+entity_trades_derivatives	pisquare	11	instrument_name	STRING		Instrument name	manual	C-pisquare-manual	MNL_Entity_Trades_Derivatives_yyyymmdd_hhmmss.csv	Instrument name	String									1.3							
+entity_trades_derivatives	pisquare	12	market_value	DECIMAL(20,4)		Market Value	manual	C-pisquare-manual	MNL_Entity_Trades_Derivatives_yyyymmdd_hhmmss.csv	Market Value	Real									1.3							
+entity_trades_derivatives	pisquare	13	mtm_after_colat	DECIMAL(20,4)		MTM After Colat	manual	C-pisquare-manual	MNL_Entity_Trades_Derivatives_yyyymmdd_hhmmss.csv	MTM After Colat	Real									1.3							
+entity_trades_derivatives	pisquare	14	notional	DECIMAL(20,4)		Notional	manual	C-pisquare-manual	MNL_Entity_Trades_Derivatives_yyyymmdd_hhmmss.csv	Notional	Real									1.3							
+entity_trades_derivatives	pisquare	15	quantity	DECIMAL(20,4)		Quantity	manual	C-pisquare-manual	MNL_Entity_Trades_Derivatives_yyyymmdd_hhmmss.csv	Quantity	Real									1.3							
+entity_trades_derivatives	pisquare	16	economic_exposure	DECIMAL(20,4)		Economic Exposure	manual	C-pisquare-manual	MNL_Entity_Trades_Derivatives_yyyymmdd_hhmmss.csv	Economic Exposure	Real									1.3							
+entity_trades_derivatives	pisquare	17	asset_manager	STRING		Asset Manager	manual	C-pisquare-manual	MNL_Entity_Trades_Derivatives_yyyymmdd_hhmmss.csv	Asset Manager	String									1.3							
+entity_trades_derivatives	pisquare	18	valuation_type	STRING		Valuation Type	manual	C-pisquare-manual	MNL_Entity_Trades_Derivatives_yyyymmdd_hhmmss.csv	Valuation Type	String									1.3							
+entity_trades_derivatives	pisquare	19	unit_price	DECIMAL(20,4)		Unit Price	manual	C-pisquare-manual	MNL_Entity_Trades_Derivatives_yyyymmdd_hhmmss.csv	Unit Price	Real									1.3							
+entity_trades_derivatives	pisquare	20	unit_price_currency	STRING		Unit Price Currency	manual	C-pisquare-manual	MNL_Entity_Trades_Derivatives_yyyymmdd_hhmmss.csv	Unit Price Currency	String									1.3							
+entity_trades_derivatives	pisquare	21	unit_price_forex_rate	DECIMAL(20,4)		Unit Price Forex Rate	manual	C-pisquare-manual	MNL_Entity_Trades_Derivatives_yyyymmdd_hhmmss.csv	Unit Price Forex Rate	Real									1.3							
+entity_trades_derivatives	pisquare	22	issue_date	TIMESTAMP	yyyymmdd	Issue Date	manual	C-pisquare-manual	MNL_Entity_Trades_Derivatives_yyyymmdd_hhmmss.csv	Issue Date	Date									1.3							
+entity_trades_derivatives	pisquare	23	starting_date	TIMESTAMP	yyyymmdd	Starting Date	manual	C-pisquare-manual	MNL_Entity_Trades_Derivatives_yyyymmdd_hhmmss.csv	Starting Date	Date									1.3							
+entity_trades_derivatives	pisquare	24	maturity_date	TIMESTAMP	yyyymmdd	Maturity Date	manual	C-pisquare-manual	MNL_Entity_Trades_Derivatives_yyyymmdd_hhmmss.csv	Maturity Date	Date									1.3							
+entity_trades_derivatives	pisquare	25	maturity_category	STRING		Maturity Category	manual	C-pisquare-manual	MNL_Entity_Trades_Derivatives_yyyymmdd_hhmmss.csv	Maturity Category	String									1.3							
+entity_trades_derivatives	pisquare	26	currency	STRING		Currency	manual	C-pisquare-manual	MNL_Entity_Trades_Derivatives_yyyymmdd_hhmmss.csv	Currency	String									1.3							
+entity_trades_derivatives	pisquare	27	package_code	STRING		Package Code	manual	C-pisquare-manual	MNL_Entity_Trades_Derivatives_yyyymmdd_hhmmss.csv	Package Code	String									1.3							
+entity_trades_derivatives	pisquare	28	basket_strategy	STRING		Basket / Strategy	manual	C-pisquare-manual	MNL_Entity_Trades_Derivatives_yyyymmdd_hhmmss.csv	Basket / Strategy	String									1.3							
+entity_trades_derivatives	pisquare	29	holding_type	STRING		Holding type	manual	C-pisquare-manual	MNL_Entity_Trades_Derivatives_yyyymmdd_hhmmss.csv	Holding type	String									1.3							
+entity_trades_derivatives	pisquare	30	magnitude_account	STRING		Magnitude Account	manual	C-pisquare-manual	MNL_Entity_Trades_Derivatives_yyyymmdd_hhmmss.csv	Magnitude Account	String									1.3							
+entity_trades_derivatives	pisquare	31	magnitude_package	STRING		Magnitude Package	manual	C-pisquare-manual	MNL_Entity_Trades_Derivatives_yyyymmdd_hhmmss.csv	Magnitude Package	String									1.3							
+entity_trades_derivatives	pisquare	32	magnitude_annex_account	STRING		Magnitude Annex Account	manual	C-pisquare-manual	MNL_Entity_Trades_Derivatives_yyyymmdd_hhmmss.csv	Magnitude Annex Account	String									1.3							
+entity_trades_derivatives	pisquare	33	hedge_accounting_category	STRING		Hedge Accounting Category	manual	C-pisquare-manual	MNL_Entity_Trades_Derivatives_yyyymmdd_hhmmss.csv	Hedge Accounting Category	String									1.3							
+entity_trades_derivatives	pisquare	34	mutual_fund_code	STRING		Mutual Fund Code	manual	C-pisquare-manual	MNL_Entity_Trades_Derivatives_yyyymmdd_hhmmss.csv	Mutual Fund Code	String									1.3							
+entity_trades_derivatives	pisquare	35	mutual_fund_name	STRING		Mutual Fund Name	manual	C-pisquare-manual	MNL_Entity_Trades_Derivatives_yyyymmdd_hhmmss.csv	Mutual Fund Name	String									1.3							
+entity_trades_derivatives	pisquare	36	mutual_fund_code_2	STRING		Mutual Fund Code 2	manual	C-pisquare-manual	MNL_Entity_Trades_Derivatives_yyyymmdd_hhmmss.csv	Mutual Fund Code 2	String									1.3							
+entity_trades_derivatives	pisquare	37	mutual_fund_name_2	STRING		Mutual Fund Name 2	manual	C-pisquare-manual	MNL_Entity_Trades_Derivatives_yyyymmdd_hhmmss.csv	Mutual Fund Name 2	String									1.3							
+entity_trades_derivatives	pisquare	38	isda	STRING		ISDA	manual	C-pisquare-manual	MNL_Entity_Trades_Derivatives_yyyymmdd_hhmmss.csv	ISDA	String									1.3							
+entity_trades_derivatives	pisquare	39	counterparty_name	STRING		Counterparty name	manual	C-pisquare-manual	MNL_Entity_Trades_Derivatives_yyyymmdd_hhmmss.csv	Counterparty name	String									1.3							
+entity_trades_derivatives	pisquare	40	counterparty_id_bb_company	BIGINT		Counterparty Id BB Company	manual	C-pisquare-manual	MNL_Entity_Trades_Derivatives_yyyymmdd_hhmmss.csv	Counterparty Id BB Company	Integer									1.3							
+entity_trades_derivatives	pisquare	41	counterparty_rating	STRING		Counterparty Rating	manual	C-pisquare-manual	MNL_Entity_Trades_Derivatives_yyyymmdd_hhmmss.csv	Counterparty Rating	String									1.3							
+entity_trades_derivatives	pisquare	42	counterparty_rating_origin	STRING		Counterparty Rating Origin	manual	C-pisquare-manual	MNL_Entity_Trades_Derivatives_yyyymmdd_hhmmss.csv	Counterparty Rating Origin	String									1.3							
+entity_trades_derivatives	pisquare	43	counterparty_activity_sector	STRING		Counterparty Activity Sector	manual	C-pisquare-manual	MNL_Entity_Trades_Derivatives_yyyymmdd_hhmmss.csv	Counterparty Activity Sector	String									1.3							
+entity_trades_derivatives	pisquare	44	counterparty_issuer_industry_group	STRING		Counterparty Issuer industry group	manual	C-pisquare-manual	MNL_Entity_Trades_Derivatives_yyyymmdd_hhmmss.csv	Counterparty Issuer industry group	String									1.3							
+entity_trades_derivatives	pisquare	45	counterparty_issuer_industry_subgroup	STRING		Counterparty Issuer industry subgroup	manual	C-pisquare-manual	MNL_Entity_Trades_Derivatives_yyyymmdd_hhmmss.csv	Counterparty Issuer industry subgroup	String									1.3							
+entity_trades_derivatives	pisquare	46	counterparty_country	STRING		Counterparty Country	manual	C-pisquare-manual	MNL_Entity_Trades_Derivatives_yyyymmdd_hhmmss.csv	Counterparty Country	String									1.3							
+entity_trades_derivatives	pisquare	47	counterparty_ultimate_shareholder_name	STRING		Counterparty Ultimate Shareholder name	manual	C-pisquare-manual	MNL_Entity_Trades_Derivatives_yyyymmdd_hhmmss.csv	Counterparty Ultimate Shareholder name	String									1.3							
+entity_trades_derivatives	pisquare	48	counterparty_ultimate_shareholder_axa_rating	STRING		Counterparty Ultimate Shareholder AXA Rating	manual	C-pisquare-manual	MNL_Entity_Trades_Derivatives_yyyymmdd_hhmmss.csv	Counterparty Ultimate Shareholder AXA Rating	String									1.3							
+entity_trades_derivatives	pisquare	49	counterparty_ultimate_shareholder_rating_origin	STRING		Counterparty Ultimate Shareholder Rating Origin	manual	C-pisquare-manual	MNL_Entity_Trades_Derivatives_yyyymmdd_hhmmss.csv	Counterparty Ultimate Shareholder Rating Origin	String									1.3							
+entity_trades_derivatives	pisquare	50	counterparty_ultimate_shareholder_country	STRING		Counterparty Ultimate Shareholder Country	manual	C-pisquare-manual	MNL_Entity_Trades_Derivatives_yyyymmdd_hhmmss.csv	Counterparty Ultimate Shareholder Country	String									1.3							
+entity_trades_derivatives	pisquare	51	rlissuer_name	STRING		RLIssuer name	manual	C-pisquare-manual	MNL_Entity_Trades_Derivatives_yyyymmdd_hhmmss.csv	RLIssuer name	String									1.3							
+entity_trades_derivatives	pisquare	52	rl_issuer_id_bb_company	BIGINT		RL Issuer Id BB Company	manual	C-pisquare-manual	MNL_Entity_Trades_Derivatives_yyyymmdd_hhmmss.csv	RL Issuer Id BB Company	Integer									1.3							
+entity_trades_derivatives	pisquare	53	rl_issuer_rating	STRING		RL Issuer Rating	manual	C-pisquare-manual	MNL_Entity_Trades_Derivatives_yyyymmdd_hhmmss.csv	RL Issuer Rating	String									1.3							
+entity_trades_derivatives	pisquare	54	rl_issuer_rating_origin	STRING		RL Issuer Rating Origin	manual	C-pisquare-manual	MNL_Entity_Trades_Derivatives_yyyymmdd_hhmmss.csv	RL Issuer Rating Origin	String									1.3							
+entity_trades_derivatives	pisquare	55	rl_issuer_activity_sector	STRING		RL Issuer Activity Sector	manual	C-pisquare-manual	MNL_Entity_Trades_Derivatives_yyyymmdd_hhmmss.csv	RL Issuer Activity Sector	String									1.3							
+entity_trades_derivatives	pisquare	56	rl_issuer_industry_group	STRING		RL Issuer industry group	manual	C-pisquare-manual	MNL_Entity_Trades_Derivatives_yyyymmdd_hhmmss.csv	RL Issuer industry group	String									1.3							
+entity_trades_derivatives	pisquare	57	rl_issuer_industry_sub_group	STRING		RL Issuer industry sub group	manual	C-pisquare-manual	MNL_Entity_Trades_Derivatives_yyyymmdd_hhmmss.csv	RL Issuer industry sub group	String									1.3							
+entity_trades_derivatives	pisquare	58	rl_issuer_country	STRING		RL Issuer Country	manual	C-pisquare-manual	MNL_Entity_Trades_Derivatives_yyyymmdd_hhmmss.csv	RL Issuer Country	String									1.3							
+entity_trades_derivatives	pisquare	59	rl_ultimate_shareholder_name	STRING		RL Ultimate Shareholder name	manual	C-pisquare-manual	MNL_Entity_Trades_Derivatives_yyyymmdd_hhmmss.csv	RL Ultimate Shareholder name	String									1.3							
+entity_trades_derivatives	pisquare	60	rl_ultimate_shareholder_axa_rating	STRING		RL Ultimate Shareholder AXA Rating	manual	C-pisquare-manual	MNL_Entity_Trades_Derivatives_yyyymmdd_hhmmss.csv	RL Ultimate Shareholder AXA Rating	String									1.3							
+entity_trades_derivatives	pisquare	61	rl_ultimate_shareholder_rating_origin	STRING		RL Ultimate Shareholder Rating Origin	manual	C-pisquare-manual	MNL_Entity_Trades_Derivatives_yyyymmdd_hhmmss.csv	RL Ultimate Shareholder Rating Origin	String									1.3							
+entity_trades_derivatives	pisquare	62	rl_ultimate_shareholder_country	STRING		RL Ultimate Shareholder Country	manual	C-pisquare-manual	MNL_Entity_Trades_Derivatives_yyyymmdd_hhmmss.csv	RL Ultimate Shareholder Country	String									1.3							
+entity_trades_derivatives	pisquare	63	rl_index_name	STRING		RL Index Name	manual	C-pisquare-manual	MNL_Entity_Trades_Derivatives_yyyymmdd_hhmmss.csv	RL Index Name	String									1.3							
+entity_trades_derivatives	pisquare	64	rl_index_type_name	STRING		RL Index Type (name)	manual	C-pisquare-manual	MNL_Entity_Trades_Derivatives_yyyymmdd_hhmmss.csv	RL Index Type (name)	String									1.3							
+entity_trades_derivatives	pisquare	65	rl_se_curity_code_type	STRING		RL Security Code type	manual	C-pisquare-manual	MNL_Entity_Trades_Derivatives_yyyymmdd_hhmmss.csv	RL Security Code type	String									1.3							
+entity_trades_derivatives	pisquare	66	rl_se_curity_code	STRING		RL Security Code	manual	C-pisquare-manual	MNL_Entity_Trades_Derivatives_yyyymmdd_hhmmss.csv	RL Security Code	String									1.3							
+entity_trades_derivatives	pisquare	67	rl_se_curity_axa_rating	STRING		RL Security AXA Rating	manual	C-pisquare-manual	MNL_Entity_Trades_Derivatives_yyyymmdd_hhmmss.csv	RL Security AXA Rating	String									1.3							
+entity_trades_derivatives	pisquare	68	rl_se_curity_rating_origin	STRING		RL Security Rating Origin	manual	C-pisquare-manual	MNL_Entity_Trades_Derivatives_yyyymmdd_hhmmss.csv	RL Security Rating Origin	String									1.3							
+entity_trades_derivatives	pisquare	69	rl_seniority	STRING		RL Seniority	manual	C-pisquare-manual	MNL_Entity_Trades_Derivatives_yyyymmdd_hhmmss.csv	RL Seniority	String									1.3							
+entity_trades_derivatives	pisquare	70	rl_nature_of_underlying	STRING		RL Nature Of Underlying	manual	C-pisquare-manual	MNL_Entity_Trades_Derivatives_yyyymmdd_hhmmss.csv	RL Nature Of Underlying	String									1.3							
+entity_trades_derivatives	pisquare	71	rl_payment_frequency	BIGINT		RL Payment Frequency	manual	C-pisquare-manual	MNL_Entity_Trades_Derivatives_yyyymmdd_hhmmss.csv	RL Payment Frequency	Integer									1.3							
+entity_trades_derivatives	pisquare	72	rl_spread_strike_forex	DECIMAL(20,4)		RL Spread/Strike/Forex	manual	C-pisquare-manual	MNL_Entity_Trades_Derivatives_yyyymmdd_hhmmss.csv	RL Spread/Strike/Forex	Real									1.3							
+entity_trades_derivatives	pisquare	73	rl_spot_of_reference	DECIMAL(20,4)		RL Spot of reference	manual	C-pisquare-manual	MNL_Entity_Trades_Derivatives_yyyymmdd_hhmmss.csv	RL Spot of reference	Real									1.3							
+entity_trades_derivatives	pisquare	74	rl_currency	STRING		RL Currency	manual	C-pisquare-manual	MNL_Entity_Trades_Derivatives_yyyymmdd_hhmmss.csv	RL Currency	String									1.3							
+entity_trades_derivatives	pisquare	75	rl_day_count_basis	STRING		RL Day Count Basis	manual	C-pisquare-manual	MNL_Entity_Trades_Derivatives_yyyymmdd_hhmmss.csv	RL Day Count Basis	String									1.3							
+entity_trades_derivatives	pisquare	76	plissuer_name	STRING		PLIssuer name	manual	C-pisquare-manual	MNL_Entity_Trades_Derivatives_yyyymmdd_hhmmss.csv	PLIssuer name	String									1.3							
+entity_trades_derivatives	pisquare	77	pl_issuer_id_bb_company	BIGINT		PL Issuer Id BB Company	manual	C-pisquare-manual	MNL_Entity_Trades_Derivatives_yyyymmdd_hhmmss.csv	PL Issuer Id BB Company	Integer									1.3							
+entity_trades_derivatives	pisquare	78	pl_issuer_axa_rating	STRING		PL Issuer AXA Rating	manual	C-pisquare-manual	MNL_Entity_Trades_Derivatives_yyyymmdd_hhmmss.csv	PL Issuer AXA Rating	String									1.3							
+entity_trades_derivatives	pisquare	79	pl_issuer_axa_rating_origin	STRING		PL Issuer AXA Rating Origin	manual	C-pisquare-manual	MNL_Entity_Trades_Derivatives_yyyymmdd_hhmmss.csv	PL Issuer AXA Rating Origin	String									1.3							
+entity_trades_derivatives	pisquare	80	pl_issuer_industry_sector	STRING		PL Issuer Industry Sector	manual	C-pisquare-manual	MNL_Entity_Trades_Derivatives_yyyymmdd_hhmmss.csv	PL Issuer Industry Sector	String									1.3							
+entity_trades_derivatives	pisquare	81	pl_issuer_industry_group	STRING		PL Issuer industry group	manual	C-pisquare-manual	MNL_Entity_Trades_Derivatives_yyyymmdd_hhmmss.csv	PL Issuer industry group	String									1.3							
+entity_trades_derivatives	pisquare	82	pl_issuer_industry_sub_group	STRING		PL Issuer industry sub group	manual	C-pisquare-manual	MNL_Entity_Trades_Derivatives_yyyymmdd_hhmmss.csv	PL Issuer industry sub group	String									1.3							
+entity_trades_derivatives	pisquare	83	pl_issuer_country	STRING		PL Issuer Country	manual	C-pisquare-manual	MNL_Entity_Trades_Derivatives_yyyymmdd_hhmmss.csv	PL Issuer Country	String									1.3							
+entity_trades_derivatives	pisquare	84	pl_ultimate_shareholder_name	STRING		PL Ultimate Shareholder name	manual	C-pisquare-manual	MNL_Entity_Trades_Derivatives_yyyymmdd_hhmmss.csv	PL Ultimate Shareholder name	String									1.3							
+entity_trades_derivatives	pisquare	85	pl_ultimate_shareholder_axa_rating	STRING		PL Ultimate Shareholder AXA Rating	manual	C-pisquare-manual	MNL_Entity_Trades_Derivatives_yyyymmdd_hhmmss.csv	PL Ultimate Shareholder AXA Rating	String									1.3							
+entity_trades_derivatives	pisquare	86	pl_ultimate_shareholder_rating_origin	STRING		PL Ultimate Shareholder Rating Origin	manual	C-pisquare-manual	MNL_Entity_Trades_Derivatives_yyyymmdd_hhmmss.csv	PL Ultimate Shareholder Rating Origin	String									1.3							
+entity_trades_derivatives	pisquare	87	pl_ultimate_shareholder_country	STRING		PL Ultimate Shareholder Country	manual	C-pisquare-manual	MNL_Entity_Trades_Derivatives_yyyymmdd_hhmmss.csv	PL Ultimate Shareholder Country	String									1.3							
+entity_trades_derivatives	pisquare	88	pl_index_name	STRING		PL Index Name	manual	C-pisquare-manual	MNL_Entity_Trades_Derivatives_yyyymmdd_hhmmss.csv	PL Index Name	String									1.3							
+entity_trades_derivatives	pisquare	89	pl_index_type_name	STRING		PL Index Type (name)	manual	C-pisquare-manual	MNL_Entity_Trades_Derivatives_yyyymmdd_hhmmss.csv	PL Index Type (name)	String									1.3							
+entity_trades_derivatives	pisquare	90	pl_se_curity_code_type	STRING		PL Security Code type	manual	C-pisquare-manual	MNL_Entity_Trades_Derivatives_yyyymmdd_hhmmss.csv	PL Security Code type	String									1.3							
+entity_trades_derivatives	pisquare	91	pl_se_curity_code	STRING		PL Security Code	manual	C-pisquare-manual	MNL_Entity_Trades_Derivatives_yyyymmdd_hhmmss.csv	PL Security Code	String									1.3							
+entity_trades_derivatives	pisquare	92	pl_se_curity_axa_rating	STRING		PL Security AXA Rating	manual	C-pisquare-manual	MNL_Entity_Trades_Derivatives_yyyymmdd_hhmmss.csv	PL Security AXA Rating	String									1.3							
+entity_trades_derivatives	pisquare	93	pl_se_curity_rating_origin	STRING		PL Security Rating Origin	manual	C-pisquare-manual	MNL_Entity_Trades_Derivatives_yyyymmdd_hhmmss.csv	PL Security Rating Origin	String									1.3							
+entity_trades_derivatives	pisquare	94	pl_seniority	STRING		PL Seniority	manual	C-pisquare-manual	MNL_Entity_Trades_Derivatives_yyyymmdd_hhmmss.csv	PL Seniority	String									1.3							
+entity_trades_derivatives	pisquare	95	pl_nature_of_underlying	STRING		PL Nature Of Underlying	manual	C-pisquare-manual	MNL_Entity_Trades_Derivatives_yyyymmdd_hhmmss.csv	PL Nature Of Underlying	String									1.3							
+entity_trades_derivatives	pisquare	96	pl_payment_frequency	BIGINT		PL Payment Frequency	manual	C-pisquare-manual	MNL_Entity_Trades_Derivatives_yyyymmdd_hhmmss.csv	PL Payment Frequency	Integer									1.3							
+entity_trades_derivatives	pisquare	97	pl_spread_strike_forex	DECIMAL(20,4)		PL Spread/Strike/Forex	manual	C-pisquare-manual	MNL_Entity_Trades_Derivatives_yyyymmdd_hhmmss.csv	PL Spread/Strike/Forex	Real									1.3							
+entity_trades_derivatives	pisquare	98	pl_spot_of_reference	DECIMAL(20,4)		PL Spot of reference	manual	C-pisquare-manual	MNL_Entity_Trades_Derivatives_yyyymmdd_hhmmss.csv	PL Spot of reference	Real									1.3							
+entity_trades_derivatives	pisquare	99	pl_currency	STRING		PL Currency	manual	C-pisquare-manual	MNL_Entity_Trades_Derivatives_yyyymmdd_hhmmss.csv	PL Currency	String									1.3							
+entity_trades_derivatives	pisquare	100	pl_day_count_basis	STRING		PL Day Count Basis	manual	C-pisquare-manual	MNL_Entity_Trades_Derivatives_yyyymmdd_hhmmss.csv	PL Day Count Basis	String									1.3							
+entity_trades_derivatives	pisquare	101	upload_origin	STRING		Upload Origin	manual	C-pisquare-manual	MNL_Entity_Trades_Derivatives_yyyymmdd_hhmmss.csv	Upload Origin	String									1.3							
+entity_trades_derivatives	pisquare	102	stec_upload	STRING		STEC Upload	manual	C-pisquare-manual	MNL_Entity_Trades_Derivatives_yyyymmdd_hhmmss.csv	STEC Upload	String									1.3							
+entity_trades_derivatives	pisquare	103	initialforexrate	DECIMAL(20,4)		InitialForexRate	manual	C-pisquare-manual	MNL_Entity_Trades_Derivatives_yyyymmdd_hhmmss.csv	InitialForexRate	Real									1.3							
+entity_trades_derivatives	pisquare	104	exchange_notional	STRING		Exchange Notional	manual	C-pisquare-manual	MNL_Entity_Trades_Derivatives_yyyymmdd_hhmmss.csv	Exchange Notional	String									1.3							
+entity_trades_derivatives	pisquare	105	barrier_level	DECIMAL(20,4)		Barrier Level	manual	C-pisquare-manual	MNL_Entity_Trades_Derivatives_yyyymmdd_hhmmss.csv	Barrier Level	Real									1.3							
+entity_trades_derivatives	pisquare	106	type_of_barrier	STRING		Type Of Barrier	manual	C-pisquare-manual	MNL_Entity_Trades_Derivatives_yyyymmdd_hhmmss.csv	Type Of Barrier	String									1.3							
+entity_trades_derivatives	pisquare	107	proceed_ratio	DECIMAL(20,4)		Proceed Ratio	manual	C-pisquare-manual	MNL_Entity_Trades_Derivatives_yyyymmdd_hhmmss.csv	Proceed Ratio	Real									1.3							
+entity_trades_derivatives	pisquare	108	notional_rl	DECIMAL(20,4)		Notional RL	manual	C-pisquare-manual	MNL_Entity_Trades_Derivatives_yyyymmdd_hhmmss.csv	Notional RL	Real									1.3							
+entity_trades_derivatives	pisquare	109	notional_pl	DECIMAL(20,4)		Notional PL	manual	C-pisquare-manual	MNL_Entity_Trades_Derivatives_yyyymmdd_hhmmss.csv	Notional PL	Real									1.3							
+entity_trades_derivatives	pisquare	110	prorata_temporis	STRING		Prorata Temporis	manual	C-pisquare-manual	MNL_Entity_Trades_Derivatives_yyyymmdd_hhmmss.csv	Prorata Temporis	String									1.3							
+entity_trades_derivatives	pisquare	111	internal_transaction_indicator	STRING		Internal Transaction Indicator	manual	C-pisquare-manual	MNL_Entity_Trades_Derivatives_yyyymmdd_hhmmss.csv	Internal Transaction Indicator	String									1.3							
+entity_trades_derivatives	pisquare	112	notional_deflation_protected	STRING		Notional Deflation Protected	manual	C-pisquare-manual	MNL_Entity_Trades_Derivatives_yyyymmdd_hhmmss.csv	Notional Deflation Protected	String									1.3							
+entity_trades_derivatives	pisquare	113	attachment_point	DECIMAL(20,4)		Attachment Point	manual	C-pisquare-manual	MNL_Entity_Trades_Derivatives_yyyymmdd_hhmmss.csv	Attachment Point	Real									1.3							
+entity_trades_derivatives	pisquare	114	detachment_point	DECIMAL(20,4)		Detachment Point	manual	C-pisquare-manual	MNL_Entity_Trades_Derivatives_yyyymmdd_hhmmss.csv	Detachment Point	Real									1.3							
+entity_trades_derivatives	pisquare	115	base_index	STRING		Base Index	manual	C-pisquare-manual	MNL_Entity_Trades_Derivatives_yyyymmdd_hhmmss.csv	Base Index	String									1.3							
+entity_trades_derivatives	pisquare	116	bloomberg_ticker	STRING		Bloomberg Ticker	manual	C-pisquare-manual	MNL_Entity_Trades_Derivatives_yyyymmdd_hhmmss.csv	Bloomberg Ticker	String									1.3							
+entity_trades_physical	pisquare	0	operational_company_code	STRING		Operational Company Code	manual	C-pisquare-manual	MNL_Entity_Trades_Physical_yyyymmdd_hhmmss.csv	Operational Company Code	String									1.3							
+entity_trades_physical	pisquare	1	portfolio_code	STRING		Portfolio Code	manual	C-pisquare-manual	MNL_Entity_Trades_Physical_yyyymmdd_hhmmss.csv	Portfolio Code	String									1.3							
+entity_trades_physical	pisquare	2	ara_portfolio_code	STRING		ARA Portfolio Code	manual	C-pisquare-manual	MNL_Entity_Trades_Physical_yyyymmdd_hhmmss.csv	ARA Portfolio Code	String									1.3							
+entity_trades_physical	pisquare	3	quantity	DECIMAL(20,10)		Quantity	manual	C-pisquare-manual	MNL_Entity_Trades_Physical_yyyymmdd_hhmmss.csv	Quantity	Real									1.3							
+entity_trades_physical	pisquare	4	code_type	STRING		Codetype	manual	C-pisquare-manual	MNL_Entity_Trades_Physical_yyyymmdd_hhmmss.csv	Codetype	String									1.3							
+entity_trades_physical	pisquare	5	code	STRING		Code	manual	C-pisquare-manual	MNL_Entity_Trades_Physical_yyyymmdd_hhmmss.csv	Code	String									1.3							
+entity_trades_physical	pisquare	6	nature_of_fund	STRING		Nature Of Fund	manual	C-pisquare-manual	MNL_Entity_Trades_Physical_yyyymmdd_hhmmss.csv	Nature Of Fund	String									1.3							
+entity_trades_physical	pisquare	7	local_issuer_code	STRING		Local Issuer Code	manual	C-pisquare-manual	MNL_Entity_Trades_Physical_yyyymmdd_hhmmss.csv	Local Issuer Code	String									1.3							
+entity_trades_physical	pisquare	8	local_issuer_name	STRING		Local Issuer Name	manual	C-pisquare-manual	MNL_Entity_Trades_Physical_yyyymmdd_hhmmss.csv	Local Issuer Name	String									1.3							
+entity_trades_physical	pisquare	9	issuer_sector_code	STRING		Issuer Sector code	manual	C-pisquare-manual	MNL_Entity_Trades_Physical_yyyymmdd_hhmmss.csv	Issuer Sector code	String									1.3							
+entity_trades_physical	pisquare	10	country	STRING		Country	manual	C-pisquare-manual	MNL_Entity_Trades_Physical_yyyymmdd_hhmmss.csv	Country	String									1.3							
+entity_trades_physical	pisquare	11	se_curity_rating	STRING		Security Rating	manual	C-pisquare-manual	MNL_Entity_Trades_Physical_yyyymmdd_hhmmss.csv	Security Rating	String									1.3							
+entity_trades_physical	pisquare	12	coupon_type	STRING		Coupon Type	manual	C-pisquare-manual	MNL_Entity_Trades_Physical_yyyymmdd_hhmmss.csv	Coupon Type	String									1.3							
+entity_trades_physical	pisquare	13	coupon_rate_dividend	DECIMAL(20,10)		Coupon rate/Dividend	manual	C-pisquare-manual	MNL_Entity_Trades_Physical_yyyymmdd_hhmmss.csv	Coupon rate/Dividend	Real									1.3							
+entity_trades_physical	pisquare	14	coupon_frequency	BIGINT		Coupon Frequency	manual	C-pisquare-manual	MNL_Entity_Trades_Physical_yyyymmdd_hhmmss.csv	Coupon Frequency	Integer									1.3							
+entity_trades_physical	pisquare	15	margin_floater	DECIMAL(20,10)		Margin Floater	manual	C-pisquare-manual	MNL_Entity_Trades_Physical_yyyymmdd_hhmmss.csv	Margin Floater	Real									1.3							
+entity_trades_physical	pisquare	16	reset_floating_index	STRING		Reset Floating Index	manual	C-pisquare-manual	MNL_Entity_Trades_Physical_yyyymmdd_hhmmss.csv	Reset Floating Index	String									1.3							
+entity_trades_physical	pisquare	17	maturity	TIMESTAMP	dd/mm/yyyy	Maturity	manual	C-pisquare-manual	MNL_Entity_Trades_Physical_yyyymmdd_hhmmss.csv	Maturity	Date									1.3							
+entity_trades_physical	pisquare	18	optionality	STRING		Optionality	manual	C-pisquare-manual	MNL_Entity_Trades_Physical_yyyymmdd_hhmmss.csv	Optionality	String									1.3							
+entity_trades_physical	pisquare	19	mutual_fund_code	STRING		Mutual Fund Code	manual	C-pisquare-manual	MNL_Entity_Trades_Physical_yyyymmdd_hhmmss.csv	Mutual Fund Code	String									1.3							
+entity_trades_physical	pisquare	20	seniority_code	STRING		Seniority Code	manual	C-pisquare-manual	MNL_Entity_Trades_Physical_yyyymmdd_hhmmss.csv	Seniority Code	String									1.3							
+entity_trades_physical	pisquare	21	nominal	DECIMAL(20,10)		Nominal	manual	C-pisquare-manual	MNL_Entity_Trades_Physical_yyyymmdd_hhmmss.csv	Nominal	Real									1.3							
+entity_trades_physical	pisquare	22	instrument_name	STRING		Instrument Name	manual	C-pisquare-manual	MNL_Entity_Trades_Physical_yyyymmdd_hhmmss.csv	Instrument Name	String									1.3							
+entity_trades_physical	pisquare	23	mutual_fund_code_name	STRING		Mutual Fund Code Name	manual	C-pisquare-manual	MNL_Entity_Trades_Physical_yyyymmdd_hhmmss.csv	Mutual Fund Code Name	String									1.3							
+entity_trades_physical	pisquare	24	flow_type	STRING		Flow Type	manual	C-pisquare-manual	MNL_Entity_Trades_Physical_yyyymmdd_hhmmss.csv	Flow Type	String									1.3							
+entity_trades_physical	pisquare	25	ip_asset_class	STRING		IP Asset Class	manual	C-pisquare-manual	MNL_Entity_Trades_Physical_yyyymmdd_hhmmss.csv	IP Asset Class	String									1.3							
+entity_trades_physical	pisquare	26	strategy	STRING		Strategy	manual	C-pisquare-manual	MNL_Entity_Trades_Physical_yyyymmdd_hhmmss.csv	Strategy	String									1.3							
+entity_trades_physical	pisquare	27	instrument_currency	STRING		Instrument Currency	manual	C-pisquare-manual	MNL_Entity_Trades_Physical_yyyymmdd_hhmmss.csv	Instrument Currency	String									1.3							
+entity_trades_physical	pisquare	28	position_currency	STRING		Position Currency	manual	C-pisquare-manual	MNL_Entity_Trades_Physical_yyyymmdd_hhmmss.csv	Position Currency	String									1.3							
+entity_trades_physical	pisquare	29	trade_date	TIMESTAMP	dd/mm/yyyy	Trade Date	manual	C-pisquare-manual	MNL_Entity_Trades_Physical_yyyymmdd_hhmmss.csv	Trade Date	Date									1.3							
+entity_trades_physical	pisquare	30	transaction_amount_local_ccy	DECIMAL(20,10)		Transaction Amount (local ccy)	manual	C-pisquare-manual	MNL_Entity_Trades_Physical_yyyymmdd_hhmmss.csv	Transaction Amount (local ccy)	Real									1.3							
+entity_trades_physical	pisquare	31	se_curity_rating _s_p	STRING		Security rating  S&P	manual	C-pisquare-manual	MNL_Entity_Trades_Physical_yyyymmdd_hhmmss.csv	Security rating  S&P	String									1.3							
+entity_trades_physical	pisquare	32	se_curity_rating _moody_s	STRING		Security rating  Moody's	manual	C-pisquare-manual	MNL_Entity_Trades_Physical_yyyymmdd_hhmmss.csv	Security rating  Moody's	String									1.3							
+entity_trades_physical	pisquare	33	se_curity_rating _fitch	STRING		Security rating  Fitch	manual	C-pisquare-manual	MNL_Entity_Trades_Physical_yyyymmdd_hhmmss.csv	Security rating  Fitch	String									1.3							
+entity_trades_physical	pisquare	34	ir_duration	DECIMAL(20,10)		IR Duration	manual	C-pisquare-manual	MNL_Entity_Trades_Physical_yyyymmdd_hhmmss.csv	IR Duration	Real									1.3							
+entity_trades_physical	pisquare	35	credit_duration	DECIMAL(20,10)		Credit Duration	manual	C-pisquare-manual	MNL_Entity_Trades_Physical_yyyymmdd_hhmmss.csv	Credit Duration	Real									1.3							
+entity_trades_physical	pisquare	36	yield	DECIMAL(20,10)		Yield	manual	C-pisquare-manual	MNL_Entity_Trades_Physical_yyyymmdd_hhmmss.csv	Yield	Real									1.3							
+entity_trades_physical	pisquare	37	issuer_id_type	STRING		Issuer Id Type	manual	C-pisquare-manual	MNL_Entity_Trades_Physical_yyyymmdd_hhmmss.csv	Issuer Id Type	String									1.3							
+entity_trades_physical	pisquare	38	issuer_nature	STRING		Issuer Nature	manual	C-pisquare-manual	MNL_Entity_Trades_Physical_yyyymmdd_hhmmss.csv	Issuer Nature	String									1.3							
+entity_trades_physical	pisquare	39	inflation_index	STRING		Inflation Index	manual	C-pisquare-manual	MNL_Entity_Trades_Physical_yyyymmdd_hhmmss.csv	Inflation Index	String									1.3							
+entity_trades_physical	pisquare	40	issuer_ticker	STRING		Issuer Ticker	manual	C-pisquare-manual	MNL_Entity_Trades_Physical_yyyymmdd_hhmmss.csv	Issuer Ticker	String									1.3							
+flow	pisquare	0	business_transaction_year	STRING			manual	C-pisquare-manual	MNL_flow_yyyymmdd_hhmmss.csv											2.1							
+flow	pisquare	1	business_transaction_category_name	STRING			manual	C-pisquare-manual	MNL_flow_yyyymmdd_hhmmss.csv											2.1							
+flow	pisquare	2	flow	STRING			manual	C-pisquare-manual	MNL_flow_yyyymmdd_hhmmss.csv											2.1							
+fx_rate_used	pisquare	0	valuation_currency	STRING			manual	C-pisquare-manual	MNL_fx_rate_used_yyyymmdd_hhmmss.csv											2.1							
+fx_rate_used	pisquare	1	fx_rate_used	DECIMAL(10,6)			manual	C-pisquare-manual	MNL_fx_rate_used_yyyymmdd_hhmmss.csv											2.1							
+fx_rate_used	pisquare	2	fx_rate_date	TIMESTAMP			manual	C-pisquare-manual	MNL_fx_rate_used_yyyymmdd_hhmmss.csv											2.1							
+ig_big	pisquare	0	rating	STRING			manual	C-pisquare-manual	MNL_ig_big_yyyymmdd_hhmmss.csv											2.1							
+ig_big	pisquare	1	rating_name	STRING			manual	C-pisquare-manual	MNL_ig_big_yyyymmdd_hhmmss.csv											2.1							
+ig_big	pisquare	2	ig_big	STRING			manual	C-pisquare-manual	MNL_ig_big_yyyymmdd_hhmmss.csv											2.1							
+ip_asset_class_aar	pisquare	0	aar	STRING			manual	C-pisquare-manual	MNL_ip_asset_class_aar_yyyymmdd_hhmmss.csv											2.1							
+ip_asset_class_aar	pisquare	1	aar_name	STRING			manual	C-pisquare-manual	MNL_ip_asset_class_aar_yyyymmdd_hhmmss.csv											2.1							
+ip_asset_class_aar	pisquare	2	ip_asset_class_aar	STRING			manual	C-pisquare-manual	MNL_ip_asset_class_aar_yyyymmdd_hhmmss.csv											2.1							
+ip_asset_class_apc	pisquare	0	first_asset_class	STRING			manual	C-pisquare-manual	MNL_ip_asset_class_apc_yyyymmdd_hhmmss.csv											2.1							
+ip_asset_class_apc	pisquare	1	ip_asset_class_loantype	STRING			manual	C-pisquare-manual	MNL_ip_asset_class_apc_yyyymmdd_hhmmss.csv											2.1							
+ip_asset_class_apc	pisquare	2	asset_pool_classification	BIGINT			manual	C-pisquare-manual	MNL_ip_asset_class_apc_yyyymmdd_hhmmss.csv											2.1							
+ip_asset_class_apc	pisquare	3	asset_pool_classification_name	STRING			manual	C-pisquare-manual	MNL_ip_asset_class_apc_yyyymmdd_hhmmss.csv											2.1							
+ip_asset_class_apc	pisquare	4	ip_asset_class_apc	STRING			manual	C-pisquare-manual	MNL_ip_asset_class_apc_yyyymmdd_hhmmss.csv											2.1							
+ip_asset_class_country	pisquare	0	first_asset_class	STRING			manual	C-pisquare-manual	MNL_ip_asset_class_country_yyyymmdd_hhmmss.csv											2.1							
+ip_asset_class_country	pisquare	1	issuer_fiscal_country_isv_key	STRING			manual	C-pisquare-manual	MNL_ip_asset_class_country_yyyymmdd_hhmmss.csv											2.1							
+ip_asset_class_country	pisquare	2	issuer_fiscal_country_isv_name	STRING			manual	C-pisquare-manual	MNL_ip_asset_class_country_yyyymmdd_hhmmss.csv											2.1							
+ip_asset_class_country	pisquare	3	ip_asset_class_country	STRING			manual	C-pisquare-manual	MNL_ip_asset_class_country_yyyymmdd_hhmmss.csv											2.1							
+ip_asset_class_inframidcap	pisquare	0	issuer	STRING			manual	C-pisquare-manual	MNL_ip_asset_class_inframidcap_yyyymmdd_hhmmss.csv											2.1							
+ip_asset_class_inframidcap	pisquare	1	issuer_long_name	STRING			manual	C-pisquare-manual	MNL_ip_asset_class_inframidcap_yyyymmdd_hhmmss.csv											2.1							
+ip_asset_class_inframidcap	pisquare	2	strategies	STRING			manual	C-pisquare-manual	MNL_ip_asset_class_inframidcap_yyyymmdd_hhmmss.csv											2.1							
+ip_asset_class_inframidcap	pisquare	3	ip_asset_class_inframidcap	STRING			manual	C-pisquare-manual	MNL_ip_asset_class_inframidcap_yyyymmdd_hhmmss.csv											2.1							
+ip_asset_class_issuer	pisquare	0	issuer	STRING			manual	C-pisquare-manual	MNL_ip_asset_class_issuer_yyyymmdd_hhmmss.csv											2.1							
+ip_asset_class_issuer	pisquare	1	issuer_name	STRING			manual	C-pisquare-manual	MNL_ip_asset_class_issuer_yyyymmdd_hhmmss.csv											2.1							
+ip_asset_class_issuer	pisquare	2	temp1	STRING			manual	C-pisquare-manual	MNL_ip_asset_class_issuer_yyyymmdd_hhmmss.csv											2.1							
+ip_asset_class_issuer	pisquare	3	ip_asset_class_issuer	STRING			manual	C-pisquare-manual	MNL_ip_asset_class_issuer_yyyymmdd_hhmmss.csv											2.1							
+ip_asset_class_issuer	pisquare	4	comments_aar_et_matthieu	STRING			manual	C-pisquare-manual	MNL_ip_asset_class_issuer_yyyymmdd_hhmmss.csv											2.1							
+ip_asset_class_issuer_type	pisquare	0	first_asset_class	STRING			manual	C-pisquare-manual	MNL_ip_asset_class_issuer_type_yyyymmdd_hhmmss.csv											2.1							
+ip_asset_class_issuer_type	pisquare	1	ip_asset_class_loan_type	STRING			manual	C-pisquare-manual	MNL_ip_asset_class_issuer_type_yyyymmdd_hhmmss.csv											2.1							
+ip_asset_class_issuer_type	pisquare	2	issuer_type	BIGINT			manual	C-pisquare-manual	MNL_ip_asset_class_issuer_type_yyyymmdd_hhmmss.csv											2.1							
+ip_asset_class_issuer_type	pisquare	3	issuer_type_name	STRING			manual	C-pisquare-manual	MNL_ip_asset_class_issuer_type_yyyymmdd_hhmmss.csv											2.1							
+ip_asset_class_issuer_type	pisquare	4	ip_asset_class_issuer_type	STRING			manual	C-pisquare-manual	MNL_ip_asset_class_issuer_type_yyyymmdd_hhmmss.csv											2.1							
+ip_asset_class_loan_type	pisquare	0	first_asset_class	STRING			manual	C-pisquare-manual	MNL_ip_asset_class_loan_type_yyyymmdd_hhmmss.csv											2.1							
+ip_asset_class_loan_type	pisquare	1	product_bnl_security_type_key	STRING			manual	C-pisquare-manual	MNL_ip_asset_class_loan_type_yyyymmdd_hhmmss.csv											2.1							
+ip_asset_class_loan_type	pisquare	2	product_bnl_security_type_name	STRING			manual	C-pisquare-manual	MNL_ip_asset_class_loan_type_yyyymmdd_hhmmss.csv											2.1							
+ip_asset_class_loan_type	pisquare	3	subordination_level	STRING			manual	C-pisquare-manual	MNL_ip_asset_class_loan_type_yyyymmdd_hhmmss.csv											2.1							
+ip_asset_class_loan_type	pisquare	4	ip_asset_class_loantype	STRING			manual	C-pisquare-manual	MNL_ip_asset_class_loan_type_yyyymmdd_hhmmss.csv											2.1							
+ip_asset_class_sector	pisquare	0	ip_asset_class_seniority	STRING			manual	C-pisquare-manual	MNL_ip_asset_class_sector_yyyymmdd_hhmmss.csv											2.1							
+ip_asset_class_sector	pisquare	1	crdb_industry_sector	STRING			manual	C-pisquare-manual	MNL_ip_asset_class_sector_yyyymmdd_hhmmss.csv											2.1							
+ip_asset_class_sector	pisquare	2	industry_name	STRING			manual	C-pisquare-manual	MNL_ip_asset_class_sector_yyyymmdd_hhmmss.csv											2.1							
+ip_asset_class_sector	pisquare	3	ip_asset_class_sector	STRING			manual	C-pisquare-manual	MNL_ip_asset_class_sector_yyyymmdd_hhmmss.csv											2.1							
+ip_asset_class_seniority	pisquare	0	ip_asset_class_issuertype	STRING			manual	C-pisquare-manual	MNL_ip_asset_class_seniority_yyyymmdd_hhmmss.csv											2.1							
+ip_asset_class_seniority	pisquare	1	ip_asset_class_apc	STRING			manual	C-pisquare-manual	MNL_ip_asset_class_seniority_yyyymmdd_hhmmss.csv											2.1							
+ip_asset_class_seniority	pisquare	2	seniority	STRING			manual	C-pisquare-manual	MNL_ip_asset_class_seniority_yyyymmdd_hhmmss.csv											2.1							
+ip_asset_class_seniority	pisquare	3	seniority_name	STRING			manual	C-pisquare-manual	MNL_ip_asset_class_seniority_yyyymmdd_hhmmss.csv											2.1							
+ip_asset_class_seniority	pisquare	4	ip_asset_class_seniority	STRING			manual	C-pisquare-manual	MNL_ip_asset_class_seniority_yyyymmdd_hhmmss.csv											2.1							
+ip_asset_class_seniority	pisquare	5	comment	STRING			manual	C-pisquare-manual	MNL_ip_asset_class_seniority_yyyymmdd_hhmmss.csv											2.1							
+ip_asset_class_strategy	pisquare	0	strategy_pi2	STRING			manual	C-pisquare-manual	MNL_ip_asset_class_strategy_yyyymmdd_hhmmss.csv											2.1							
+ip_asset_class_strategy	pisquare	1	temp2	STRING			manual	C-pisquare-manual	MNL_ip_asset_class_strategy_yyyymmdd_hhmmss.csv											2.1							
+ip_asset_class_strategy	pisquare	2	ip_asset_class_strategy	STRING			manual	C-pisquare-manual	MNL_ip_asset_class_strategy_yyyymmdd_hhmmss.csv											2.1							
+ip_first_asset_class	pisquare	0	product_category	STRING			manual	C-pisquare-manual	MNL_ip_first_asset_class_yyyymmdd_hhmmss.csv											2.1							
+ip_first_asset_class	pisquare	1	product_category_name	STRING			manual	C-pisquare-manual	MNL_ip_first_asset_class_yyyymmdd_hhmmss.csv											2.1							
+ip_first_asset_class	pisquare	2	product_type	STRING			manual	C-pisquare-manual	MNL_ip_first_asset_class_yyyymmdd_hhmmss.csv											2.1							
+ip_first_asset_class	pisquare	3	product_type_name	STRING			manual	C-pisquare-manual	MNL_ip_first_asset_class_yyyymmdd_hhmmss.csv											2.1							
+ip_first_asset_class	pisquare	4	security_classification	STRING			manual	C-pisquare-manual	MNL_ip_first_asset_class_yyyymmdd_hhmmss.csv											2.1							
+ip_first_asset_class	pisquare	5	security_classification_name	STRING			manual	C-pisquare-manual	MNL_ip_first_asset_class_yyyymmdd_hhmmss.csv											2.1							
+ip_first_asset_class	pisquare	6	first_asset_class	STRING			manual	C-pisquare-manual	MNL_ip_first_asset_class_yyyymmdd_hhmmss.csv											2.1							
+ltf_code	pisquare	0	company_code	STRING			manual	C-pisquare-manual	MNL_ltf_code_yyyymmdd_hhmmss.csv											2.1							
+ltf_code	pisquare	1	company_code_name	STRING			manual	C-pisquare-manual	MNL_ltf_code_yyyymmdd_hhmmss.csv											2.1							
+ltf_code	pisquare	2	ltf_code	STRING			manual	C-pisquare-manual	MNL_ltf_code_yyyymmdd_hhmmss.csv											2.1							
+ltf_flag	pisquare	0	security_id	STRING			manual	C-pisquare-manual	MNL_ltf_flag_yyyymmdd_hhmmss.csv											2.1							
+ltf_flag	pisquare	1	security_id_name	STRING			manual	C-pisquare-manual	MNL_ltf_flag_yyyymmdd_hhmmss.csv											2.1							
+ltf_flag	pisquare	2	investment_in_ltf_flag	STRING			manual	C-pisquare-manual	MNL_ltf_flag_yyyymmdd_hhmmss.csv											2.1							
+rate	pisquare	0	bond_classification	BIGINT			manual	C-pisquare-manual	MNL_rate_yyyymmdd_hhmmss.csv											2.1							
+rate	pisquare	1	bond_classification_name	STRING			manual	C-pisquare-manual	MNL_rate_yyyymmdd_hhmmss.csv											2.1							
+rate	pisquare	2	rate	STRING			manual	C-pisquare-manual	MNL_rate_yyyymmdd_hhmmss.csv											2.1							
+sophis	pisquare	0	alm_country	STRING		ALMCOUNTRY	manual	C-pisquare-manual	MNL_SOPHIS_yyyymmdd_hhmmss.csv	ALMCOUNTRY	STRING									1.3							
+sophis	pisquare	1	alm_company_name_c	STRING		ALMCOMPANYNAME_C	manual	C-pisquare-manual	MNL_SOPHIS_yyyymmdd_hhmmss.csv	ALMCOMPANYNAME_C	STRING									1.3							
+sophis	pisquare	2	segment_cell	STRING		SEGMENT_CELL	manual	C-pisquare-manual	MNL_SOPHIS_yyyymmdd_hhmmss.csv	SEGMENT_CELL	STRING									1.3							
+sophis	pisquare	3	fund_extern	STRING		FUNDEXTERN	manual	C-pisquare-manual	MNL_SOPHIS_yyyymmdd_hhmmss.csv	FUNDEXTERN	STRING									1.3							
+sophis	pisquare	4	fund_curren	STRING		FUNDCURREN	manual	C-pisquare-manual	MNL_SOPHIS_yyyymmdd_hhmmss.csv	FUNDCURREN	STRING									1.3							
+sophis	pisquare	5	instrument_type_c	STRING		INSTRUMENTTYPE_C	manual	C-pisquare-manual	MNL_SOPHIS_yyyymmdd_hhmmss.csv	INSTRUMENTTYPE_C	STRING									1.3							
+sophis	pisquare	6	sophis_posi	STRING		SOPHISPOSI	manual	C-pisquare-manual	MNL_SOPHIS_yyyymmdd_hhmmss.csv	SOPHISPOSI	STRING									1.3							
+sophis	pisquare	7	sophis_inst	STRING		SOPHISINST	manual	C-pisquare-manual	MNL_SOPHIS_yyyymmdd_hhmmss.csv	SOPHISINST	STRING									1.3							
+sophis	pisquare	8	instrument_name_c	STRING		INSTRUMENTNAME_C	manual	C-pisquare-manual	MNL_SOPHIS_yyyymmdd_hhmmss.csv	INSTRUMENTNAME_C	STRING									1.3							
+sophis	pisquare	9	trade_comments_ce	STRING		TRADECOMMENTS_CE	manual	C-pisquare-manual	MNL_SOPHIS_yyyymmdd_hhmmss.csv	TRADECOMMENTS_CE	STRING									1.3							
+sophis	pisquare	10	sp_rating	STRING		SP_RATING	manual	C-pisquare-manual	MNL_SOPHIS_yyyymmdd_hhmmss.csv	SP_RATING	STRING									1.3							
+sophis	pisquare	11	moodys_rat	STRING		MOODYS_RAT	manual	C-pisquare-manual	MNL_SOPHIS_yyyymmdd_hhmmss.csv	MOODYS_RAT	STRING									1.3							
+sophis	pisquare	12	counterparty_name	STRING		COUNTERPARTYNAME	manual	C-pisquare-manual	MNL_SOPHIS_yyyymmdd_hhmmss.csv	COUNTERPARTYNAME	STRING									1.3							
+sophis	pisquare	13	collateral	STRING		COLLATERAL	manual	C-pisquare-manual	MNL_SOPHIS_yyyymmdd_hhmmss.csv	COLLATERAL	STRING									1.3							
+sophis	pisquare	14	trade_date	TIMESTAMP	dd/mm/yyyy	TRADEDATE_	manual	C-pisquare-manual	MNL_SOPHIS_yyyymmdd_hhmmss.csv	TRADEDATE_	DATE									1.3							
+sophis	pisquare	15	eff_date	TIMESTAMP	dd/mm/yyyy	EFFDATE	manual	C-pisquare-manual	MNL_SOPHIS_yyyymmdd_hhmmss.csv	EFFDATE	DATE									1.3							
+sophis	pisquare	16	mat_date	TIMESTAMP	dd/mm/yyyy	MATDATE	manual	C-pisquare-manual	MNL_SOPHIS_yyyymmdd_hhmmss.csv	MATDATE	DATE									1.3							
+sophis	pisquare	17	trade_notio	DECIMAL(20,2)		TRADENOTIO	manual	C-pisquare-manual	MNL_SOPHIS_yyyymmdd_hhmmss.csv	TRADENOTIO	REAL									1.3							
+sophis	pisquare	18	fixed_amoun	STRING		FIXEDAMOUN	manual	C-pisquare-manual	MNL_SOPHIS_yyyymmdd_hhmmss.csv	FIXEDAMOUN	STRING									1.3							
+sophis	pisquare	19	optionstri	STRING		OPTIONSTRI	manual	C-pisquare-manual	MNL_SOPHIS_yyyymmdd_hhmmss.csv	OPTIONSTRI	STRING									1.3							
+sophis	pisquare	20	instr_curr	STRING		INSTRCURR	manual	C-pisquare-manual	MNL_SOPHIS_yyyymmdd_hhmmss.csv	INSTRCURR	STRING									1.3							
+sophis	pisquare	21	trade_notioloc_curr	STRING		TRADENOTIOLOCCURR	manual	C-pisquare-manual	MNL_SOPHIS_yyyymmdd_hhmmss.csv	TRADENOTIOLOCCURR	STRING									1.3							
+sophis	pisquare	22	received_leg_index	STRING		RECEIVEDLEGINDEX	manual	C-pisquare-manual	MNL_SOPHIS_yyyymmdd_hhmmss.csv	RECEIVEDLEGINDEX	STRING									1.3							
+sophis	pisquare	23	received_leg_fre	STRING		RECEIVEDLEGFRE	manual	C-pisquare-manual	MNL_SOPHIS_yyyymmdd_hhmmss.csv	RECEIVEDLEGFRE	STRING									1.3							
+sophis	pisquare	24	received_leg_spr	DECIMAL(20,6)		RECEIVEDLEGSPR	manual	C-pisquare-manual	MNL_SOPHIS_yyyymmdd_hhmmss.csv	RECEIVEDLEGSPR	REAL									1.3							
+sophis	pisquare	25	received_leg_spo	DECIMAL(20,6)		RECEIVEDLEGSPO	manual	C-pisquare-manual	MNL_SOPHIS_yyyymmdd_hhmmss.csv	RECEIVEDLEGSPO	REAL									1.3							
+sophis	pisquare	26	received_leg_cur	STRING		RECEIVEDLEGCUR	manual	C-pisquare-manual	MNL_SOPHIS_yyyymmdd_hhmmss.csv	RECEIVEDLEGCUR	STRING									1.3							
+sophis	pisquare	27	received_leg_ini	STRING		RECEIVEDLEGINI	manual	C-pisquare-manual	MNL_SOPHIS_yyyymmdd_hhmmss.csv	RECEIVEDLEGINI	STRING									1.3							
+sophis	pisquare	28	paid_leg_index_name	STRING		PAIDLEGINDEXNAME	manual	C-pisquare-manual	MNL_SOPHIS_yyyymmdd_hhmmss.csv	PAIDLEGINDEXNAME	STRING									1.3							
+sophis	pisquare	29	paid_leg_fre	STRING		PAIDLEGFRE	manual	C-pisquare-manual	MNL_SOPHIS_yyyymmdd_hhmmss.csv	PAIDLEGFRE	STRING									1.3							
+sophis	pisquare	30	paid_leg_spr	DECIMAL(20,6)		PAIDLEGSPR	manual	C-pisquare-manual	MNL_SOPHIS_yyyymmdd_hhmmss.csv	PAIDLEGSPR	REAL									1.3							
+sophis	pisquare	31	paid_leg_spo	DECIMAL(20,6)		PAIDLEGSPO	manual	C-pisquare-manual	MNL_SOPHIS_yyyymmdd_hhmmss.csv	PAIDLEGSPO	REAL									1.3							
+sophis	pisquare	32	paid_leg_cur	STRING		PAIDLEGCUR	manual	C-pisquare-manual	MNL_SOPHIS_yyyymmdd_hhmmss.csv	PAIDLEGCUR	STRING									1.3							
+sophis	pisquare	33	paid_leg_ini	STRING		PAIDLEGINI	manual	C-pisquare-manual	MNL_SOPHIS_yyyymmdd_hhmmss.csv	PAIDLEGINI	STRING									1.3							
+sophis	pisquare	34	trade_initi	DECIMAL(20,2)		TRADEINITI	manual	C-pisquare-manual	MNL_SOPHIS_yyyymmdd_hhmmss.csv	TRADEINITI	REAL									1.3							
+sophis	pisquare	35	trade_curre	STRING		TRADECURRE	manual	C-pisquare-manual	MNL_SOPHIS_yyyymmdd_hhmmss.csv	TRADECURRE	STRING									1.3							
+sophis	pisquare	36	instrso_val	DECIMAL(20,2)		INSTRSOVAL1	manual	C-pisquare-manual	MNL_SOPHIS_yyyymmdd_hhmmss.csv	INSTRSOVAL1	Real									1.3							
+sophis	pisquare	37	instrso_val2	DECIMAL(20,2)		INSTRSOVAL2	manual	C-pisquare-manual	MNL_SOPHIS_yyyymmdd_hhmmss.csv	INSTRSOVAL2	Real									1.3							
+sophis	pisquare	38	instrso_val3	DECIMAL(20,2)		INSTRSOVAL3	manual	C-pisquare-manual	MNL_SOPHIS_yyyymmdd_hhmmss.csv	INSTRSOVAL3	Real									1.3							
+sophis	pisquare	39	instrso_val4	DECIMAL(20,2)		INSTRSOVAL4	manual	C-pisquare-manual	MNL_SOPHIS_yyyymmdd_hhmmss.csv	INSTRSOVAL4	Real									1.3							
+sophis	pisquare	40	instrso_val5	DECIMAL(20,2)		INSTRSOVAL5	manual	C-pisquare-manual	MNL_SOPHIS_yyyymmdd_hhmmss.csv	INSTRSOVAL5	Real									1.3							
+sophis	pisquare	41	instrso_val6	DECIMAL(20,2)		INSTRSOVAL6	manual	C-pisquare-manual	MNL_SOPHIS_yyyymmdd_hhmmss.csv	INSTRSOVAL6	Real									1.3							
+sophis	pisquare	42	instrso_val7	DECIMAL(20,2)		INSTRSOVAL7	manual	C-pisquare-manual	MNL_SOPHIS_yyyymmdd_hhmmss.csv	INSTRSOVAL7	Real									1.3							
+sophis	pisquare	43	dali_id	STRING		DALI_ID	manual	C-pisquare-manual	MNL_SOPHIS_yyyymmdd_hhmmss.csv	DALI_ID	STRING									1.3							
+sophis	pisquare	44	fund_id	STRING		FUND_ID	manual	C-pisquare-manual	MNL_SOPHIS_yyyymmdd_hhmmss.csv	FUND_ID	STRING									1.3							
+sophis	pisquare	45	attachement	DECIMAL(20,2)		Attachement	manual	C-pisquare-manual	MNL_SOPHIS_yyyymmdd_hhmmss.csv	Attachement	Real									1.3							
+sophis	pisquare	46	detachement	DECIMAL(20,2)		Detachement	manual	C-pisquare-manual	MNL_SOPHIS_yyyymmdd_hhmmss.csv	Detachement	Real									1.3							
+sophis	pisquare	47	barrier_type	STRING		Barrier Type	manual	C-pisquare-manual	MNL_SOPHIS_yyyymmdd_hhmmss.csv	Barrier Type	STRING									1.3							
+sophis	pisquare	48	barrier_level	BIGINT		Barrier Level	manual	C-pisquare-manual	MNL_SOPHIS_yyyymmdd_hhmmss.csv	Barrier Level	INTEGER									1.3							
+sophis	pisquare	49	underlying_instrument_id	STRING		Underlying Instrument Id	manual	C-pisquare-manual	MNL_SOPHIS_yyyymmdd_hhmmss.csv	Underlying Instrument Id	STRING									1.3							
+sophis	pisquare	50	exercise_style	STRING		Exercise Style	manual	C-pisquare-manual	MNL_SOPHIS_yyyymmdd_hhmmss.csv	Exercise Style	STRING									1.3							
+sophis	pisquare	51	strike_type	STRING		Strike Type	manual	C-pisquare-manual	MNL_SOPHIS_yyyymmdd_hhmmss.csv	Strike Type	STRING									1.3							
+sophis	pisquare	52	default_event	STRING		Default Event	manual	C-pisquare-manual	MNL_SOPHIS_yyyymmdd_hhmmss.csv	Default Event	STRING									1.3							
+sophis	pisquare	53	coupon_type	STRING		Coupon Type	manual	C-pisquare-manual	MNL_SOPHIS_yyyymmdd_hhmmss.csv	Coupon Type	STRING									1.3							
+sophis	pisquare	54	receive_type	STRING		Receive Type	manual	C-pisquare-manual	MNL_SOPHIS_yyyymmdd_hhmmss.csv	Receive Type	STRING									1.3							
+sophis	pisquare	55	pay_type	STRING		Pay Type	manual	C-pisquare-manual	MNL_SOPHIS_yyyymmdd_hhmmss.csv	Pay Type	STRING									1.3							
+sophis	pisquare	56	notional_exchange	STRING		Notional Exchange	manual	C-pisquare-manual	MNL_SOPHIS_yyyymmdd_hhmmss.csv	Notional Exchange	STRING									1.3							
+sophis	pisquare	57	option_type	STRING		Option Type	manual	C-pisquare-manual	MNL_SOPHIS_yyyymmdd_hhmmss.csv	Option Type	STRING									1.3							
+sophis	pisquare	58	forward_price	STRING		Forward Price	manual	C-pisquare-manual	MNL_SOPHIS_yyyymmdd_hhmmss.csv	Forward Price	STRING									1.3							
+sophis	pisquare	59	premium_frequency	STRING		Premium Frequency	manual	C-pisquare-manual	MNL_SOPHIS_yyyymmdd_hhmmss.csv	Premium Frequency	STRING									1.3							
+sophis	pisquare	60	premium	STRING		Premium	manual	C-pisquare-manual	MNL_SOPHIS_yyyymmdd_hhmmss.csv	Premium	STRING									1.3							
+sophis	pisquare	61	base_index	STRING		BaseIndex	manual	C-pisquare-manual	MNL_SOPHIS_yyyymmdd_hhmmss.csv	BaseIndex	STRING									1.3							
+sophis	pisquare	62	proceed_ratio	STRING		Proceed Ratio	manual	C-pisquare-manual	MNL_SOPHIS_yyyymmdd_hhmmss.csv	Proceed Ratio	STRING									1.3							
+sophis	pisquare	63	sophis_volatility	BIGINT		Sophis volatility	manual	C-pisquare-manual	MNL_SOPHIS_yyyymmdd_hhmmss.csv	Sophis volatility	INTEGER									1.3							
+sophis	pisquare	64	counterparty_valuation_date	TIMESTAMP	dd/mm/yyyy	Counterparty valuation date	manual	C-pisquare-manual	MNL_SOPHIS_yyyymmdd_hhmmss.csv	Counterparty valuation date	DATE									1.3							
+sophis	pisquare	65	counterparty_valuation_in_instrument_currency	STRING		Counterparty valuation in instrument currency	manual	C-pisquare-manual	MNL_SOPHIS_yyyymmdd_hhmmss.csv	Counterparty valuation in instrument currency	STRING									1.3							
+sophis	pisquare	66	counterparty_valuation_in_local_currency_1	BIGINT		Counterparty valuation in local currency	manual	C-pisquare-manual	MNL_SOPHIS_yyyymmdd_hhmmss.csv	Counterparty valuation in local currency	INTEGER									1.3							
+sophis	pisquare	67	counterparty_valuation_in_local_currency_2	BIGINT		Counterparty valuation in local currency	manual	C-pisquare-manual	MNL_SOPHIS_yyyymmdd_hhmmss.csv	Counterparty valuation in local currency	INTEGER									1.3							
+sophis	pisquare	68	sophis_valuation_in_local_currency	BIGINT		Sophis valuation in local currency	manual	C-pisquare-manual	MNL_SOPHIS_yyyymmdd_hhmmss.csv	Sophis valuation in local currency	INTEGER									1.3							
+sophis	pisquare	69	sophis_clean_price	BIGINT		Sophis clean price	manual	C-pisquare-manual	MNL_SOPHIS_yyyymmdd_hhmmss.csv	Sophis clean price	INTEGER									1.3							
+sophis	pisquare	70	sophis_accrued_interest	BIGINT		Sophis accrued interest	manual	C-pisquare-manual	MNL_SOPHIS_yyyymmdd_hhmmss.csv	Sophis accrued interest	INTEGER									1.3							
+sophis	pisquare	71	clearing_broker	STRING		Clearing Broker	manual	C-pisquare-manual	MNL_SOPHIS_yyyymmdd_hhmmss.csv	Clearing Broker	STRING									1.3							
+strategy_dali_id	pisquare	0	entity	STRING			manual	C-pisquare-manual	MNL_strategy_dali_id_yyyymmdd_hhmmss.csv											2.1							
+strategy_dali_id	pisquare	1	dali_id	STRING			manual	C-pisquare-manual	MNL_strategy_dali_id_yyyymmdd_hhmmss.csv											2.1							
+strategy_dali_id	pisquare	2	mutual_fund_code	STRING			manual	C-pisquare-manual	MNL_strategy_dali_id_yyyymmdd_hhmmss.csv											2.1							
+strategy_dali_id	pisquare	3	mutual_fund_name	STRING			manual	C-pisquare-manual	MNL_strategy_dali_id_yyyymmdd_hhmmss.csv											2.1							
+strategy_dali_id	pisquare	4	strategy	STRING			manual	C-pisquare-manual	MNL_strategy_dali_id_yyyymmdd_hhmmss.csv											2.1							
+strategy_isin	pisquare	0	entity	STRING			manual	C-pisquare-manual	MNL_strategy_isin_yyyymmdd_hhmmss.csv											2.1							
+strategy_isin	pisquare	1	local_code_type	STRING			manual	C-pisquare-manual	MNL_strategy_isin_yyyymmdd_hhmmss.csv											2.1							
+strategy_isin	pisquare	2	local_code	STRING			manual	C-pisquare-manual	MNL_strategy_isin_yyyymmdd_hhmmss.csv											2.1							
+strategy_isin	pisquare	3	mutual_fund_code	STRING			manual	C-pisquare-manual	MNL_strategy_isin_yyyymmdd_hhmmss.csv											2.1							
+strategy_isin	pisquare	4	mutual_fund_name	STRING			manual	C-pisquare-manual	MNL_strategy_isin_yyyymmdd_hhmmss.csv											2.1							
+strategy_isin	pisquare	5	strategy	STRING			manual	C-pisquare-manual	MNL_strategy_isin_yyyymmdd_hhmmss.csv											2.1							
+strategy_non_ltf	pisquare	0	entity	STRING			manual	C-pisquare-manual	MNL_strategy_non_ltf_yyyymmdd_hhmmss.csv											2.1							
+strategy_non_ltf	pisquare	1	mutual_fund_code	STRING			manual	C-pisquare-manual	MNL_strategy_non_ltf_yyyymmdd_hhmmss.csv											2.1							
+strategy_non_ltf	pisquare	2	mutual_fund_name	STRING			manual	C-pisquare-manual	MNL_strategy_non_ltf_yyyymmdd_hhmmss.csv											2.1							
+strategy_non_ltf	pisquare	3	strategy	STRING			manual	C-pisquare-manual	MNL_strategy_non_ltf_yyyymmdd_hhmmss.csv											2.1							
+temp1	pisquare	0	first_asset_class	STRING			manual	C-pisquare-manual	MNL_temp1_yyyymmdd_hhmmss.csv											2.1							
+temp1	pisquare	1	temp1	STRING			manual	C-pisquare-manual	MNL_temp1_yyyymmdd_hhmmss.csv											2.1							
+temp2	pisquare	0	second_asset_class	STRING			manual	C-pisquare-manual	MNL_temp2_yyyymmdd_hhmmss.csv											2.1							
+temp2	pisquare	1	temp2	STRING			manual	C-pisquare-manual	MNL_temp2_yyyymmdd_hhmmss.csv											2.1							
+ubs_delta_analytics	pisquare	0	instrument_id	STRING		Instrument ID	manual	C-pisquare-manual	MNL_UBS_Delta_Analytics_yyyymmdd_hhmmss.csv	Instrument ID	String									1.3							
+ubs_delta_analytics	pisquare	1	duration	DECIMAL(20,2)		Duration	manual	C-pisquare-manual	MNL_UBS_Delta_Analytics_yyyymmdd_hhmmss.csv	Duration	Real									1.3							
+ubs_delta_analytics	pisquare	2	libor_delta	DECIMAL(20,2)		LiborDelta1	manual	C-pisquare-manual	MNL_UBS_Delta_Analytics_yyyymmdd_hhmmss.csv	LiborDelta1	Real									1.3							
+ubs_delta_analytics	pisquare	3	convexity	DECIMAL(20,2)		Convexity	manual	C-pisquare-manual	MNL_UBS_Delta_Analytics_yyyymmdd_hhmmss.csv	Convexity	Real									1.3							
+ubs_delta_analytics	pisquare	4	spread_duration	DECIMAL(20,2)		Spread Duration	manual	C-pisquare-manual	MNL_UBS_Delta_Analytics_yyyymmdd_hhmmss.csv	Spread Duration	Real									1.3							
+ubs_delta_analytics	pisquare	5	equity_delta	DECIMAL(20,2)		Equity Delta (+1%)	manual	C-pisquare-manual	MNL_UBS_Delta_Analytics_yyyymmdd_hhmmss.csv	Equity Delta (+1%)	Real									1.3							
+ubs_delta_analytics	pisquare	6	equity_gamma	DECIMAL(20,2)		Equity Gamma (+1%)	manual	C-pisquare-manual	MNL_UBS_Delta_Analytics_yyyymmdd_hhmmss.csv	Equity Gamma (+1%)	Real									1.3							
+ubs_delta_analytics	pisquare	7	yield_to_worst	DECIMAL(20,2)		Yield to worst	manual	C-pisquare-manual	MNL_UBS_Delta_Analytics_yyyymmdd_hhmmss.csv	Yield to worst	Real									1.3							
+ubs_delta_analytics	pisquare	8	fx_delta	DECIMAL(20,2)		FX Delta	manual	C-pisquare-manual	MNL_UBS_Delta_Analytics_yyyymmdd_hhmmss.csv	FX Delta	Real									1.3							
+ubs_delta_analytics	pisquare	9	return_3m_rolldown	DECIMAL(20,2)		Return (3m rolldown)	manual	C-pisquare-manual	MNL_UBS_Delta_Analytics_yyyymmdd_hhmmss.csv	Return (3m rolldown)	Real									1.3							
+ubs_delta_analytics	pisquare	10	z_spread	DECIMAL(20,2)		ZSpread	manual	C-pisquare-manual	MNL_UBS_Delta_Analytics_yyyymmdd_hhmmss.csv	ZSpread	Real									1.3							
+ubs_delta_cash_flows	pisquare	0	instrument_id	STRING		Instrument ID	manual	C-pisquare-manual	MNL_UBS_Delta_Cash_Flows_yyyymmdd_hhmmss.csv	Instrument ID	String									1.3							
+ubs_delta_cash_flows	pisquare	1	date	TIMESTAMP	dd/mm/yyyy	Date	manual	C-pisquare-manual	MNL_UBS_Delta_Cash_Flows_yyyymmdd_hhmmss.csv	Date	Date									1.3							
+ubs_delta_cash_flows	pisquare	2	currency	STRING		Currency	manual	C-pisquare-manual	MNL_UBS_Delta_Cash_Flows_yyyymmdd_hhmmss.csv	Currency	String									1.3							
+ubs_delta_cash_flows	pisquare	3	axa_credit_stec_rating	STRING		AXA_Credit_Stec_Rating	manual	C-pisquare-manual	MNL_UBS_Delta_Cash_Flows_yyyymmdd_hhmmss.csv	AXA_Credit_Stec_Rating	String									1.3							
+ubs_delta_cash_flows	pisquare	4	nominal	DECIMAL(20,4)		Nominal	manual	C-pisquare-manual	MNL_UBS_Delta_Cash_Flows_yyyymmdd_hhmmss.csv	Nominal	Real									1.3							
+ubs_delta_cash_flows	pisquare	5	prin	DECIMAL(20,4)		Prin	manual	C-pisquare-manual	MNL_UBS_Delta_Cash_Flows_yyyymmdd_hhmmss.csv	Prin	Real									1.3							
+ubs_delta_cash_flows	pisquare	6	int	DECIMAL(20,4)		Int	manual	C-pisquare-manual	MNL_UBS_Delta_Cash_Flows_yyyymmdd_hhmmss.csv	Int	Real									1.3							
+ubs_delta_performance	pisquare	0	instrument_id	STRING		Instrument ID	manual	C-pisquare-manual	MNL_UBS_Delta_Performance_yyyymmdd_hhmmss.csv	Instrument ID	String									1.3							
+ubs_delta_performance	pisquare	1	total	DECIMAL(20,2)		Total	manual	C-pisquare-manual	MNL_UBS_Delta_Performance_yyyymmdd_hhmmss.csv	Total	Real									1.3							
+ubs_delta_performance	pisquare	2	fx	DECIMAL(20,2)		FX	manual	C-pisquare-manual	MNL_UBS_Delta_Performance_yyyymmdd_hhmmss.csv	FX	Real									1.3							
+ubs_delta_performance	pisquare	3	fx_carry	DECIMAL(20,2)		FX Carry	manual	C-pisquare-manual	MNL_UBS_Delta_Performance_yyyymmdd_hhmmss.csv	FX Carry	Real									1.3							
+ubs_delta_performance	pisquare	4	carry	DECIMAL(20,2)		Carry	manual	C-pisquare-manual	MNL_UBS_Delta_Performance_yyyymmdd_hhmmss.csv	Carry	Real									1.3							
+ubs_delta_performance	pisquare	5	cash	DECIMAL(20,2)		Cash	manual	C-pisquare-manual	MNL_UBS_Delta_Performance_yyyymmdd_hhmmss.csv	Cash	Real									1.3							
+ubs_delta_performance	pisquare	6	excess_income	DECIMAL(20,2)		Excess Income	manual	C-pisquare-manual	MNL_UBS_Delta_Performance_yyyymmdd_hhmmss.csv	Excess Income	Real									1.3							
+ubs_delta_performance	pisquare	7	pull_to_par	DECIMAL(20,2)		Pull-To-Par	manual	C-pisquare-manual	MNL_UBS_Delta_Performance_yyyymmdd_hhmmss.csv	Pull-To-Par	Real									1.3							
+ubs_delta_performance	pisquare	8	interest_rates	DECIMAL(20,2)		Interest Rates	manual	C-pisquare-manual	MNL_UBS_Delta_Performance_yyyymmdd_hhmmss.csv	Interest Rates	Real									1.3							
+ubs_delta_performance	pisquare	9	interestrates_parallel	DECIMAL(20,2)		InterestRates (Parallel)	manual	C-pisquare-manual	MNL_UBS_Delta_Performance_yyyymmdd_hhmmss.csv	InterestRates (Parallel)	Real									1.3							
+ubs_delta_performance	pisquare	10	interestrates_residual	DECIMAL(20,2)		InterestRates (Residual)	manual	C-pisquare-manual	MNL_UBS_Delta_Performance_yyyymmdd_hhmmss.csv	InterestRates (Residual)	Real									1.3							
+ubs_delta_performance	pisquare	11	spread	DECIMAL(20,2)		Spread	manual	C-pisquare-manual	MNL_UBS_Delta_Performance_yyyymmdd_hhmmss.csv	Spread	Real									1.3							
+ubs_delta_performance	pisquare	12	inflation	DECIMAL(20,2)		Inflation	manual	C-pisquare-manual	MNL_UBS_Delta_Performance_yyyymmdd_hhmmss.csv	Inflation	Real									1.3							
+ubs_delta_performance	pisquare	13	inflation_parallel	DECIMAL(20,2)		Inflation (Parallel)	manual	C-pisquare-manual	MNL_UBS_Delta_Performance_yyyymmdd_hhmmss.csv	Inflation (Parallel)	Real									1.3							
+ubs_delta_performance	pisquare	14	inflation_residual	DECIMAL(20,2)		Inflation (Residual)	manual	C-pisquare-manual	MNL_UBS_Delta_Performance_yyyymmdd_hhmmss.csv	Inflation (Residual)	Real									1.3							
+ubs_delta_performance	pisquare	15	equity	DECIMAL(20,2)		Equity	manual	C-pisquare-manual	MNL_UBS_Delta_Performance_yyyymmdd_hhmmss.csv	Equity	Real									1.3							
+vorratsvermoegen_flag	pisquare	0	company_code	STRING			manual	C-pisquare-manual	MNL_vorratsvermoegen_flag_yyyymmdd_hhmmss.csv											2.1							
+vorratsvermoegen_flag	pisquare	1	securities_account	STRING			manual	C-pisquare-manual	MNL_vorratsvermoegen_flag_yyyymmdd_hhmmss.csv											2.1							
+vorratsvermoegen_flag	pisquare	2	vorratsvermoegen_flag	STRING			manual	C-pisquare-manual	MNL_vorratsvermoegen_flag_yyyymmdd_hhmmss.csv											2.1							
+month_future	pisquare	0	starting_month	STRING		Month of field "Starting Date"	manual	C-pisquare-manual	MNL_month_future_yyyymmdd_hhmmss.csv		String									
+month_future	pisquare	1	month_future	STRING		Month Future	manual	C-pisquare-manual	MNL_month_future_yyyymmdd_hhmmss.csv		String									
+cms_tensor	pisquare	0	rl_index_name	STRING		RL Index Name	manual	C-pisquare-manual	MNL_cms_tensor_yyyymmdd_hhmmss.csv		String									
+cms_tensor	pisquare	1	cms_tenor	STRING		CMS tenor	manual	C-pisquare-manual	MNL_cms_tensor_yyyymmdd_hhmmss.csv		String									
+ticker_future_sec_code	pisquare	0	pl_security_code	STRING			manual	C-pisquare-manual	MNL_ticker_future_sec_code_yyyymmdd_hhmmss.csv		String									
+ticker_future_sec_code	pisquare	1	rl_security_code	STRING			manual	C-pisquare-manual	MNL_ticker_future_sec_code_yyyymmdd_hhmmss.csv		String									
+ticker_future_sec_code	pisquare	2	ticker_future_sec_pl	STRING			manual	C-pisquare-manual	MNL_ticker_future_sec_code_yyyymmdd_hhmmss.csv		String									
+ticker_future_sec_code	pisquare	3	ticker_future_sec_rl	STRING			manual	C-pisquare-manual	MNL_ticker_future_sec_code_yyyymmdd_hhmmss.csv		String									
+ticker_future_index	pisquare	0	pl_index_name	STRING			manual	C-pisquare-manual	MNL_ticker_future_index_yyyymmdd_hhmmss.csv		String									
+ticker_future_index	pisquare	1	rl_index_name	STRING			manual	C-pisquare-manual	MNL_ticker_future_index_yyyymmdd_hhmmss.csv		String									
+ticker_future_index	pisquare	2	ticker_future_index_pl	STRING			manual	C-pisquare-manual	MNL_ticker_future_index_yyyymmdd_hhmmss.csv		String									
+ticker_future_index	pisquare	3	ticker_future_index_rl	STRING			manual	C-pisquare-manual	MNL_ticker_future_index_yyyymmdd_hhmmss.csv		String									
+index_name_normalized	pisquare	0	pl_index_name	STRING		pl_index_name	manual	C-pisquare-manual	MNL_index_name_normalized_yyyymmdd_hhmmss.csv		String									
+index_name_normalized	pisquare	1	pl_index_name_normalized	STRING		pl_index_name_normalized	manual	C-pisquare-manual	MNL_index_name_normalized_yyyymmdd_hhmmss.csv		String									

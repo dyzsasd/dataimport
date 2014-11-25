@@ -1,0 +1,72 @@
+shp_reim	pisquare	0	company_code	STRING		Company code	cube_reim	C-pisquare-cube_reim	SHP_REIM_yyyymmdd_hhmmss.CSV	COMP_CODE	CHAR	4		Company code	0COMP_CODE	/BI0/OICOMP_CODE			
+shp_reim	pisquare	1	profit_center	STRING		Profit Center	cube_reim	C-pisquare-cube_reim	SHP_REIM_yyyymmdd_hhmmss.CSV	PROFIT_CTR	CHAR	10		Profit Center	0PROFIT_CTR	/BI0/OIPROFIT_CTR			
+shp_reim	pisquare	2	controlling_area	STRING		Controlling Area	cube_reim	C-pisquare-cube_reim	SHP_REIM_yyyymmdd_hhmmss.CSV	CO_AREA	CHAR	4		Controlling Area	0CO_AREA	/BI0/OICO_AREA			
+shp_reim	pisquare	3	segmen	STRING		Segmen	cube_reim	C-pisquare-cube_reim	SHP_REIM_yyyymmdd_hhmmss.CSV	SEGMENT	CHAR	10		Segmen	0SEGMENT	/BI0/OISEGMENT			
+shp_reim	pisquare	4	level_2_3_hierar	STRING		Level 1, 2, 3 hierar	cube_reim	C-pisquare-cube_reim	SHP_REIM_yyyymmdd_hhmmss.CSV	/BIC/YRE132HR	CHAR	2		Level 1, 2, 3 hierar	YRE132HR	/BIC/OIYRE132HR			
+shp_reim	pisquare	5	asset_type	STRING		Asset type	cube_reim	C-pisquare-cube_reim	SHP_REIM_yyyymmdd_hhmmss.CSV	/BIC/YREASSTP	CHAR	2		Asset type	YREASSTP	/BIC/OIYREASSTP			
+shp_reim	pisquare	6	asset_identifier	STRING		Asset Identifier	cube_reim	C-pisquare-cube_reim	SHP_REIM_yyyymmdd_hhmmss.CSV	/BIC/YREASSID	CHAR	6		Asset Identifier	YREASSID	/BIC/OIYREASSID			
+shp_reim	pisquare	7	position_indicator	STRING		Position Indicator 1	cube_reim	C-pisquare-cube_reim	SHP_REIM_yyyymmdd_hhmmss.CSV	/BIC/YSPOSITI1	CHAR	10		Position Indicator 1	YSPOSITI1	/BIC/OIYSPOSITI1			
+shp_reim	pisquare	8	fixed_asset_type	STRING		Fixed asset type	cube_reim	C-pisquare-cube_reim	SHP_REIM_yyyymmdd_hhmmss.CSV	/BIC/YREFASSTP	CHAR	10		Fixed asset type	YREFASSTP	/BIC/OIYREFASSTP			
+shp_reim	pisquare	9	movement_type	STRING		Movement Type	cube_reim	C-pisquare-cube_reim	SHP_REIM_yyyymmdd_hhmmss.CSV	MOVE_TYPE	CHAR	3		Movement Type	0MOVE_TYPE	/BI0/OIMOVE_TYPE			
+shp_reim	pisquare	10	copernic_magnitude_c	STRING		Copernic Magnitude C	cube_reim	C-pisquare-cube_reim	SHP_REIM_yyyymmdd_hhmmss.CSV	/BIC/YCGRPACC	CHAR	12		Copernic Magnitude C	YCGRPACC	/BIC/OIYCGRPACC			
+shp_reim	pisquare	11	group_of_risk_solv	STRING		Group of risk / Solv	cube_reim	C-pisquare-cube_reim	SHP_REIM_yyyymmdd_hhmmss.CSV	/BIC/YCGRPRISK	CHAR	3		Group of risk / Solv	YCGRPRISK	/BIC/OIYCGRPRISK			
+shp_reim	pisquare	12	ifrs_investments_cla	STRING		IFRS Investments Cla	cube_reim	C-pisquare-cube_reim	SHP_REIM_yyyymmdd_hhmmss.CSV	/BIC/YCIFRSCL	CHAR	5		IFRS Investments Cla	YCIFRSCL	/BIC/OIYCIFRSCL			
+shp_reim	pisquare	13	local_asset_account	STRING		Local asset account	cube_reim	C-pisquare-cube_reim	SHP_REIM_yyyymmdd_hhmmss.CSV	/BIC/YRELCASAC	CHAR	20		Local asset account	YRELCASAC	/BIC/OIYRELCASAC			
+shp_reim	pisquare	14	g_l_account	STRING		G/L Account	cube_reim	C-pisquare-cube_reim	SHP_REIM_yyyymmdd_hhmmss.CSV	GL_ACCOUNT	CHAR	10		G/L Account	0GL_ACCOUNT	/BI0/OIGL_ACCOUNT			
+shp_reim	pisquare	15	chart_of_accounts	STRING		Chart of accounts	cube_reim	C-pisquare-cube_reim	SHP_REIM_yyyymmdd_hhmmss.CSV	CHRT_ACCTS	CHAR	4		Chart of accounts	0CHRT_ACCTS	/BI0/OICHRT_ACCTS			
+shp_reim	pisquare	16	fiscal_year_variant	STRING		Fiscal Year Variant	cube_reim	C-pisquare-cube_reim	SHP_REIM_yyyymmdd_hhmmss.CSV	FISCVARNT	CHAR	2		Fiscal Year Variant	0FISCVARNT	/BI0/OIFISCVARNT			
+shp_reim	pisquare	17	fiscal_year_period	STRING		Fiscal year/period	cube_reim	C-pisquare-cube_reim	SHP_REIM_yyyymmdd_hhmmss.CSV	FISCPER	NUMC	7		Fiscal year/period	0FISCPER	/BI0/OIFISCPER			
+shp_reim	pisquare	18	valuation_area	STRING		Valuation Area	cube_reim	C-pisquare-cube_reim	SHP_REIM_yyyymmdd_hhmmss.CSV	FS_VAL_AR	CHAR	3		Valuation Area	0FS_VAL_AR	/BI0/OIFS_VAL_AR			
+shp_reim	pisquare	19	magnitude_asset_acco	STRING		Magnitude asset acco	cube_reim	C-pisquare-cube_reim	SHP_REIM_yyyymmdd_hhmmss.CSV	/BIC/YREMGSAC	CHAR	20		Magnitude asset acco	YREMGSAC	/BIC/OIYREMGSAC			
+shp_reim	pisquare	20	key_asset_id	STRING		Key asset ID	cube_reim	C-pisquare-cube_reim	SHP_REIM_yyyymmdd_hhmmss.CSV	/BIC/YREKASSID	CHAR	6		Key asset ID	YREKASSID	/BIC/OIYREKASSID			
+shp_reim	pisquare	21	re_source_provider	STRING		RE - Source provider	cube_reim	C-pisquare-cube_reim	SHP_REIM_yyyymmdd_hhmmss.CSV	/BIC/YRESOURCE	CHAR	1		RE - Source provider	YRESOURCE	/BIC/OIYRESOURCE			
+shp_reim	pisquare	22	ledger	STRING		Ledger	cube_reim	C-pisquare-cube_reim	SHP_REIM_yyyymmdd_hhmmss.CSV	AC_LEDGER	CHAR	2		Ledger	0AC_LEDGER	/BI0/OIAC_LEDGER			
+shp_reim	pisquare	23	source	STRING		Source	cube_reim	C-pisquare-cube_reim	SHP_REIM_yyyymmdd_hhmmss.CSV	/BIC/YSSOURCE	CHAR	2		Source	YSSOURCE	/BIC/OIYSSOURCE			
+shp_reim	pisquare	24	position_value_date	TIMESTAMP	yyyymmdd	Position Value Date	cube_reim	C-pisquare-cube_reim	SHP_REIM_yyyymmdd_hhmmss.CSV	FS_XDATE	DATS	8		Position Value Date	0FS_XDATE	/BI0/OIFS_XDATE			
+shp_reim	pisquare	25	posting_date	TIMESTAMP	yyyymmdd	Posting Date	cube_reim	C-pisquare-cube_reim	SHP_REIM_yyyymmdd_hhmmss.CSV	FS_BDATE	DATS	8		Posting Date	0FS_BDATE	/BI0/OIFS_BDATE			
+shp_reim	pisquare	26	re_local_currency	STRING		RE local currency	cube_reim	C-pisquare-cube_reim	SHP_REIM_yyyymmdd_hhmmss.CSV	/BIC/YRELOCCUR	CUKY	5		RE local currency	YRELOCCUR	/BIC/OIYRELOCCUR			
+shp_reim	pisquare	27	reim_position_curren	STRING		REIM Position Curren	cube_reim	C-pisquare-cube_reim	SHP_REIM_yyyymmdd_hhmmss.CSV	/BIC/YREPOSCUR	CUKY	5		REIM Position Curren	YREPOSCUR	/BIC/OIYREPOSCUR			
+shp_reim	pisquare	28	balance_lc	DECIMAL(17,2)	SAP dec	Balance LC	cube_reim	C-pisquare-cube_reim	SHP_REIM_yyyymmdd_hhmmss.CSV	/BIC/YSREBALLC	CURR	17	2	Balance LC	YSREBALLC	/BIC/OIYSREBALLC			
+shp_reim	pisquare	29	balance_pc	DECIMAL(17,2)	SAP dec	Balance PC	cube_reim	C-pisquare-cube_reim	SHP_REIM_yyyymmdd_hhmmss.CSV	/BIC/YSREBALPC	CURR	17	2	Balance PC	YSREBALPC	/BIC/OIYSREBALPC			
+shp_reim	pisquare	30	acq_cost_gross_lc	DECIMAL(17,2)	SAP dec	Acq cost gross LC	cube_reim	C-pisquare-cube_reim	SHP_REIM_yyyymmdd_hhmmss.CSV	/BIC/YSRAQCGLC	CURR	17	2	Acq cost gross LC	YSRAQCGLC	/BIC/OIYSRAQCGLC			
+shp_reim	pisquare	31	acq_cost_gross_pc	DECIMAL(17,2)	SAP dec	Acq cost gross PC	cube_reim	C-pisquare-cube_reim	SHP_REIM_yyyymmdd_hhmmss.CSV	/BIC/YSRAQCGPC	CURR	17	2	Acq cost gross PC	YSRAQCGPC	/BIC/OIYSRAQCGPC			
+shp_reim	pisquare	32	ctlwb_imp_flw_rev_lc	DECIMAL(17,2)	SAP dec	CtlWB Imp flw rev LC	cube_reim	C-pisquare-cube_reim	SHP_REIM_yyyymmdd_hhmmss.CSV	/BIC/YSRCWIRLC	CURR	17	2	CtlWB Imp flw rev LC	YSRCWIRLC	/BIC/OIYSRCWIRLC			
+shp_reim	pisquare	33	ctlwb_imp_flw_rev_pc	DECIMAL(17,2)	SAP dec	CtlWB Imp flw rev PC	cube_reim	C-pisquare-cube_reim	SHP_REIM_yyyymmdd_hhmmss.CSV	/BIC/YSRCWIRPC	CURR	17	2	CtlWB Imp flw rev PC	YSRCWIRPC	/BIC/OIYSRCWIRPC			
+shp_reim	pisquare	34	ct_wb_imp_flw_salelc	DECIMAL(17,2)	SAP dec	Ct WB Imp flw saleLC	cube_reim	C-pisquare-cube_reim	SHP_REIM_yyyymmdd_hhmmss.CSV	/BIC/YSRCWISLC	CURR	17	2	Ct WB Imp flw saleLC	YSRCWISLC	/BIC/OIYSRCWISLC			
+shp_reim	pisquare	35	ct_wb_imp_flw_salepc	DECIMAL(17,2)	SAP dec	Ct WB Imp flw salePC	cube_reim	C-pisquare-cube_reim	SHP_REIM_yyyymmdd_hhmmss.CSV	/BIC/YSRCWISPC	CURR	17	2	Ct WB Imp flw salePC	YSRCWISPC	/BIC/OIYSRCWISPC			
+shp_reim	pisquare	36	acc_int_stock_lc	DECIMAL(17,2)	SAP dec	Acc int. stock LC	cube_reim	C-pisquare-cube_reim	SHP_REIM_yyyymmdd_hhmmss.CSV	/BIC/YSREAISLC	CURR	17	2	Acc int. stock LC	YSREAISLC	/BIC/OIYSREAISLC			
+shp_reim	pisquare	37	acc_int_stock_pc	DECIMAL(17,2)	SAP dec	Acc int. stock PC	cube_reim	C-pisquare-cube_reim	SHP_REIM_yyyymmdd_hhmmss.CSV	/BIC/YSREAISPC	CURR	17	2	Acc int. stock PC	YSREAISPC	/BIC/OIYSREAISPC			
+shp_reim	pisquare	38	amort_stock_lc	DECIMAL(17,2)	SAP dec	Amort stock LC	cube_reim	C-pisquare-cube_reim	SHP_REIM_yyyymmdd_hhmmss.CSV	/BIC/YSREAMSLC	CURR	17	2	Amort stock LC	YSREAMSLC	/BIC/OIYSREAMSLC			
+shp_reim	pisquare	39	amort_stock_pc	DECIMAL(17,2)	SAP dec	Amort stock PC	cube_reim	C-pisquare-cube_reim	SHP_REIM_yyyymmdd_hhmmss.CSV	/BIC/YSREAMSPC	CURR	17	2	Amort stock PC	YSREAMSPC	/BIC/OIYSREAMSPC			
+shp_reim	pisquare	40	amortisation_lc	DECIMAL(17,2)	SAP dec	Amortisation LC	cube_reim	C-pisquare-cube_reim	SHP_REIM_yyyymmdd_hhmmss.CSV	/BIC/YSREAMTLC	CURR	17	2	Amortisation LC	YSREAMTLC	/BIC/OIYSREAMTLC			
+shp_reim	pisquare	41	amortisation_pc	DECIMAL(17,2)	SAP dec	Amortisation PC	cube_reim	C-pisquare-cube_reim	SHP_REIM_yyyymmdd_hhmmss.CSV	/BIC/YSREAMTPC	CURR	17	2	Amortisation PC	YSREAMTPC	/BIC/OIYSREAMTPC			
+shp_reim	pisquare	42	control_amort_lc	DECIMAL(17,2)	SAP dec	Control_Amort. LC	cube_reim	C-pisquare-cube_reim	SHP_REIM_yyyymmdd_hhmmss.CSV	/BIC/YSRECTALC	CURR	17	2	Control_Amort. LC	YSRECTALC	/BIC/OIYSRECTALC			
+shp_reim	pisquare	43	control_amort_pc	DECIMAL(17,2)	SAP dec	Control_Amort. PC	cube_reim	C-pisquare-cube_reim	SHP_REIM_yyyymmdd_hhmmss.CSV	/BIC/YSRECTAPC	CURR	17	2	Control_Amort. PC	YSRECTAPC	/BIC/OIYSRECTAPC			
+shp_reim	pisquare	44	control_imp_lc	DECIMAL(17,2)	SAP dec	Control_Imp LC	cube_reim	C-pisquare-cube_reim	SHP_REIM_yyyymmdd_hhmmss.CSV	/BIC/YSRECTILC	CURR	17	2	Control_Imp LC	YSRECTILC	/BIC/OIYSRECTILC			
+shp_reim	pisquare	45	control_imp_pc	DECIMAL(17,2)	SAP dec	Control_Imp PC	cube_reim	C-pisquare-cube_reim	SHP_REIM_yyyymmdd_hhmmss.CSV	/BIC/YSRECTIPC	CURR	17	2	Control_Imp PC	YSRECTIPC	/BIC/OIYSRECTIPC			
+shp_reim	pisquare	46	decrease_lc	DECIMAL(17,2)	SAP dec	Decrease LC	cube_reim	C-pisquare-cube_reim	SHP_REIM_yyyymmdd_hhmmss.CSV	/BIC/YSREDCRLC	CURR	17	2	Decrease LC	YSREDCRLC	/BIC/OIYSREDCRLC			
+shp_reim	pisquare	47	decrease_pc	DECIMAL(17,2)	SAP dec	Decrease PC	cube_reim	C-pisquare-cube_reim	SHP_REIM_yyyymmdd_hhmmss.CSV	/BIC/YSREDCRPC	CURR	17	2	Decrease PC	YSREDCRPC	/BIC/OIYSREDCRPC			
+shp_reim	pisquare	48	income_lc	DECIMAL(17,2)	SAP dec	Income LC	cube_reim	C-pisquare-cube_reim	SHP_REIM_yyyymmdd_hhmmss.CSV	/BIC/YSREICMLC	CURR	17	2	Income LC	YSREICMLC	/BIC/OIYSREICMLC			
+shp_reim	pisquare	49	income_pc	DECIMAL(17,2)	SAP dec	Income PC	cube_reim	C-pisquare-cube_reim	SHP_REIM_yyyymmdd_hhmmss.CSV	/BIC/YSREICMPC	CURR	17	2	Income PC	YSREICMPC	/BIC/OIYSREICMPC			
+shp_reim	pisquare	50	impairment_lc	DECIMAL(17,2)	SAP dec	Impairment LC	cube_reim	C-pisquare-cube_reim	SHP_REIM_yyyymmdd_hhmmss.CSV	/BIC/YSREIMPLC	CURR	17	2	Impairment LC	YSREIMPLC	/BIC/OIYSREIMPLC			
+shp_reim	pisquare	51	impairment_pc	DECIMAL(17,2)	SAP dec	Impairment PC	cube_reim	C-pisquare-cube_reim	SHP_REIM_yyyymmdd_hhmmss.CSV	/BIC/YSREIMPPC	CURR	17	2	Impairment PC	YSREIMPPC	/BIC/OIYSREIMPPC			
+shp_reim	pisquare	52	increase_lc	DECIMAL(17,2)	SAP dec	Increase LC	cube_reim	C-pisquare-cube_reim	SHP_REIM_yyyymmdd_hhmmss.CSV	/BIC/YSREINCLC	CURR	17	2	Increase LC	YSREINCLC	/BIC/OIYSREINCLC			
+shp_reim	pisquare	53	increase_pc	DECIMAL(17,2)	SAP dec	Increase PC	cube_reim	C-pisquare-cube_reim	SHP_REIM_yyyymmdd_hhmmss.CSV	/BIC/YSREINCPC	CURR	17	2	Increase PC	YSREINCPC	/BIC/OIYSREINCPC			
+shp_reim	pisquare	54	impairment_stock_lc	DECIMAL(17,2)	SAP dec	Impairment stock LC	cube_reim	C-pisquare-cube_reim	SHP_REIM_yyyymmdd_hhmmss.CSV	/BIC/YSREIPSLC	CURR	17	2	Impairment stock LC	YSREIPSLC	/BIC/OIYSREIPSLC			
+shp_reim	pisquare	55	impairment_stock_pc	DECIMAL(17,2)	SAP dec	Impairment stock PC	cube_reim	C-pisquare-cube_reim	SHP_REIM_yyyymmdd_hhmmss.CSV	/BIC/YSREIPSPC	CURR	17	2	Impairment stock PC	YSREIPSPC	/BIC/OIYSREIPSPC			
+shp_reim	pisquare	56	reimbursement_lc	DECIMAL(17,2)	SAP dec	Reimbursement LC	cube_reim	C-pisquare-cube_reim	SHP_REIM_yyyymmdd_hhmmss.CSV	/BIC/YSRERIMLC	CURR	17	2	Reimbursement LC	YSRERIMLC	/BIC/OIYSRERIMLC			
+shp_reim	pisquare	57	reimbursement_pc	DECIMAL(17,2)	SAP dec	Reimbursement PC	cube_reim	C-pisquare-cube_reim	SHP_REIM_yyyymmdd_hhmmss.CSV	/BIC/YSRERIMPC	CURR	17	2	Reimbursement PC	YSRERIMPC	/BIC/OIYSRERIMPC			
+shp_reim	pisquare	58	sales_proceed_lc	DECIMAL(17,2)	SAP dec	Sales proceed LC	cube_reim	C-pisquare-cube_reim	SHP_REIM_yyyymmdd_hhmmss.CSV	/BIC/YSRESSPLC	CURR	17	2	Sales proceed LC	YSRESSPLC	/BIC/OIYSRESSPLC			
+shp_reim	pisquare	59	sales_proceed_pc	DECIMAL(17,2)	SAP dec	Sales proceed PC	cube_reim	C-pisquare-cube_reim	SHP_REIM_yyyymmdd_hhmmss.CSV	/BIC/YSRESSPPC	CURR	17	2	Sales proceed PC	YSRESSPPC	/BIC/OIYSRESSPPC			
+shp_reim	pisquare	60	wb_amortisation_lc	DECIMAL(17,2)	SAP dec	WB Amortisation LC	cube_reim	C-pisquare-cube_reim	SHP_REIM_yyyymmdd_hhmmss.CSV	/BIC/YSREWBALC	CURR	17	2	WB Amortisation LC	YSREWBALC	/BIC/OIYSREWBALC			
+shp_reim	pisquare	61	wb_amortisation_pc	DECIMAL(17,2)	SAP dec	WB Amortisation PC	cube_reim	C-pisquare-cube_reim	SHP_REIM_yyyymmdd_hhmmss.CSV	/BIC/YSREWBAPC	CURR	17	2	WB Amortisation PC	YSREWBAPC	/BIC/OIYSREWBAPC			
+shp_reim	pisquare	62	nbv_sold_lc	DECIMAL(17,2)	SAP dec	NBV Sold LC	cube_reim	C-pisquare-cube_reim	SHP_REIM_yyyymmdd_hhmmss.CSV	/BIC/YSRNBVSLC	CURR	17	2	NBV Sold LC	YSRNBVSLC	/BIC/OIYSRNBVSLC			
+shp_reim	pisquare	63	nbv_sold_pc	DECIMAL(17,2)	SAP dec	NBV Sold PC	cube_reim	C-pisquare-cube_reim	SHP_REIM_yyyymmdd_hhmmss.CSV	/BIC/YSRNBVSPC	CURR	17	2	NBV Sold PC	YSRNBVSPC	/BIC/OIYSRNBVSPC			
+shp_reim	pisquare	64	wb_imp_flw_reevlt_lc	DECIMAL(17,2)	SAP dec	WB Imp flw reevlt LC	cube_reim	C-pisquare-cube_reim	SHP_REIM_yyyymmdd_hhmmss.CSV	/BIC/YSRWBIRLC	CURR	17	2	WB Imp flw reevlt LC	YSRWBIRLC	/BIC/OIYSRWBIRLC			
+shp_reim	pisquare	65	wb_imp_flw_reevlt_pc	DECIMAL(17,2)	SAP dec	WB Imp flw reevlt PC	cube_reim	C-pisquare-cube_reim	SHP_REIM_yyyymmdd_hhmmss.CSV	/BIC/YSRWBIRPC	CURR	17	2	WB Imp flw reevlt PC	YSRWBIRPC	/BIC/OIYSRWBIRPC			
+shp_reim	pisquare	66	wb_imp_sale_lc	DECIMAL(17,2)	SAP dec	WB Imp sale LC	cube_reim	C-pisquare-cube_reim	SHP_REIM_yyyymmdd_hhmmss.CSV	/BIC/YSRWBISLC	CURR	17	2	WB Imp sale LC	YSRWBISLC	/BIC/OIYSRWBISLC			
+shp_reim	pisquare	67	wb_imp_sale_pc	DECIMAL(17,2)	SAP dec	WB Imp sale PC	cube_reim	C-pisquare-cube_reim	SHP_REIM_yyyymmdd_hhmmss.CSV	/BIC/YSRWBISPC	CURR	17	2	WB Imp sale PC	YSRWBISPC	/BIC/OIYSRWBISPC			
+shp_reim	pisquare	68	percentage_of_owner	DECIMAL(17,3)	SAP dec	Percentage of owner	cube_reim	C-pisquare-cube_reim	SHP_REIM_yyyymmdd_hhmmss.CSV	/BIC/YREOWNPCT	DEC	17	3	Percentage of owner	YREOWNPCT	/BIC/OIYREOWNPCT			
+shp_reim	pisquare	69	appraisal_value_lc	DECIMAL(17,2)	SAP dec	Appraisal value LC	cube_reim	C-pisquare-cube_reim	SHP_REIM_yyyymmdd_hhmmss.CSV	/BIC/YREAPVLLC	CURR	17	2	Appraisal value LC	YREAPVLLC	/BIC/OIYREAPVLLC			
+shp_reim	pisquare	70	tax_rate	DECIMAL(17,3)	SAP dec	Tax rate	cube_reim	C-pisquare-cube_reim	SHP_REIM_yyyymmdd_hhmmss.CSV	/BIC/YRETAXRT	DEC	17	3	Tax rate	YRETAXRT	/BIC/OIYRETAXRT			
+shp_reim	pisquare	71	market_value_val_cur	DECIMAL(17,2)	SAP dec	Market value Val Cur	cube_reim	C-pisquare-cube_reim	SHP_REIM_yyyymmdd_hhmmss.CSV	/BIC/YREMKVLLC	CURR	17	2	Market value Val Cur	YREMKVLLC	/BIC/OIYREMKVLLC			

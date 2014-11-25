@@ -1,0 +1,599 @@
+retraite_affiliation	bicolor_retraite	0	type_ligne	STRING		Type de ligne du fichier (header; corps; footer)	root	C-bicolor_retraite-root	TAIGAAXA_BI_AFF_yyyymmdd.csv											1.1							
+retraite_affiliation	bicolor_retraite	1	id_affiliation	BIGINT		Identifiant affiliation	root	C-bicolor_retraite-root	TAIGAAXA_BI_AFF_yyyymmdd.csv	FE_6_Affiliation_ID_1	Nombre	12								1.1							
+retraite_affiliation	bicolor_retraite	2	id_contrat	BIGINT		Identifiant contrat	root	C-bicolor_retraite-root	TAIGAAXA_BI_AFF_yyyymmdd.csv	FE_6_Affiliation_ID_2	Nombre	12								1.1							
+retraite_affiliation	bicolor_retraite	3	id_affilie	BIGINT		Identifiant affilié	root	C-bicolor_retraite-root	TAIGAAXA_BI_AFF_yyyymmdd.csv	FE_6_Affiliation_ID_3	Nombre	12								1.1							
+retraite_affiliation	bicolor_retraite	4	num_affiliation	STRING		Numéro d'affiliation	root	C-bicolor_retraite-root	TAIGAAXA_BI_AFF_yyyymmdd.csv	FE_6_Affiliation_ID_4	Texte	30								1.1							
+retraite_affiliation	bicolor_retraite	5	dt_effet_adhesion_affilie	TIMESTAMP	yyyymmdd	Date d'effet	root	C-bicolor_retraite-root	TAIGAAXA_BI_AFF_yyyymmdd.csv	FE_6_Affiliation_ID_5	Date									1.1							
+retraite_affiliation	bicolor_retraite	6	statut_affiliation	STRING		Statut de l'affiliation	root	C-bicolor_retraite-root	TAIGAAXA_BI_AFF_yyyymmdd.csv	FE_6_Affiliation_ID_6	Texte	15								1.1							
+retraite_affiliation	bicolor_retraite	7	dt_effet_statut_affilie	TIMESTAMP	yyyymmdd	Date d'effet du statut	root	C-bicolor_retraite-root	TAIGAAXA_BI_AFF_yyyymmdd.csv	FE_6_Affiliation_ID_7	Date									1.1							
+retraite_affiliation	bicolor_retraite	8	dt_entree_entreprise	TIMESTAMP	yyyymmdd	Date d'entrée dans l'entreprise	root	C-bicolor_retraite-root	TAIGAAXA_BI_AFF_yyyymmdd.csv	FE_6_Affiliation_ID_8	Date									1.1							
+retraite_affiliation	bicolor_retraite	9	age_depart_retraite	BIGINT		Age de départ en retraite	root	C-bicolor_retraite-root	TAIGAAXA_BI_AFF_yyyymmdd.csv	FE_6_Affiliation_ID_9	Nombre									1.1							
+retraite_affiliation	bicolor_retraite	10	adresse	STRING		Adresse	root	C-bicolor_retraite-root	TAIGAAXA_BI_AFF_yyyymmdd.csv	FE_6_Affiliation_ID_10	Texte	38								1.1							
+retraite_affiliation	bicolor_retraite	11	cplt_adr	STRING		Complément d'Adresse 1	root	C-bicolor_retraite-root	TAIGAAXA_BI_AFF_yyyymmdd.csv	FE_6_Affiliation_ID_11	Texte	38								1.1							
+retraite_affiliation	bicolor_retraite	12	cplt_adr_2	STRING		Complément d'Adresse 2	root	C-bicolor_retraite-root	TAIGAAXA_BI_AFF_yyyymmdd.csv	FE_6_Affiliation_ID_12	Texte	38								1.1							
+retraite_affiliation	bicolor_retraite	13	cplt_adr_3	STRING		Complément d'Adresse 3	root	C-bicolor_retraite-root	TAIGAAXA_BI_AFF_yyyymmdd.csv	FE_6_Affiliation_ID_13	Texte	38								1.1							
+retraite_affiliation	bicolor_retraite	14	cplt_adr_4	STRING		Complément d'Adresse 4	root	C-bicolor_retraite-root	TAIGAAXA_BI_AFF_yyyymmdd.csv	FE_6_Affiliation_ID_14	Texte	38								1.1							
+retraite_affiliation	bicolor_retraite	15	cd_postal	STRING		Code postal	root	C-bicolor_retraite-root	TAIGAAXA_BI_AFF_yyyymmdd.csv	FE_6_Affiliation_ID_15	Texte	6								1.1							
+retraite_affiliation	bicolor_retraite	16	ville	STRING		Ville	root	C-bicolor_retraite-root	TAIGAAXA_BI_AFF_yyyymmdd.csv	FE_6_Affiliation_ID_16	Texte	32								1.1							
+retraite_affiliation	bicolor_retraite	17	cd_pays	STRING		Code pays	root	C-bicolor_retraite-root	TAIGAAXA_BI_AFF_yyyymmdd.csv	FE_6_Affiliation_ID_17	Texte	2								1.1							
+retraite_affiliation	bicolor_retraite	18	pays	STRING		Pays	root	C-bicolor_retraite-root	TAIGAAXA_BI_AFF_yyyymmdd.csv	FE_6_Affiliation_ID_18	Texte	45								1.1							
+retraite_affiliation	bicolor_retraite	19	npai	STRING		NPAI	root	C-bicolor_retraite-root	TAIGAAXA_BI_AFF_yyyymmdd.csv	FE_6_Affiliation_ID_19	Booléen									1.1							
+retraite_affiliation	bicolor_retraite	20	tel_perso	STRING		Téléphone Perso	root	C-bicolor_retraite-root	TAIGAAXA_BI_AFF_yyyymmdd.csv	FE_6_Affiliation_ID_20	Texte	20								1.1							
+retraite_affiliation	bicolor_retraite	21	tel_pro	STRING		Téléphone Pro	root	C-bicolor_retraite-root	TAIGAAXA_BI_AFF_yyyymmdd.csv	FE_6_Affiliation_ID_21	Texte	20								1.1							
+retraite_affiliation	bicolor_retraite	22	mobile	STRING		Mobile	root	C-bicolor_retraite-root	TAIGAAXA_BI_AFF_yyyymmdd.csv	FE_6_Affiliation_ID_22	Texte	20								1.1							
+retraite_affiliation	bicolor_retraite	23	fax	STRING		Fax	root	C-bicolor_retraite-root	TAIGAAXA_BI_AFF_yyyymmdd.csv	FE_6_Affiliation_ID_23	Texte	20								1.1							
+retraite_affiliation	bicolor_retraite	24	email	STRING		Adresse e-mail	root	C-bicolor_retraite-root	TAIGAAXA_BI_AFF_yyyymmdd.csv	FE_6_Affiliation_ID_24	Texte	100								1.1							
+retraite_affilie	bicolor_retraite	0	type_ligne	STRING		Type de ligne du fichier (header; corps; footer)	root	C-bicolor_retraite-root	TAIGAAXA_BI_IND_yyyymmdd.csv											1.1							
+retraite_affilie	bicolor_retraite	1	id_affilie	BIGINT		Identifiant affilié	root	C-bicolor_retraite-root	TAIGAAXA_BI_IND_yyyymmdd.csv	FE_5_Affilie_ID_1	Nombre	12								1.1							
+retraite_affilie	bicolor_retraite	2	matricule	STRING		Matricule	root	C-bicolor_retraite-root	TAIGAAXA_BI_IND_yyyymmdd.csv	FE_5_Affilie_ID_2	Texte	30								1.1							
+retraite_affilie	bicolor_retraite	3	civilite	STRING		Civilité	root	C-bicolor_retraite-root	TAIGAAXA_BI_IND_yyyymmdd.csv	FE_5_Affilie_ID_3	Texte	15								1.1							
+retraite_affilie	bicolor_retraite	4	nom	STRING		Nom	root	C-bicolor_retraite-root	TAIGAAXA_BI_IND_yyyymmdd.csv	FE_5_Affilie_ID_4	Texte	50								1.1							
+retraite_affilie	bicolor_retraite	5	nom_jeune_fille	STRING		Nom de jeune fille	root	C-bicolor_retraite-root	TAIGAAXA_BI_IND_yyyymmdd.csv	FE_5_Affilie_ID_5	Texte	50								1.1							
+retraite_affilie	bicolor_retraite	6	prenom	STRING		Prénom	root	C-bicolor_retraite-root	TAIGAAXA_BI_IND_yyyymmdd.csv	FE_5_Affilie_ID_6	Texte	50								1.1							
+retraite_affilie	bicolor_retraite	7	dt_naissance	TIMESTAMP	yyyymmdd	Date de naissance	root	C-bicolor_retraite-root	TAIGAAXA_BI_IND_yyyymmdd.csv	FE_5_Affilie_ID_7	Date									1.1							
+retraite_affilie	bicolor_retraite	8	ville_naissance	STRING		Ville de naissance	root	C-bicolor_retraite-root	TAIGAAXA_BI_IND_yyyymmdd.csv	FE_5_Affilie_ID_8	Texte	32								1.1							
+retraite_affilie	bicolor_retraite	9	cd_pays_naissance	STRING		Code pays de Naissance	root	C-bicolor_retraite-root	TAIGAAXA_BI_IND_yyyymmdd.csv	FE_5_Affilie_ID_9	Texte	2								1.1							
+retraite_affilie	bicolor_retraite	10	pays_naissance	STRING		Pays de naissance	root	C-bicolor_retraite-root	TAIGAAXA_BI_IND_yyyymmdd.csv	FE_5_Affilie_ID_10	Texte	45								1.1							
+retraite_affilie	bicolor_retraite	11	sexe	STRING		Sexe	root	C-bicolor_retraite-root	TAIGAAXA_BI_IND_yyyymmdd.csv	FE_5_Affilie_ID_11	Texte	8								1.1							
+retraite_affilie	bicolor_retraite	12	adresse	STRING		Adresse	root	C-bicolor_retraite-root	TAIGAAXA_BI_IND_yyyymmdd.csv	FE_5_Affilie_ID_12	Texte	38								1.1							
+retraite_affilie	bicolor_retraite	13	cplt_adr	STRING		Complément d'Adresse 1	root	C-bicolor_retraite-root	TAIGAAXA_BI_IND_yyyymmdd.csv	FE_5_Affilie_ID_13	Texte	38								1.1							
+retraite_affilie	bicolor_retraite	14	cplt_adr_2	STRING		Complément d'Adresse 2	root	C-bicolor_retraite-root	TAIGAAXA_BI_IND_yyyymmdd.csv	FE_5_Affilie_ID_14	Texte	38								1.1							
+retraite_affilie	bicolor_retraite	15	cplt_adr_3	STRING		Complément d'Adresse 3	root	C-bicolor_retraite-root	TAIGAAXA_BI_IND_yyyymmdd.csv	FE_5_Affilie_ID_15	Texte	38								1.1							
+retraite_affilie	bicolor_retraite	16	cplt_adr_4	STRING		Complément d'Adresse 4	root	C-bicolor_retraite-root	TAIGAAXA_BI_IND_yyyymmdd.csv	FE_5_Affilie_ID_16	Texte	38								1.1							
+retraite_affilie	bicolor_retraite	17	cd_postal	STRING		Code postal	root	C-bicolor_retraite-root	TAIGAAXA_BI_IND_yyyymmdd.csv	FE_5_Affilie_ID_17	Texte	6								1.1							
+retraite_affilie	bicolor_retraite	18	ville	STRING		Ville	root	C-bicolor_retraite-root	TAIGAAXA_BI_IND_yyyymmdd.csv	FE_5_Affilie_ID_18	Texte	32								1.1							
+retraite_affilie	bicolor_retraite	19	cd_pays	STRING		Code pays	root	C-bicolor_retraite-root	TAIGAAXA_BI_IND_yyyymmdd.csv	FE_5_Affilie_ID_19	Texte	2								1.1							
+retraite_affilie	bicolor_retraite	20	pays	STRING		Pays	root	C-bicolor_retraite-root	TAIGAAXA_BI_IND_yyyymmdd.csv	FE_5_Affilie_ID_20	Texte	45								1.1							
+retraite_affilie	bicolor_retraite	21	tel_perso	STRING		Téléphone Perso	root	C-bicolor_retraite-root	TAIGAAXA_BI_IND_yyyymmdd.csv	FE_5_Affilie_ID_21	Texte	20								1.1							
+retraite_affilie	bicolor_retraite	22	tel_pro	STRING		Téléphone Pro	root	C-bicolor_retraite-root	TAIGAAXA_BI_IND_yyyymmdd.csv	FE_5_Affilie_ID_22	Texte	20								1.1							
+retraite_affilie	bicolor_retraite	23	mobile	STRING		Mobile	root	C-bicolor_retraite-root	TAIGAAXA_BI_IND_yyyymmdd.csv	FE_5_Affilie_ID_23	Texte	20								1.1							
+retraite_affilie	bicolor_retraite	24	fax	STRING		Fax	root	C-bicolor_retraite-root	TAIGAAXA_BI_IND_yyyymmdd.csv	FE_5_Affilie_ID_24	Texte	20								1.1							
+retraite_affilie	bicolor_retraite	25	email	STRING		Adresse e-mail	root	C-bicolor_retraite-root	TAIGAAXA_BI_IND_yyyymmdd.csv	FE_5_Affilie_ID_25	Texte	100								1.1							
+retraite_affilie	bicolor_retraite	26	npai	STRING		NPAI	root	C-bicolor_retraite-root	TAIGAAXA_BI_IND_yyyymmdd.csv	FE_5_Affilie_ID_26	Booléen									1.1							
+retraite_affilie	bicolor_retraite	27	id_web	STRING		Identifiant Web	root	C-bicolor_retraite-root	TAIGAAXA_BI_IND_yyyymmdd.csv	FE_5_Affilie_ID_27	Texte	15								1.1							
+retraite_affilie	bicolor_retraite	28	dt_saisie	TIMESTAMP	yyyymmdd hhmmss	Date de saisie	root	C-bicolor_retraite-root	TAIGAAXA_BI_IND_yyyymmdd.csv	FE_5_Affilie_ID_28	Date Heure									1.1							
+retraite_arbitrage_automatique	bicolor_retraite	0	type_ligne	STRING		Type de ligne du fichier (header; corps; footer)	root	C-bicolor_retraite-root	TAIGAAXA_BI_ARB_yyyymmdd.csv											1.1							
+retraite_arbitrage_automatique	bicolor_retraite	1	id_produit	STRING		Identifiant produit	root	C-bicolor_retraite-root	TAIGAAXA_BI_ARB_yyyymmdd.csv	FE_16_ArbitrageAutomatique_ID1	Texte	15								1.1							
+retraite_arbitrage_automatique	bicolor_retraite	2	id_contrat	BIGINT		Identifiant contrat	root	C-bicolor_retraite-root	TAIGAAXA_BI_ARB_yyyymmdd.csv	FE_16_ArbitrageAutomatique_ID2	Nombre	12								1.1							
+retraite_arbitrage_automatique	bicolor_retraite	3	id_gestion_financiere	BIGINT		Identifiant gestion financière	root	C-bicolor_retraite-root	TAIGAAXA_BI_ARB_yyyymmdd.csv	FE_16_ArbitrageAutomatique_ID3	Nombre	12								1.1							
+retraite_arbitrage_automatique	bicolor_retraite	4	type_rebalancement	STRING		Type de rebalancement	root	C-bicolor_retraite-root	TAIGAAXA_BI_ARB_yyyymmdd.csv	FE_16_ArbitrageAutomatique_ID4	Texte	15								1.1							
+retraite_arbitrage_automatique	bicolor_retraite	5	periodicite	STRING		Périodicité	root	C-bicolor_retraite-root	TAIGAAXA_BI_ARB_yyyymmdd.csv	FE_16_ArbitrageAutomatique_ID5	Texte	15								1.1							
+retraite_choix_garantie_secondaire	bicolor_retraite	0	type_ligne	STRING		Type de ligne du fichier (header; corps; footer)	root	C-bicolor_retraite-root	TAIGAAXA_BI_CHG_yyyymmdd.csv											1.1							
+retraite_choix_garantie_secondaire	bicolor_retraite	1	id_statut	BIGINT		Identifiant statut	root	C-bicolor_retraite-root	TAIGAAXA_BI_CHG_yyyymmdd.csv	FE_11_ChoixGarantieSecondaire_ID1	Nombre	12								1.1							
+retraite_choix_garantie_secondaire	bicolor_retraite	2	id_choix_garantie	BIGINT		Identifiant choix garantie	root	C-bicolor_retraite-root	TAIGAAXA_BI_CHG_yyyymmdd.csv	FE_11_ChoixGarantieSecondaire_ID2	Nombre	12								1.1							
+retraite_choix_garantie_secondaire	bicolor_retraite	3	id_contrat	BIGINT		Identifiant contrat	root	C-bicolor_retraite-root	TAIGAAXA_BI_CHG_yyyymmdd.csv	FE_11_ChoixGarantieSecondaire_ID3	Nombre	12								1.1							
+retraite_choix_garantie_secondaire	bicolor_retraite	4	id_affiliation	BIGINT		Identifiant affiliation	root	C-bicolor_retraite-root	TAIGAAXA_BI_CHG_yyyymmdd.csv	FE_11_ChoixGarantieSecondaire_ID4	Nombre	12								1.1							
+retraite_choix_garantie_secondaire	bicolor_retraite	5	id_garantie	BIGINT		Identifiant garantie	root	C-bicolor_retraite-root	TAIGAAXA_BI_CHG_yyyymmdd.csv	FE_11_ChoixGarantieSecondaire_ID5	Nombre	12								1.1							
+retraite_choix_garantie_secondaire	bicolor_retraite	6	statut	STRING		Statut	root	C-bicolor_retraite-root	TAIGAAXA_BI_CHG_yyyymmdd.csv	FE_11_ChoixGarantieSecondaire_ID6	Texte	15								1.1							
+retraite_choix_garantie_secondaire	bicolor_retraite	7	dt_reception	TIMESTAMP	yyyymmdd	Date de réception	root	C-bicolor_retraite-root	TAIGAAXA_BI_CHG_yyyymmdd.csv	FE_11_ChoixGarantieSecondaire_ID7	Date									1.1							
+retraite_choix_garantie_secondaire	bicolor_retraite	8	dt_effet	TIMESTAMP	yyyymmdd	Date d'effet	root	C-bicolor_retraite-root	TAIGAAXA_BI_CHG_yyyymmdd.csv	FE_11_ChoixGarantieSecondaire_ID8	Date									1.1							
+retraite_choix_garantie_secondaire	bicolor_retraite	9	dt_cloture	TIMESTAMP	yyyymmdd	Date de clôture	root	C-bicolor_retraite-root	TAIGAAXA_BI_CHG_yyyymmdd.csv	FE_11_ChoixGarantieSecondaire_ID9	Date									1.1							
+retraite_choix_garantie_secondaire	bicolor_retraite	10	dt_saisie	TIMESTAMP	yyyymmdd hhmmss	Date de saisie	root	C-bicolor_retraite-root	TAIGAAXA_BI_CHG_yyyymmdd.csv	FE_11_ChoixGarantieSecondaire_ID10	Date Heure									1.1							
+retraite_choix_garantie_secondaire	bicolor_retraite	11	duree_franchise	BIGINT		Durée de franchise	root	C-bicolor_retraite-root	TAIGAAXA_BI_CHG_yyyymmdd.csv	FE_11_ChoixGarantieSecondaire_ID11	Nombre	12								1.1							
+retraite_choix_garantie_secondaire	bicolor_retraite	12	duree_carence	BIGINT		Durée de carence	root	C-bicolor_retraite-root	TAIGAAXA_BI_CHG_yyyymmdd.csv	FE_11_ChoixGarantieSecondaire_ID12	Nombre	12								1.1							
+retraite_cnt_remplace	bicolor_retraite	0	sys_emet	STRING		Système émeteur	root	C-bicolor_retraite-root	TAIGAAXA_BI_CRR_yyyymmdd.csv	FE_cnt_remplace_id0	Texte									1.2							
+retraite_cnt_remplace	bicolor_retraite	1	date_trait_orig	TIMESTAMP	dd/mm/yyyy	Date de traitement Origine	root	C-bicolor_retraite-root	TAIGAAXA_BI_CRR_yyyymmdd.csv	FE_cnt_remplace_id1	Date									1.2							
+retraite_cnt_remplace	bicolor_retraite	2	ref_contrat	STRING		Référence Contrat	root	C-bicolor_retraite-root	TAIGAAXA_BI_CRR_yyyymmdd.csv	FE_cnt_remplace_id2	Texte									1.2							
+retraite_cnt_remplace	bicolor_retraite	3	date_eff_contrat	TIMESTAMP	dd/mm/yyyy	Date d'effet du contrat	root	C-bicolor_retraite-root	TAIGAAXA_BI_CRR_yyyymmdd.csv	FE_cnt_remplace_id3	Date									1.2							
+retraite_cnt_remplace	bicolor_retraite	4	id_event	STRING		Identifiant Evénement	root	C-bicolor_retraite-root	TAIGAAXA_BI_CRR_yyyymmdd.csv	FE_cnt_remplace_id4	Texte									1.2							
+retraite_cnt_remplace	bicolor_retraite	5	event	STRING		Evénement	root	C-bicolor_retraite-root	TAIGAAXA_BI_CRR_yyyymmdd.csv	FE_cnt_remplace_id5	Texte									1.2							
+retraite_cnt_remplace	bicolor_retraite	6	sens_event	STRING		Sens de Evénement	root	C-bicolor_retraite-root	TAIGAAXA_BI_CRR_yyyymmdd.csv	FE_cnt_remplace_id6	Texte									1.2							
+retraite_cnt_remplace	bicolor_retraite	7	date_sais_event	TIMESTAMP	yyyymmddhhmmss000000	Date de saisie de l'Evénement	root	C-bicolor_retraite-root	TAIGAAXA_BI_CRR_yyyymmdd.csv	FE_cnt_remplace_id7	Date Heure micro seconde									1.2							
+retraite_cnt_remplace	bicolor_retraite	8	date_eff_event	TIMESTAMP	dd/mm/yyyy	Date d'effet de l'Evénement	root	C-bicolor_retraite-root	TAIGAAXA_BI_CRR_yyyymmdd.csv	FE_cnt_remplace_id8	Date									1.2							
+retraite_cnt_remplace	bicolor_retraite	9	statut_contrat	STRING		Statut du contrat	root	C-bicolor_retraite-root	TAIGAAXA_BI_CRR_yyyymmdd.csv	FE_cnt_remplace_id9	Texte									1.2							
+retraite_cnt_remplace	bicolor_retraite	10	motif_statut	STRING		Motif du Statut	root	C-bicolor_retraite-root	TAIGAAXA_BI_CRR_yyyymmdd.csv	FE_cnt_remplace_id10	Texte									1.2							
+retraite_cnt_remplace	bicolor_retraite	11	code_1	STRING		Code 1	root	C-bicolor_retraite-root	TAIGAAXA_BI_CRR_yyyymmdd.csv	FE_cnt_remplace_id11	Texte									1.2							
+retraite_cnt_remplace	bicolor_retraite	12	type_code_1	STRING		Type de code 1	root	C-bicolor_retraite-root	TAIGAAXA_BI_CRR_yyyymmdd.csv	FE_cnt_remplace_id12	Texte									1.2							
+retraite_cnt_remplace	bicolor_retraite	13	code_2	STRING		Code 2	root	C-bicolor_retraite-root	TAIGAAXA_BI_CRR_yyyymmdd.csv	FE_cnt_remplace_id13	Texte									1.2							
+retraite_cnt_remplace	bicolor_retraite	14	type_code_2	STRING		Type de code 2	root	C-bicolor_retraite-root	TAIGAAXA_BI_CRR_yyyymmdd.csv	FE_cnt_remplace_id14	Texte									1.2							
+retraite_comptabilite	bicolor_retraite	0	num_fichier	BIGINT		Numéro de fichier	root	C-bicolor_retraite-root	TAIGAAXA_BI_CPT_yyyymmdd.csv	FE_comptabilite_id0	Nombre	7								1.2							
+retraite_comptabilite	bicolor_retraite	1	type_enrgt	BIGINT		Type d'enregistrement	root	C-bicolor_retraite-root	TAIGAAXA_BI_CPT_yyyymmdd.csv	FE_comptabilite_id1	Nombre	1								1.2							
+retraite_comptabilite	bicolor_retraite	2	syst_emetteur	BIGINT		système émetteur	root	C-bicolor_retraite-root	TAIGAAXA_BI_CPT_yyyymmdd.csv	FE_comptabilite_id2	Nombre	5								1.2							
+retraite_comptabilite	bicolor_retraite	3	lib_syst_emetteur	STRING		libellé système émetteur	root	C-bicolor_retraite-root	TAIGAAXA_BI_CPT_yyyymmdd.csv	FE_comptabilite_id3	Texte	20								1.2							
+retraite_comptabilite	bicolor_retraite	4	bloc_appli	BIGINT		bloc applicatif	root	C-bicolor_retraite-root	TAIGAAXA_BI_CPT_yyyymmdd.csv	FE_comptabilite_id4	Nombre	3								1.2							
+retraite_comptabilite	bicolor_retraite	5	acte_global	STRING		Acte global	root	C-bicolor_retraite-root	TAIGAAXA_BI_CPT_yyyymmdd.csv	FE_comptabilite_id5	Texte	10								1.2							
+retraite_comptabilite	bicolor_retraite	6	cd_transaction	STRING		Code transaction	root	C-bicolor_retraite-root	TAIGAAXA_BI_CPT_yyyymmdd.csv	FE_comptabilite_id6	Texte	15								1.2							
+retraite_comptabilite	bicolor_retraite	7	id_CRE	STRING		identifiant CRE	root	C-bicolor_retraite-root	TAIGAAXA_BI_CPT_yyyymmdd.csv	FE_comptabilite_id7	Texte	15								1.2							
+retraite_comptabilite	bicolor_retraite	8	sens_acte	STRING		sens de l'acte	root	C-bicolor_retraite-root	TAIGAAXA_BI_CPT_yyyymmdd.csv	FE_comptabilite_id8	Texte	2								1.2							
+retraite_comptabilite	bicolor_retraite	9	motif_annul	STRING		Motif d'annulation	root	C-bicolor_retraite-root	TAIGAAXA_BI_CPT_yyyymmdd.csv	FE_comptabilite_id9	Texte	10								1.2							
+retraite_comptabilite	bicolor_retraite	10	nb_mouvement	BIGINT		Nombre de mouvements	root	C-bicolor_retraite-root	TAIGAAXA_BI_CPT_yyyymmdd.csv	FE_comptabilite_id10	Nombre	10								1.2							
+retraite_comptabilite	bicolor_retraite	11	num_mouvement	BIGINT		Numero du mouvement dans l'acte	root	C-bicolor_retraite-root	TAIGAAXA_BI_CPT_yyyymmdd.csv	FE_comptabilite_id11	Nombre	10								1.2							
+retraite_comptabilite	bicolor_retraite	12	libelle	STRING		libellé (wording)	root	C-bicolor_retraite-root	TAIGAAXA_BI_CPT_yyyymmdd.csv	FE_comptabilite_id12	Texte	50								1.2							
+retraite_comptabilite	bicolor_retraite	13	ref_interne	STRING		référence interne 	root	C-bicolor_retraite-root	TAIGAAXA_BI_CPT_yyyymmdd.csv	FE_comptabilite_id13	Texte	13								1.2							
+retraite_comptabilite	bicolor_retraite	14	categ_ref_interne	STRING		Catégorie de référence interne	root	C-bicolor_retraite-root	TAIGAAXA_BI_CPT_yyyymmdd.csv	FE_comptabilite_id14	Texte	3								1.2							
+retraite_comptabilite	bicolor_retraite	15	ref_complementaire	STRING		référence complémentaire	root	C-bicolor_retraite-root	TAIGAAXA_BI_CPT_yyyymmdd.csv	FE_comptabilite_id15	Texte	20								1.2							
+retraite_comptabilite	bicolor_retraite	16	categ_ref_complementaire	STRING		Catégorie de référence complémentaire	root	C-bicolor_retraite-root	TAIGAAXA_BI_CPT_yyyymmdd.csv	FE_comptabilite_id16	Texte	3								1.2							
+retraite_comptabilite	bicolor_retraite	17	cd_societe	BIGINT		code société	root	C-bicolor_retraite-root	TAIGAAXA_BI_CPT_yyyymmdd.csv	FE_comptabilite_id17	Nombre	7								1.2							
+retraite_comptabilite	bicolor_retraite	18	cd_devise_contrat	STRING		code devise du contrat	root	C-bicolor_retraite-root	TAIGAAXA_BI_CPT_yyyymmdd.csv	FE_comptabilite_id18	Texte	3								1.2							
+retraite_comptabilite	bicolor_retraite	19	cd_pays_souscript	STRING		code pays souscription	root	C-bicolor_retraite-root	TAIGAAXA_BI_CPT_yyyymmdd.csv	FE_comptabilite_id19	Texte	2								1.2							
+retraite_comptabilite	bicolor_retraite	20	cd_pays_risque	STRING		code pays risque	root	C-bicolor_retraite-root	TAIGAAXA_BI_CPT_yyyymmdd.csv	FE_comptabilite_id20	Texte	2								1.2							
+retraite_comptabilite	bicolor_retraite	21	type_prime	STRING		type de prime	root	C-bicolor_retraite-root	TAIGAAXA_BI_CPT_yyyymmdd.csv	FE_comptabilite_id21	Texte	2								1.2							
+retraite_comptabilite	bicolor_retraite	22	cd_portefeuille	STRING		code portefeuille	root	C-bicolor_retraite-root	TAIGAAXA_BI_CPT_yyyymmdd.csv	FE_comptabilite_id22	Texte	10								1.2							
+retraite_comptabilite	bicolor_retraite	23	cd_agence	STRING		Code Agrence	root	C-bicolor_retraite-root	TAIGAAXA_BI_CPT_yyyymmdd.csv	FE_comptabilite_id23	Texte	10								1.2							
+retraite_comptabilite	bicolor_retraite	24	cd_encaisseur_RS	STRING		Code Encaisseur RS	root	C-bicolor_retraite-root	TAIGAAXA_BI_CPT_yyyymmdd.csv	FE_comptabilite_id24	Texte	10								1.2							
+retraite_comptabilite	bicolor_retraite	25	canal_distrib	STRING		canal de distribution	root	C-bicolor_retraite-root	TAIGAAXA_BI_CPT_yyyymmdd.csv	FE_comptabilite_id25	Texte	7								1.2							
+retraite_comptabilite	bicolor_retraite	26	regime_assure	STRING		Régime de l'assuré  	root	C-bicolor_retraite-root	TAIGAAXA_BI_CPT_yyyymmdd.csv	FE_comptabilite_id26	Texte	15								1.2							
+retraite_comptabilite	bicolor_retraite	27	categ_personnel	BIGINT		 code de collège paramétré dans TAIGA - vide pour encaissement	root	C-bicolor_retraite-root	TAIGAAXA_BI_CPT_yyyymmdd.csv	FE_comptabilite_id27	Nombre	3								1.2							
+retraite_comptabilite	bicolor_retraite	28	categ_prime_assure	STRING		Catégorie de prime/assuré	root	C-bicolor_retraite-root	TAIGAAXA_BI_CPT_yyyymmdd.csv	FE_comptabilite_id28	Texte	A définir								1.2							
+retraite_comptabilite	bicolor_retraite	29	cd_produit	STRING		code produit	root	C-bicolor_retraite-root	TAIGAAXA_BI_CPT_yyyymmdd.csv	FE_comptabilite_id29	Texte	10								1.2							
+retraite_comptabilite	bicolor_retraite	30	indic_garantie	STRING		indicateur de garantie	root	C-bicolor_retraite-root	TAIGAAXA_BI_CPT_yyyymmdd.csv	FE_comptabilite_id30	Texte	7								1.2							
+retraite_comptabilite	bicolor_retraite	31	cd_garantie	STRING		Code garantie	root	C-bicolor_retraite-root	TAIGAAXA_BI_CPT_yyyymmdd.csv	FE_comptabilite_id31	Texte	10								1.2							
+retraite_comptabilite	bicolor_retraite	32	type_acte_affect	STRING		Type acte affecté	root	C-bicolor_retraite-root	TAIGAAXA_BI_CPT_yyyymmdd.csv	FE_comptabilite_id32	Texte	10								1.2							
+retraite_comptabilite	bicolor_retraite	33	cd_compartiment	STRING		Code compartiment	root	C-bicolor_retraite-root	TAIGAAXA_BI_CPT_yyyymmdd.csv	FE_comptabilite_id33	Texte	15								1.2							
+retraite_comptabilite	bicolor_retraite	34	type_support	STRING		Type support	root	C-bicolor_retraite-root	TAIGAAXA_BI_CPT_yyyymmdd.csv	FE_comptabilite_id34	Texte	4								1.2							
+retraite_comptabilite	bicolor_retraite	35	nom_assure_souscript	STRING		Nom assuré/souscripteur	root	C-bicolor_retraite-root	TAIGAAXA_BI_CPT_yyyymmdd.csv	FE_comptabilite_id35	Texte	50								1.2							
+retraite_comptabilite	bicolor_retraite	36	nom_adherent	STRING		Nom adhérent	root	C-bicolor_retraite-root	TAIGAAXA_BI_CPT_yyyymmdd.csv	FE_comptabilite_id36	Texte	50								1.2							
+retraite_comptabilite	bicolor_retraite	37	num_adherent	STRING		Numéro adhérent	root	C-bicolor_retraite-root	TAIGAAXA_BI_CPT_yyyymmdd.csv	FE_comptabilite_id37	Texte	22								1.2							
+retraite_comptabilite	bicolor_retraite	38	benefic_rembst	STRING		Bénéficiaire Remboursement (vide)	root	C-bicolor_retraite-root	TAIGAAXA_BI_CPT_yyyymmdd.csv	FE_comptabilite_id38	Texte	50								1.2							
+retraite_comptabilite	bicolor_retraite	39	type_ligne	STRING		Type ligne	root	C-bicolor_retraite-root	TAIGAAXA_BI_CPT_yyyymmdd.csv	FE_comptabilite_id39	Texte	10								1.2							
+retraite_comptabilite	bicolor_retraite	40	montant	BIGINT		montant	root	C-bicolor_retraite-root	TAIGAAXA_BI_CPT_yyyymmdd.csv	FE_comptabilite_id40	Nombre	20								1.2							
+retraite_comptabilite	bicolor_retraite	41	taux	DECIMAL(18,8)	comma	Taux	root	C-bicolor_retraite-root	TAIGAAXA_BI_CPT_yyyymmdd.csv	FE_comptabilite_id41	décimal	20								1.2							
+retraite_comptabilite	bicolor_retraite	42	type_montant	STRING		type montant/taux	root	C-bicolor_retraite-root	TAIGAAXA_BI_CPT_yyyymmdd.csv	FE_comptabilite_id42	Texte	4								1.2							
+retraite_comptabilite	bicolor_retraite	43	type_taxe_compart	STRING		type de taxe par compartiment	root	C-bicolor_retraite-root	TAIGAAXA_BI_CPT_yyyymmdd.csv	FE_comptabilite_id43	Texte	10								1.2							
+retraite_comptabilite	bicolor_retraite	44	tx_taxe	DECIMAL(18,8)	comma	taux de taxe	root	C-bicolor_retraite-root	TAIGAAXA_BI_CPT_yyyymmdd.csv	FE_comptabilite_id44	décimal	10								1.2							
+retraite_comptabilite	bicolor_retraite	45	montant_assiette_taxe	BIGINT		montant assiette taxe (base)	root	C-bicolor_retraite-root	TAIGAAXA_BI_CPT_yyyymmdd.csv	FE_comptabilite_id45	Nombre	20								1.2							
+retraite_comptabilite	bicolor_retraite	46	montant_taxe	BIGINT		montant taxe	root	C-bicolor_retraite-root	TAIGAAXA_BI_CPT_yyyymmdd.csv	FE_comptabilite_id46	Nombre	20								1.2							
+retraite_comptabilite	bicolor_retraite	47	cd_destination	STRING		code destination 	root	C-bicolor_retraite-root	TAIGAAXA_BI_CPT_yyyymmdd.csv	FE_comptabilite_id47	Texte	10								1.2							
+retraite_comptabilite	bicolor_retraite	48	md_paiement	STRING		mode de paiement	root	C-bicolor_retraite-root	TAIGAAXA_BI_CPT_yyyymmdd.csv	FE_comptabilite_id48	Texte	15								1.2							
+retraite_comptabilite	bicolor_retraite	49	num_id_reglt	STRING		N° identifiant du règlement	root	C-bicolor_retraite-root	TAIGAAXA_BI_CPT_yyyymmdd.csv	FE_comptabilite_id49	Texte	40								1.2							
+retraite_comptabilite	bicolor_retraite	50	id_suspens	STRING		Identifiant de suspens	root	C-bicolor_retraite-root	TAIGAAXA_BI_CPT_yyyymmdd.csv	FE_comptabilite_id50	Texte	15								1.2							
+retraite_comptabilite	bicolor_retraite	51	info_RIB	STRING		information RIB	root	C-bicolor_retraite-root	TAIGAAXA_BI_CPT_yyyymmdd.csv	FE_comptabilite_id51	Texte	36								1.2							
+retraite_comptabilite	bicolor_retraite	52	num_quittance	STRING		numéro de quittance	root	C-bicolor_retraite-root	TAIGAAXA_BI_CPT_yyyymmdd.csv	FE_comptabilite_id52	Texte	20								1.2							
+retraite_comptabilite	bicolor_retraite	53	dt_crea_flux_gene	TIMESTAMP	yyyymmdd	date de création du flux générique	root	C-bicolor_retraite-root	TAIGAAXA_BI_CPT_yyyymmdd.csv	FE_comptabilite_id53	Date	8								1.2							
+retraite_comptabilite	bicolor_retraite	54	dt_comptable	TIMESTAMP	yyyymmdd	date comptable	root	C-bicolor_retraite-root	TAIGAAXA_BI_CPT_yyyymmdd.csv	FE_comptabilite_id54	Date	8								1.2							
+retraite_comptabilite	bicolor_retraite	55	dt_operation	TIMESTAMP	yyyymmddhhmmss000000	date de l'opération	root	C-bicolor_retraite-root	TAIGAAXA_BI_CPT_yyyymmdd.csv	FE_comptabilite_id55	Date Heure micro seconde	20								1.2							
+retraite_comptabilite	bicolor_retraite	56	dt_effet_contrat	TIMESTAMP	yyyymmdd	date d'effet du contrat	root	C-bicolor_retraite-root	TAIGAAXA_BI_CPT_yyyymmdd.csv	FE_comptabilite_id56	Date	8								1.2							
+retraite_comptabilite	bicolor_retraite	57	dt_deb_effet_assur	TIMESTAMP	yyyymmdd	date début d'effet d'assurance	root	C-bicolor_retraite-root	TAIGAAXA_BI_CPT_yyyymmdd.csv	FE_comptabilite_id57	Date	8								1.2							
+retraite_comptabilite	bicolor_retraite	58	dt_fin_effet_assur	TIMESTAMP	yyyymmdd	date de fin d'effet d'assurance	root	C-bicolor_retraite-root	TAIGAAXA_BI_CPT_yyyymmdd.csv	FE_comptabilite_id58	Date	8								1.2							
+retraite_comptabilite	bicolor_retraite	59	dt_encaissement	TIMESTAMP	yyyymmdd	date d'encaissement	root	C-bicolor_retraite-root	TAIGAAXA_BI_CPT_yyyymmdd.csv	FE_comptabilite_id59	Date	8								1.2							
+retraite_comptabilite	bicolor_retraite	60	dt_effet_operation	TIMESTAMP	yyyymmdd	date d'effet de l'opération	root	C-bicolor_retraite-root	TAIGAAXA_BI_CPT_yyyymmdd.csv	FE_comptabilite_id60	Date	8								1.2							
+retraite_comptabilite	bicolor_retraite	61	id_dossier	STRING		Identifiant Dossier Taiga	root	C-bicolor_retraite-root	TAIGAAXA_BI_CPT_yyyymmdd.csv	FE_comptabilite_id61	Texte	20								1.2							
+retraite_comptabilite	bicolor_retraite	62	id_encaissement	STRING		Identifiant Encaissement Taiga	root	C-bicolor_retraite-root	TAIGAAXA_BI_CPT_yyyymmdd.csv	FE_comptabilite_id62	Texte	20								1.2							
+retraite_comptabilite	bicolor_retraite	63	id_affectation	STRING		Identifiant Affectation Taiga	root	C-bicolor_retraite-root	TAIGAAXA_BI_CPT_yyyymmdd.csv	FE_comptabilite_id63	Texte	20								1.2							
+retraite_comptabilite	bicolor_retraite	64	ref_contrat	STRING		Référence Contrat (RPP) sur 13 caractère cadrés à gauche	root	C-bicolor_retraite-root	TAIGAAXA_BI_CPT_yyyymmdd.csv	FE_comptabilite_id64	Texte	13								1.2							
+retraite_comptabilite	bicolor_retraite	65	compta_nb_mvts	BIGINT		Nombre de mouvements - fichier operas	root	C-bicolor_retraite-root	TAIGAAXA_BI_CPT_yyyymmdd.csv	FE_comptabilite_id65	Nombre	10								1.2							
+retraite_comptabilite	bicolor_retraite	66	compta_num_mvts	BIGINT		Numero du mouvement dans l'acte - fichier operas	root	C-bicolor_retraite-root	TAIGAAXA_BI_CPT_yyyymmdd.csv	FE_comptabilite_id66	Nombre	10								1.2							
+retraite_comptabilite	bicolor_retraite	67	cd_uv	STRING		code UV	root	C-bicolor_retraite-root	TAIGAAXA_BI_CPT_yyyymmdd.csv	FE_comptabilite_id67	Texte	5								1.2							
+retraite_comptabilite	bicolor_retraite	68	cd_ut	STRING		code UT	root	C-bicolor_retraite-root	TAIGAAXA_BI_CPT_yyyymmdd.csv	FE_comptabilite_id68	Texte	5								1.2							
+retraite_comptabilite	bicolor_retraite	69	canal_rdu	STRING		Canal RDU	root	C-bicolor_retraite-root	TAIGAAXA_BI_CPT_yyyymmdd.csv	FE_comptabilite_id69	Texte	3								1.2							
+retraite_contrat	bicolor_retraite	0	type_ligne	STRING		Type de ligne du fichier (header; corps; footer)	root	C-bicolor_retraite-root	TAIGAAXA_BI_CTR_yyyymmdd.csv											1.1							
+retraite_contrat	bicolor_retraite	1	id_contrat	BIGINT		Identifiant contrat	root	C-bicolor_retraite-root	TAIGAAXA_BI_CTR_yyyymmdd.csv	FE_2_Contrat_ID1	Nombre	12								1.1							
+retraite_contrat	bicolor_retraite	2	id_entreprise	BIGINT		Identifiant entreprise	root	C-bicolor_retraite-root	TAIGAAXA_BI_CTR_yyyymmdd.csv	FE_2_Contrat_ID2	Nombre	12								1.1							
+retraite_contrat	bicolor_retraite	3	typologie_contrat	STRING		Typologie de contrat	root	C-bicolor_retraite-root	TAIGAAXA_BI_CTR_yyyymmdd.csv	FE_2_Contrat_ID3	Texte	20								1.1							
+retraite_contrat	bicolor_retraite	4	cd_groupe_contrat	BIGINT		Code groupe de contrat	root	C-bicolor_retraite-root	TAIGAAXA_BI_CTR_yyyymmdd.csv	FE_2_Contrat_ID4	Nombre	12								1.1							
+retraite_contrat	bicolor_retraite	5	id_produit	STRING		Identifiant produit	root	C-bicolor_retraite-root	TAIGAAXA_BI_CTR_yyyymmdd.csv	FE_2_Contrat_ID5	Texte	15								1.1							
+retraite_contrat	bicolor_retraite	6	num_contrat	STRING		Numéro de contrat RPP	root	C-bicolor_retraite-root	TAIGAAXA_BI_CTR_yyyymmdd.csv	FE_2_Contrat_ID6	Texte	30								1.1							
+retraite_contrat	bicolor_retraite	7	assureur	STRING		Assureur	root	C-bicolor_retraite-root	TAIGAAXA_BI_CTR_yyyymmdd.csv	FE_2_Contrat_ID7	Texte	50								1.1							
+retraite_contrat	bicolor_retraite	8	cd_entite_juridique	STRING		Code entité juridique	root	C-bicolor_retraite-root	TAIGAAXA_BI_CTR_yyyymmdd.csv	FE_2_Contrat_ID8	Texte	20								1.1							
+retraite_contrat	bicolor_retraite	9	lib_entite_juridique	STRING		Libellé Entité Juridique	root	C-bicolor_retraite-root	TAIGAAXA_BI_CTR_yyyymmdd.csv	FE_2_Contrat_ID9	Texte	50								1.1							
+retraite_contrat	bicolor_retraite	10	statut_contrat	STRING		Statut du contrat	root	C-bicolor_retraite-root	TAIGAAXA_BI_CTR_yyyymmdd.csv	FE_2_Contrat_ID10	Texte	15								1.1							
+retraite_contrat	bicolor_retraite	11	dt_effet_statut_contrat	TIMESTAMP	yyyymmdd	Date d'effet du statut du contrat	root	C-bicolor_retraite-root	TAIGAAXA_BI_CTR_yyyymmdd.csv	FE_2_Contrat_ID11	Date									1.1							
+retraite_contrat	bicolor_retraite	12	num_convention	STRING		Numéro de convention	root	C-bicolor_retraite-root	TAIGAAXA_BI_CTR_yyyymmdd.csv	FE_2_Contrat_ID12	Texte	20								1.1							
+retraite_contrat	bicolor_retraite	13	dt_saisie_contrat	TIMESTAMP	yyyymmdd hhmmss	Date de saisie du contrat	root	C-bicolor_retraite-root	TAIGAAXA_BI_CTR_yyyymmdd.csv	FE_2_Contrat_ID13	Date heure									1.1							
+retraite_contrat	bicolor_retraite	14	dt_signature	TIMESTAMP	yyyymmdd	Date de signature	root	C-bicolor_retraite-root	TAIGAAXA_BI_CTR_yyyymmdd.csv	FE_2_Contrat_ID14	Date									1.1							
+retraite_contrat	bicolor_retraite	15	dt_effet_adhesion_entreprise	TIMESTAMP	yyyymmdd	Date d'effet	root	C-bicolor_retraite-root	TAIGAAXA_BI_CTR_yyyymmdd.csv	FE_2_Contrat_ID15	Date									1.1							
+retraite_contrat	bicolor_retraite	16	college	STRING		Collège	root	C-bicolor_retraite-root	TAIGAAXA_BI_CTR_yyyymmdd.csv	FE_2_Contrat_ID16	Texte	15								1.1							
+retraite_contrat	bicolor_retraite	17	detail_college	STRING		Détail Collège	root	C-bicolor_retraite-root	TAIGAAXA_BI_CTR_yyyymmdd.csv	FE_2_Contrat_ID17	Texte	100								1.1							
+retraite_contrat	bicolor_retraite	18	age_theo_depart_retraite	BIGINT		Age théorique de départ en retraite	root	C-bicolor_retraite-root	TAIGAAXA_BI_CTR_yyyymmdd.csv	FE_2_Contrat_ID18	Nombre	12								1.1							
+retraite_contrat	bicolor_retraite	19	reseau_commercial	STRING		Réseau commercial	root	C-bicolor_retraite-root	TAIGAAXA_BI_CTR_yyyymmdd.csv	FE_2_Contrat_ID19	Texte	20								1.1							
+retraite_contrat	bicolor_retraite	20	periodicite_cotis	STRING		Périodicité des cotisations	root	C-bicolor_retraite-root	TAIGAAXA_BI_CTR_yyyymmdd.csv	FE_2_Contrat_ID20	Texte	15								1.1							
+retraite_contrat	bicolor_retraite	21	import_cotis	STRING		Import cotisation	root	C-bicolor_retraite-root	TAIGAAXA_BI_CTR_yyyymmdd.csv	FE_2_Contrat_ID21	Texte	15								1.1							
+retraite_contrat	bicolor_retraite	22	mode_calcul_cotis	STRING		Mode de calcul des cotisations	root	C-bicolor_retraite-root	TAIGAAXA_BI_CTR_yyyymmdd.csv	FE_2_Contrat_ID22	Texte	15								1.1							
+retraite_contrat	bicolor_retraite	23	cotis_pourc_ta_sal_brut_annuel	DECIMAL(18,8)		Cotisation en pourcentage de la tranche A du salaire brut annuel	root	C-bicolor_retraite-root	TAIGAAXA_BI_CTR_yyyymmdd.csv	FE_2_Contrat_ID23	Taux									1.1							
+retraite_contrat	bicolor_retraite	24	cotis_pourc_tb_sal_brut_annuel	DECIMAL(18,8)		Cotisation en pourcentage de la tranche B du salaire brut annuel	root	C-bicolor_retraite-root	TAIGAAXA_BI_CTR_yyyymmdd.csv	FE_2_Contrat_ID24	Taux									1.1							
+retraite_contrat	bicolor_retraite	25	cotis_pourc_tc_sal_brut_annuel	DECIMAL(18,8)		Cotisation en pourcentage de la tranche C du salaire brut annuel	root	C-bicolor_retraite-root	TAIGAAXA_BI_CTR_yyyymmdd.csv	FE_2_Contrat_ID25	Taux									1.1							
+retraite_contrat	bicolor_retraite	26	cotis_pourc_td_sal_brut_annuel	DECIMAL(18,8)		Cotisation en pourcentage de la tranche D du salaire brut annuel	root	C-bicolor_retraite-root	TAIGAAXA_BI_CTR_yyyymmdd.csv	FE_2_Contrat_ID26	Taux									1.1							
+retraite_contrat	bicolor_retraite	27	cotis_pourc_sal_brut_annuel	DECIMAL(18,8)		Cotisation en pourcentage du salaire brut annuel	root	C-bicolor_retraite-root	TAIGAAXA_BI_CTR_yyyymmdd.csv	FE_2_Contrat_ID27	Taux									1.1							
+retraite_contrat	bicolor_retraite	28	part_empl_cotis_ta_brut_annuel	DECIMAL(18,8)		Part employeur des cotisations de la tranche A du salaire brut annuel	root	C-bicolor_retraite-root	TAIGAAXA_BI_CTR_yyyymmdd.csv	FE_2_Contrat_ID28	Taux									1.1							
+retraite_contrat	bicolor_retraite	29	part_empl_cotis_tb_brut_annuel	DECIMAL(18,8)		Part employeur des cotisations de la tranche B du salaire brut annuel	root	C-bicolor_retraite-root	TAIGAAXA_BI_CTR_yyyymmdd.csv	FE_2_Contrat_ID29	Taux									1.1							
+retraite_contrat	bicolor_retraite	30	part_empl_cotis_tc_brut_annuel	DECIMAL(18,8)		Part employeur des cotisations de la tranche C du salaire brut annuel	root	C-bicolor_retraite-root	TAIGAAXA_BI_CTR_yyyymmdd.csv	FE_2_Contrat_ID30	Taux									1.1							
+retraite_contrat	bicolor_retraite	31	part_empl_cotis_td_brut_annuel	DECIMAL(18,8)		Part employeur des cotisations de la tranche D du salaire brut annuel	root	C-bicolor_retraite-root	TAIGAAXA_BI_CTR_yyyymmdd.csv	FE_2_Contrat_ID31	Taux									1.1							
+retraite_contrat	bicolor_retraite	32	part_empl_cotis_sal_brut_annuel	DECIMAL(18,8)		Part employeur des cotisations sur le salaire brut annuel	root	C-bicolor_retraite-root	TAIGAAXA_BI_CTR_yyyymmdd.csv	FE_2_Contrat_ID32	Taux									1.1							
+retraite_contrat	bicolor_retraite	33	mt_cotis	DECIMAL(18,8)		Montant des cotisations	root	C-bicolor_retraite-root	TAIGAAXA_BI_CTR_yyyymmdd.csv	FE_2_Contrat_ID33	Montant									1.1							
+retraite_contrat	bicolor_retraite	34	lib_regle_cotis_complexe	STRING		Libellé correspondant à une règle de cotisation complexe	root	C-bicolor_retraite-root	TAIGAAXA_BI_CTR_yyyymmdd.csv	FE_2_Contrat_ID34	Texte	250								1.1							
+retraite_contrat	bicolor_retraite	35	adresse	STRING		Adresse	root	C-bicolor_retraite-root	TAIGAAXA_BI_CTR_yyyymmdd.csv	FE_2_Contrat_ID35	Texte	38								1.1							
+retraite_contrat	bicolor_retraite	36	cplt_adr	STRING		Complément d'Adresse 1	root	C-bicolor_retraite-root	TAIGAAXA_BI_CTR_yyyymmdd.csv	FE_2_Contrat_ID36	Texte	38								1.1							
+retraite_contrat	bicolor_retraite	37	cplt_adr_2	STRING		Complément d'Adresse 2	root	C-bicolor_retraite-root	TAIGAAXA_BI_CTR_yyyymmdd.csv	FE_2_Contrat_ID37	Texte	38								1.1							
+retraite_contrat	bicolor_retraite	38	cplt_adr_3	STRING		Complément d'Adresse 3	root	C-bicolor_retraite-root	TAIGAAXA_BI_CTR_yyyymmdd.csv	FE_2_Contrat_ID38	Texte	38								1.1							
+retraite_contrat	bicolor_retraite	39	cplt_adr_4	STRING		Complément d'Adresse 4	root	C-bicolor_retraite-root	TAIGAAXA_BI_CTR_yyyymmdd.csv	FE_2_Contrat_ID39	Texte	38								1.1							
+retraite_contrat	bicolor_retraite	40	cd_postal	STRING		Code postal	root	C-bicolor_retraite-root	TAIGAAXA_BI_CTR_yyyymmdd.csv	FE_2_Contrat_ID40	Texte	6								1.1							
+retraite_contrat	bicolor_retraite	41	ville	STRING		Ville	root	C-bicolor_retraite-root	TAIGAAXA_BI_CTR_yyyymmdd.csv	FE_2_Contrat_ID41	Texte	32								1.1							
+retraite_contrat	bicolor_retraite	42	cd_pays	STRING		Code pays	root	C-bicolor_retraite-root	TAIGAAXA_BI_CTR_yyyymmdd.csv	FE_2_Contrat_ID42	Texte	2								1.1							
+retraite_contrat	bicolor_retraite	43	pays	STRING		Pays	root	C-bicolor_retraite-root	TAIGAAXA_BI_CTR_yyyymmdd.csv	FE_2_Contrat_ID43	Texte	45								1.1							
+retraite_contrat	bicolor_retraite	44	npai	STRING		NPAI	root	C-bicolor_retraite-root	TAIGAAXA_BI_CTR_yyyymmdd.csv	FE_2_Contrat_ID44	Booléen									1.1							
+retraite_contrat	bicolor_retraite	45	tel_pro	STRING		Téléphone Pro	root	C-bicolor_retraite-root	TAIGAAXA_BI_CTR_yyyymmdd.csv	FE_2_Contrat_ID45	Texte	20								1.1							
+retraite_contrat	bicolor_retraite	46	mobile	STRING		Mobile	root	C-bicolor_retraite-root	TAIGAAXA_BI_CTR_yyyymmdd.csv	FE_2_Contrat_ID46	Texte	20								1.1							
+retraite_contrat	bicolor_retraite	47	fax	STRING		Fax	root	C-bicolor_retraite-root	TAIGAAXA_BI_CTR_yyyymmdd.csv	FE_2_Contrat_ID47	Texte	20								1.1							
+retraite_contrat	bicolor_retraite	48	email	STRING		Adresse e-mail	root	C-bicolor_retraite-root	TAIGAAXA_BI_CTR_yyyymmdd.csv	FE_2_Contrat_ID48	Texte	100								1.1							
+retraite_contrat	bicolor_retraite	49	nb_affiliations_active	BIGINT		Nombre d'Affiliations " active "	root	C-bicolor_retraite-root	TAIGAAXA_BI_CTR_yyyymmdd.csv	FE_2_Contrat_ID49	Nombre	12								1.1							
+retraite_contrat	bicolor_retraite	50	nb_affiliations_deces	BIGINT		Nombre d'Affiliations " décès "	root	C-bicolor_retraite-root	TAIGAAXA_BI_CTR_yyyymmdd.csv	FE_2_Contrat_ID50	Nombre	12								1.1							
+retraite_contrat	bicolor_retraite	51	nb_affiliations_transferee	BIGINT		Nombre d'Affiliations " transférée "	root	C-bicolor_retraite-root	TAIGAAXA_BI_CTR_yyyymmdd.csv	FE_2_Contrat_ID51	Nombre	12								1.1							
+retraite_contrat	bicolor_retraite	52	nb_affiliations_reduite	BIGINT		Nombre d'Affiliations " réduite "	root	C-bicolor_retraite-root	TAIGAAXA_BI_CTR_yyyymmdd.csv	FE_2_Contrat_ID52	Nombre	12								1.1							
+retraite_contrat	bicolor_retraite	53	nb_affiliations_liquidee	BIGINT		Nombre d'Affiliations " liquidée "	root	C-bicolor_retraite-root	TAIGAAXA_BI_CTR_yyyymmdd.csv	FE_2_Contrat_ID53	Nombre	12								1.1							
+retraite_contrat	bicolor_retraite	54	frequence_revalo_contrat	STRING		Fréquence revalorisation contrat	root	C-bicolor_retraite-root	TAIGAAXA_BI_CTR_yyyymmdd.csv	FE_2_Contrat_ID54	Texte	15								1.1							
+retraite_contrat	bicolor_retraite	55	type_echeance_cotis	STRING		Type d'échéance de la cotisation	root	C-bicolor_retraite-root	TAIGAAXA_BI_CTR_yyyymmdd.csv	FE_2_Contrat_ID55	Texte	15								1.1							
+retraite_contrat	bicolor_retraite	56	cd_produit_systeme_source	STRING		Code produit du système source	root	C-bicolor_retraite-root	TAIGAAXA_BI_CTR_yyyymmdd.csv	FE_2_Contrat_ID56	Texte	15								1.1							
+retraite_contrat_gestion_support	bicolor_retraite	0	type_ligne	STRING		Type de ligne du fichier (header; corps; footer)	root	C-bicolor_retraite-root	TAIGAAXA_BI_CGS_yyyymmdd.csv											1.1							
+retraite_contrat_gestion_support	bicolor_retraite	1	id_contrat	BIGINT		Identifiant contrat	root	C-bicolor_retraite-root	TAIGAAXA_BI_CGS_yyyymmdd.csv	FE_10_ContratGestionSupport_ID1	Nombre	12								1.1							
+retraite_contrat_gestion_support	bicolor_retraite	2	niveau	STRING		Niveau	root	C-bicolor_retraite-root	TAIGAAXA_BI_CGS_yyyymmdd.csv	FE_10_ContratGestionSupport_ID2	Nombre	15								1.1							
+retraite_contrat_gestion_support	bicolor_retraite	3	id_gestion_financiere	BIGINT		Identifiant gestion financière	root	C-bicolor_retraite-root	TAIGAAXA_BI_CGS_yyyymmdd.csv	FE_10_ContratGestionSupport_ID3	Nombre	12								1.1							
+retraite_contrat_gestion_support	bicolor_retraite	4	id_support	BIGINT		Identifiant support	root	C-bicolor_retraite-root	TAIGAAXA_BI_CGS_yyyymmdd.csv	FE_10_ContratGestionSupport_ID4	Nombre	12								1.1							
+retraite_contrat_gestion_support	bicolor_retraite	5	cd_assureur	STRING		Code assureur	root	C-bicolor_retraite-root	TAIGAAXA_BI_CGS_yyyymmdd.csv	FE_10_ContratGestionSupport_ID5	Texte	15								1.1							
+retraite_contrat_gestion_support	bicolor_retraite	6	lib_crt_gestion_ou_support	STRING		Libellé court gestion ou support	root	C-bicolor_retraite-root	TAIGAAXA_BI_CGS_yyyymmdd.csv	FE_10_ContratGestionSupport_ID6	Texte	20								1.1							
+retraite_contrat_gestion_support	bicolor_retraite	7	lib_lg_gestion_ou_support	STRING		Libellé long gestion ou support	root	C-bicolor_retraite-root	TAIGAAXA_BI_CGS_yyyymmdd.csv	FE_10_ContratGestionSupport_ID7	texte	100								1.1							
+retraite_contrat_gestion_support	bicolor_retraite	8	dt_deb_commerc	TIMESTAMP	yyyymmdd	Début de commercialisation	root	C-bicolor_retraite-root	TAIGAAXA_BI_CGS_yyyymmdd.csv	FE_10_ContratGestionSupport_ID8	Date									1.1							
+retraite_contrat_gestion_support	bicolor_retraite	9	dt_fin_commerc	TIMESTAMP	yyyymmdd	Fin de commercialisation	root	C-bicolor_retraite-root	TAIGAAXA_BI_CGS_yyyymmdd.csv	FE_10_ContratGestionSupport_ID9	Date									1.1							
+retraite_correspondant	bicolor_retraite	0	type_ligne	STRING		Type de ligne du fichier (header; corps; footer)	root	C-bicolor_retraite-root	TAIGAAXA_BI_COR_yyyymmdd.csv											1.1							
+retraite_correspondant	bicolor_retraite	1	id_correspondant	BIGINT		Identifiant correspondant	root	C-bicolor_retraite-root	TAIGAAXA_BI_COR_yyyymmdd.csv	FE_3_Correspondant_ID1	Nombre	12								1.1							
+retraite_correspondant	bicolor_retraite	2	id_contrat	BIGINT		Identifiant contrat	root	C-bicolor_retraite-root	TAIGAAXA_BI_COR_yyyymmdd.csv	FE_3_Correspondant_ID2	Nombre	12								1.1							
+retraite_correspondant	bicolor_retraite	3	id_personne	BIGINT		Identifiant personne	root	C-bicolor_retraite-root	TAIGAAXA_BI_COR_yyyymmdd.csv	FE_3_Correspondant_ID3	Nombre	12								1.1							
+retraite_correspondant	bicolor_retraite	4	type_correspondant	STRING		Type de correspondant	root	C-bicolor_retraite-root	TAIGAAXA_BI_COR_yyyymmdd.csv	FE_3_Correspondant_ID4	Texte	15								1.1							
+retraite_correspondant	bicolor_retraite	5	fonction_correspondant	STRING		Fonction du correspondant	root	C-bicolor_retraite-root	TAIGAAXA_BI_COR_yyyymmdd.csv	FE_3_Correspondant_ID5	Texte	100								1.1							
+retraite_correspondant	bicolor_retraite	6	civilite_correspondant	STRING		Civilité du correspondant	root	C-bicolor_retraite-root	TAIGAAXA_BI_COR_yyyymmdd.csv	FE_3_Correspondant_ID6	Texte	15								1.1							
+retraite_correspondant	bicolor_retraite	7	nom_correspondant	STRING		Nom du correspondant	root	C-bicolor_retraite-root	TAIGAAXA_BI_COR_yyyymmdd.csv	FE_3_Correspondant_ID7	Texte	50								1.1							
+retraite_correspondant	bicolor_retraite	8	prenom_correspondant	STRING		Prénom du correspondant	root	C-bicolor_retraite-root	TAIGAAXA_BI_COR_yyyymmdd.csv	FE_3_Correspondant_ID8	Texte	50								1.1							
+retraite_correspondant	bicolor_retraite	9	adresse	STRING		Adresse	root	C-bicolor_retraite-root	TAIGAAXA_BI_COR_yyyymmdd.csv	FE_3_Correspondant_ID9	Texte	38								1.1							
+retraite_correspondant	bicolor_retraite	10	cplt_adr	STRING		Complément d'Adresse 1	root	C-bicolor_retraite-root	TAIGAAXA_BI_COR_yyyymmdd.csv	FE_3_Correspondant_ID10	Texte	38								1.1							
+retraite_correspondant	bicolor_retraite	11	cplt_adr_2	STRING		Complément d'Adresse 2	root	C-bicolor_retraite-root	TAIGAAXA_BI_COR_yyyymmdd.csv	FE_3_Correspondant_ID11	Texte	38								1.1							
+retraite_correspondant	bicolor_retraite	12	cplt_adr_3	STRING		Complément d'Adresse 3	root	C-bicolor_retraite-root	TAIGAAXA_BI_COR_yyyymmdd.csv	FE_3_Correspondant_ID12	Texte	38								1.1							
+retraite_correspondant	bicolor_retraite	13	cplt_adr_4	STRING		Complément d'Adresse 4	root	C-bicolor_retraite-root	TAIGAAXA_BI_COR_yyyymmdd.csv	FE_3_Correspondant_ID13	Texte	38								1.1							
+retraite_correspondant	bicolor_retraite	14	cd_postal	STRING		Code postal	root	C-bicolor_retraite-root	TAIGAAXA_BI_COR_yyyymmdd.csv	FE_3_Correspondant_ID14	Texte	6								1.1							
+retraite_correspondant	bicolor_retraite	15	ville	STRING		Ville	root	C-bicolor_retraite-root	TAIGAAXA_BI_COR_yyyymmdd.csv	FE_3_Correspondant_ID15	Texte	32								1.1							
+retraite_correspondant	bicolor_retraite	16	cd_pays	STRING		Code pays	root	C-bicolor_retraite-root	TAIGAAXA_BI_COR_yyyymmdd.csv	FE_3_Correspondant_ID16	Texte	2								1.1							
+retraite_correspondant	bicolor_retraite	17	pays	STRING		Pays	root	C-bicolor_retraite-root	TAIGAAXA_BI_COR_yyyymmdd.csv	FE_3_Correspondant_ID17	Texte	45								1.1							
+retraite_correspondant	bicolor_retraite	18	tel_perso	STRING		Téléphone Perso	root	C-bicolor_retraite-root	TAIGAAXA_BI_COR_yyyymmdd.csv	FE_3_Correspondant_ID18	Texte	20								1.1							
+retraite_correspondant	bicolor_retraite	19	tel_pro	STRING		Téléphone Pro	root	C-bicolor_retraite-root	TAIGAAXA_BI_COR_yyyymmdd.csv	FE_3_Correspondant_ID19	Texte	20								1.1							
+retraite_correspondant	bicolor_retraite	20	mobile	STRING		Mobile	root	C-bicolor_retraite-root	TAIGAAXA_BI_COR_yyyymmdd.csv	FE_3_Correspondant_ID20	Texte	20								1.1							
+retraite_correspondant	bicolor_retraite	21	fax	STRING		Fax	root	C-bicolor_retraite-root	TAIGAAXA_BI_COR_yyyymmdd.csv	FE_3_Correspondant_ID21	Texte	20								1.1							
+retraite_correspondant	bicolor_retraite	22	email	STRING		Adresse e-mail	root	C-bicolor_retraite-root	TAIGAAXA_BI_COR_yyyymmdd.csv	FE_3_Correspondant_ID22	Texte	100								1.1							
+retraite_correspondant	bicolor_retraite	23	npai	STRING		NPAI	root	C-bicolor_retraite-root	TAIGAAXA_BI_COR_yyyymmdd.csv	FE_3_Correspondant_ID23	Booléen									1.1							
+retraite_correspondant	bicolor_retraite	24	id_web	STRING		Identifiant Web	root	C-bicolor_retraite-root	TAIGAAXA_BI_COR_yyyymmdd.csv	FE_3_Correspondant_ID24	Texte	15								1.1							
+retraite_detail_frais	bicolor_retraite	0	type_ligne	STRING		Type de ligne du fichier (header; corps; footer)	root	C-bicolor_retraite-root	TAIGAAXA_BI_DFR_yyyymmdd.csv											1.1							
+retraite_detail_frais	bicolor_retraite	1	id_detail_frais	BIGINT		Identifiant détail frais	root	C-bicolor_retraite-root	TAIGAAXA_BI_DFR_yyyymmdd.csv	FE_20_Détail_frais_ID1	Nombre	12								1.1							
+retraite_detail_frais	bicolor_retraite	2	id_mouvement	BIGINT		Identifiant mouvement	root	C-bicolor_retraite-root	TAIGAAXA_BI_DFR_yyyymmdd.csv	FE_20_DétailFrais_ID2	Nombre	12								1.1							
+retraite_detail_frais	bicolor_retraite	3	type_frais	STRING		Type de frais	root	C-bicolor_retraite-root	TAIGAAXA_BI_DFR_yyyymmdd.csv	FE_20_DétailFrais_ID3	Texte	15								1.1							
+retraite_detail_frais	bicolor_retraite	4	mt_frais	DECIMAL(18,8)		Montant	root	C-bicolor_retraite-root	TAIGAAXA_BI_DFR_yyyymmdd.csv	FE_20_DétailFrais_ID4	Montant									1.1							
+retraite_detail_frais	bicolor_retraite	5	tx_frais	DECIMAL(18,8)		Taux	root	C-bicolor_retraite-root	TAIGAAXA_BI_DFR_yyyymmdd.csv	FE_20_DétailFrais_ID5	Taux									1.1							
+retraite_detail_frais	bicolor_retraite	6	assiette	DECIMAL(18,8)		Assiette	root	C-bicolor_retraite-root	TAIGAAXA_BI_DFR_yyyymmdd.csv	FE_20_DétailFrais_ID6	Montant									1.1							
+retraite_detail_frais	bicolor_retraite	7	id_tarification	BIGINT		Identifiant Tarification	root	C-bicolor_retraite-root	TAIGAAXA_BI_DFR_yyyymmdd.csv	FE_20_DétailFrais_ID7	Nombre	12								1.1							
+retraite_dividende	bicolor_retraite	0	type_ligne	STRING		Type de ligne du fichier (header; corps; footer)	root	C-bicolor_retraite-root	TAIGAAXA_BI_DIV_yyyymmdd.csv											1.1							
+retraite_dividende	bicolor_retraite	1	id_dividende	BIGINT		Identifiant dividende	root	C-bicolor_retraite-root	TAIGAAXA_BI_DIV_yyyymmdd.csv	FE_28_Dividende_ID1	Nombre	12								1.1							
+retraite_dividende	bicolor_retraite	2	cd_isin	STRING		Code ISIN	root	C-bicolor_retraite-root	TAIGAAXA_BI_DIV_yyyymmdd.csv	FE_28_Dividende_ID2	Texte	12								1.1							
+retraite_dividende	bicolor_retraite	3	devise	STRING		Devise	root	C-bicolor_retraite-root	TAIGAAXA_BI_DIV_yyyymmdd.csv	FE_28_Dividende_ID3	Texte	3								1.1							
+retraite_dividende	bicolor_retraite	4	dt_distribution	TIMESTAMP	yyyymmdd	Date de distribution	root	C-bicolor_retraite-root	TAIGAAXA_BI_DIV_yyyymmdd.csv	FE_28_Dividende_ID4	Date									1.1							
+retraite_dividende	bicolor_retraite	5	mt_dividende	DECIMAL(18,8)		Montant du dividende	root	C-bicolor_retraite-root	TAIGAAXA_BI_DIV_yyyymmdd.csv	FE_28_Dividende_ID5	Montant									1.1							
+retraite_dividende	bicolor_retraite	6	dt_valeur	TIMESTAMP	yyyymmdd	Date de valeur	root	C-bicolor_retraite-root	TAIGAAXA_BI_DIV_yyyymmdd.csv	FE_28_Dividende_ID6	Date									1.1							
+retraite_dividende	bicolor_retraite	7	vl_utilisee_detachement	DECIMAL(18,8)		VL utilisée au détachement	root	C-bicolor_retraite-root	TAIGAAXA_BI_DIV_yyyymmdd.csv	FE_28_Dividende_ID7	Montant									1.1							
+retraite_dividende	bicolor_retraite	8	dt_saisie	TIMESTAMP	yyyymmdd hhmmss	Date de saisie	root	C-bicolor_retraite-root	TAIGAAXA_BI_DIV_yyyymmdd.csv	FE_28_Dividende_ID8	Date Heure									1.1							
+retraite_encaissement	bicolor_retraite	0	type_ligne	STRING		Type de ligne du fichier (header; corps; footer)	root	C-bicolor_retraite-root	TAIGAAXA_BI_ENC_yyyymmdd.csv											1.1							
+retraite_encaissement	bicolor_retraite	1	id_encaissement	BIGINT		Identifiant encaissement	root	C-bicolor_retraite-root	TAIGAAXA_BI_ENC_yyyymmdd.csv	FE_25_Encaissement_ID1	Nombre	12								1.1							
+retraite_encaissement	bicolor_retraite	2	type_encaissement	STRING		Type d'encaissement	root	C-bicolor_retraite-root	TAIGAAXA_BI_ENC_yyyymmdd.csv	FE_25_Encaissement_ID2	Texte	15								1.1							
+retraite_encaissement	bicolor_retraite	3	dt_encaissement	TIMESTAMP	yyyymmdd	Date d'encaissement	root	C-bicolor_retraite-root	TAIGAAXA_BI_ENC_yyyymmdd.csv	FE_25_Encaissement_ID3	Date									1.1							
+retraite_encaissement	bicolor_retraite	4	ref	STRING		Référence	root	C-bicolor_retraite-root	TAIGAAXA_BI_ENC_yyyymmdd.csv	FE_25_Encaissement_ID4	Texte	40								1.1							
+retraite_encaissement	bicolor_retraite	5	ref_bordereau	STRING		Référence bordereau	root	C-bicolor_retraite-root	TAIGAAXA_BI_ENC_yyyymmdd.csv	FE_25_Encaissement_ID5	Texte	40								1.1							
+retraite_encaissement	bicolor_retraite	6	ref_releve_bancaire	STRING		Référence relevé bancaire	root	C-bicolor_retraite-root	TAIGAAXA_BI_ENC_yyyymmdd.csv	FE_25_Encaissement_ID6	Texte	16								1.1							
+retraite_encaissement	bicolor_retraite	7	mt_encaissement	DECIMAL(18,8)		Montant	root	C-bicolor_retraite-root	TAIGAAXA_BI_ENC_yyyymmdd.csv	FE_25_Encaissement_ID7	Montant									1.1							
+retraite_encaissement	bicolor_retraite	8	compte_bancaire	STRING		Compte bancaire	root	C-bicolor_retraite-root	TAIGAAXA_BI_ENC_yyyymmdd.csv	FE_25_Encaissement_ID8	Texte	15								1.1							
+retraite_encaissement	bicolor_retraite	9	annulation	STRING		Annulation	root	C-bicolor_retraite-root	TAIGAAXA_BI_ENC_yyyymmdd.csv	FE_25_Encaissement_ID9	Booleen									1.1							
+retraite_encaissement	bicolor_retraite	10	id_encaissement_annule	BIGINT		Identifiant encaissement annulé	root	C-bicolor_retraite-root	TAIGAAXA_BI_ENC_yyyymmdd.csv	FE_25_Encaissement_ID10	Nombre	12								1.1							
+retraite_encaissement	bicolor_retraite	11	dt_saisie	TIMESTAMP	yyyymmdd hhmmss	Date de saisie	root	C-bicolor_retraite-root	TAIGAAXA_BI_ENC_yyyymmdd.csv	FE_25_Encaissement_ID11	Date Heure									1.1							
+retraite_encaissement_repartition	bicolor_retraite	0	type_ligne	STRING		Type de ligne du fichier (header; corps; footer)	root	C-bicolor_retraite-root	TAIGAAXA_BI_ENR_yyyymmdd.csv											1.1							
+retraite_encaissement_repartition	bicolor_retraite	1	id_encaissement_repart	BIGINT		Identifiant encaissement répartition	root	C-bicolor_retraite-root	TAIGAAXA_BI_ENR_yyyymmdd.csv	FE_26_EncaissementRépartition_ID1	Nombre	12								1.1							
+retraite_encaissement_repartition	bicolor_retraite	2	id_encaissement	BIGINT		Identifiant encaissement	root	C-bicolor_retraite-root	TAIGAAXA_BI_ENR_yyyymmdd.csv	FE_26_EncaissementRépartition_ID2	Nombre	12								1.1							
+retraite_encaissement_repartition	bicolor_retraite	3	id_dossier	BIGINT		Identifiant dossier	root	C-bicolor_retraite-root	TAIGAAXA_BI_ENR_yyyymmdd.csv	FE_26_EncaissementRépartition_ID3	Nombre	12								1.1							
+retraite_encaissement_repartition	bicolor_retraite	4	ref_lettrage	STRING		Référence lettrage	root	C-bicolor_retraite-root	TAIGAAXA_BI_ENR_yyyymmdd.csv	FE_26_EncaissementRépartition_ID4	Texte	15								1.1							
+retraite_encaissement_repartition	bicolor_retraite	5	mt_affecte	DECIMAL(18,8)		Montant affecté	root	C-bicolor_retraite-root	TAIGAAXA_BI_ENR_yyyymmdd.csv	FE_26_EncaissementRépartition_ID5	Montant									1.1							
+retraite_encaissement_repartition	bicolor_retraite	6	annulation	STRING		Annulation	root	C-bicolor_retraite-root	TAIGAAXA_BI_ENR_yyyymmdd.csv	FE_26_EncaissementRépartition_ID6	Booleen									1.1							
+retraite_encaissement_repartition	bicolor_retraite	7	id_e_r_annule	BIGINT		identifiant E/R annulé	root	C-bicolor_retraite-root	TAIGAAXA_BI_ENR_yyyymmdd.csv	FE_26_EncaissementRépartition_ID7	Nombre	12								1.1							
+retraite_encaissement_repartition	bicolor_retraite	8	dt_saisie	TIMESTAMP	yyyymmdd hhmmss	Date de saisie	root	C-bicolor_retraite-root	TAIGAAXA_BI_ENR_yyyymmdd.csv	FE_26_EncaissementRépartition_ID8	Date Heure									1.1							
+retraite_entite_reseau	bicolor_retraite	0	type_ligne	STRING		Type de ligne du fichier (header; corps; footer)	root	C-bicolor_retraite-root	TAIGAAXA_BI_RES_yyyymmdd.csv											1.1							
+retraite_entite_reseau	bicolor_retraite	1	id_entite_reseau	BIGINT		Identifiant entité réseau	root	C-bicolor_retraite-root	TAIGAAXA_BI_RES_yyyymmdd.csv	FE_12_EntitéRéseau_ID1	Nombre	12								1.1							
+retraite_entite_reseau	bicolor_retraite	2	cd_entite_reseau	STRING		Code entité réseau	root	C-bicolor_retraite-root	TAIGAAXA_BI_RES_yyyymmdd.csv	FE_12_EntitéRéseau_ID2	Texte	15								1.1							
+retraite_entite_reseau	bicolor_retraite	3	lib_entite_reseau	STRING		Libellé entité réseau	root	C-bicolor_retraite-root	TAIGAAXA_BI_RES_yyyymmdd.csv	FE_12_EntitéRéseau_ID3	Texte 	20								1.1							
+retraite_entite_reseau	bicolor_retraite	4	reseau_commercial	STRING		Réseau commercial	root	C-bicolor_retraite-root	TAIGAAXA_BI_RES_yyyymmdd.csv	FE_12_EntitéRéseau_ID4	Texte 	20								1.1							
+retraite_entite_reseau	bicolor_retraite	5	niveau	STRING		Niveau	root	C-bicolor_retraite-root	TAIGAAXA_BI_RES_yyyymmdd.csv	FE_12_EntitéRéseau_ID5	Texte 	15								1.1							
+retraite_entite_reseau	bicolor_retraite	6	modele	STRING		Modèle	root	C-bicolor_retraite-root	TAIGAAXA_BI_RES_yyyymmdd.csv	FE_12_EntitéRéseau_ID6	Texte 	20								1.1							
+retraite_entite_reseau	bicolor_retraite	7	mode_distribution	STRING		Mode de distribution	root	C-bicolor_retraite-root	TAIGAAXA_BI_RES_yyyymmdd.csv	FE_12_EntitéRéseau_ID7	Texte 	15								1.1							
+retraite_entite_reseau	bicolor_retraite	8	id_web	STRING		Identifiant Web	root	C-bicolor_retraite-root	TAIGAAXA_BI_RES_yyyymmdd.csv	FE_12_EntitéRéseau_ID8	Texte	15								1.1							
+retraite_entreprise	bicolor_retraite	0	type_ligne	STRING		Type de ligne du fichier (header; corps; footer)	root	C-bicolor_retraite-root	TAIGAAXA_BI_ENT_yyyymmdd.csv											1.1							
+retraite_entreprise	bicolor_retraite	1	id_entreprise	BIGINT		Identifiant entreprise	root	C-bicolor_retraite-root	TAIGAAXA_BI_ENT_yyyymmdd.csv	FE_1_Entreprise_ID1	Nombre	12								1.1							
+retraite_entreprise	bicolor_retraite	2	matricule	STRING		Matricule	root	C-bicolor_retraite-root	TAIGAAXA_BI_ENT_yyyymmdd.csv	FE_1_Entreprise_ID2	Texte	30								1.1							
+retraite_entreprise	bicolor_retraite	3	raison_sociale	STRING		Raison sociale	root	C-bicolor_retraite-root	TAIGAAXA_BI_ENT_yyyymmdd.csv	FE_1_Entreprise_ID3	Texte	100								1.1							
+retraite_entreprise	bicolor_retraite	4	forme_juridique	STRING		Forme juridique	root	C-bicolor_retraite-root	TAIGAAXA_BI_ENT_yyyymmdd.csv	FE_1_Entreprise_ID4	Texte	15								1.1							
+retraite_entreprise	bicolor_retraite	5	capital_social	DECIMAL(18,8)		Capital social	root	C-bicolor_retraite-root	TAIGAAXA_BI_ENT_yyyymmdd.csv	FE_1_Entreprise_ID5	Montant									1.1							
+retraite_entreprise	bicolor_retraite	6	dt_creation_etablissement	TIMESTAMP	yyyymmdd	Date de création de l'établissement	root	C-bicolor_retraite-root	TAIGAAXA_BI_ENT_yyyymmdd.csv	FE_1_Entreprise_ID6	Date									1.1							
+retraite_entreprise	bicolor_retraite	7	id_maison_mere	BIGINT		Identifiant de la maison mère	root	C-bicolor_retraite-root	TAIGAAXA_BI_ENT_yyyymmdd.csv	FE_1_Entreprise_ID7	Nombre	12								1.1							
+retraite_entreprise	bicolor_retraite	8	adresse	STRING		Adresse	root	C-bicolor_retraite-root	TAIGAAXA_BI_ENT_yyyymmdd.csv	FE_1_Entreprise_ID8	Texte	38								1.1							
+retraite_entreprise	bicolor_retraite	9	cplt_adr	STRING		Complément d’Adresse 1	root	C-bicolor_retraite-root	TAIGAAXA_BI_ENT_yyyymmdd.csv	FE_1_Entreprise_ID9	Texte	38								1.1							
+retraite_entreprise	bicolor_retraite	10	cplt_adr_2	STRING		Complément d’Adresse 2	root	C-bicolor_retraite-root	TAIGAAXA_BI_ENT_yyyymmdd.csv	FE_1_Entreprise_ID10	Texte	38								1.1							
+retraite_entreprise	bicolor_retraite	11	cplt_adr_3	STRING		Complément d’Adresse 3	root	C-bicolor_retraite-root	TAIGAAXA_BI_ENT_yyyymmdd.csv	FE_1_Entreprise_ID11	Texte	38								1.1							
+retraite_entreprise	bicolor_retraite	12	cplt_adr_4	STRING		Complément d’Adresse 4	root	C-bicolor_retraite-root	TAIGAAXA_BI_ENT_yyyymmdd.csv	FE_1_Entreprise_ID12	Texte	38								1.1							
+retraite_entreprise	bicolor_retraite	13	cd_postal	STRING		Code postal	root	C-bicolor_retraite-root	TAIGAAXA_BI_ENT_yyyymmdd.csv	FE_1_Entreprise_ID13	Texte	6								1.1							
+retraite_entreprise	bicolor_retraite	14	ville	STRING		Ville	root	C-bicolor_retraite-root	TAIGAAXA_BI_ENT_yyyymmdd.csv	FE_1_Entreprise_ID14	Texte	32								1.1							
+retraite_entreprise	bicolor_retraite	15	tel	STRING		Téléphone	root	C-bicolor_retraite-root	TAIGAAXA_BI_ENT_yyyymmdd.csv	FE_1_Entreprise_ID15	Texte	20								1.1							
+retraite_entreprise	bicolor_retraite	16	fax	STRING		Fax	root	C-bicolor_retraite-root	TAIGAAXA_BI_ENT_yyyymmdd.csv	FE_1_Entreprise_ID16	Texte	20								1.1							
+retraite_entreprise	bicolor_retraite	17	email	STRING		Adresse e-mail	root	C-bicolor_retraite-root	TAIGAAXA_BI_ENT_yyyymmdd.csv	FE_1_Entreprise_ID17	Texte	100								1.1							
+retraite_entreprise	bicolor_retraite	18	cd_pays	STRING		Code Pays	root	C-bicolor_retraite-root	TAIGAAXA_BI_ENT_yyyymmdd.csv	FE_1_Entreprise_ID18	Texte	2								1.1							
+retraite_entreprise	bicolor_retraite	19	pays	STRING		Pays	root	C-bicolor_retraite-root	TAIGAAXA_BI_ENT_yyyymmdd.csv	FE_1_Entreprise_ID19	Texte	45								1.1							
+retraite_entreprise	bicolor_retraite	20	npai	STRING		NPAI	root	C-bicolor_retraite-root	TAIGAAXA_BI_ENT_yyyymmdd.csv	FE_1_Entreprise_ID20	Booléen									1.1							
+retraite_entreprise	bicolor_retraite	21	cd_naf	STRING		Code NAF	root	C-bicolor_retraite-root	TAIGAAXA_BI_ENT_yyyymmdd.csv	FE_1_Entreprise_ID21	Texte	15								1.1							
+retraite_entreprise	bicolor_retraite	22	num_siret	STRING		Numéro SIRET	root	C-bicolor_retraite-root	TAIGAAXA_BI_ENT_yyyymmdd.csv	FE_1_Entreprise_ID22	Texte	17								1.1							
+retraite_entreprise	bicolor_retraite	23	num_siren	STRING		Numéro SIREN	root	C-bicolor_retraite-root	TAIGAAXA_BI_ENT_yyyymmdd.csv	FE_1_Entreprise_ID23	Texte	9								1.1							
+retraite_entreprise	bicolor_retraite	24	ville_greffe	STRING		Ville de greffe	root	C-bicolor_retraite-root	TAIGAAXA_BI_ENT_yyyymmdd.csv	FE_1_Entreprise_ID24	Texte	60								1.1							
+retraite_entreprise	bicolor_retraite	25	cd_registre_commerce_societes	STRING		Code Registre du Commerce et des Sociétés	root	C-bicolor_retraite-root	TAIGAAXA_BI_ENT_yyyymmdd.csv	FE_1_Entreprise_ID25	Texte	15								1.1							
+retraite_entreprise	bicolor_retraite	26	dt_saisie	TIMESTAMP	yyyymmdd hhmmss	Date de saisie	root	C-bicolor_retraite-root	TAIGAAXA_BI_ENT_yyyymmdd.csv	FE_1_Entreprise_ID26	Date Heure									1.1							
+retraite_evenement_contrat	bicolor_retraite	0	type_ligne	STRING		Type de ligne du fichier (header; corps; footer)	root	C-bicolor_retraite-root	TAIGAAXA_BI_EVC_yyyymmdd.csv											1.1							
+retraite_evenement_contrat	bicolor_retraite	1	id_statut	BIGINT		Identifiant statut	root	C-bicolor_retraite-root	TAIGAAXA_BI_EVC_yyyymmdd.csv	FE_27_EvenementContrat_ID1	Nombre	12								1.1							
+retraite_evenement_contrat	bicolor_retraite	2	id_contrat	BIGINT		Identifiant contrat	root	C-bicolor_retraite-root	TAIGAAXA_BI_EVC_yyyymmdd.csv	FE_27_EvenementContrat_ID2	Nombre	12								1.1							
+retraite_evenement_contrat	bicolor_retraite	3	statut_contrats	STRING		Statut des contrats	root	C-bicolor_retraite-root	TAIGAAXA_BI_EVC_yyyymmdd.csv	FE_27_EvenementContrat_ID3	Texte	15								1.1							
+retraite_evenement_contrat	bicolor_retraite	4	motif_chgt_statut	STRING		Motif	root	C-bicolor_retraite-root	TAIGAAXA_BI_EVC_yyyymmdd.csv	FE_27_EvenementContrat_ID4	Texte	50								1.1							
+retraite_evenement_contrat	bicolor_retraite	5	dt_statut	TIMESTAMP	yyyymmdd	Date de statut	root	C-bicolor_retraite-root	TAIGAAXA_BI_EVC_yyyymmdd.csv	FE_27_EvenementContrat_ID5	Date									1.1							
+retraite_evenement_contrat	bicolor_retraite	6	dt_saisie	TIMESTAMP	yyyymmdd hhmmss	Date de saisie	root	C-bicolor_retraite-root	TAIGAAXA_BI_EVC_yyyymmdd.csv	FE_27_EvenementContrat_ID6	Date Heure									1.1							
+retraite_fusion_absorption	bicolor_retraite	0	type_ligne	STRING		Type de ligne du fichier (header; corps; footer)	root	C-bicolor_retraite-root	TAIGAAXA_BI_FAB_yyyymmdd.csv											1.1							
+retraite_fusion_absorption	bicolor_retraite	1	id_fusion_absorbsion	BIGINT		Identifiant Fusion / Absorbsion	root	C-bicolor_retraite-root	TAIGAAXA_BI_FAB_yyyymmdd.csv	FE_29_FusionAbsorption_ID1	Nombre	12								1.1							
+retraite_fusion_absorption	bicolor_retraite	2	cd_isin_absorbe	STRING		Code ISIN absorbé	root	C-bicolor_retraite-root	TAIGAAXA_BI_FAB_yyyymmdd.csv	FE_29_FusionAbsorption_ID2	Texte	12								1.1							
+retraite_fusion_absorption	bicolor_retraite	3	isin_absorbant_ou_nouvel_isin	STRING		Code ISIN absorbant ou nouveau code ISIN	root	C-bicolor_retraite-root	TAIGAAXA_BI_FAB_yyyymmdd.csv	FE_29_FusionAbsorption_ID3	Texte	12								1.1							
+retraite_fusion_absorption	bicolor_retraite	4	dt_absorption	TIMESTAMP	yyyymmdd	Date d'absorption	root	C-bicolor_retraite-root	TAIGAAXA_BI_FAB_yyyymmdd.csv	FE_29_FusionAbsorption_ID4	Date									1.1							
+retraite_fusion_absorption	bicolor_retraite	5	dt_valeur	TIMESTAMP	yyyymmdd	Date de valeur	root	C-bicolor_retraite-root	TAIGAAXA_BI_FAB_yyyymmdd.csv	FE_29_FusionAbsorption_ID5	Date									1.1							
+retraite_fusion_absorption	bicolor_retraite	6	parite	DECIMAL(18,8)		Parité	root	C-bicolor_retraite-root	TAIGAAXA_BI_FAB_yyyymmdd.csv	FE_29_FusionAbsorption_ID6	Taux									1.1							
+retraite_garantie_secondaire	bicolor_retraite	0	type_ligne	STRING		Type de ligne du fichier (header; corps; footer)	root	C-bicolor_retraite-root	TAIGAAXA_BI_GSE_yyyymmdd.csv											1.1							
+retraite_garantie_secondaire	bicolor_retraite	1	id_garantie	BIGINT		Identifiant garantie	root	C-bicolor_retraite-root	TAIGAAXA_BI_GSE_yyyymmdd.csv	FE_7_GarantieSecondaire_ID_1	Nombre	12								1.1							
+retraite_garantie_secondaire	bicolor_retraite	2	id_produit	STRING		Identifiant produit	root	C-bicolor_retraite-root	TAIGAAXA_BI_GSE_yyyymmdd.csv	FE_7_GarantieSecondaire_ID_2	Texte	15								1.1							
+retraite_garantie_secondaire	bicolor_retraite	3	type_garantie	STRING		Type de garantie	root	C-bicolor_retraite-root	TAIGAAXA_BI_GSE_yyyymmdd.csv	FE_7_GarantieSecondaire_ID_3	Texte	15								1.1							
+retraite_garantie_secondaire	bicolor_retraite	4	lib_crt_garantie_compltaire	STRING		Libellé court	root	C-bicolor_retraite-root	TAIGAAXA_BI_GSE_yyyymmdd.csv	FE_7_GarantieSecondaire_ID_4	Texte	20								1.1							
+retraite_garantie_secondaire	bicolor_retraite	5	lib_lg_garantie_compltaire	STRING		Libellé long	root	C-bicolor_retraite-root	TAIGAAXA_BI_GSE_yyyymmdd.csv	FE_7_GarantieSecondaire_ID_5	Texte	100								1.1							
+retraite_garantie_secondaire	bicolor_retraite	6	dt_deb_commerc	TIMESTAMP	yyyymmdd	Début de commercialisation	root	C-bicolor_retraite-root	TAIGAAXA_BI_GSE_yyyymmdd.csv	FE_7_GarantieSecondaire_ID_6	Date									1.1							
+retraite_garantie_secondaire	bicolor_retraite	7	dt_fin_commerc	TIMESTAMP	yyyymmdd	Fin de commercialisation	root	C-bicolor_retraite-root	TAIGAAXA_BI_GSE_yyyymmdd.csv	FE_7_GarantieSecondaire_ID_7	Date									1.1							
+retraite_garantie_secondaire	bicolor_retraite	8	age_limite_souscription	BIGINT		Age limite de souscription	root	C-bicolor_retraite-root	TAIGAAXA_BI_GSE_yyyymmdd.csv	FE_7_GarantieSecondaire_ID_8	Nombre	3								1.1							
+retraite_garantie_secondaire	bicolor_retraite	9	age_limite_validite	BIGINT		Age limite de validité	root	C-bicolor_retraite-root	TAIGAAXA_BI_GSE_yyyymmdd.csv	FE_7_GarantieSecondaire_ID_9	Nombre	3								1.1							
+retraite_garantie_secondaire	bicolor_retraite	10	reassureur	STRING		Réassureur	root	C-bicolor_retraite-root	TAIGAAXA_BI_GSE_yyyymmdd.csv	FE_7_GarantieSecondaire_ID_10	Texte	50								1.1							
+retraite_garantie_secondaire	bicolor_retraite	11	traite_reassurance	STRING		Traité de réassurance	root	C-bicolor_retraite-root	TAIGAAXA_BI_GSE_yyyymmdd.csv	FE_7_GarantieSecondaire_ID_11	Texte	20								1.1							
+retraite_garantie_secondaire	bicolor_retraite	12	option	STRING		Option 1	root	C-bicolor_retraite-root	TAIGAAXA_BI_GSE_yyyymmdd.csv	FE_7_GarantieSecondaire_ID_12	Texte	15								1.1							
+retraite_garantie_secondaire	bicolor_retraite	13	option_2	STRING		Option 2	root	C-bicolor_retraite-root	TAIGAAXA_BI_GSE_yyyymmdd.csv	FE_7_GarantieSecondaire_ID_13	Texte	15								1.1							
+retraite_garantie_secondaire	bicolor_retraite	14	tx_min	DECIMAL(18,8)		Taux min	root	C-bicolor_retraite-root	TAIGAAXA_BI_GSE_yyyymmdd.csv	FE_7_GarantieSecondaire_ID_14	Taux									1.1							
+retraite_garantie_secondaire	bicolor_retraite	15	tx_max	DECIMAL(18,8)		Taux max	root	C-bicolor_retraite-root	TAIGAAXA_BI_GSE_yyyymmdd.csv	FE_7_GarantieSecondaire_ID_15	Taux									1.1							
+retraite_garantie_secondaire	bicolor_retraite	16	mt_min	DECIMAL(18,8)		Montant min	root	C-bicolor_retraite-root	TAIGAAXA_BI_GSE_yyyymmdd.csv	FE_7_GarantieSecondaire_ID_16	Montant									1.1							
+retraite_garantie_secondaire	bicolor_retraite	17	mt_max	DECIMAL(18,8)		Montant max	root	C-bicolor_retraite-root	TAIGAAXA_BI_GSE_yyyymmdd.csv	FE_7_GarantieSecondaire_ID_17	Montant									1.1							
+retraite_garantie_secondaire	bicolor_retraite	18	delais_min	BIGINT		Délais min	root	C-bicolor_retraite-root	TAIGAAXA_BI_GSE_yyyymmdd.csv	FE_7_GarantieSecondaire_ID_18	Nombre	5								1.1							
+retraite_garantie_secondaire	bicolor_retraite	19	delais_max	BIGINT		Délais max	root	C-bicolor_retraite-root	TAIGAAXA_BI_GSE_yyyymmdd.csv	FE_7_GarantieSecondaire_ID_19	Nombre	5								1.1							
+retraite_gestion_financiere	bicolor_retraite	0	type_ligne	STRING		Type de ligne du fichier (header; corps; footer)	root	C-bicolor_retraite-root	TAIGAAXA_BI_GFI_yyyymmdd.csv											1.1							
+retraite_gestion_financiere	bicolor_retraite	1	id_gestion_financiere	BIGINT		Identifiant gestion financière	root	C-bicolor_retraite-root	TAIGAAXA_BI_GFI_yyyymmdd.csv	FE_6_GestionFinanciere_ID_1	Nombre	12								1.1							
+retraite_gestion_financiere	bicolor_retraite	2	id_produit	STRING		Identifiant produit	root	C-bicolor_retraite-root	TAIGAAXA_BI_GFI_yyyymmdd.csv	FE_6_GestionFinanciere_ID_2	Texte	15								1.1							
+retraite_gestion_financiere	bicolor_retraite	3	type_gestion	STRING		Type de gestion	root	C-bicolor_retraite-root	TAIGAAXA_BI_GFI_yyyymmdd.csv	FE_6_GestionFinanciere_ID_3	Texte	15								1.1							
+retraite_gestion_financiere	bicolor_retraite	4	type_pilotage	STRING		Type de pilotage	root	C-bicolor_retraite-root	TAIGAAXA_BI_GFI_yyyymmdd.csv	FE_6_GestionFinanciere_ID_4	Texte	15								1.1							
+retraite_gestion_financiere	bicolor_retraite	5	lib_crt_garantie_financiere	STRING		Libellé court	root	C-bicolor_retraite-root	TAIGAAXA_BI_GFI_yyyymmdd.csv	FE_6_GestionFinanciere_ID_5	Texte	20								1.1							
+retraite_gestion_financiere	bicolor_retraite	6	lib_lg_garantie_financiere	STRING		Libellé long	root	C-bicolor_retraite-root	TAIGAAXA_BI_GFI_yyyymmdd.csv	FE_6_GestionFinanciere_ID_6	Texte	100								1.1							
+retraite_gestion_financiere	bicolor_retraite	7	lib_crt_panier	STRING		Libellé court Panier	root	C-bicolor_retraite-root	TAIGAAXA_BI_GFI_yyyymmdd.csv	FE_6_GestionFinanciere_ID_7	Texte	20								1.1							
+retraite_gestion_financiere	bicolor_retraite	8	lib_lg_panier	STRING		Libellé long Panier	root	C-bicolor_retraite-root	TAIGAAXA_BI_GFI_yyyymmdd.csv	FE_6_GestionFinanciere_ID_8	Texte	100								1.1							
+retraite_gestion_financiere	bicolor_retraite	9	canton_fiscal	STRING		Canton Fiscal	root	C-bicolor_retraite-root	TAIGAAXA_BI_GFI_yyyymmdd.csv	FE_6_GestionFinanciere_ID_9	Texte	15								1.1							
+retraite_gestion_financiere	bicolor_retraite	10	dt_deb_commerc	TIMESTAMP	yyyymmdd	Début de commercialisation	root	C-bicolor_retraite-root	TAIGAAXA_BI_GFI_yyyymmdd.csv	FE_6_GestionFinanciere_ID_10	Date									1.1							
+retraite_gestion_financiere	bicolor_retraite	11	dt_fin_commerc	TIMESTAMP	yyyymmdd	Fin de commercialisation	root	C-bicolor_retraite-root	TAIGAAXA_BI_GFI_yyyymmdd.csv	FE_6_GestionFinanciere_ID_11	Date									1.1							
+retraite_gestion_pilotee	bicolor_retraite	0	type_ligne	STRING		Type de ligne du fichier (header; corps; footer)	root	C-bicolor_retraite-root	TAIGAAXA_BI_GPI_yyyymmdd.csv											1.1							
+retraite_gestion_pilotee	bicolor_retraite	1	id_garantie	BIGINT		Identifiant garantie	root	C-bicolor_retraite-root	TAIGAAXA_BI_GPI_yyyymmdd.csv	FE_33_GestionPilotée_ID1	Nombre	12								1.1							
+retraite_gestion_pilotee	bicolor_retraite	2	id_contrat	BIGINT		Identifiant contrat	root	C-bicolor_retraite-root	TAIGAAXA_BI_GPI_yyyymmdd.csv	FE_33_GestionPilotée_ID2	Nombre	12								1.1							
+retraite_gestion_pilotee	bicolor_retraite	3	num_tranche	BIGINT		Numéro tranche	root	C-bicolor_retraite-root	TAIGAAXA_BI_GPI_yyyymmdd.csv	FE_33_GestionPilotée_ID3	Nombre	5								1.1							
+retraite_gestion_pilotee	bicolor_retraite	4	id_support	BIGINT		Identifiant support	root	C-bicolor_retraite-root	TAIGAAXA_BI_GPI_yyyymmdd.csv	FE_33_GestionPilotée_ID4	Nombre	12								1.1							
+retraite_gestion_pilotee	bicolor_retraite	5	type_tranche	STRING		Type de tranche	root	C-bicolor_retraite-root	TAIGAAXA_BI_GPI_yyyymmdd.csv	FE_33_GestionPilotée_ID5	Texte	15								1.1							
+retraite_gestion_pilotee	bicolor_retraite	6	borne_inf	BIGINT		Borne inférieure	root	C-bicolor_retraite-root	TAIGAAXA_BI_GPI_yyyymmdd.csv	FE_33_GestionPilotée_ID6	Nombre	5								1.1							
+retraite_gestion_pilotee	bicolor_retraite	7	borne_sup	BIGINT		Borne superieure	root	C-bicolor_retraite-root	TAIGAAXA_BI_GPI_yyyymmdd.csv	FE_33_GestionPilotée_ID7	Nombre	5								1.1							
+retraite_gestion_pilotee	bicolor_retraite	8	tx_repartition	DECIMAL(18,8)		Taux de répartition	root	C-bicolor_retraite-root	TAIGAAXA_BI_GPI_yyyymmdd.csv	FE_33_GestionPilotée_ID8	Taux	5								1.1							
+retraite_lien_reseau	bicolor_retraite	0	type_ligne	STRING		Type de ligne du fichier (header; corps; footer)	root	C-bicolor_retraite-root	TAIGAAXA_BI_APP_yyyymmdd.csv											1.1							
+retraite_lien_reseau	bicolor_retraite	1	id_lien_reseau	BIGINT		Identifiant Lien réseau	root	C-bicolor_retraite-root	TAIGAAXA_BI_APP_yyyymmdd.csv	FE_13_LienRéseau_ID1	Nombre	12								1.1							
+retraite_lien_reseau	bicolor_retraite	2	id_contrat	BIGINT		identifiant contrat	root	C-bicolor_retraite-root	TAIGAAXA_BI_APP_yyyymmdd.csv	FE_13_LienRéseau_ID2	Nombre	12								1.1							
+retraite_lien_reseau	bicolor_retraite	3	id_entite_reseau	BIGINT		Identifiant entité réseau	root	C-bicolor_retraite-root	TAIGAAXA_BI_APP_yyyymmdd.csv	FE_13_LienRéseau_ID3	Nombre	12								1.1							
+retraite_lien_reseau	bicolor_retraite	4	type_lien	STRING		Type de lien	root	C-bicolor_retraite-root	TAIGAAXA_BI_APP_yyyymmdd.csv	FE_13_LienRéseau_ID4	Texte 	15								1.1							
+retraite_lien_reseau	bicolor_retraite	5	dt_debut	TIMESTAMP	yyyymmdd	Date de début	root	C-bicolor_retraite-root	TAIGAAXA_BI_APP_yyyymmdd.csv	FE_13_LienRéseau_ID5	Date									1.1							
+retraite_lien_reseau	bicolor_retraite	6	dt_fin	TIMESTAMP	yyyymmdd	Date de fin	root	C-bicolor_retraite-root	TAIGAAXA_BI_APP_yyyymmdd.csv	FE_13_LienRéseau_ID6	Date									1.1							
+retraite_liste_cd_lib	bicolor_retraite	0	societe	STRING		Société	root	C-bicolor_retraite-root	TAIGAAXA_BI_LST_yyyymmdd.csv	FE_liste_cd_lib_id1	Texte									1.2							
+retraite_liste_cd_lib	bicolor_retraite	1	type_liste	STRING		Type de liste	root	C-bicolor_retraite-root	TAIGAAXA_BI_LST_yyyymmdd.csv	FE_liste_cd_lib_id1	Texte									1.2							
+retraite_liste_cd_lib	bicolor_retraite	2	cd	STRING		Code	root	C-bicolor_retraite-root	TAIGAAXA_BI_LST_yyyymmdd.csv	FE_liste_cd_lib_id2	Texte									1.2							
+retraite_liste_cd_lib	bicolor_retraite	3	lib	STRING		Libellé	root	C-bicolor_retraite-root	TAIGAAXA_BI_LST_yyyymmdd.csv	FE_liste_cd_lib_id3	Texte									1.2							
+retraite_liste_cd_lib	bicolor_retraite	4	col_hadoop	STRING		colonne(s) hadoop concernée(s)	root	C-bicolor_retraite-root	TAIGAAXA_BI_LST_yyyymmdd.csv	FE_liste_cd_lib_id4	Texte									1.2							
+retraite_mouvement	bicolor_retraite	0	type_ligne	STRING		Type de ligne du fichier (header; corps; footer)	root	C-bicolor_retraite-root	TAIGAAXA_BI_MVT_yyyymmdd.csv											1.1							
+retraite_mouvement	bicolor_retraite	1	id_mouvement	BIGINT		Identifiant mouvement	root	C-bicolor_retraite-root	TAIGAAXA_BI_MVT_yyyymmdd.csv	FE_19_Mouvement_ID1	Nombre	12								1.1							
+retraite_mouvement	bicolor_retraite	2	id_operation_financiere	BIGINT		Identifiant opération financière	root	C-bicolor_retraite-root	TAIGAAXA_BI_MVT_yyyymmdd.csv	FE_19_Mouvement_ID2	Nombre	12								1.1							
+retraite_mouvement	bicolor_retraite	3	id_gestion_financiere	BIGINT		Identifiant gestion financiere	root	C-bicolor_retraite-root	TAIGAAXA_BI_MVT_yyyymmdd.csv	FE_19_Mouvement_ID3	Nombre	12								1.1							
+retraite_mouvement	bicolor_retraite	4	id_support	BIGINT		Identifiant support	root	C-bicolor_retraite-root	TAIGAAXA_BI_MVT_yyyymmdd.csv	FE_19_Mouvement_ID4	Nombre	12								1.1							
+retraite_mouvement	bicolor_retraite	5	mt_brut	DECIMAL(18,8)		Montant brut	root	C-bicolor_retraite-root	TAIGAAXA_BI_MVT_yyyymmdd.csv	FE_19_Mouvement_ID5	Montant									1.1							
+retraite_mouvement	bicolor_retraite	6	mt_frais_epargne	DECIMAL(18,8)		Montant des frais d'épargne	root	C-bicolor_retraite-root	TAIGAAXA_BI_MVT_yyyymmdd.csv	FE_19_Mouvement_ID6	Montant									1.1							
+retraite_mouvement	bicolor_retraite	7	mt_frais_financt_garantie	DECIMAL(18,8)		Montant des frais de financement de garantie	root	C-bicolor_retraite-root	TAIGAAXA_BI_MVT_yyyymmdd.csv	FE_19_Mouvement_ID7	Montant									1.1							
+retraite_mouvement	bicolor_retraite	8	mt_taxes	DECIMAL(18,8)		Montant des taxes	root	C-bicolor_retraite-root	TAIGAAXA_BI_MVT_yyyymmdd.csv	FE_19_Mouvement_ID8	Montant									1.1							
+retraite_mouvement	bicolor_retraite	9	mt_net_retraite	DECIMAL(18,8)		Montant net retraite	root	C-bicolor_retraite-root	TAIGAAXA_BI_MVT_yyyymmdd.csv	FE_19_Mouvement_ID9	Montant									1.1							
+retraite_mouvement	bicolor_retraite	10	mt_reel	DECIMAL(18,8)		Montant réel	root	C-bicolor_retraite-root	TAIGAAXA_BI_MVT_yyyymmdd.csv	FE_19_Mouvement_ID10	Montant									1.1							
+retraite_mouvement	bicolor_retraite	11	nombre_parts	DECIMAL(25,10)		Nombre de parts	root	C-bicolor_retraite-root	TAIGAAXA_BI_MVT_yyyymmdd.csv	FE_19_Mouvement_ID11	Nombre de part									1.1							
+retraite_mouvement	bicolor_retraite	12	dt_valeur	TIMESTAMP	yyyymmdd	Date de valeur	root	C-bicolor_retraite-root	TAIGAAXA_BI_MVT_yyyymmdd.csv	FE_19_Mouvement_ID12	Date									1.1							
+retraite_mouvement	bicolor_retraite	13	interets_techniques_inclus	DECIMAL(18,8)		Intérêts techniques inclus	root	C-bicolor_retraite-root	TAIGAAXA_BI_MVT_yyyymmdd.csv	FE_19_Mouvement_ID13	Montant									1.1							
+retraite_mouvement	bicolor_retraite	14	participation_resultat_incluse	DECIMAL(18,8)		Participation au résultat incluse	root	C-bicolor_retraite-root	TAIGAAXA_BI_MVT_yyyymmdd.csv	FE_19_Mouvement_ID14	Montant									1.1							
+retraite_mouvement	bicolor_retraite	15	valeur_liquidative_support	DECIMAL(18,8)		Valeur liquidative du support	root	C-bicolor_retraite-root	TAIGAAXA_BI_MVT_yyyymmdd.csv	FE_19_Mouvement_ID15	Montant									1.1							
+retraite_mouvement	bicolor_retraite	16	dt_traitt_valorisation	TIMESTAMP	yyyymmdd	Date du traitement de valorisation	root	C-bicolor_retraite-root	TAIGAAXA_BI_MVT_yyyymmdd.csv	FE_19_Mouvement_ID16	Date									1.1							
+retraite_mouvement	bicolor_retraite	17	dt_investissement	TIMESTAMP	yyyymmdd	Date d'investissement	root	C-bicolor_retraite-root	TAIGAAXA_BI_MVT_yyyymmdd.csv	FE_19_Mouvement_ID17	Date									1.1							
+retraite_operation_financiere	bicolor_retraite	0	type_ligne	STRING		Type de ligne du fichier (header; corps; footer)	root	C-bicolor_retraite-root	TAIGAAXA_BI_OPE_yyyymmdd.csv											1.1							
+retraite_operation_financiere	bicolor_retraite	1	id_operation_financiere	BIGINT		Identifiant opération	root	C-bicolor_retraite-root	TAIGAAXA_BI_OPE_yyyymmdd.csv	FE_18_OpérationFinancière_ID1	Nombre	12								1.1							
+retraite_operation_financiere	bicolor_retraite	2	id_dossier	BIGINT		Identifiant dossier	root	C-bicolor_retraite-root	TAIGAAXA_BI_OPE_yyyymmdd.csv	FE_18_OpérationFinancière_ID2	Nombre	12								1.1							
+retraite_operation_financiere	bicolor_retraite	3	id_contrat	BIGINT		Identifiant contrat	root	C-bicolor_retraite-root	TAIGAAXA_BI_OPE_yyyymmdd.csv	FE_18_OpérationFinancière_ID3	Nombre	12								1.1							
+retraite_operation_financiere	bicolor_retraite	4	id_affiliation	BIGINT		Identifiant affiliation	root	C-bicolor_retraite-root	TAIGAAXA_BI_OPE_yyyymmdd.csv	FE_18_OpérationFinancière_ID4	Nombre	12								1.1							
+retraite_operation_financiere	bicolor_retraite	5	dt_effet_dossier	TIMESTAMP	yyyymmdd	Date d'effet	root	C-bicolor_retraite-root	TAIGAAXA_BI_OPE_yyyymmdd.csv	FE_18_OpérationFinancière_ID5	Date									1.1							
+retraite_operation_financiere	bicolor_retraite	6	nature_operation	STRING		Nature opération	root	C-bicolor_retraite-root	TAIGAAXA_BI_OPE_yyyymmdd.csv	FE_18_OpérationFinancière_ID6	Texte	15								1.1							
+retraite_operation_financiere	bicolor_retraite	7	type_operation	STRING		Type d'opération	root	C-bicolor_retraite-root	TAIGAAXA_BI_OPE_yyyymmdd.csv	FE_18_OpérationFinancière_ID7	Texte	15								1.1							
+retraite_operation_financiere	bicolor_retraite	8	mode_reglement	STRING		Mode règlement	root	C-bicolor_retraite-root	TAIGAAXA_BI_OPE_yyyymmdd.csv	FE_18_OpérationFinancière_ID8	Texte	15								1.1							
+retraite_operation_financiere	bicolor_retraite	9	dt_reception	TIMESTAMP	yyyymmdd	Date de réception	root	C-bicolor_retraite-root	TAIGAAXA_BI_OPE_yyyymmdd.csv	FE_18_OpérationFinancière_ID9	Date									1.1							
+retraite_operation_financiere	bicolor_retraite	10	dt_debut_periode	TIMESTAMP	yyyymmdd	Date de début de période	root	C-bicolor_retraite-root	TAIGAAXA_BI_OPE_yyyymmdd.csv	FE_18_OpérationFinancière_ID10	Date									1.1							
+retraite_operation_financiere	bicolor_retraite	11	dt_fin_periode	TIMESTAMP	yyyymmdd	Date de fin de période	root	C-bicolor_retraite-root	TAIGAAXA_BI_OPE_yyyymmdd.csv	FE_18_OpérationFinancière_ID11	Date									1.1							
+retraite_operation_financiere	bicolor_retraite	12	mt_brut	DECIMAL(18,8)		Montant brut	root	C-bicolor_retraite-root	TAIGAAXA_BI_OPE_yyyymmdd.csv	FE_18_OpérationFinancière_ID12	Montant									1.1							
+retraite_operation_financiere	bicolor_retraite	13	mt_frais_epargne	DECIMAL(18,8)		Montant des frais d'épargne	root	C-bicolor_retraite-root	TAIGAAXA_BI_OPE_yyyymmdd.csv	FE_18_OpérationFinancière_ID13	Montant									1.1							
+retraite_operation_financiere	bicolor_retraite	14	mt_frais_financt_garantie	DECIMAL(18,8)		Montant des frais de financement de garantie	root	C-bicolor_retraite-root	TAIGAAXA_BI_OPE_yyyymmdd.csv	FE_18_OpérationFinancière_ID14	Montant									1.1							
+retraite_operation_financiere	bicolor_retraite	15	mt_taxes	DECIMAL(18,8)		Montant des taxes	root	C-bicolor_retraite-root	TAIGAAXA_BI_OPE_yyyymmdd.csv	FE_18_OpérationFinancière_ID15	Montant									1.1							
+retraite_operation_financiere	bicolor_retraite	16	mt_net_retraite	DECIMAL(18,8)		Montant net retraite	root	C-bicolor_retraite-root	TAIGAAXA_BI_OPE_yyyymmdd.csv	FE_18_OpérationFinancière_ID16	Montant									1.1							
+retraite_operation_financiere	bicolor_retraite	17	dt_traitt_valoris_operation	TIMESTAMP	yyyymmdd	Date de traitement de la valorisation de l'opération	root	C-bicolor_retraite-root	TAIGAAXA_BI_OPE_yyyymmdd.csv	FE_18_OpérationFinancière_ID17	Date									1.1							
+retraite_operation_financiere	bicolor_retraite	18	id_plan	BIGINT		Identifiant plan	root	C-bicolor_retraite-root	TAIGAAXA_BI_OPE_yyyymmdd.csv	FE_18_OpérationFinancière_ID18	Nombre	12								1.1							
+retraite_operation_financiere	bicolor_retraite	19	id_dossier_annule	BIGINT		Identifiant dossier annulé	root	C-bicolor_retraite-root	TAIGAAXA_BI_OPE_yyyymmdd.csv	FE_18_OpérationFinancière_ID19	Nombre	12								1.1							
+retraite_operation_financiere	bicolor_retraite	20	id_dossier_racine	STRING		Identifiant dossier racine	root	C-bicolor_retraite-root	TAIGAAXA_BI_OPE_yyyymmdd.csv	FE_18_OpérationFinancière_ID20	Texte	15								1.1							
+retraite_operation_financiere	bicolor_retraite	21	dt_saisie	TIMESTAMP	yyyymmdd hhmmss	Date de saisie	root	C-bicolor_retraite-root	TAIGAAXA_BI_OPE_yyyymmdd.csv	FE_18_OpérationFinancière_ID21	Date Heure									1.1							
+retraite_option_rente	bicolor_retraite	0	type_ligne	STRING		Type de ligne du fichier (header; corps; footer)	root	C-bicolor_retraite-root	TAIGAAXA_BI_REN_yyyymmdd.csv											1.1							
+retraite_option_rente	bicolor_retraite	1	id_option_rente	BIGINT		Identifiant option rente	root	C-bicolor_retraite-root	TAIGAAXA_BI_REN_yyyymmdd.csv	FE_17_OptionRente_ID1	Nombre	12								1.1							
+retraite_option_rente	bicolor_retraite	2	id_contrat	BIGINT		Identifiant contrat	root	C-bicolor_retraite-root	TAIGAAXA_BI_REN_yyyymmdd.csv	FE_17_OptionRente_ID2	Nombre	12								1.1							
+retraite_option_rente	bicolor_retraite	3	type_option_rente	STRING		Type d'option rente	root	C-bicolor_retraite-root	TAIGAAXA_BI_REN_yyyymmdd.csv	FE_17_OptionRente_ID3	Texte	15								1.1							
+retraite_option_rente	bicolor_retraite	4	lib_crt_option_rente	STRING		Libellé court	root	C-bicolor_retraite-root	TAIGAAXA_BI_REN_yyyymmdd.csv	FE_17_OptionRente_ID4	Texte	20								1.1							
+retraite_option_rente	bicolor_retraite	5	lib_lg_option_rente	STRING		Libellé long	root	C-bicolor_retraite-root	TAIGAAXA_BI_REN_yyyymmdd.csv	FE_17_OptionRente_ID5	Texte	100								1.1							
+retraite_option_rente	bicolor_retraite	6	age_limite_souscription	BIGINT		Age limite de souscription	root	C-bicolor_retraite-root	TAIGAAXA_BI_REN_yyyymmdd.csv	FE_17_OptionRente_ID6	Nombre	3								1.1							
+retraite_option_rente	bicolor_retraite	7	age_limite_validite	BIGINT		Age limite de validité	root	C-bicolor_retraite-root	TAIGAAXA_BI_REN_yyyymmdd.csv	FE_17_OptionRente_ID7	Nombre	3								1.1							
+retraite_option_rente	bicolor_retraite	8	tx	DECIMAL(18,8)		Taux 1	root	C-bicolor_retraite-root	TAIGAAXA_BI_REN_yyyymmdd.csv	FE_17_OptionRente_ID8	Taux									1.1							
+retraite_option_rente	bicolor_retraite	9	tx_2	DECIMAL(18,8)		Taux 2	root	C-bicolor_retraite-root	TAIGAAXA_BI_REN_yyyymmdd.csv	FE_17_OptionRente_ID9	Taux									1.1							
+retraite_option_rente	bicolor_retraite	10	mt	DECIMAL(18,8)		Montant 1	root	C-bicolor_retraite-root	TAIGAAXA_BI_REN_yyyymmdd.csv	FE_17_OptionRente_ID10	Montant									1.1							
+retraite_option_rente	bicolor_retraite	11	mt_2	DECIMAL(18,8)		Montant 2	root	C-bicolor_retraite-root	TAIGAAXA_BI_REN_yyyymmdd.csv	FE_17_OptionRente_ID11	Montant									1.1							
+retraite_option_rente	bicolor_retraite	12	delai	BIGINT		Délai 1	root	C-bicolor_retraite-root	TAIGAAXA_BI_REN_yyyymmdd.csv	FE_17_OptionRente_ID12	Nombre	5								1.1							
+retraite_option_rente	bicolor_retraite	13	delai_2	BIGINT		Délai 2	root	C-bicolor_retraite-root	TAIGAAXA_BI_REN_yyyymmdd.csv	FE_17_OptionRente_ID13	Nombre	5								1.1							
+retraite_plan_versement	bicolor_retraite	0	type_ligne	STRING		Type de ligne du fichier (header; corps; footer)	root	C-bicolor_retraite-root	TAIGAAXA_BI_PLV_yyyymmdd.csv											1.1							
+retraite_plan_versement	bicolor_retraite	1	id_plan	BIGINT		Identifiant plan	root	C-bicolor_retraite-root	TAIGAAXA_BI_PLV_yyyymmdd.csv	FE_9_PlanVersement_ID1	Nombre	12								1.1							
+retraite_plan_versement	bicolor_retraite	2	id_contrat	BIGINT		Identifiant contrat	root	C-bicolor_retraite-root	TAIGAAXA_BI_PLV_yyyymmdd.csv	FE_9_PlanVersement_ID2	Nombre	12								1.1							
+retraite_plan_versement	bicolor_retraite	3	id_affiliation	BIGINT		Identifiant affiliation	root	C-bicolor_retraite-root	TAIGAAXA_BI_PLV_yyyymmdd.csv	FE_9_PlanVersement_ID3	Nombre	12								1.1							
+retraite_plan_versement	bicolor_retraite	4	type_plan	STRING		Type de plan	root	C-bicolor_retraite-root	TAIGAAXA_BI_PLV_yyyymmdd.csv	FE_9_PlanVersement_ID4	Texte	15								1.1							
+retraite_plan_versement	bicolor_retraite	5	statut_plan	STRING		Statut	root	C-bicolor_retraite-root	TAIGAAXA_BI_PLV_yyyymmdd.csv	FE_9_PlanVersement_ID5	Texte	15								1.1							
+retraite_plan_versement	bicolor_retraite	6	derogeable	STRING		Dérogeable	root	C-bicolor_retraite-root	TAIGAAXA_BI_PLV_yyyymmdd.csv	FE_9_PlanVersement_ID6	Booleen									1.1							
+retraite_plan_versement	bicolor_retraite	7	dt_reception	TIMESTAMP	yyyymmdd	Date Réception	root	C-bicolor_retraite-root	TAIGAAXA_BI_PLV_yyyymmdd.csv	FE_9_PlanVersement_ID7	Date									1.1							
+retraite_plan_versement	bicolor_retraite	8	dt_debut	TIMESTAMP	yyyymmdd	Date Début	root	C-bicolor_retraite-root	TAIGAAXA_BI_PLV_yyyymmdd.csv	FE_9_PlanVersement_ID8	Date									1.1							
+retraite_plan_versement	bicolor_retraite	9	periodicite	STRING		Périodicité	root	C-bicolor_retraite-root	TAIGAAXA_BI_PLV_yyyymmdd.csv	FE_9_PlanVersement_ID9	Texte	15								1.1							
+retraite_plan_versement	bicolor_retraite	10	dt_cloture	TIMESTAMP	yyyymmdd	Date de clôture	root	C-bicolor_retraite-root	TAIGAAXA_BI_PLV_yyyymmdd.csv	FE_9_PlanVersement_ID10	Date									1.1							
+retraite_plan_versement	bicolor_retraite	11	dt_prochaine_echeance	TIMESTAMP	yyyymmdd	Date de prochaine échéance	root	C-bicolor_retraite-root	TAIGAAXA_BI_PLV_yyyymmdd.csv	FE_9_PlanVersement_ID11	Date									1.1							
+retraite_plan_versement	bicolor_retraite	12	mt_plan	DECIMAL(18,8)		Montant	root	C-bicolor_retraite-root	TAIGAAXA_BI_PLV_yyyymmdd.csv	FE_9_PlanVersement_ID12	Montant									1.1							
+retraite_plan_versement	bicolor_retraite	13	mode_reglement	STRING		Mode de règlement	root	C-bicolor_retraite-root	TAIGAAXA_BI_PLV_yyyymmdd.csv	FE_9_PlanVersement_ID13	Texte	15								1.1							
+retraite_plan_versement	bicolor_retraite	14	support_attente	STRING		Support d'attente	root	C-bicolor_retraite-root	TAIGAAXA_BI_PLV_yyyymmdd.csv	FE_9_PlanVersement_ID14	Booleen									1.1							
+retraite_plan_versement	bicolor_retraite	15	type_repartition	STRING		Type de répartition	root	C-bicolor_retraite-root	TAIGAAXA_BI_PLV_yyyymmdd.csv	FE_9_PlanVersement_ID15	Texte	15								1.1							
+retraite_plan_versement	bicolor_retraite	16	id_gestion_financiere	BIGINT		Identifiant gestion financière	root	C-bicolor_retraite-root	TAIGAAXA_BI_PLV_yyyymmdd.csv	FE_9_PlanVersement_ID16	Nombre	12								1.1							
+retraite_plan_versement	bicolor_retraite	17	tx_repart_gestion_financiere	DECIMAL(18,8)		Taux répartition gestion financière	root	C-bicolor_retraite-root	TAIGAAXA_BI_PLV_yyyymmdd.csv	FE_9_PlanVersement_ID17	Taux									1.1							
+retraite_plan_versement	bicolor_retraite	18	id_support	BIGINT		Identifiant support	root	C-bicolor_retraite-root	TAIGAAXA_BI_PLV_yyyymmdd.csv	FE_9_PlanVersement_ID18	Nombre	12								1.1							
+retraite_plan_versement	bicolor_retraite	19	tx_repartition_support	DECIMAL(18,8)		Taux de répartition Support	root	C-bicolor_retraite-root	TAIGAAXA_BI_PLV_yyyymmdd.csv	FE_9_PlanVersement_ID19	Taux									1.1							
+retraite_plan_versement	bicolor_retraite	20	bic	STRING		BIC	root	C-bicolor_retraite-root	TAIGAAXA_BI_PLV_yyyymmdd.csv	FE_9_PlanVersement_ID20	Texte	11								1.1							
+retraite_pm_inventaire	bicolor_retraite	0	type_ligne	STRING		Type de ligne du fichier (header; corps; footer)	root	C-bicolor_retraite-root	TAIGAAXA_BI_PMI_yyyymmdd.csv											1.1							
+retraite_pm_inventaire	bicolor_retraite	1	id_contrat	BIGINT		Identifiant contrat	root	C-bicolor_retraite-root	TAIGAAXA_BI_PMI_yyyymmdd.csv	FE_32_PM_inventaire_ID1	Nombre	12								1.1							
+retraite_pm_inventaire	bicolor_retraite	2	id_affiliation	BIGINT		Identifiant affiliation	root	C-bicolor_retraite-root	TAIGAAXA_BI_PMI_yyyymmdd.csv	FE_32_PMInventaire_ID2	Nombre	12								1.1							
+retraite_pm_inventaire	bicolor_retraite	3	id_gestion_financiere	BIGINT		Identifiant gestion financière	root	C-bicolor_retraite-root	TAIGAAXA_BI_PMI_yyyymmdd.csv	FE_32_PMInventaire_ID3	Nombre	12								1.1							
+retraite_pm_inventaire	bicolor_retraite	4	id_support	BIGINT		Identifiant support	root	C-bicolor_retraite-root	TAIGAAXA_BI_PMI_yyyymmdd.csv	FE_32_PMInventaire_ID4	Nombre	12								1.1							
+retraite_pm_inventaire	bicolor_retraite	5	dt_pm	TIMESTAMP	yyyymmdd hhmmss	Date PM	root	C-bicolor_retraite-root	TAIGAAXA_BI_PMI_yyyymmdd.csv	FE_32_PMInventaire_ID5	Date Heure									1.1							
+retraite_pm_inventaire	bicolor_retraite	6	pm_tmg_a_dt_extract	DECIMAL(18,8)		PM TMG à la Date d'extraction	root	C-bicolor_retraite-root	TAIGAAXA_BI_PMI_yyyymmdd.csv	FE_32_PMInventaire_ID6	Montant									1.1							
+retraite_pm_inventaire	bicolor_retraite	7	pm_anticipees_a_dt_extract	DECIMAL(18,8)		PM Anticipées à la Date d'extraction	root	C-bicolor_retraite-root	TAIGAAXA_BI_PMI_yyyymmdd.csv	FE_32_PMInventaire_ID7	Montant									1.1							
+retraite_pm_inventaire	bicolor_retraite	8	pm_brutes	DECIMAL(18,8)		PM Brutes	root	C-bicolor_retraite-root	TAIGAAXA_BI_PMI_yyyymmdd.csv	FE_32_PMInventaire_ID8	Montant									1.1							
+retraite_pm_inventaire	bicolor_retraite	9	pm_nettes	DECIMAL(18,8)		PM Nettes	root	C-bicolor_retraite-root	TAIGAAXA_BI_PMI_yyyymmdd.csv	FE_32_PMInventaire_ID9	Montant									1.1							
+retraite_pm_inventaire	bicolor_retraite	10	nombre_parts	DECIMAL(25,10)		Nombre de parts	root	C-bicolor_retraite-root	TAIGAAXA_BI_PMI_yyyymmdd.csv	FE_32_PMInventaire_ID10	Nombre de part									1.1							
+retraite_pm_inventaire	bicolor_retraite	11	interets_techniques_inclus	DECIMAL(18,8)		Intérêts techniques inclus	root	C-bicolor_retraite-root	TAIGAAXA_BI_PMI_yyyymmdd.csv	FE_32_PMInventaire_ID11	Montant									1.1							
+retraite_pm_inventaire	bicolor_retraite	12	participation_resultat_incluse	DECIMAL(18,8)		Participation au résultat incluse	root	C-bicolor_retraite-root	TAIGAAXA_BI_PMI_yyyymmdd.csv	FE_32_PMInventaire_ID12	Montant									1.1							
+retraite_pm_inventaire	bicolor_retraite	13	dt_valeur_vl	TIMESTAMP	yyyymmdd	Date de valeur de la VL	root	C-bicolor_retraite-root	TAIGAAXA_BI_PMI_yyyymmdd.csv	FE_32_PMInventaire_ID13	Date									1.1							
+retraite_pm_inventaire	bicolor_retraite	14	vl_support	DECIMAL(18,8)		VL du support	root	C-bicolor_retraite-root	TAIGAAXA_BI_PMI_yyyymmdd.csv	FE_32_PMInventaire_ID14	Montant									1.1							
+retraite_pm_inventaire	bicolor_retraite	15	cumul_primes	DECIMAL(18,8)		Cumul des primes	root	C-bicolor_retraite-root	TAIGAAXA_BI_PMI_yyyymmdd.csv	FE_32_PMInventaire_ID15	Montant									1.1							
+retraite_pm_inventaire	bicolor_retraite	16	cumul_transfert_entrant_interne	DECIMAL(18,8)		cumul des transfert entrant interne	root	C-bicolor_retraite-root	TAIGAAXA_BI_PMI_yyyymmdd.csv	FE_32_PMInventaire_ID16	Montant									1.1							
+retraite_pm_inventaire	bicolor_retraite	17	cumul_transfert_entrant_externe	DECIMAL(18,8)		cumul des transfert entrant externe	root	C-bicolor_retraite-root	TAIGAAXA_BI_PMI_yyyymmdd.csv	FE_32_PMInventaire_ID17	Montant									1.1							
+retraite_pm_inventaire	bicolor_retraite	18	cumul_sorties	DECIMAL(18,8)		Cumul des sorties	root	C-bicolor_retraite-root	TAIGAAXA_BI_PMI_yyyymmdd.csv	FE_32_PMInventaire_ID18	Montant									1.1							
+retraite_pm_inventaire	bicolor_retraite	19	cumul_transfert_sortant_interne	DECIMAL(18,8)		cumul des transfert sortant interne	root	C-bicolor_retraite-root	TAIGAAXA_BI_PMI_yyyymmdd.csv	FE_32_PMInventaire_ID19	Montant									1.1							
+retraite_pm_inventaire	bicolor_retraite	20	cumul_transfert_sortant_externe	DECIMAL(18,8)		cumul des transfert sortant externe	root	C-bicolor_retraite-root	TAIGAAXA_BI_PMI_yyyymmdd.csv	FE_32_PMInventaire_ID20	Montant									1.1							
+retraite_pm_inventaire	bicolor_retraite	21	cumul_ost_ddc	DECIMAL(18,8)		cumul ost_ddc	root	C-bicolor_retraite-root	TAIGAAXA_BI_PMI_yyyymmdd.csv	FE_32_PMInventaire_ID21	Montant									1.1							
+retraite_pm_inventaire	bicolor_retraite	22	cumul_arbitrages	DECIMAL(18,8)		cumul des arbitrages	root	C-bicolor_retraite-root	TAIGAAXA_BI_PMI_yyyymmdd.csv	FE_32_PMInventaire_ID22	Montant									1.1							
+retraite_pm_inventaire	bicolor_retraite	23	frais_acquisition	DECIMAL(18,8)		Frais d'acquisition	root	C-bicolor_retraite-root	TAIGAAXA_BI_PMI_yyyymmdd.csv	FE_32_PMInventaire_ID23	Montant									1.1							
+retraite_pm_inventaire	bicolor_retraite	24	frais_garantie_exo_continuite	DECIMAL(18,8)		Frais garantie exo (continuité)	root	C-bicolor_retraite-root	TAIGAAXA_BI_PMI_yyyymmdd.csv	FE_32_PMInventaire_ID24	Montant									1.1							
+retraite_pm_inventaire	bicolor_retraite	25	frais_transfert	DECIMAL(18,8)		Frais de transfert	root	C-bicolor_retraite-root	TAIGAAXA_BI_PMI_yyyymmdd.csv	FE_32_PMInventaire_ID25	Montant									1.1							
+retraite_pm_inventaire	bicolor_retraite	26	frais_arbitrage	DECIMAL(18,8)		Frais d'arbitrage	root	C-bicolor_retraite-root	TAIGAAXA_BI_PMI_yyyymmdd.csv	FE_32_PMInventaire_ID26	Montant									1.1							
+retraite_pm_inventaire	bicolor_retraite	27	frais_gestion_uc	DECIMAL(18,8)		Frais de gestion UC	root	C-bicolor_retraite-root	TAIGAAXA_BI_PMI_yyyymmdd.csv	FE_32_PMInventaire_ID27	Montant									1.1							
+retraite_pm_inventaire	bicolor_retraite	28	frais_gestion_euro	DECIMAL(18,8)		Frais de gestion EURO	root	C-bicolor_retraite-root	TAIGAAXA_BI_PMI_yyyymmdd.csv	FE_32_PMInventaire_ID28	Montant									1.1							
+retraite_pm_inventaire	bicolor_retraite	29	frais_rente	DECIMAL(18,8)		Frais de rente	root	C-bicolor_retraite-root	TAIGAAXA_BI_PMI_yyyymmdd.csv	FE_32_PMInventaire_ID29	Montant									1.1							
+retraite_pm_inventaire	bicolor_retraite	30	pm_3_2_reactualisee	DECIMAL(18,8)		PM 31/12 réactualisée	root	C-bicolor_retraite-root	TAIGAAXA_BI_PMI_yyyymmdd.csv	FE_32_PMInventaire_ID30	Montant									1.1							
+retraite_pm_inventaire	bicolor_retraite	31	acav	DECIMAL(18,8)		ACAV	root	C-bicolor_retraite-root	TAIGAAXA_BI_PMI_yyyymmdd.csv	FE_32_PMInventaire_ID32	Montant									1.1							
+retraite_pm_inventaire	bicolor_retraite	32	dt_calcul_pm	TIMESTAMP	yyyymmdd	Date de calcul de la PM	root	C-bicolor_retraite-root	TAIGAAXA_BI_PMI_yyyymmdd.csv	FE_32_PMInventaire_ID31	Date									1.1							
+retraite_prime_versee	bicolor_retraite	0	type_ligne	STRING		Type de ligne du fichier (header; corps; footer)	root	C-bicolor_retraite-root	TAIGAAXA_BI_PRI_yyyymmdd.csv											1.1							
+retraite_prime_versee	bicolor_retraite	1	id_dossier	BIGINT		Identifiant dossier	root	C-bicolor_retraite-root	TAIGAAXA_BI_PRI_yyyymmdd.csv	FE_23_PrimeVersée_ID1	Nombre	12								1.1							
+retraite_prime_versee	bicolor_retraite	2	id_contrat	BIGINT		Identifiant contrat	root	C-bicolor_retraite-root	TAIGAAXA_BI_PRI_yyyymmdd.csv	FE_23_PrimeVersée_ID2	Nombre	12								1.1							
+retraite_prime_versee	bicolor_retraite	3	id_affiliation	BIGINT		Identifiant affiliation	root	C-bicolor_retraite-root	TAIGAAXA_BI_PRI_yyyymmdd.csv	FE_23_PrimeVersée_ID3	Nombre	12								1.1							
+retraite_prime_versee	bicolor_retraite	4	dt_effet_dossier	TIMESTAMP	yyyymmdd	Date d'effet	root	C-bicolor_retraite-root	TAIGAAXA_BI_PRI_yyyymmdd.csv	FE_23_PrimeVersée_ID4	Date									1.1							
+retraite_prime_versee	bicolor_retraite	5	nature_operation	STRING		Nature opération	root	C-bicolor_retraite-root	TAIGAAXA_BI_PRI_yyyymmdd.csv	FE_23_PrimeVersée_ID5	Texte	15								1.1							
+retraite_prime_versee	bicolor_retraite	6	type_operation	STRING		Type d'opération	root	C-bicolor_retraite-root	TAIGAAXA_BI_PRI_yyyymmdd.csv	FE_23_PrimeVersée_ID6	Texte	15								1.1							
+retraite_prime_versee	bicolor_retraite	7	mode_reglement	STRING		Mode règlement	root	C-bicolor_retraite-root	TAIGAAXA_BI_PRI_yyyymmdd.csv	FE_23_PrimeVersée_ID7	Texte	15								1.1							
+retraite_prime_versee	bicolor_retraite	8	dt_reception	TIMESTAMP	yyyymmdd	Date de réception	root	C-bicolor_retraite-root	TAIGAAXA_BI_PRI_yyyymmdd.csv	FE_23_PrimeVersée_ID8	Date									1.1							
+retraite_prime_versee	bicolor_retraite	9	dt_debut_periode	TIMESTAMP	yyyymmdd	Date de début de période	root	C-bicolor_retraite-root	TAIGAAXA_BI_PRI_yyyymmdd.csv	FE_23_PrimeVersée_ID9	Date									1.1							
+retraite_prime_versee	bicolor_retraite	10	dt_fin_periode	TIMESTAMP	yyyymmdd	Date de fin de période	root	C-bicolor_retraite-root	TAIGAAXA_BI_PRI_yyyymmdd.csv	FE_23_PrimeVersée_ID10	Date									1.1							
+retraite_prime_versee	bicolor_retraite	11	mt_brut	DECIMAL(18,8)		Montant brut	root	C-bicolor_retraite-root	TAIGAAXA_BI_PRI_yyyymmdd.csv	FE_23_PrimeVersée_ID11	Montant									1.1							
+retraite_prime_versee	bicolor_retraite	12	id_plan	BIGINT		Identifiant plan	root	C-bicolor_retraite-root	TAIGAAXA_BI_PRI_yyyymmdd.csv	FE_23_PrimeVersée_ID12	nombre	12								1.1							
+retraite_prime_versee	bicolor_retraite	13	id_dossier_annule	BIGINT		Identifiant dossier annulé	root	C-bicolor_retraite-root	TAIGAAXA_BI_PRI_yyyymmdd.csv	FE_23_PrimeVersée_ID13	Nombre	12								1.1							
+retraite_prime_versee	bicolor_retraite	14	dt_saisie	TIMESTAMP	yyyymmdd hhmmss	Date de saisie	root	C-bicolor_retraite-root	TAIGAAXA_BI_PRI_yyyymmdd.csv	FE_23_PrimeVersée_ID14	Date Heure									1.1							
+retraite_produit	bicolor_retraite	0	type_ligne	STRING		Type de ligne du fichier (header; corps; footer)	root	C-bicolor_retraite-root	TAIGAAXA_BI_PRD_yyyymmdd.csv											1.1							
+retraite_produit	bicolor_retraite	1	id_produit	STRING		Identifiant produit	root	C-bicolor_retraite-root	TAIGAAXA_BI_PRD_yyyymmdd.csv	FE_4_Produit_ID1	Texte	15								1.1							
+retraite_produit	bicolor_retraite	2	typologie_produit	STRING		Typologie du produit	root	C-bicolor_retraite-root	TAIGAAXA_BI_PRD_yyyymmdd.csv	FE_4_Produit_ID2	Texte	15								1.1							
+retraite_produit	bicolor_retraite	3	lib_crt_produit_technique	STRING		Libellé Court Produit Technique	root	C-bicolor_retraite-root	TAIGAAXA_BI_PRD_yyyymmdd.csv	FE_4_Produit_ID3	Texte	20								1.1							
+retraite_produit	bicolor_retraite	4	lib_lg_produit_technique	STRING		Libellé Long Produit Technique	root	C-bicolor_retraite-root	TAIGAAXA_BI_PRD_yyyymmdd.csv	FE_4_Produit_ID4	Texte	100								1.1							
+retraite_produit	bicolor_retraite	5	lib_produit_commerc_crt	STRING		Libellé Produit Commercial Court	root	C-bicolor_retraite-root	TAIGAAXA_BI_PRD_yyyymmdd.csv	FE_4_Produit_ID5	Texte	20								1.1							
+retraite_produit	bicolor_retraite	6	lib_produit_commerc_lg	STRING		Libellé Produit Commercial Long	root	C-bicolor_retraite-root	TAIGAAXA_BI_PRD_yyyymmdd.csv	FE_4_Produit_ID6	Texte	100								1.1							
+retraite_produit	bicolor_retraite	7	assureur	STRING		Assureur	root	C-bicolor_retraite-root	TAIGAAXA_BI_PRD_yyyymmdd.csv	FE_4_Produit_ID7	Texte	50								1.1							
+retraite_produit	bicolor_retraite	8	cd_entite_juridique	STRING		Code Entité Juridique	root	C-bicolor_retraite-root	TAIGAAXA_BI_PRD_yyyymmdd.csv	FE_4_Produit_ID8	Texte	20								1.1							
+retraite_produit	bicolor_retraite	9	entite_juridique	STRING		Entité Juridique	root	C-bicolor_retraite-root	TAIGAAXA_BI_PRD_yyyymmdd.csv	FE_4_Produit_ID9	Texte	50								1.1							
+retraite_produit	bicolor_retraite	10	type_commerc	STRING		Type de commercialisation	root	C-bicolor_retraite-root	TAIGAAXA_BI_PRD_yyyymmdd.csv	FE_4_Produit_ID10	Texte	15								1.1							
+retraite_produit	bicolor_retraite	11	dt_deb_commerc	TIMESTAMP	yyyymmdd	Début de commercialisation	root	C-bicolor_retraite-root	TAIGAAXA_BI_PRD_yyyymmdd.csv	FE_4_Produit_ID11	Date									1.1							
+retraite_produit	bicolor_retraite	12	dt_fin_commerc	TIMESTAMP	yyyymmdd	Fin de commercialisation	root	C-bicolor_retraite-root	TAIGAAXA_BI_PRD_yyyymmdd.csv	FE_4_Produit_ID12	Date									1.1							
+retraite_produit	bicolor_retraite	13	num_convention	STRING		Numéro de convention	root	C-bicolor_retraite-root	TAIGAAXA_BI_PRD_yyyymmdd.csv	FE_4_Produit_ID13	Texte	20								1.1							
+retraite_produit	bicolor_retraite	14	portefeuille	STRING		Portefeuille	root	C-bicolor_retraite-root	TAIGAAXA_BI_PRD_yyyymmdd.csv	FE_4_Produit_ID14	Texte	20								1.1							
+retraite_produit	bicolor_retraite	15	systeme_source	STRING		Système source	root	C-bicolor_retraite-root	TAIGAAXA_BI_PRD_yyyymmdd.csv	FE_4_Produit_ID15	Texte	15								1.1							
+retraite_provision_mathematique	bicolor_retraite	0	type_ligne	STRING		Type de ligne du fichier (header; corps; footer)	root	C-bicolor_retraite-root	TAIGAAXA_BI_PMA_yyyymmdd.csv											1.1							
+retraite_provision_mathematique	bicolor_retraite	1	id_contrat	BIGINT		Identifiant contrat	root	C-bicolor_retraite-root	TAIGAAXA_BI_PMA_yyyymmdd.csv	FE_24_ProvisionMathématique_ID1	Nombre	12								1.1							
+retraite_provision_mathematique	bicolor_retraite	2	id_affiliation	BIGINT		Identifiant affiliation	root	C-bicolor_retraite-root	TAIGAAXA_BI_PMA_yyyymmdd.csv	FE_24_ProvisionMathématique_ID2	Nombre	12								1.1							
+retraite_provision_mathematique	bicolor_retraite	3	id_gestion_financiere	BIGINT		Identifiant gestion financière	root	C-bicolor_retraite-root	TAIGAAXA_BI_PMA_yyyymmdd.csv	FE_24_ProvisionMathématique_ID3	Nombre	12								1.1							
+retraite_provision_mathematique	bicolor_retraite	4	id_support	BIGINT		Identifiant support	root	C-bicolor_retraite-root	TAIGAAXA_BI_PMA_yyyymmdd.csv	FE_24_ProvisionMathématique_ID4	Nombre	12								1.1							
+retraite_provision_mathematique	bicolor_retraite	5	dt_pm	TIMESTAMP	yyyymmdd hhmmss	Date PM	root	C-bicolor_retraite-root	TAIGAAXA_BI_PMA_yyyymmdd.csv	FE_24_ProvisionMathématique_ID5	Date Heure									1.1							
+retraite_provision_mathematique	bicolor_retraite	6	pm_tmg_a_dt_extract	DECIMAL(18,8)		PM TMG à la Date d'extraction	root	C-bicolor_retraite-root	TAIGAAXA_BI_PMA_yyyymmdd.csv	FE_24_ProvisionMathématique_ID6	Montant									1.1							
+retraite_provision_mathematique	bicolor_retraite	7	pm_anticipees_a_dt_extract	DECIMAL(18,8)		PM Anticipées à la Date d'extraction	root	C-bicolor_retraite-root	TAIGAAXA_BI_PMA_yyyymmdd.csv	FE_24_ProvisionMathématique_ID7	Montant									1.1							
+retraite_provision_mathematique	bicolor_retraite	8	pm_brutes	DECIMAL(18,8)		PM Brutes	root	C-bicolor_retraite-root	TAIGAAXA_BI_PMA_yyyymmdd.csv	FE_24_ProvisionMathématique_ID8	Montant									1.1							
+retraite_provision_mathematique	bicolor_retraite	9	pm_nettes	DECIMAL(18,8)		PM Nettes	root	C-bicolor_retraite-root	TAIGAAXA_BI_PMA_yyyymmdd.csv	FE_24_ProvisionMathématique_ID9	Montant									1.1							
+retraite_provision_mathematique	bicolor_retraite	10	nombre_parts	DECIMAL(25,10)		Nombre de parts	root	C-bicolor_retraite-root	TAIGAAXA_BI_PMA_yyyymmdd.csv	FE_24_ProvisionMathématique_ID10	Nombre de part									1.1							
+retraite_provision_mathematique	bicolor_retraite	11	interets_techniques_inclus	DECIMAL(18,8)		Intérêts techniques inclus	root	C-bicolor_retraite-root	TAIGAAXA_BI_PMA_yyyymmdd.csv	FE_24_ProvisionMathématique_ID11	Montant									1.1							
+retraite_provision_mathematique	bicolor_retraite	12	participation_resultat_incluse	DECIMAL(18,8)		Participation au résultat incluse	root	C-bicolor_retraite-root	TAIGAAXA_BI_PMA_yyyymmdd.csv	FE_24_ProvisionMathématique_ID12	Montant									1.1							
+retraite_provision_mathematique	bicolor_retraite	13	dt_valeur_vl	TIMESTAMP	yyyymmdd	Date de valeur de la VL	root	C-bicolor_retraite-root	TAIGAAXA_BI_PMA_yyyymmdd.csv	FE_24_ProvisionMathématique_ID13	Date									1.1							
+retraite_provision_mathematique	bicolor_retraite	14	vl_support	DECIMAL(18,8)		VL du support	root	C-bicolor_retraite-root	TAIGAAXA_BI_PMA_yyyymmdd.csv	FE_24_ProvisionMathématique_ID14	Montant									1.1							
+retraite_support	bicolor_retraite	0	type_ligne	STRING		Type de ligne du fichier (header; corps; footer)	root	C-bicolor_retraite-root	TAIGAAXA_BI_SUP_yyyymmdd.csv											1.1							
+retraite_support	bicolor_retraite	1	id_support	BIGINT		Identifiant support	root	C-bicolor_retraite-root	TAIGAAXA_BI_SUP_yyyymmdd.csv	FE_8__support_ID_1	Nombre	12								1.1							
+retraite_support	bicolor_retraite	2	id_gestion_financiere	BIGINT		Identifiant gestion financière	root	C-bicolor_retraite-root	TAIGAAXA_BI_SUP_yyyymmdd.csv	FE_8_Support_ID_2	Nombre	12								1.1							
+retraite_support	bicolor_retraite	3	type_support	STRING		Type Support	root	C-bicolor_retraite-root	TAIGAAXA_BI_SUP_yyyymmdd.csv	FE_8_Support_ID_3	Texte	15								1.1							
+retraite_support	bicolor_retraite	4	forme_support	STRING		Forme Support	root	C-bicolor_retraite-root	TAIGAAXA_BI_SUP_yyyymmdd.csv	FE_8_Support_ID_4	Texte	15								1.1							
+retraite_support	bicolor_retraite	5	isin	STRING		ISIN	root	C-bicolor_retraite-root	TAIGAAXA_BI_SUP_yyyymmdd.csv	FE_8_Support_ID_5	Texte	12								1.1							
+retraite_support	bicolor_retraite	6	lib_crt_support	STRING		Libelle Court Support	root	C-bicolor_retraite-root	TAIGAAXA_BI_SUP_yyyymmdd.csv	FE_8_Support_ID_6	Texte	20								1.1							
+retraite_support	bicolor_retraite	7	lib_lg_support	STRING		Libelle Long Support	root	C-bicolor_retraite-root	TAIGAAXA_BI_SUP_yyyymmdd.csv	FE_8_Support_ID_7	Texte	100								1.1							
+retraite_support	bicolor_retraite	8	dt_deb_commerc	TIMESTAMP	yyyymmdd	Début de commercialisation	root	C-bicolor_retraite-root	TAIGAAXA_BI_SUP_yyyymmdd.csv	FE_8_Support_ID_8	Date									1.1							
+retraite_support	bicolor_retraite	9	dt_fin_commerc	TIMESTAMP	yyyymmdd	Fin de commercialisation	root	C-bicolor_retraite-root	TAIGAAXA_BI_SUP_yyyymmdd.csv	FE_8_Support_ID_9	Date									1.1							
+retraite_support	bicolor_retraite	10	portefeuille	STRING		Portefeuille	root	C-bicolor_retraite-root	TAIGAAXA_BI_SUP_yyyymmdd.csv	FE_8_Support_ID_10	Texte	15								1.1							
+retraite_tarification	bicolor_retraite	0	type_ligne	STRING		Type de ligne du fichier (header; corps; footer)	root	C-bicolor_retraite-root	TAIGAAXA_BI_TAR_yyyymmdd.csv											1.1							
+retraite_tarification	bicolor_retraite	1	id_tarification	BIGINT		Identifiant tarification	root	C-bicolor_retraite-root	TAIGAAXA_BI_TAR_yyyymmdd.csv	FE_14_Tarification_ID1	Nombre	12								1.1							
+retraite_tarification	bicolor_retraite	2	id_palier_tarification	BIGINT		Identifiant palier tarification	root	C-bicolor_retraite-root	TAIGAAXA_BI_TAR_yyyymmdd.csv	FE_14_Tarification_ID2	Nombre	12								1.1							
+retraite_tarification	bicolor_retraite	3	identifant_tranche_tarification	BIGINT		Identifant tranche tarification	root	C-bicolor_retraite-root	TAIGAAXA_BI_TAR_yyyymmdd.csv	FE_14_Tarification_ID3	Nombre	12								1.1							
+retraite_tarification	bicolor_retraite	4	acte_tarife	STRING		Acte Tarifé	root	C-bicolor_retraite-root	TAIGAAXA_BI_TAR_yyyymmdd.csv	FE_14_Tarification_ID4	Texte	15								1.1							
+retraite_tarification	bicolor_retraite	5	famille_frais	STRING		Famille de frais	root	C-bicolor_retraite-root	TAIGAAXA_BI_TAR_yyyymmdd.csv	FE_14_Tarification_ID5	Texte	15								1.1							
+retraite_tarification	bicolor_retraite	6	type_frais	STRING		Type de frais	root	C-bicolor_retraite-root	TAIGAAXA_BI_TAR_yyyymmdd.csv	FE_14_Tarification_ID6	Texte	15								1.1							
+retraite_tarification	bicolor_retraite	7	id_produit	STRING		Identifiant produit	root	C-bicolor_retraite-root	TAIGAAXA_BI_TAR_yyyymmdd.csv	FE_14_Tarification_ID7	Texte	15								1.1							
+retraite_tarification	bicolor_retraite	8	identifian_contrat	BIGINT		Identifian contrat	root	C-bicolor_retraite-root	TAIGAAXA_BI_TAR_yyyymmdd.csv	FE_14_Tarification_ID8	Nombre	12								1.1							
+retraite_tarification	bicolor_retraite	9	canton	STRING		Canton	root	C-bicolor_retraite-root	TAIGAAXA_BI_TAR_yyyymmdd.csv	FE_14_Tarification_ID9	Texte	15								1.1							
+retraite_tarification	bicolor_retraite	10	id_gestion_financiere	BIGINT		Identifiant gestion financière	root	C-bicolor_retraite-root	TAIGAAXA_BI_TAR_yyyymmdd.csv	FE_14_Tarification_ID10	Nombre	12								1.1							
+retraite_tarification	bicolor_retraite	11	type_support	STRING		Type de support	root	C-bicolor_retraite-root	TAIGAAXA_BI_TAR_yyyymmdd.csv	FE_14_Tarification_ID11	Texte	15								1.1							
+retraite_tarification	bicolor_retraite	12	id_support	BIGINT		Identifiant support	root	C-bicolor_retraite-root	TAIGAAXA_BI_TAR_yyyymmdd.csv	FE_14_Tarification_ID12	Nombre	12								1.1							
+retraite_tarification	bicolor_retraite	13	dt_deb_commerc	TIMESTAMP	yyyymmdd	Début d'application	root	C-bicolor_retraite-root	TAIGAAXA_BI_TAR_yyyymmdd.csv	FE_14_Tarification_ID13	Date									1.1							
+retraite_tarification	bicolor_retraite	14	dt_fin_appli	TIMESTAMP	yyyymmdd	Fin d'application	root	C-bicolor_retraite-root	TAIGAAXA_BI_TAR_yyyymmdd.csv	FE_14_Tarification_ID14	Date									1.1							
+retraite_tarification	bicolor_retraite	15	garantie_financee	BIGINT		Garantie financée	root	C-bicolor_retraite-root	TAIGAAXA_BI_TAR_yyyymmdd.csv	FE_14_Tarification_ID15	Nombre	12								1.1							
+retraite_tarification	bicolor_retraite	16	frequence	STRING		Fréquence	root	C-bicolor_retraite-root	TAIGAAXA_BI_TAR_yyyymmdd.csv	FE_14_Tarification_ID16	Texte	15								1.1							
+retraite_tarification	bicolor_retraite	17	mode_calcul	STRING		Mode de calcul	root	C-bicolor_retraite-root	TAIGAAXA_BI_TAR_yyyymmdd.csv	FE_14_Tarification_ID17	Texte	15								1.1							
+retraite_tarification	bicolor_retraite	18	dt_ref	STRING		Date de référence	root	C-bicolor_retraite-root	TAIGAAXA_BI_TAR_yyyymmdd.csv	FE_14_Tarification_ID18	Texte	15								1.1							
+retraite_tarification	bicolor_retraite	19	type_palier	STRING		Type de palier	root	C-bicolor_retraite-root	TAIGAAXA_BI_TAR_yyyymmdd.csv	FE_14_Tarification_ID19	Texte	15								1.1							
+retraite_tarification	bicolor_retraite	20	borne_palier_sup	BIGINT		Borne palier supérieure	root	C-bicolor_retraite-root	TAIGAAXA_BI_TAR_yyyymmdd.csv	FE_14_Tarification_ID20	Nombre	20								1.1							
+retraite_tarification	bicolor_retraite	21	assiette_tranche_nb	BIGINT		Assiette tranche	root	C-bicolor_retraite-root	TAIGAAXA_BI_TAR_yyyymmdd.csv	FE_14_Tarification_ID21	Nombre	20								1.1							
+retraite_tarification	bicolor_retraite	22	assiette_tranche_txt	STRING		Assiette tranche	root	C-bicolor_retraite-root	TAIGAAXA_BI_TAR_yyyymmdd.csv	FE_14_Tarification_ID22	Texte	15								1.1							
+retraite_tarification	bicolor_retraite	23	borne_tranche_inf	DECIMAL(18,8)		Borne tranche inférieure	root	C-bicolor_retraite-root	TAIGAAXA_BI_TAR_yyyymmdd.csv	FE_14_Tarification_ID23	Montant									1.1							
+retraite_tarification	bicolor_retraite	24	borne_tranche_sup	DECIMAL(18,8)		Borne tranche supérieure	root	C-bicolor_retraite-root	TAIGAAXA_BI_TAR_yyyymmdd.csv	FE_14_Tarification_ID24	Montant									1.1							
+retraite_tarification	bicolor_retraite	25	tx_frais	DECIMAL(18,8)		Taux de frais	root	C-bicolor_retraite-root	TAIGAAXA_BI_TAR_yyyymmdd.csv	FE_14_Tarification_ID25	Taux									1.1							
+retraite_tarification	bicolor_retraite	26	mt_forfaitaire	DECIMAL(18,8)		Montant forfaitaire	root	C-bicolor_retraite-root	TAIGAAXA_BI_TAR_yyyymmdd.csv	FE_14_Tarification_ID26	Montant									1.1							
+retraite_tarification	bicolor_retraite	27	mt_minimum	DECIMAL(18,8)		Montant minimum	root	C-bicolor_retraite-root	TAIGAAXA_BI_TAR_yyyymmdd.csv	FE_14_Tarification_ID27	Montant									1.1							
+retraite_tarification	bicolor_retraite	28	mt_maximum	DECIMAL(18,8)		Montant maximum	root	C-bicolor_retraite-root	TAIGAAXA_BI_TAR_yyyymmdd.csv	FE_14_Tarification_ID28	Montant									1.1							
+retraite_tarification	bicolor_retraite	29	mt_global_minimum	DECIMAL(18,8)		Montant global minimum	root	C-bicolor_retraite-root	TAIGAAXA_BI_TAR_yyyymmdd.csv	FE_14_Tarification_ID29	Montant									1.1							
+retraite_tarification	bicolor_retraite	30	mt_global_maximum	DECIMAL(18,8)		Montant global maximum	root	C-bicolor_retraite-root	TAIGAAXA_BI_TAR_yyyymmdd.csv	FE_14_Tarification_ID30	Montant									1.1							
+retraite_tarification	bicolor_retraite	31	tx_global_minimum	DECIMAL(18,8)		Taux global minimum	root	C-bicolor_retraite-root	TAIGAAXA_BI_TAR_yyyymmdd.csv	FE_14_Tarification_ID31	Taux									1.1							
+retraite_tarification	bicolor_retraite	32	tx_global_maximum	DECIMAL(18,8)		Taux global maximum	root	C-bicolor_retraite-root	TAIGAAXA_BI_TAR_yyyymmdd.csv	FE_14_Tarification_ID32	Taux									1.1							
+retraite_taux_support	bicolor_retraite	0	type_ligne	STRING		Type de ligne du fichier (header; corps; footer)	root	C-bicolor_retraite-root	TAIGAAXA_BI_STX_yyyymmdd.csv											1.1							
+retraite_taux_support	bicolor_retraite	1	id_support	BIGINT		Identifiant support	root	C-bicolor_retraite-root	TAIGAAXA_BI_STX_yyyymmdd.csv	FE_15_TauxSupport_ID1	Nombre	12								1.1							
+retraite_taux_support	bicolor_retraite	2	id_contrat	BIGINT		Identifiant contrat	root	C-bicolor_retraite-root	TAIGAAXA_BI_STX_yyyymmdd.csv	FE_15_TauxSupport_ID2	Nombre	12								1.1							
+retraite_taux_support	bicolor_retraite	3	type_tx	STRING		Type de taux	root	C-bicolor_retraite-root	TAIGAAXA_BI_STX_yyyymmdd.csv	FE_15_TauxSupport_ID3	Texte	15								1.1							
+retraite_taux_support	bicolor_retraite	4	dt_debut	TIMESTAMP	yyyymmdd	Date de début	root	C-bicolor_retraite-root	TAIGAAXA_BI_STX_yyyymmdd.csv	FE_15_TauxSupport_ID4	Date									1.1							
+retraite_taux_support	bicolor_retraite	5	dt_fin	TIMESTAMP	yyyymmdd	Date de fin	root	C-bicolor_retraite-root	TAIGAAXA_BI_STX_yyyymmdd.csv	FE_15_TauxSupport_ID5	Date									1.1							
+retraite_taux_support	bicolor_retraite	6	tx_support	DECIMAL(18,8)		Taux	root	C-bicolor_retraite-root	TAIGAAXA_BI_STX_yyyymmdd.csv	FE_15_TauxSupport_ID6	Taux									1.1							
+retraite_taux_support	bicolor_retraite	7	top_calcule	STRING		Calculé ?	root	C-bicolor_retraite-root	TAIGAAXA_BI_STX_yyyymmdd.csv	FE_15_TauxSupport_ID7	Booléen									1.1							
+retraite_taux_support	bicolor_retraite	8	type_tx_pm	STRING		Type de taux PM	root	C-bicolor_retraite-root	TAIGAAXA_BI_STX_yyyymmdd.csv	FE_15_TauxSupport_ID8	Texte	15								1.1							
+retraite_taux_support	bicolor_retraite	9	frequence	STRING		Fréquence	root	C-bicolor_retraite-root	TAIGAAXA_BI_STX_yyyymmdd.csv	FE_15_TauxSupport_ID9	Texte	15								1.1							
