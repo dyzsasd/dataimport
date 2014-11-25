@@ -1,13 +1,18 @@
 package com.axa.bi.hivemetastore;
 
+import com.axa.bi.dataimport.transformation.DateTimeTransformation;
 import com.google.common.base.Joiner;
 import com.google.common.collect.Lists;
 import org.apache.hadoop.hive.conf.HiveConf;
 import org.apache.hadoop.hive.metastore.HiveMetaStoreClient;
 import org.apache.hadoop.hive.metastore.api.FieldSchema;
 import org.apache.hadoop.hive.metastore.api.MetaException;
+import org.apache.hadoop.hive.metastore.api.Partition;
+import org.apache.hadoop.hive.metastore.api.hive_metastoreConstants;
 import org.apache.hadoop.hive.ql.metadata.Hive;
 import org.apache.thrift.TException;
+import org.joda.time.DateTime;
+import org.joda.time.format.DateTimeFormatter;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -60,15 +65,34 @@ public class HiveMetaStoreConnector {
     }
 
     public List<String> getTablePartitionInformation(String dbName, String tableName){
-        List<String> partNames;
+        List<String> partitionsInfo = Lists.newArrayList();
         try {
-            partNames = hiveMetaStoreClient.listPartitionNames(dbName,tableName, (short) 10);
+            List<String> partitionNames = hiveMetaStoreClient.listPartitionNames(dbName,tableName, (short) 10000);
+            List<Partition> partitions = hiveMetaStoreClient.listPartitions(dbName,tableName, (short) 10000);
+            for(Partition partition:partitions){
+                StringBuffer sb = new StringBuffer();
+                sb.append(tableName);
+                sb.append("\t");
+                List<String> partitionValues = partition.getValues();
+                if(partitionValues.size()<4){
+                    int size = partitionValues.size();
+                    for(int j=0; j<4-size;j++){
+                        partitionValues.add("null");
+                    }
+                }
+                sb.append(Joiner.on("\t").join(partitionValues));
+                sb.append("\t");
+                DateTime createDate = new DateTime((long)partition.getCreateTime()*1000);
+                sb.append(createDate.toString("yyyy-MM-dd HH:mm:ss"));
+                partitionsInfo.add(sb.toString());
+            }
+
         } catch (TException e) {
             e.printStackTrace();
             return Arrays.asList(new String[]{"error for request on" + tableName});
         }
 
-        return partNames;
+        return partitionsInfo;
     }
 
     public String getAllTableStatistic(String dbName){

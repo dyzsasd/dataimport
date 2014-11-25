@@ -14,7 +14,7 @@ public class test {
 
         HiveMetaStoreConnector hiveMetaStoreConnector = new HiveMetaStoreConnector(hiveConf);
         if(hiveMetaStoreConnector != null){
-            System.out.print(hiveMetaStoreConnector.getAllTableStatistic(args[1]));
+            System.out.print(hiveMetaStoreConnector.getAllPartitionInfo("pisquare"));
         }
     }
 }

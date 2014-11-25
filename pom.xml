@@ -19,7 +19,8 @@
     <properties>
         <java.version>1.7</java.version>
         <hadoop.version>2.3.0-cdh5.1.2</hadoop.version>
-        <hive.version>0.12.0-cdh5.1.2</hive.version>
+        <hive.version>0.13.1-cdh5.2.0</hive.version>
+        <lib.lifecycle>provided</lib.lifecycle>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <junit.version>4.11</junit.version>
         <antlr-runtime.version>3.5.1</antlr-runtime.version>
@@ -38,7 +39,7 @@
             <groupId>org.apache.hadoop</groupId>
             <artifactId>hadoop-client</artifactId>
             <version>${hadoop.version}</version>
-            <scope>provided</scope>
+
         </dependency>
         <dependency>
             <groupId>com.google.guava</groupId>
@@ -100,13 +101,13 @@
             <groupId>org.apache.hive</groupId>
             <artifactId>hive-common</artifactId>
             <version>${hive.version}</version>
-            <scope>provided</scope>
+
         </dependency>
         <dependency>
             <groupId>org.apache.hive</groupId>
             <artifactId>hive-exec</artifactId>
             <version>${hive.version}</version>
-            <scope>provided</scope>
+
         </dependency>
     </dependencies>
     <build>
