@@ -1,206 +1,3 @@
-CREATE EXTERNAL TABLE IF NOT EXISTS retraite_comptabilite (
-  num_fichier BIGINT COMMENT 'Num�ro de fichier',
-  type_enrgt BIGINT COMMENT 'Type d enregistrement',
-  syst_emetteur BIGINT COMMENT 'syst�me �metteur',
-  lib_syst_emetteur STRING COMMENT 'libell� syst�me �metteur',
-  bloc_appli BIGINT COMMENT 'bloc applicatif',
-  acte_global STRING COMMENT 'Acte global',
-  cd_transaction STRING COMMENT 'Code transaction',
-  id_CRE STRING COMMENT 'identifiant CRE',
-  sens_acte STRING COMMENT 'sens de l acte',
-  motif_annul STRING COMMENT 'Motif d annulation',
-  nb_mouvement BIGINT COMMENT 'Nombre de mouvements',
-  num_mouvement BIGINT COMMENT 'Numero du mouvement dans l acte',
-  libelle STRING COMMENT 'libell� (wording)',
-  ref_interne STRING COMMENT 'r�f�rence interne ',
-  categ_ref_interne STRING COMMENT 'Cat�gorie de r�f�rence interne',
-  ref_complementaire STRING COMMENT 'r�f�rence compl�mentaire',
-  categ_ref_complementaire STRING COMMENT 'Cat�gorie de r�f�rence compl�mentaire',
-  cd_societe BIGINT COMMENT 'code soci�t�',
-  cd_devise_contrat STRING COMMENT 'code devise du contrat',
-  cd_pays_souscript STRING COMMENT 'code pays souscription',
-  cd_pays_risque STRING COMMENT 'code pays risque',
-  type_prime STRING COMMENT 'type de prime',
-  cd_portefeuille STRING COMMENT 'code portefeuille',
-  cd_agence STRING COMMENT 'Code Agrence',
-  cd_encaisseur_RS STRING COMMENT 'Code Encaisseur RS',
-  canal_distrib STRING COMMENT 'canal de distribution',
-  regime_assure STRING COMMENT 'R�gime de l assur�  ',
-  categ_personnel BIGINT COMMENT ' code de coll�ge param�tr� dans TAIGA - vide pour encaissement',
-  categ_prime_assure STRING COMMENT 'Cat�gorie de prime assur�',
-  cd_produit STRING COMMENT 'code produit',
-  indic_garantie STRING COMMENT 'indicateur de garantie',
-  cd_garantie STRING COMMENT 'Code garantie',
-  type_acte_affect STRING COMMENT 'Type acte affect�',
-  cd_compartiment STRING COMMENT 'Code compartiment',
-  type_support STRING COMMENT 'Type support',
-  nom_assure_souscript STRING COMMENT 'Nom assur� souscripteur',
-  nom_adherent STRING COMMENT 'Nom adh�rent',
-  num_adherent STRING COMMENT 'Num�ro adh�rent',
-  benefic_rembst STRING COMMENT 'B�n�ficiaire Remboursement (vide)',
-  type_ligne STRING COMMENT 'Type ligne',
-  montant BIGINT COMMENT 'montant',
-  taux DECIMAL(18,8) COMMENT 'Taux',
-  type_montant STRING COMMENT 'type montant taux',
-  type_taxe_compart STRING COMMENT 'type de taxe par compartiment',
-  tx_taxe DECIMAL(18,8) COMMENT 'taux de taxe',
-  montant_assiette_taxe BIGINT COMMENT 'montant assiette taxe (base)',
-  montant_taxe BIGINT COMMENT 'montant taxe',
-  cd_destination STRING COMMENT 'code destination ',
-  md_paiement STRING COMMENT 'mode de paiement',
-  num_id_reglt STRING COMMENT 'N� identifiant du r�glement',
-  id_suspens STRING COMMENT 'Identifiant de suspens',
-  info_RIB STRING COMMENT 'information RIB',
-  num_quittance STRING COMMENT 'num�ro de quittance',
-  dt_crea_flux_gene TIMESTAMP COMMENT 'date de cr�ation du flux g�n�rique',
-  dt_comptable TIMESTAMP COMMENT 'date comptable',
-  dt_operation TIMESTAMP COMMENT 'date de l op�ration',
-  dt_effet_contrat TIMESTAMP COMMENT 'date d effet du contrat',
-  dt_deb_effet_assur TIMESTAMP COMMENT 'date d�but d effet d assurance',
-  dt_fin_effet_assur TIMESTAMP COMMENT 'date de fin d effet d assurance',
-  dt_encaissement TIMESTAMP COMMENT 'date d encaissement',
-  dt_effet_operation TIMESTAMP COMMENT 'date d effet de l op�ration',
-  id_dossier STRING COMMENT 'Identifiant Dossier Taiga',
-  id_encaissement STRING COMMENT 'Identifiant Encaissement Taiga',
-  id_affectation STRING COMMENT 'Identifiant Affectation Taiga',
-  ref_contrat STRING COMMENT 'R�f�rence Contrat (RPP) sur 13 caract�re cadr�s � gauche',
-  compta_nb_mvts BIGINT COMMENT 'Nombre de mouvements - fichier operas',
-  compta_num_mvts BIGINT COMMENT 'Numero du mouvement dans l acte - fichier operas',
-  cd_uv STRING COMMENT 'code UV',
-  cd_ut STRING COMMENT 'code UT',
-  canal_rdu STRING COMMENT 'Canal RDU')
-PARTITIONED BY (yyyy STRING, mm STRING, dd STRING)
-ROW FORMAT DELIMITED FIELDS TERMINATED BY ';'
-LOCATION '/group/bicolor_retraite/data/retraite_comptabilite';
-
-
-CREATE EXTERNAL TABLE IF NOT EXISTS retraite_dividende (
-  type_ligne STRING COMMENT 'Type de ligne du fichier (header; corps; footer)',
-  id_dividende BIGINT COMMENT 'Identifiant dividende',
-  cd_isin STRING COMMENT 'Code ISIN',
-  devise STRING COMMENT 'Devise',
-  dt_distribution TIMESTAMP COMMENT 'Date de distribution',
-  mt_dividende DECIMAL(18,8) COMMENT 'Montant du dividende',
-  dt_valeur TIMESTAMP COMMENT 'Date de valeur',
-  vl_utilisee_detachement DECIMAL(18,8) COMMENT 'VL utilis�e au d�tachement',
-  dt_saisie TIMESTAMP COMMENT 'Date de saisie')
-PARTITIONED BY (yyyy STRING, mm STRING, dd STRING)
-ROW FORMAT DELIMITED FIELDS TERMINATED BY ';'
-LOCATION '/group/bicolor_retraite/data/retraite_dividende';
-
-
-CREATE EXTERNAL TABLE IF NOT EXISTS retraite_fusion_absorption (
-  type_ligne STRING COMMENT 'Type de ligne du fichier (header; corps; footer)',
-  id_fusion_absorbsion BIGINT COMMENT 'Identifiant Fusion   Absorbsion',
-  cd_isin_absorbe STRING COMMENT 'Code ISIN absorb�',
-  isin_absorbant_ou_nouvel_isin STRING COMMENT 'Code ISIN absorbant ou nouveau code ISIN',
-  dt_absorption TIMESTAMP COMMENT 'Date d absorption',
-  dt_valeur TIMESTAMP COMMENT 'Date de valeur',
-  parite DECIMAL(18,8) COMMENT 'Parit�')
-PARTITIONED BY (yyyy STRING, mm STRING, dd STRING)
-ROW FORMAT DELIMITED FIELDS TERMINATED BY ';'
-LOCATION '/group/bicolor_retraite/data/retraite_fusion_absorption';
-
-
-CREATE EXTERNAL TABLE IF NOT EXISTS retraite_pm_inventaire (
-  type_ligne STRING COMMENT 'Type de ligne du fichier (header; corps; footer)',
-  id_contrat BIGINT COMMENT 'Identifiant contrat',
-  id_affiliation BIGINT COMMENT 'Identifiant affiliation',
-  id_gestion_financiere BIGINT COMMENT 'Identifiant gestion financi�re',
-  id_support BIGINT COMMENT 'Identifiant support',
-  dt_pm TIMESTAMP COMMENT 'Date PM',
-  pm_tmg_a_dt_extract DECIMAL(18,8) COMMENT 'PM TMG � la Date d extraction',
-  pm_anticipees_a_dt_extract DECIMAL(18,8) COMMENT 'PM Anticip�es � la Date d extraction',
-  pm_brutes DECIMAL(18,8) COMMENT 'PM Brutes',
-  pm_nettes DECIMAL(18,8) COMMENT 'PM Nettes',
-  nombre_parts DECIMAL(25,10) COMMENT 'Nombre de parts',
-  interets_techniques_inclus DECIMAL(18,8) COMMENT 'Int�r�ts techniques inclus',
-  participation_resultat_incluse DECIMAL(18,8) COMMENT 'Participation au r�sultat incluse',
-  dt_valeur_vl TIMESTAMP COMMENT 'Date de valeur de la VL',
-  vl_support DECIMAL(18,8) COMMENT 'VL du support',
-  cumul_primes DECIMAL(18,8) COMMENT 'Cumul des primes',
-  cumul_transfert_entrant_interne DECIMAL(18,8) COMMENT 'cumul des transfert entrant interne',
-  cumul_transfert_entrant_externe DECIMAL(18,8) COMMENT 'cumul des transfert entrant externe',
-  cumul_sorties DECIMAL(18,8) COMMENT 'Cumul des sorties',
-  cumul_transfert_sortant_interne DECIMAL(18,8) COMMENT 'cumul des transfert sortant interne',
-  cumul_transfert_sortant_externe DECIMAL(18,8) COMMENT 'cumul des transfert sortant externe',
-  cumul_ost_ddc DECIMAL(18,8) COMMENT 'cumul ost_ddc',
-  cumul_arbitrages DECIMAL(18,8) COMMENT 'cumul des arbitrages',
-  frais_acquisition DECIMAL(18,8) COMMENT 'Frais d acquisition',
-  frais_garantie_exo_continuite DECIMAL(18,8) COMMENT 'Frais garantie exo (continuit�)',
-  frais_transfert DECIMAL(18,8) COMMENT 'Frais de transfert',
-  frais_arbitrage DECIMAL(18,8) COMMENT 'Frais d arbitrage',
-  frais_gestion_uc DECIMAL(18,8) COMMENT 'Frais de gestion UC',
-  frais_gestion_euro DECIMAL(18,8) COMMENT 'Frais de gestion EURO',
-  frais_rente DECIMAL(18,8) COMMENT 'Frais de rente',
-  pm_3_2_reactualisee DECIMAL(18,8) COMMENT 'PM 31 12 r�actualis�e',
-  acav DECIMAL(18,8) COMMENT 'ACAV',
-  dt_calcul_pm TIMESTAMP COMMENT 'Date de calcul de la PM')
-PARTITIONED BY (yyyy STRING, mm STRING, dd STRING)
-ROW FORMAT DELIMITED FIELDS TERMINATED BY ';'
-LOCATION '/group/bicolor_retraite/data/retraite_pm_inventaire';
-
-
-CREATE EXTERNAL TABLE IF NOT EXISTS retraite_liste_cd_lib (
-  societe STRING COMMENT 'Soci�t�',
-  type_liste STRING COMMENT 'Type de liste',
-  cd STRING COMMENT 'Code',
-  lib STRING COMMENT 'Libell�',
-  col_hadoop STRING COMMENT 'colonne(s) hadoop concern�e(s)')
-ROW FORMAT DELIMITED FIELDS TERMINATED BY ';'
-LOCATION '/group/bicolor_retraite/data/retraite_liste_cd_lib';
-
-CREATE EXTERNAL TABLE IF NOT EXISTS retraite_liste_cd_lib_all (
-  societe STRING COMMENT 'Soci�t�',
-  type_liste STRING COMMENT 'Type de liste',
-  cd STRING COMMENT 'Code',
-  lib STRING COMMENT 'Libell�',
-  col_hadoop STRING COMMENT 'colonne(s) hadoop concern�e(s)')
-PARTITIONED BY (yyyy STRING, mm STRING, dd STRING)
-ROW FORMAT DELIMITED FIELDS TERMINATED BY ';'
-LOCATION '/group/bicolor_retraite/data/retraite_liste_cd_lib';
-
-
-CREATE EXTERNAL TABLE IF NOT EXISTS retraite_cnt_remplace (
-  sys_emet STRING COMMENT 'Syst�me �meteur',
-  date_trait_orig TIMESTAMP COMMENT 'Date de traitement Origine',
-  ref_contrat STRING COMMENT 'R�f�rence Contrat',
-  date_eff_contrat TIMESTAMP COMMENT 'Date d effet du contrat',
-  id_event STRING COMMENT 'Identifiant Ev�nement',
-  event STRING COMMENT 'Ev�nement',
-  sens_event STRING COMMENT 'Sens de Ev�nement',
-  date_sais_event TIMESTAMP COMMENT 'Date de saisie de l Ev�nement',
-  date_eff_event TIMESTAMP COMMENT 'Date d effet de l Ev�nement',
-  statut_contrat STRING COMMENT 'Statut du contrat',
-  motif_statut STRING COMMENT 'Motif du Statut',
-  code_1 STRING COMMENT 'Code 1',
-  type_code_1 STRING COMMENT 'Type de code 1',
-  code_2 STRING COMMENT 'Code 2',
-  type_code_2 STRING COMMENT 'Type de code 2')
-ROW FORMAT DELIMITED FIELDS TERMINATED BY ';'
-LOCATION '/group/bicolor_retraite/data/retraite_cnt_remplace';
-
-CREATE EXTERNAL TABLE IF NOT EXISTS retraite_cnt_remplace_all (
-  sys_emet STRING COMMENT 'Syst�me �meteur',
-  date_trait_orig TIMESTAMP COMMENT 'Date de traitement Origine',
-  ref_contrat STRING COMMENT 'R�f�rence Contrat',
-  date_eff_contrat TIMESTAMP COMMENT 'Date d effet du contrat',
-  id_event STRING COMMENT 'Identifiant Ev�nement',
-  event STRING COMMENT 'Ev�nement',
-  sens_event STRING COMMENT 'Sens de Ev�nement',
-  date_sais_event TIMESTAMP COMMENT 'Date de saisie de l Ev�nement',
-  date_eff_event TIMESTAMP COMMENT 'Date d effet de l Ev�nement',
-  statut_contrat STRING COMMENT 'Statut du contrat',
-  motif_statut STRING COMMENT 'Motif du Statut',
-  code_1 STRING COMMENT 'Code 1',
-  type_code_1 STRING COMMENT 'Type de code 1',
-  code_2 STRING COMMENT 'Code 2',
-  type_code_2 STRING COMMENT 'Type de code 2')
-PARTITIONED BY (yyyy STRING, mm STRING, dd STRING)
-ROW FORMAT DELIMITED FIELDS TERMINATED BY ';'
-LOCATION '/group/bicolor_retraite/data/retraite_cnt_remplace';
-
-
 CREATE EXTERNAL TABLE IF NOT EXISTS retraite_affiliation (
   type_ligne STRING COMMENT 'Type de ligne du fichier (header; corps; footer)',
   id_affiliation BIGINT COMMENT 'Identifiant affiliation',
@@ -598,6 +395,21 @@ ROW FORMAT DELIMITED FIELDS TERMINATED BY ';'
 LOCATION '/group/bicolor_retraite/data/retraite_detail_frais';
 
 
+CREATE EXTERNAL TABLE IF NOT EXISTS retraite_dividende (
+  type_ligne STRING COMMENT 'Type de ligne du fichier (header; corps; footer)',
+  id_dividende BIGINT COMMENT 'Identifiant dividende',
+  cd_isin STRING COMMENT 'Code ISIN',
+  devise STRING COMMENT 'Devise',
+  dt_distribution TIMESTAMP COMMENT 'Date de distribution',
+  mt_dividende DECIMAL(18,8) COMMENT 'Montant du dividende',
+  dt_valeur TIMESTAMP COMMENT 'Date de valeur',
+  vl_utilisee_detachement DECIMAL(18,8) COMMENT 'VL utilis�e au d�tachement',
+  dt_saisie TIMESTAMP COMMENT 'Date de saisie')
+PARTITIONED BY (yyyy STRING, mm STRING, dd STRING)
+ROW FORMAT DELIMITED FIELDS TERMINATED BY ';'
+LOCATION '/group/bicolor_retraite/data/retraite_dividende';
+
+
 CREATE EXTERNAL TABLE IF NOT EXISTS retraite_encaissement (
   type_ligne STRING COMMENT 'Type de ligne du fichier (header; corps; footer)',
   id_encaissement BIGINT COMMENT 'Identifiant encaissement',
@@ -734,6 +546,19 @@ CREATE EXTERNAL TABLE IF NOT EXISTS retraite_evenement_contrat (
 PARTITIONED BY (yyyy STRING, mm STRING, dd STRING)
 ROW FORMAT DELIMITED FIELDS TERMINATED BY ';'
 LOCATION '/group/bicolor_retraite/data/retraite_evenement_contrat';
+
+
+CREATE EXTERNAL TABLE IF NOT EXISTS retraite_fusion_absorption (
+  type_ligne STRING COMMENT 'Type de ligne du fichier (header; corps; footer)',
+  id_fusion_absorbsion BIGINT COMMENT 'Identifiant Fusion   Absorbsion',
+  cd_isin_absorbe STRING COMMENT 'Code ISIN absorb�',
+  isin_absorbant_ou_nouvel_isin STRING COMMENT 'Code ISIN absorbant ou nouveau code ISIN',
+  dt_absorption TIMESTAMP COMMENT 'Date d absorption',
+  dt_valeur TIMESTAMP COMMENT 'Date de valeur',
+  parite DECIMAL(18,8) COMMENT 'Parit�')
+PARTITIONED BY (yyyy STRING, mm STRING, dd STRING)
+ROW FORMAT DELIMITED FIELDS TERMINATED BY ';'
+LOCATION '/group/bicolor_retraite/data/retraite_fusion_absorption';
 
 
 CREATE EXTERNAL TABLE IF NOT EXISTS retraite_garantie_secondaire (
@@ -1014,6 +839,45 @@ ROW FORMAT DELIMITED FIELDS TERMINATED BY ';'
 LOCATION '/group/bicolor_retraite/data/retraite_plan_versement';
 
 
+CREATE EXTERNAL TABLE IF NOT EXISTS retraite_pm_inventaire (
+  type_ligne STRING COMMENT 'Type de ligne du fichier (header; corps; footer)',
+  id_contrat BIGINT COMMENT 'Identifiant contrat',
+  id_affiliation BIGINT COMMENT 'Identifiant affiliation',
+  id_gestion_financiere BIGINT COMMENT 'Identifiant gestion financi�re',
+  id_support BIGINT COMMENT 'Identifiant support',
+  dt_pm TIMESTAMP COMMENT 'Date PM',
+  pm_tmg_a_dt_extract DECIMAL(18,8) COMMENT 'PM TMG � la Date d extraction',
+  pm_anticipees_a_dt_extract DECIMAL(18,8) COMMENT 'PM Anticip�es � la Date d extraction',
+  pm_brutes DECIMAL(18,8) COMMENT 'PM Brutes',
+  pm_nettes DECIMAL(18,8) COMMENT 'PM Nettes',
+  nombre_parts DECIMAL(25,10) COMMENT 'Nombre de parts',
+  interets_techniques_inclus DECIMAL(18,8) COMMENT 'Int�r�ts techniques inclus',
+  participation_resultat_incluse DECIMAL(18,8) COMMENT 'Participation au r�sultat incluse',
+  dt_valeur_vl TIMESTAMP COMMENT 'Date de valeur de la VL',
+  vl_support DECIMAL(18,8) COMMENT 'VL du support',
+  cumul_primes DECIMAL(18,8) COMMENT 'Cumul des primes',
+  cumul_transfert_entrant_interne DECIMAL(18,8) COMMENT 'cumul des transfert entrant interne',
+  cumul_transfert_entrant_externe DECIMAL(18,8) COMMENT 'cumul des transfert entrant externe',
+  cumul_sorties DECIMAL(18,8) COMMENT 'Cumul des sorties',
+  cumul_transfert_sortant_interne DECIMAL(18,8) COMMENT 'cumul des transfert sortant interne',
+  cumul_transfert_sortant_externe DECIMAL(18,8) COMMENT 'cumul des transfert sortant externe',
+  cumul_ost_ddc DECIMAL(18,8) COMMENT 'cumul ost_ddc',
+  cumul_arbitrages DECIMAL(18,8) COMMENT 'cumul des arbitrages',
+  frais_acquisition DECIMAL(18,8) COMMENT 'Frais d acquisition',
+  frais_garantie_exo_continuite DECIMAL(18,8) COMMENT 'Frais garantie exo (continuit�)',
+  frais_transfert DECIMAL(18,8) COMMENT 'Frais de transfert',
+  frais_arbitrage DECIMAL(18,8) COMMENT 'Frais d arbitrage',
+  frais_gestion_uc DECIMAL(18,8) COMMENT 'Frais de gestion UC',
+  frais_gestion_euro DECIMAL(18,8) COMMENT 'Frais de gestion EURO',
+  frais_rente DECIMAL(18,8) COMMENT 'Frais de rente',
+  pm_3_2_reactualisee DECIMAL(18,8) COMMENT 'PM 31 12 r�actualis�e',
+  acav DECIMAL(18,8) COMMENT 'ACAV',
+  dt_calcul_pm TIMESTAMP COMMENT 'Date de calcul de la PM')
+PARTITIONED BY (yyyy STRING, mm STRING, dd STRING)
+ROW FORMAT DELIMITED FIELDS TERMINATED BY ';'
+LOCATION '/group/bicolor_retraite/data/retraite_pm_inventaire';
+
+
 CREATE EXTERNAL TABLE IF NOT EXISTS retraite_prime_versee (
   type_ligne STRING COMMENT 'Type de ligne du fichier (header; corps; footer)',
   id_dossier BIGINT COMMENT 'Identifiant dossier',
@@ -1234,5 +1098,141 @@ CREATE EXTERNAL TABLE IF NOT EXISTS retraite_taux_support_all (
 PARTITIONED BY (yyyy STRING, mm STRING, dd STRING)
 ROW FORMAT DELIMITED FIELDS TERMINATED BY ';'
 LOCATION '/group/bicolor_retraite/data/retraite_taux_support';
+
+
+CREATE EXTERNAL TABLE IF NOT EXISTS retraite_cnt_remplace (
+  sys_emet STRING COMMENT 'Syst�me �meteur',
+  date_trait_orig TIMESTAMP COMMENT 'Date de traitement Origine',
+  ref_contrat STRING COMMENT 'R�f�rence Contrat',
+  date_eff_contrat TIMESTAMP COMMENT 'Date d effet du contrat',
+  id_event STRING COMMENT 'Identifiant Ev�nement',
+  event STRING COMMENT 'Ev�nement',
+  sens_event STRING COMMENT 'Sens de Ev�nement',
+  date_sais_event TIMESTAMP COMMENT 'Date de saisie de l Ev�nement',
+  date_eff_event TIMESTAMP COMMENT 'Date d effet de l Ev�nement',
+  statut_contrat STRING COMMENT 'Statut du contrat',
+  motif_statut STRING COMMENT 'Motif du Statut',
+  code_1 STRING COMMENT 'Code 1',
+  type_code_1 STRING COMMENT 'Type de code 1',
+  code_2 STRING COMMENT 'Code 2',
+  type_code_2 STRING COMMENT 'Type de code 2')
+ROW FORMAT DELIMITED FIELDS TERMINATED BY ';'
+LOCATION '/group/bicolor_retraite/data/retraite_cnt_remplace';
+
+CREATE EXTERNAL TABLE IF NOT EXISTS retraite_cnt_remplace_all (
+  sys_emet STRING COMMENT 'Syst�me �meteur',
+  date_trait_orig TIMESTAMP COMMENT 'Date de traitement Origine',
+  ref_contrat STRING COMMENT 'R�f�rence Contrat',
+  date_eff_contrat TIMESTAMP COMMENT 'Date d effet du contrat',
+  id_event STRING COMMENT 'Identifiant Ev�nement',
+  event STRING COMMENT 'Ev�nement',
+  sens_event STRING COMMENT 'Sens de Ev�nement',
+  date_sais_event TIMESTAMP COMMENT 'Date de saisie de l Ev�nement',
+  date_eff_event TIMESTAMP COMMENT 'Date d effet de l Ev�nement',
+  statut_contrat STRING COMMENT 'Statut du contrat',
+  motif_statut STRING COMMENT 'Motif du Statut',
+  code_1 STRING COMMENT 'Code 1',
+  type_code_1 STRING COMMENT 'Type de code 1',
+  code_2 STRING COMMENT 'Code 2',
+  type_code_2 STRING COMMENT 'Type de code 2')
+PARTITIONED BY (yyyy STRING, mm STRING, dd STRING)
+ROW FORMAT DELIMITED FIELDS TERMINATED BY ';'
+LOCATION '/group/bicolor_retraite/data/retraite_cnt_remplace';
+
+
+CREATE EXTERNAL TABLE IF NOT EXISTS retraite_comptabilite (
+  num_fichier BIGINT COMMENT 'Num�ro de fichier',
+  type_enrgt BIGINT COMMENT 'Type d enregistrement',
+  syst_emetteur BIGINT COMMENT 'syst�me �metteur',
+  lib_syst_emetteur STRING COMMENT 'libell� syst�me �metteur',
+  bloc_appli BIGINT COMMENT 'bloc applicatif',
+  acte_global STRING COMMENT 'Acte global',
+  cd_transaction STRING COMMENT 'Code transaction',
+  id_CRE STRING COMMENT 'identifiant CRE',
+  sens_acte STRING COMMENT 'sens de l acte',
+  motif_annul STRING COMMENT 'Motif d annulation',
+  nb_mouvement BIGINT COMMENT 'Nombre de mouvements',
+  num_mouvement BIGINT COMMENT 'Numero du mouvement dans l acte',
+  libelle STRING COMMENT 'libell� (wording)',
+  ref_interne STRING COMMENT 'r�f�rence interne ',
+  categ_ref_interne STRING COMMENT 'Cat�gorie de r�f�rence interne',
+  ref_complementaire STRING COMMENT 'r�f�rence compl�mentaire',
+  categ_ref_complementaire STRING COMMENT 'Cat�gorie de r�f�rence compl�mentaire',
+  cd_societe BIGINT COMMENT 'code soci�t�',
+  cd_devise_contrat STRING COMMENT 'code devise du contrat',
+  cd_pays_souscript STRING COMMENT 'code pays souscription',
+  cd_pays_risque STRING COMMENT 'code pays risque',
+  type_prime STRING COMMENT 'type de prime',
+  cd_portefeuille STRING COMMENT 'code portefeuille',
+  cd_agence STRING COMMENT 'Code Agrence',
+  cd_encaisseur_RS STRING COMMENT 'Code Encaisseur RS',
+  canal_distrib STRING COMMENT 'canal de distribution',
+  regime_assure STRING COMMENT 'R�gime de l assur�  ',
+  categ_personnel BIGINT COMMENT ' code de coll�ge param�tr� dans TAIGA - vide pour encaissement',
+  categ_prime_assure STRING COMMENT 'Cat�gorie de prime assur�',
+  cd_produit STRING COMMENT 'code produit',
+  indic_garantie STRING COMMENT 'indicateur de garantie',
+  cd_garantie STRING COMMENT 'Code garantie',
+  type_acte_affect STRING COMMENT 'Type acte affect�',
+  cd_compartiment STRING COMMENT 'Code compartiment',
+  type_support STRING COMMENT 'Type support',
+  nom_assure_souscript STRING COMMENT 'Nom assur� souscripteur',
+  nom_adherent STRING COMMENT 'Nom adh�rent',
+  num_adherent STRING COMMENT 'Num�ro adh�rent',
+  benefic_rembst STRING COMMENT 'B�n�ficiaire Remboursement (vide)',
+  type_ligne STRING COMMENT 'Type ligne',
+  montant BIGINT COMMENT 'montant',
+  taux DECIMAL(18,8) COMMENT 'Taux',
+  type_montant STRING COMMENT 'type montant taux',
+  type_taxe_compart STRING COMMENT 'type de taxe par compartiment',
+  tx_taxe DECIMAL(18,8) COMMENT 'taux de taxe',
+  montant_assiette_taxe BIGINT COMMENT 'montant assiette taxe (base)',
+  montant_taxe BIGINT COMMENT 'montant taxe',
+  cd_destination STRING COMMENT 'code destination ',
+  md_paiement STRING COMMENT 'mode de paiement',
+  num_id_reglt STRING COMMENT 'N� identifiant du r�glement',
+  id_suspens STRING COMMENT 'Identifiant de suspens',
+  info_RIB STRING COMMENT 'information RIB',
+  num_quittance STRING COMMENT 'num�ro de quittance',
+  dt_crea_flux_gene TIMESTAMP COMMENT 'date de cr�ation du flux g�n�rique',
+  dt_comptable TIMESTAMP COMMENT 'date comptable',
+  dt_operation TIMESTAMP COMMENT 'date de l op�ration',
+  dt_effet_contrat TIMESTAMP COMMENT 'date d effet du contrat',
+  dt_deb_effet_assur TIMESTAMP COMMENT 'date d�but d effet d assurance',
+  dt_fin_effet_assur TIMESTAMP COMMENT 'date de fin d effet d assurance',
+  dt_encaissement TIMESTAMP COMMENT 'date d encaissement',
+  dt_effet_operation TIMESTAMP COMMENT 'date d effet de l op�ration',
+  id_dossier STRING COMMENT 'Identifiant Dossier Taiga',
+  id_encaissement STRING COMMENT 'Identifiant Encaissement Taiga',
+  id_affectation STRING COMMENT 'Identifiant Affectation Taiga',
+  ref_contrat STRING COMMENT 'R�f�rence Contrat (RPP) sur 13 caract�re cadr�s � gauche',
+  compta_nb_mvts BIGINT COMMENT 'Nombre de mouvements - fichier operas',
+  compta_num_mvts BIGINT COMMENT 'Numero du mouvement dans l acte - fichier operas',
+  cd_uv STRING COMMENT 'code UV',
+  cd_ut STRING COMMENT 'code UT',
+  canal_rdu STRING COMMENT 'Canal RDU')
+PARTITIONED BY (yyyy STRING, mm STRING, dd STRING)
+ROW FORMAT DELIMITED FIELDS TERMINATED BY ';'
+LOCATION '/group/bicolor_retraite/data/retraite_comptabilite';
+
+
+CREATE EXTERNAL TABLE IF NOT EXISTS retraite_liste_cd_lib (
+  societe STRING COMMENT 'Soci�t�',
+  type_liste STRING COMMENT 'Type de liste',
+  cd STRING COMMENT 'Code',
+  lib STRING COMMENT 'Libell�',
+  col_hadoop STRING COMMENT 'colonne(s) hadoop concern�e(s)')
+ROW FORMAT DELIMITED FIELDS TERMINATED BY ';'
+LOCATION '/group/bicolor_retraite/data/retraite_liste_cd_lib';
+
+CREATE EXTERNAL TABLE IF NOT EXISTS retraite_liste_cd_lib_all (
+  societe STRING COMMENT 'Soci�t�',
+  type_liste STRING COMMENT 'Type de liste',
+  cd STRING COMMENT 'Code',
+  lib STRING COMMENT 'Libell�',
+  col_hadoop STRING COMMENT 'colonne(s) hadoop concern�e(s)')
+PARTITIONED BY (yyyy STRING, mm STRING, dd STRING)
+ROW FORMAT DELIMITED FIELDS TERMINATED BY ';'
+LOCATION '/group/bicolor_retraite/data/retraite_liste_cd_lib';
 
 

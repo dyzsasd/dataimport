@@ -1,285 +1,39 @@
-CREATE EXTERNAL TABLE IF NOT EXISTS shp_md_ysac_ref_text (
-  bic_ysac_ref STRING,
+CREATE EXTERNAL TABLE IF NOT EXISTS shp_md_ac_ledger_text (
+  ac_ledger STRING,
   langu STRING,
-  txtlg STRING)
+  txtmd STRING)
 ROW FORMAT DELIMITED FIELDS TERMINATED BY '|'
-LOCATION '/group/pisquare/data/shp_md_ysac_ref_text';
+LOCATION '/group/pisquare/data/shp_md_ac_ledger_text';
 
-CREATE EXTERNAL TABLE IF NOT EXISTS shp_md_ysac_ref_text_all (
-  bic_ysac_ref STRING,
+CREATE EXTERNAL TABLE IF NOT EXISTS shp_md_ac_ledger_text_all (
+  ac_ledger STRING,
   langu STRING,
-  txtlg STRING)
+  txtmd STRING)
 PARTITIONED BY (yyyy STRING, mm STRING, dd STRING, hhmmss STRING)
 ROW FORMAT DELIMITED FIELDS TERMINATED BY '|'
-LOCATION '/group/pisquare/data/shp_md_ysac_ref_text';
+LOCATION '/group/pisquare/data/shp_md_ac_ledger_text';
 
 
-CREATE EXTERNAL TABLE IF NOT EXISTS shp_md_ycaltacc1_attr (
-  chrt_accts STRING,
-  bic_ycaltacc STRING,
-  bal_flag STRING,
-  incst_flag STRING,
-  glaccext STRING,
-  bic_ycacctgrp STRING,
-  bic_ycngaapme STRING)
+CREATE EXTERNAL TABLE IF NOT EXISTS shp_md_bp_is (
+  bpartner STRING,
+  ind_numsys STRING,
+  ind_sec STRING,
+  flgdefault STRING,
+  recordmode STRING,
+  flgdeleted STRING)
 ROW FORMAT DELIMITED FIELDS TERMINATED BY '|'
-LOCATION '/group/pisquare/data/shp_md_ycaltacc1_attr';
+LOCATION '/group/pisquare/data/shp_md_bp_is';
 
-CREATE EXTERNAL TABLE IF NOT EXISTS shp_md_ycaltacc1_attr_all (
-  chrt_accts STRING,
-  bic_ycaltacc STRING,
-  bal_flag STRING,
-  incst_flag STRING,
-  glaccext STRING,
-  bic_ycacctgrp STRING,
-  bic_ycngaapme STRING)
+CREATE EXTERNAL TABLE IF NOT EXISTS shp_md_bp_is_all (
+  bpartner STRING,
+  ind_numsys STRING,
+  ind_sec STRING,
+  flgdefault STRING,
+  recordmode STRING,
+  flgdeleted STRING)
 PARTITIONED BY (yyyy STRING, mm STRING, dd STRING, hhmmss STRING)
 ROW FORMAT DELIMITED FIELDS TERMINATED BY '|'
-LOCATION '/group/pisquare/data/shp_md_ycaltacc1_attr';
-
-
-CREATE EXTERNAL TABLE IF NOT EXISTS shp_md_ycaltacc1_text (
-  chrt_accts STRING,
-  bic_ycaltacc STRING,
-  langu STRING,
-  txtsh STRING,
-  txtlg STRING)
-ROW FORMAT DELIMITED FIELDS TERMINATED BY '|'
-LOCATION '/group/pisquare/data/shp_md_ycaltacc1_text';
-
-CREATE EXTERNAL TABLE IF NOT EXISTS shp_md_ycaltacc1_text_all (
-  chrt_accts STRING,
-  bic_ycaltacc STRING,
-  langu STRING,
-  txtsh STRING,
-  txtlg STRING)
-PARTITIONED BY (yyyy STRING, mm STRING, dd STRING, hhmmss STRING)
-ROW FORMAT DELIMITED FIELDS TERMINATED BY '|'
-LOCATION '/group/pisquare/data/shp_md_ycaltacc1_text';
-
-
-CREATE EXTERNAL TABLE IF NOT EXISTS shp_md_ysasatacc_attr (
-  chrt_accts STRING,
-  bic_ysasatacc STRING,
-  bal_flag STRING,
-  incst_flag STRING,
-  glaccext STRING,
-  bic_ycacctgrp STRING,
-  bic_ycngaapme STRING)
-ROW FORMAT DELIMITED FIELDS TERMINATED BY '|'
-LOCATION '/group/pisquare/data/shp_md_ysasatacc_attr';
-
-CREATE EXTERNAL TABLE IF NOT EXISTS shp_md_ysasatacc_attr_all (
-  chrt_accts STRING,
-  bic_ysasatacc STRING,
-  bal_flag STRING,
-  incst_flag STRING,
-  glaccext STRING,
-  bic_ycacctgrp STRING,
-  bic_ycngaapme STRING)
-PARTITIONED BY (yyyy STRING, mm STRING, dd STRING, hhmmss STRING)
-ROW FORMAT DELIMITED FIELDS TERMINATED BY '|'
-LOCATION '/group/pisquare/data/shp_md_ysasatacc_attr';
-
-
-CREATE EXTERNAL TABLE IF NOT EXISTS shp_md_ysasatacc_text (
-  chrt_accts STRING,
-  bic_ysasatacc STRING,
-  langu STRING,
-  txtsh STRING,
-  txtlg STRING)
-ROW FORMAT DELIMITED FIELDS TERMINATED BY '|'
-LOCATION '/group/pisquare/data/shp_md_ysasatacc_text';
-
-CREATE EXTERNAL TABLE IF NOT EXISTS shp_md_ysasatacc_text_all (
-  chrt_accts STRING,
-  bic_ysasatacc STRING,
-  langu STRING,
-  txtsh STRING,
-  txtlg STRING)
-PARTITIONED BY (yyyy STRING, mm STRING, dd STRING, hhmmss STRING)
-ROW FORMAT DELIMITED FIELDS TERMINATED BY '|'
-LOCATION '/group/pisquare/data/shp_md_ysasatacc_text';
-
-
-CREATE EXTERNAL TABLE IF NOT EXISTS shp_md_yreassid_attr (
-  bic_yreasstp STRING,
-  bic_yreassid STRING,
-  dateto TIMESTAMP,
-  datefrom TIMESTAMP,
-  bic_yreasscod STRING,
-  bic_yreownoc STRING,
-  bic_yretown STRING,
-  bic_yrezip STRING,
-  bic_yrectrcd STRING,
-  bic_yreregion STRING,
-  bic_yrelglfrm STRING,
-  bic_yreregcd STRING,
-  bic_yrecapit STRING,
-  bic_yrelegadd STRING,
-  bic_yrestat STRING,
-  bic_yrepdmtus STRING,
-  bic_yreartot STRING,
-  bic_yreuntmsr STRING,
-  bic_yreprknbr STRING,
-  bic_yreasmncd STRING,
-  bic_yrevaldat TIMESTAMP,
-  bic_yreglval STRING,
-  bic_yreuntnav STRING,
-  bic_yreshrnbr STRING,
-  bic_yrecmpcur STRING,
-  bic_yrecapdat TIMESTAMP,
-  bic_yremkapdt STRING,
-  bic_yrerfapdt TIMESTAMP,
-  bic_yrevalcat STRING,
-  bic_yreassman STRING,
-  bic_yrefasstp STRING,
-  bic_yrepchsr STRING,
-  bic_zsdestkba STRING,
-  bic_zsdemw670 STRING,
-  bic_zsdemw67 STRING,
-  bic_zsdedvuan STRING)
-ROW FORMAT DELIMITED FIELDS TERMINATED BY '|'
-LOCATION '/group/pisquare/data/shp_md_yreassid_attr';
-
-CREATE EXTERNAL TABLE IF NOT EXISTS shp_md_yreassid_attr_all (
-  bic_yreasstp STRING,
-  bic_yreassid STRING,
-  dateto TIMESTAMP,
-  datefrom TIMESTAMP,
-  bic_yreasscod STRING,
-  bic_yreownoc STRING,
-  bic_yretown STRING,
-  bic_yrezip STRING,
-  bic_yrectrcd STRING,
-  bic_yreregion STRING,
-  bic_yrelglfrm STRING,
-  bic_yreregcd STRING,
-  bic_yrecapit STRING,
-  bic_yrelegadd STRING,
-  bic_yrestat STRING,
-  bic_yrepdmtus STRING,
-  bic_yreartot STRING,
-  bic_yreuntmsr STRING,
-  bic_yreprknbr STRING,
-  bic_yreasmncd STRING,
-  bic_yrevaldat TIMESTAMP,
-  bic_yreglval STRING,
-  bic_yreuntnav STRING,
-  bic_yreshrnbr STRING,
-  bic_yrecmpcur STRING,
-  bic_yrecapdat TIMESTAMP,
-  bic_yremkapdt STRING,
-  bic_yrerfapdt TIMESTAMP,
-  bic_yrevalcat STRING,
-  bic_yreassman STRING,
-  bic_yrefasstp STRING,
-  bic_yrepchsr STRING,
-  bic_zsdestkba STRING,
-  bic_zsdemw670 STRING,
-  bic_zsdemw67 STRING,
-  bic_zsdedvuan STRING)
-PARTITIONED BY (yyyy STRING, mm STRING, dd STRING, hhmmss STRING)
-ROW FORMAT DELIMITED FIELDS TERMINATED BY '|'
-LOCATION '/group/pisquare/data/shp_md_yreassid_attr';
-
-
-CREATE EXTERNAL TABLE IF NOT EXISTS shp_md_yreassid_text (
-  bic_yreasstp STRING,
-  bic_yreassid STRING,
-  langu STRING,
-  txtsh STRING,
-  txtmd STRING,
-  txtlg STRING)
-ROW FORMAT DELIMITED FIELDS TERMINATED BY '|'
-LOCATION '/group/pisquare/data/shp_md_yreassid_text';
-
-CREATE EXTERNAL TABLE IF NOT EXISTS shp_md_yreassid_text_all (
-  bic_yreasstp STRING,
-  bic_yreassid STRING,
-  langu STRING,
-  txtsh STRING,
-  txtmd STRING,
-  txtlg STRING)
-PARTITIONED BY (yyyy STRING, mm STRING, dd STRING, hhmmss STRING)
-ROW FORMAT DELIMITED FIELDS TERMINATED BY '|'
-LOCATION '/group/pisquare/data/shp_md_yreassid_text';
-
-
-CREATE EXTERNAL TABLE IF NOT EXISTS shp_md_ysasstmng_text (
-  bic_ysasstmng STRING,
-  langu STRING,
-  txtsh STRING,
-  txtmd STRING,
-  txtlg STRING)
-ROW FORMAT DELIMITED FIELDS TERMINATED BY '|'
-LOCATION '/group/pisquare/data/shp_md_ysasstmng_text';
-
-CREATE EXTERNAL TABLE IF NOT EXISTS shp_md_ysasstmng_text_all (
-  bic_ysasstmng STRING,
-  langu STRING,
-  txtsh STRING,
-  txtmd STRING,
-  txtlg STRING)
-PARTITIONED BY (yyyy STRING, mm STRING, dd STRING, hhmmss STRING)
-ROW FORMAT DELIMITED FIELDS TERMINATED BY '|'
-LOCATION '/group/pisquare/data/shp_md_ysasstmng_text';
-
-
-CREATE EXTERNAL TABLE IF NOT EXISTS shp_md_ysatrasid_attr (
-  fs_ctr_tp STRING,
-  bic_ysatrasid STRING,
-  dateto TIMESTAMP,
-  datefrom TIMESTAMP,
-  bic_zptbascot STRING)
-ROW FORMAT DELIMITED FIELDS TERMINATED BY '|'
-LOCATION '/group/pisquare/data/shp_md_ysatrasid_attr';
-
-CREATE EXTERNAL TABLE IF NOT EXISTS shp_md_ysatrasid_attr_all (
-  fs_ctr_tp STRING,
-  bic_ysatrasid STRING,
-  dateto TIMESTAMP,
-  datefrom TIMESTAMP,
-  bic_zptbascot STRING)
-PARTITIONED BY (yyyy STRING, mm STRING, dd STRING, hhmmss STRING)
-ROW FORMAT DELIMITED FIELDS TERMINATED BY '|'
-LOCATION '/group/pisquare/data/shp_md_ysatrasid_attr';
-
-
-CREATE EXTERNAL TABLE IF NOT EXISTS shp_md_ysatrasid_text (
-  fs_ctr_tp STRING,
-  bic_ysatrasid STRING,
-  txtsh STRING,
-  txtlg STRING)
-ROW FORMAT DELIMITED FIELDS TERMINATED BY '|'
-LOCATION '/group/pisquare/data/shp_md_ysatrasid_text';
-
-CREATE EXTERNAL TABLE IF NOT EXISTS shp_md_ysatrasid_text_all (
-  fs_ctr_tp STRING,
-  bic_ysatrasid STRING,
-  txtsh STRING,
-  txtlg STRING)
-PARTITIONED BY (yyyy STRING, mm STRING, dd STRING, hhmmss STRING)
-ROW FORMAT DELIMITED FIELDS TERMINATED BY '|'
-LOCATION '/group/pisquare/data/shp_md_ysatrasid_text';
-
-
-CREATE EXTERNAL TABLE IF NOT EXISTS shp_md_ycosicr (
-  company STRING,
-  bic_ysbpartnr STRING,
-  fs_co_rel STRING,
-  recordmode STRING)
-ROW FORMAT DELIMITED FIELDS TERMINATED BY '|'
-LOCATION '/group/pisquare/data/shp_md_ycosicr';
-
-CREATE EXTERNAL TABLE IF NOT EXISTS shp_md_ycosicr_all (
-  company STRING,
-  bic_ysbpartnr STRING,
-  fs_co_rel STRING,
-  recordmode STRING)
-PARTITIONED BY (yyyy STRING, mm STRING, dd STRING, hhmmss STRING)
-ROW FORMAT DELIMITED FIELDS TERMINATED BY '|'
-LOCATION '/group/pisquare/data/shp_md_ycosicr';
+LOCATION '/group/pisquare/data/shp_md_bp_is';
 
 
 CREATE EXTERNAL TABLE IF NOT EXISTS shp_md_bus_area_attr (
@@ -320,6 +74,42 @@ ROW FORMAT DELIMITED FIELDS TERMINATED BY '|'
 LOCATION '/group/pisquare/data/shp_md_bus_area_text';
 
 
+CREATE EXTERNAL TABLE IF NOT EXISTS shp_md_cfm_amtct_attr (
+  cfm_amtct STRING,
+  bic_yspcomp STRING,
+  bic_yspcomp2 STRING,
+  bic_yspchrule STRING,
+  bic_yspccusg STRING)
+ROW FORMAT DELIMITED FIELDS TERMINATED BY '|'
+LOCATION '/group/pisquare/data/shp_md_cfm_amtct_attr';
+
+CREATE EXTERNAL TABLE IF NOT EXISTS shp_md_cfm_amtct_attr_all (
+  cfm_amtct STRING,
+  bic_yspcomp STRING,
+  bic_yspcomp2 STRING,
+  bic_yspchrule STRING,
+  bic_yspccusg STRING)
+PARTITIONED BY (yyyy STRING, mm STRING, dd STRING, hhmmss STRING)
+ROW FORMAT DELIMITED FIELDS TERMINATED BY '|'
+LOCATION '/group/pisquare/data/shp_md_cfm_amtct_attr';
+
+
+CREATE EXTERNAL TABLE IF NOT EXISTS shp_md_cfm_amtct_text (
+  cfm_amtct STRING,
+  langu STRING,
+  txtlg STRING)
+ROW FORMAT DELIMITED FIELDS TERMINATED BY '|'
+LOCATION '/group/pisquare/data/shp_md_cfm_amtct_text';
+
+CREATE EXTERNAL TABLE IF NOT EXISTS shp_md_cfm_amtct_text_all (
+  cfm_amtct STRING,
+  langu STRING,
+  txtlg STRING)
+PARTITIONED BY (yyyy STRING, mm STRING, dd STRING, hhmmss STRING)
+ROW FORMAT DELIMITED FIELDS TERMINATED BY '|'
+LOCATION '/group/pisquare/data/shp_md_cfm_amtct_text';
+
+
 CREATE EXTERNAL TABLE IF NOT EXISTS shp_md_cfm_bt_ct_attr (
   cfm_bt_ct STRING,
   bic_yscpdvdmv STRING)
@@ -348,6 +138,22 @@ CREATE EXTERNAL TABLE IF NOT EXISTS shp_md_cfm_bt_ct_text_all (
 PARTITIONED BY (yyyy STRING, mm STRING, dd STRING, hhmmss STRING)
 ROW FORMAT DELIMITED FIELDS TERMINATED BY '|'
 LOCATION '/group/pisquare/data/shp_md_cfm_bt_ct_text';
+
+
+CREATE EXTERNAL TABLE IF NOT EXISTS shp_md_cfm_lo_sh_text (
+  cfm_lo_sh STRING,
+  langu STRING,
+  txtlg STRING)
+ROW FORMAT DELIMITED FIELDS TERMINATED BY '|'
+LOCATION '/group/pisquare/data/shp_md_cfm_lo_sh_text';
+
+CREATE EXTERNAL TABLE IF NOT EXISTS shp_md_cfm_lo_sh_text_all (
+  cfm_lo_sh STRING,
+  langu STRING,
+  txtlg STRING)
+PARTITIONED BY (yyyy STRING, mm STRING, dd STRING, hhmmss STRING)
+ROW FORMAT DELIMITED FIELDS TERMINATED BY '|'
+LOCATION '/group/pisquare/data/shp_md_cfm_lo_sh_text';
 
 
 CREATE EXTERNAL TABLE IF NOT EXISTS shp_md_chrt_accts_attr (
@@ -380,6 +186,20 @@ CREATE EXTERNAL TABLE IF NOT EXISTS shp_md_chrt_accts_text_all (
 PARTITIONED BY (yyyy STRING, mm STRING, dd STRING, hhmmss STRING)
 ROW FORMAT DELIMITED FIELDS TERMINATED BY '|'
 LOCATION '/group/pisquare/data/shp_md_chrt_accts_text';
+
+
+CREATE EXTERNAL TABLE IF NOT EXISTS shp_md_co_area_text (
+  co_area STRING,
+  txtmd STRING)
+ROW FORMAT DELIMITED FIELDS TERMINATED BY '|'
+LOCATION '/group/pisquare/data/shp_md_co_area_text';
+
+CREATE EXTERNAL TABLE IF NOT EXISTS shp_md_co_area_text_all (
+  co_area STRING,
+  txtmd STRING)
+PARTITIONED BY (yyyy STRING, mm STRING, dd STRING, hhmmss STRING)
+ROW FORMAT DELIMITED FIELDS TERMINATED BY '|'
+LOCATION '/group/pisquare/data/shp_md_co_area_text';
 
 
 CREATE EXTERNAL TABLE IF NOT EXISTS shp_md_comp_code_attr (
@@ -494,18 +314,334 @@ ROW FORMAT DELIMITED FIELDS TERMINATED BY '|'
 LOCATION '/group/pisquare/data/shp_md_fs_ctr_tp_text';
 
 
-CREATE EXTERNAL TABLE IF NOT EXISTS shp_md_co_area_text (
-  co_area STRING,
+CREATE EXTERNAL TABLE IF NOT EXISTS shp_md_fs_sec_ct_attr (
+  fs_sec_ct STRING,
+  fs_ctr_tp STRING)
+ROW FORMAT DELIMITED FIELDS TERMINATED BY '|'
+LOCATION '/group/pisquare/data/shp_md_fs_sec_ct_attr';
+
+CREATE EXTERNAL TABLE IF NOT EXISTS shp_md_fs_sec_ct_attr_all (
+  fs_sec_ct STRING,
+  fs_ctr_tp STRING)
+PARTITIONED BY (yyyy STRING, mm STRING, dd STRING, hhmmss STRING)
+ROW FORMAT DELIMITED FIELDS TERMINATED BY '|'
+LOCATION '/group/pisquare/data/shp_md_fs_sec_ct_attr';
+
+
+CREATE EXTERNAL TABLE IF NOT EXISTS shp_md_fs_sec_ct_text (
+  fs_sec_ct STRING,
+  langu STRING,
   txtmd STRING)
 ROW FORMAT DELIMITED FIELDS TERMINATED BY '|'
-LOCATION '/group/pisquare/data/shp_md_co_area_text';
+LOCATION '/group/pisquare/data/shp_md_fs_sec_ct_text';
 
-CREATE EXTERNAL TABLE IF NOT EXISTS shp_md_co_area_text_all (
-  co_area STRING,
+CREATE EXTERNAL TABLE IF NOT EXISTS shp_md_fs_sec_ct_text_all (
+  fs_sec_ct STRING,
+  langu STRING,
   txtmd STRING)
 PARTITIONED BY (yyyy STRING, mm STRING, dd STRING, hhmmss STRING)
 ROW FORMAT DELIMITED FIELDS TERMINATED BY '|'
-LOCATION '/group/pisquare/data/shp_md_co_area_text';
+LOCATION '/group/pisquare/data/shp_md_fs_sec_ct_text';
+
+
+CREATE EXTERNAL TABLE IF NOT EXISTS shp_md_fs_val_ar_text (
+  fs_val_ar STRING,
+  txtlg STRING)
+ROW FORMAT DELIMITED FIELDS TERMINATED BY '|'
+LOCATION '/group/pisquare/data/shp_md_fs_val_ar_text';
+
+CREATE EXTERNAL TABLE IF NOT EXISTS shp_md_fs_val_ar_text_all (
+  fs_val_ar STRING,
+  txtlg STRING)
+PARTITIONED BY (yyyy STRING, mm STRING, dd STRING, hhmmss STRING)
+ROW FORMAT DELIMITED FIELDS TERMINATED BY '|'
+LOCATION '/group/pisquare/data/shp_md_fs_val_ar_text';
+
+
+CREATE EXTERNAL TABLE IF NOT EXISTS shp_md_fs_val_cl_text (
+  fs_val_ar STRING,
+  fs_val_cl STRING,
+  langu STRING,
+  txtlg STRING)
+ROW FORMAT DELIMITED FIELDS TERMINATED BY '|'
+LOCATION '/group/pisquare/data/shp_md_fs_val_cl_text';
+
+CREATE EXTERNAL TABLE IF NOT EXISTS shp_md_fs_val_cl_text_all (
+  fs_val_ar STRING,
+  fs_val_cl STRING,
+  langu STRING,
+  txtlg STRING)
+PARTITIONED BY (yyyy STRING, mm STRING, dd STRING, hhmmss STRING)
+ROW FORMAT DELIMITED FIELDS TERMINATED BY '|'
+LOCATION '/group/pisquare/data/shp_md_fs_val_cl_text';
+
+
+CREATE EXTERNAL TABLE IF NOT EXISTS shp_md_gl_account_attr (
+  chrt_accts STRING,
+  gl_account STRING,
+  bal_flag STRING,
+  incst_flag STRING,
+  glaccext STRING,
+  bic_ycacctgrp STRING,
+  bic_ycngaapme STRING)
+ROW FORMAT DELIMITED FIELDS TERMINATED BY '|'
+LOCATION '/group/pisquare/data/shp_md_gl_account_attr';
+
+CREATE EXTERNAL TABLE IF NOT EXISTS shp_md_gl_account_attr_all (
+  chrt_accts STRING,
+  gl_account STRING,
+  bal_flag STRING,
+  incst_flag STRING,
+  glaccext STRING,
+  bic_ycacctgrp STRING,
+  bic_ycngaapme STRING)
+PARTITIONED BY (yyyy STRING, mm STRING, dd STRING, hhmmss STRING)
+ROW FORMAT DELIMITED FIELDS TERMINATED BY '|'
+LOCATION '/group/pisquare/data/shp_md_gl_account_attr';
+
+
+CREATE EXTERNAL TABLE IF NOT EXISTS shp_md_gl_account_text (
+  chrt_accts STRING,
+  gl_account STRING,
+  langu STRING,
+  txtsh STRING,
+  txtlg STRING)
+ROW FORMAT DELIMITED FIELDS TERMINATED BY '|'
+LOCATION '/group/pisquare/data/shp_md_gl_account_text';
+
+CREATE EXTERNAL TABLE IF NOT EXISTS shp_md_gl_account_text_all (
+  chrt_accts STRING,
+  gl_account STRING,
+  langu STRING,
+  txtsh STRING,
+  txtlg STRING)
+PARTITIONED BY (yyyy STRING, mm STRING, dd STRING, hhmmss STRING)
+ROW FORMAT DELIMITED FIELDS TERMINATED BY '|'
+LOCATION '/group/pisquare/data/shp_md_gl_account_text';
+
+
+CREATE EXTERNAL TABLE IF NOT EXISTS shp_md_move_type_attr (
+  move_type STRING,
+  bic_ycmvtpbcf STRING,
+  bic_ycsubmovt STRING,
+  bic_ycngaapme STRING,
+  bic_ycopen_cl STRING)
+ROW FORMAT DELIMITED FIELDS TERMINATED BY '|'
+LOCATION '/group/pisquare/data/shp_md_move_type_attr';
+
+CREATE EXTERNAL TABLE IF NOT EXISTS shp_md_move_type_attr_all (
+  move_type STRING,
+  bic_ycmvtpbcf STRING,
+  bic_ycsubmovt STRING,
+  bic_ycngaapme STRING,
+  bic_ycopen_cl STRING)
+PARTITIONED BY (yyyy STRING, mm STRING, dd STRING, hhmmss STRING)
+ROW FORMAT DELIMITED FIELDS TERMINATED BY '|'
+LOCATION '/group/pisquare/data/shp_md_move_type_attr';
+
+
+CREATE EXTERNAL TABLE IF NOT EXISTS shp_md_move_type_text (
+  move_type STRING,
+  langu STRING,
+  txtsh STRING)
+ROW FORMAT DELIMITED FIELDS TERMINATED BY '|'
+LOCATION '/group/pisquare/data/shp_md_move_type_text';
+
+CREATE EXTERNAL TABLE IF NOT EXISTS shp_md_move_type_text_all (
+  move_type STRING,
+  langu STRING,
+  txtsh STRING)
+PARTITIONED BY (yyyy STRING, mm STRING, dd STRING, hhmmss STRING)
+ROW FORMAT DELIMITED FIELDS TERMINATED BY '|'
+LOCATION '/group/pisquare/data/shp_md_move_type_text';
+
+
+CREATE EXTERNAL TABLE IF NOT EXISTS shp_md_profit_ctr_attr (
+  co_area STRING,
+  profit_ctr STRING,
+  dateto TIMESTAMP,
+  datefrom TIMESTAMP,
+  logsys STRING,
+  resp_pers STRING,
+  soursystem STRING,
+  segment STRING,
+  country STRING,
+  bic_ycfps STRING)
+ROW FORMAT DELIMITED FIELDS TERMINATED BY '|'
+LOCATION '/group/pisquare/data/shp_md_profit_ctr_attr';
+
+CREATE EXTERNAL TABLE IF NOT EXISTS shp_md_profit_ctr_attr_all (
+  co_area STRING,
+  profit_ctr STRING,
+  dateto TIMESTAMP,
+  datefrom TIMESTAMP,
+  logsys STRING,
+  resp_pers STRING,
+  soursystem STRING,
+  segment STRING,
+  country STRING,
+  bic_ycfps STRING)
+PARTITIONED BY (yyyy STRING, mm STRING, dd STRING, hhmmss STRING)
+ROW FORMAT DELIMITED FIELDS TERMINATED BY '|'
+LOCATION '/group/pisquare/data/shp_md_profit_ctr_attr';
+
+
+CREATE EXTERNAL TABLE IF NOT EXISTS shp_md_profit_ctr_text (
+  co_area STRING,
+  profit_ctr STRING,
+  langu STRING,
+  dateto TIMESTAMP,
+  datefrom TIMESTAMP,
+  txtsh STRING,
+  txtmd STRING)
+ROW FORMAT DELIMITED FIELDS TERMINATED BY '|'
+LOCATION '/group/pisquare/data/shp_md_profit_ctr_text';
+
+CREATE EXTERNAL TABLE IF NOT EXISTS shp_md_profit_ctr_text_all (
+  co_area STRING,
+  profit_ctr STRING,
+  langu STRING,
+  dateto TIMESTAMP,
+  datefrom TIMESTAMP,
+  txtsh STRING,
+  txtmd STRING)
+PARTITIONED BY (yyyy STRING, mm STRING, dd STRING, hhmmss STRING)
+ROW FORMAT DELIMITED FIELDS TERMINATED BY '|'
+LOCATION '/group/pisquare/data/shp_md_profit_ctr_text';
+
+
+CREATE EXTERNAL TABLE IF NOT EXISTS shp_md_segment_text (
+  segment STRING,
+  langu STRING,
+  txtlg STRING)
+ROW FORMAT DELIMITED FIELDS TERMINATED BY '|'
+LOCATION '/group/pisquare/data/shp_md_segment_text';
+
+CREATE EXTERNAL TABLE IF NOT EXISTS shp_md_segment_text_all (
+  segment STRING,
+  langu STRING,
+  txtlg STRING)
+PARTITIONED BY (yyyy STRING, mm STRING, dd STRING, hhmmss STRING)
+ROW FORMAT DELIMITED FIELDS TERMINATED BY '|'
+LOCATION '/group/pisquare/data/shp_md_segment_text';
+
+
+CREATE EXTERNAL TABLE IF NOT EXISTS shp_md_ycaltacc1_attr (
+  chrt_accts STRING,
+  bic_ycaltacc STRING,
+  bal_flag STRING,
+  incst_flag STRING,
+  glaccext STRING,
+  bic_ycacctgrp STRING,
+  bic_ycngaapme STRING)
+ROW FORMAT DELIMITED FIELDS TERMINATED BY '|'
+LOCATION '/group/pisquare/data/shp_md_ycaltacc1_attr';
+
+CREATE EXTERNAL TABLE IF NOT EXISTS shp_md_ycaltacc1_attr_all (
+  chrt_accts STRING,
+  bic_ycaltacc STRING,
+  bal_flag STRING,
+  incst_flag STRING,
+  glaccext STRING,
+  bic_ycacctgrp STRING,
+  bic_ycngaapme STRING)
+PARTITIONED BY (yyyy STRING, mm STRING, dd STRING, hhmmss STRING)
+ROW FORMAT DELIMITED FIELDS TERMINATED BY '|'
+LOCATION '/group/pisquare/data/shp_md_ycaltacc1_attr';
+
+
+CREATE EXTERNAL TABLE IF NOT EXISTS shp_md_ycaltacc1_text (
+  chrt_accts STRING,
+  bic_ycaltacc STRING,
+  langu STRING,
+  txtsh STRING,
+  txtlg STRING)
+ROW FORMAT DELIMITED FIELDS TERMINATED BY '|'
+LOCATION '/group/pisquare/data/shp_md_ycaltacc1_text';
+
+CREATE EXTERNAL TABLE IF NOT EXISTS shp_md_ycaltacc1_text_all (
+  chrt_accts STRING,
+  bic_ycaltacc STRING,
+  langu STRING,
+  txtsh STRING,
+  txtlg STRING)
+PARTITIONED BY (yyyy STRING, mm STRING, dd STRING, hhmmss STRING)
+ROW FORMAT DELIMITED FIELDS TERMINATED BY '|'
+LOCATION '/group/pisquare/data/shp_md_ycaltacc1_text';
+
+
+CREATE EXTERNAL TABLE IF NOT EXISTS shp_md_yccompacc_attr (
+  comp_code STRING,
+  bic_yccompacc STRING,
+  bic_ycaltacc STRING,
+  bic_ycvatjust STRING,
+  bic_ycacclerk STRING,
+  bic_yccashtrs STRING,
+  bic_ycclsgaap STRING,
+  bic_ycclsdir STRING,
+  bic_ycclusacc STRING,
+  currency STRING,
+  bic_ycoperfin STRING,
+  bic_ycngaapme STRING,
+  chrt_accts STRING,
+  bic_ycexchdif STRING)
+ROW FORMAT DELIMITED FIELDS TERMINATED BY '|'
+LOCATION '/group/pisquare/data/shp_md_yccompacc_attr';
+
+CREATE EXTERNAL TABLE IF NOT EXISTS shp_md_yccompacc_attr_all (
+  comp_code STRING,
+  bic_yccompacc STRING,
+  bic_ycaltacc STRING,
+  bic_ycvatjust STRING,
+  bic_ycacclerk STRING,
+  bic_yccashtrs STRING,
+  bic_ycclsgaap STRING,
+  bic_ycclsdir STRING,
+  bic_ycclusacc STRING,
+  currency STRING,
+  bic_ycoperfin STRING,
+  bic_ycngaapme STRING,
+  chrt_accts STRING,
+  bic_ycexchdif STRING)
+PARTITIONED BY (yyyy STRING, mm STRING, dd STRING, hhmmss STRING)
+ROW FORMAT DELIMITED FIELDS TERMINATED BY '|'
+LOCATION '/group/pisquare/data/shp_md_yccompacc_attr';
+
+
+CREATE EXTERNAL TABLE IF NOT EXISTS shp_md_ycgaapdif_text (
+  bic_ycgaapdif STRING,
+  langu STRING,
+  txtlg STRING)
+ROW FORMAT DELIMITED FIELDS TERMINATED BY '|'
+LOCATION '/group/pisquare/data/shp_md_ycgaapdif_text';
+
+CREATE EXTERNAL TABLE IF NOT EXISTS shp_md_ycgaapdif_text_all (
+  bic_ycgaapdif STRING,
+  langu STRING,
+  txtlg STRING)
+PARTITIONED BY (yyyy STRING, mm STRING, dd STRING, hhmmss STRING)
+ROW FORMAT DELIMITED FIELDS TERMINATED BY '|'
+LOCATION '/group/pisquare/data/shp_md_ycgaapdif_text';
+
+
+CREATE EXTERNAL TABLE IF NOT EXISTS shp_md_ycgaccmap_attr (
+  bic_ycgrprisk STRING,
+  bic_ycifrscl STRING,
+  bic_ycglaccfr STRING,
+  bic_ycgaccmap STRING,
+  bic_ycgrpacc STRING)
+ROW FORMAT DELIMITED FIELDS TERMINATED BY '|'
+LOCATION '/group/pisquare/data/shp_md_ycgaccmap_attr';
+
+CREATE EXTERNAL TABLE IF NOT EXISTS shp_md_ycgaccmap_attr_all (
+  bic_ycgrprisk STRING,
+  bic_ycifrscl STRING,
+  bic_ycglaccfr STRING,
+  bic_ycgaccmap STRING,
+  bic_ycgrpacc STRING)
+PARTITIONED BY (yyyy STRING, mm STRING, dd STRING, hhmmss STRING)
+ROW FORMAT DELIMITED FIELDS TERMINATED BY '|'
+LOCATION '/group/pisquare/data/shp_md_ycgaccmap_attr';
 
 
 CREATE EXTERNAL TABLE IF NOT EXISTS shp_md_ycgrpacc_attr (
@@ -544,6 +680,520 @@ CREATE EXTERNAL TABLE IF NOT EXISTS shp_md_ycgrpacc_text_all (
 PARTITIONED BY (yyyy STRING, mm STRING, dd STRING, hhmmss STRING)
 ROW FORMAT DELIMITED FIELDS TERMINATED BY '|'
 LOCATION '/group/pisquare/data/shp_md_ycgrpacc_text';
+
+
+CREATE EXTERNAL TABLE IF NOT EXISTS shp_md_ycgrprisk_text (
+  bic_ycgrprisk STRING,
+  langu STRING,
+  txtlg STRING)
+ROW FORMAT DELIMITED FIELDS TERMINATED BY '|'
+LOCATION '/group/pisquare/data/shp_md_ycgrprisk_text';
+
+CREATE EXTERNAL TABLE IF NOT EXISTS shp_md_ycgrprisk_text_all (
+  bic_ycgrprisk STRING,
+  langu STRING,
+  txtlg STRING)
+PARTITIONED BY (yyyy STRING, mm STRING, dd STRING, hhmmss STRING)
+ROW FORMAT DELIMITED FIELDS TERMINATED BY '|'
+LOCATION '/group/pisquare/data/shp_md_ycgrprisk_text';
+
+
+CREATE EXTERNAL TABLE IF NOT EXISTS shp_md_ycifrscl_text (
+  bic_ycifrscl STRING,
+  langu STRING,
+  txtlg STRING)
+ROW FORMAT DELIMITED FIELDS TERMINATED BY '|'
+LOCATION '/group/pisquare/data/shp_md_ycifrscl_text';
+
+CREATE EXTERNAL TABLE IF NOT EXISTS shp_md_ycifrscl_text_all (
+  bic_ycifrscl STRING,
+  langu STRING,
+  txtlg STRING)
+PARTITIONED BY (yyyy STRING, mm STRING, dd STRING, hhmmss STRING)
+ROW FORMAT DELIMITED FIELDS TERMINATED BY '|'
+LOCATION '/group/pisquare/data/shp_md_ycifrscl_text';
+
+
+CREATE EXTERNAL TABLE IF NOT EXISTS shp_md_ycmagnpak_text (
+  bic_ycmagnpak STRING,
+  langu STRING,
+  txtlg STRING)
+ROW FORMAT DELIMITED FIELDS TERMINATED BY '|'
+LOCATION '/group/pisquare/data/shp_md_ycmagnpak_text';
+
+CREATE EXTERNAL TABLE IF NOT EXISTS shp_md_ycmagnpak_text_all (
+  bic_ycmagnpak STRING,
+  langu STRING,
+  txtlg STRING)
+PARTITIONED BY (yyyy STRING, mm STRING, dd STRING, hhmmss STRING)
+ROW FORMAT DELIMITED FIELDS TERMINATED BY '|'
+LOCATION '/group/pisquare/data/shp_md_ycmagnpak_text';
+
+
+CREATE EXTERNAL TABLE IF NOT EXISTS shp_md_ycngaapme_text (
+  bic_ycngaapme STRING,
+  langu STRING,
+  txtlg STRING)
+ROW FORMAT DELIMITED FIELDS TERMINATED BY '|'
+LOCATION '/group/pisquare/data/shp_md_ycngaapme_text';
+
+CREATE EXTERNAL TABLE IF NOT EXISTS shp_md_ycngaapme_text_all (
+  bic_ycngaapme STRING,
+  langu STRING,
+  txtlg STRING)
+PARTITIONED BY (yyyy STRING, mm STRING, dd STRING, hhmmss STRING)
+ROW FORMAT DELIMITED FIELDS TERMINATED BY '|'
+LOCATION '/group/pisquare/data/shp_md_ycngaapme_text';
+
+
+CREATE EXTERNAL TABLE IF NOT EXISTS shp_md_ycosicr (
+  company STRING,
+  bic_ysbpartnr STRING,
+  fs_co_rel STRING,
+  recordmode STRING)
+ROW FORMAT DELIMITED FIELDS TERMINATED BY '|'
+LOCATION '/group/pisquare/data/shp_md_ycosicr';
+
+CREATE EXTERNAL TABLE IF NOT EXISTS shp_md_ycosicr_all (
+  company STRING,
+  bic_ysbpartnr STRING,
+  fs_co_rel STRING,
+  recordmode STRING)
+PARTITIONED BY (yyyy STRING, mm STRING, dd STRING, hhmmss STRING)
+ROW FORMAT DELIMITED FIELDS TERMINATED BY '|'
+LOCATION '/group/pisquare/data/shp_md_ycosicr';
+
+
+CREATE EXTERNAL TABLE IF NOT EXISTS shp_md_ycosorbp (
+  validto TIMESTAMP,
+  fp_rtgrmet STRING,
+  fp_rtcrit STRING,
+  bic_ysbpartnr STRING,
+  recordmode STRING,
+  validfrom TIMESTAMP,
+  fp_rtpermt STRING,
+  fp_rtgrade STRING,
+  fp_rttendy STRING,
+  fp_rtdwhen TIMESTAMP)
+ROW FORMAT DELIMITED FIELDS TERMINATED BY '|'
+LOCATION '/group/pisquare/data/shp_md_ycosorbp';
+
+CREATE EXTERNAL TABLE IF NOT EXISTS shp_md_ycosorbp_all (
+  validto TIMESTAMP,
+  fp_rtgrmet STRING,
+  fp_rtcrit STRING,
+  bic_ysbpartnr STRING,
+  recordmode STRING,
+  validfrom TIMESTAMP,
+  fp_rtpermt STRING,
+  fp_rtgrade STRING,
+  fp_rttendy STRING,
+  fp_rtdwhen TIMESTAMP)
+PARTITIONED BY (yyyy STRING, mm STRING, dd STRING, hhmmss STRING)
+ROW FORMAT DELIMITED FIELDS TERMINATED BY '|'
+LOCATION '/group/pisquare/data/shp_md_ycosorbp';
+
+
+CREATE EXTERNAL TABLE IF NOT EXISTS shp_md_ycosorft (
+  comp_code STRING,
+  validfrom TIMESTAMP,
+  cfm_inst STRING,
+  bic_ysfinantr STRING,
+  fs_ctr_tp STRING,
+  cfm_secrat STRING,
+  recordmode STRING)
+ROW FORMAT DELIMITED FIELDS TERMINATED BY '|'
+LOCATION '/group/pisquare/data/shp_md_ycosorft';
+
+CREATE EXTERNAL TABLE IF NOT EXISTS shp_md_ycosorft_all (
+  comp_code STRING,
+  validfrom TIMESTAMP,
+  cfm_inst STRING,
+  bic_ysfinantr STRING,
+  fs_ctr_tp STRING,
+  cfm_secrat STRING,
+  recordmode STRING)
+PARTITIONED BY (yyyy STRING, mm STRING, dd STRING, hhmmss STRING)
+ROW FORMAT DELIMITED FIELDS TERMINATED BY '|'
+LOCATION '/group/pisquare/data/shp_md_ycosorft';
+
+
+CREATE EXTERNAL TABLE IF NOT EXISTS shp_md_ycosorse (
+  bic_yssecftd STRING,
+  cfm_inst STRING,
+  validto TIMESTAMP,
+  cfm_secrat STRING,
+  recordmode STRING,
+  comp_code STRING,
+  validfrom TIMESTAMP)
+ROW FORMAT DELIMITED FIELDS TERMINATED BY '|'
+LOCATION '/group/pisquare/data/shp_md_ycosorse';
+
+CREATE EXTERNAL TABLE IF NOT EXISTS shp_md_ycosorse_all (
+  bic_yssecftd STRING,
+  cfm_inst STRING,
+  validto TIMESTAMP,
+  cfm_secrat STRING,
+  recordmode STRING,
+  comp_code STRING,
+  validfrom TIMESTAMP)
+PARTITIONED BY (yyyy STRING, mm STRING, dd STRING, hhmmss STRING)
+ROW FORMAT DELIMITED FIELDS TERMINATED BY '|'
+LOCATION '/group/pisquare/data/shp_md_ycosorse';
+
+
+CREATE EXTERNAL TABLE IF NOT EXISTS shp_md_yreassid_attr (
+  bic_yreasstp STRING,
+  bic_yreassid STRING,
+  dateto TIMESTAMP,
+  datefrom TIMESTAMP,
+  bic_yreasscod STRING,
+  bic_yreownoc STRING,
+  bic_yretown STRING,
+  bic_yrezip STRING,
+  bic_yrectrcd STRING,
+  bic_yreregion STRING,
+  bic_yrelglfrm STRING,
+  bic_yreregcd STRING,
+  bic_yrecapit STRING,
+  bic_yrelegadd STRING,
+  bic_yrestat STRING,
+  bic_yrepdmtus STRING,
+  bic_yreartot STRING,
+  bic_yreuntmsr STRING,
+  bic_yreprknbr STRING,
+  bic_yreasmncd STRING,
+  bic_yrevaldat TIMESTAMP,
+  bic_yreglval STRING,
+  bic_yreuntnav STRING,
+  bic_yreshrnbr STRING,
+  bic_yrecmpcur STRING,
+  bic_yrecapdat TIMESTAMP,
+  bic_yremkapdt STRING,
+  bic_yrerfapdt TIMESTAMP,
+  bic_yrevalcat STRING,
+  bic_yreassman STRING,
+  bic_yrefasstp STRING,
+  bic_yrepchsr STRING,
+  bic_zsdestkba STRING,
+  bic_zsdemw670 STRING,
+  bic_zsdemw67 STRING,
+  bic_zsdedvuan STRING)
+ROW FORMAT DELIMITED FIELDS TERMINATED BY '|'
+LOCATION '/group/pisquare/data/shp_md_yreassid_attr';
+
+CREATE EXTERNAL TABLE IF NOT EXISTS shp_md_yreassid_attr_all (
+  bic_yreasstp STRING,
+  bic_yreassid STRING,
+  dateto TIMESTAMP,
+  datefrom TIMESTAMP,
+  bic_yreasscod STRING,
+  bic_yreownoc STRING,
+  bic_yretown STRING,
+  bic_yrezip STRING,
+  bic_yrectrcd STRING,
+  bic_yreregion STRING,
+  bic_yrelglfrm STRING,
+  bic_yreregcd STRING,
+  bic_yrecapit STRING,
+  bic_yrelegadd STRING,
+  bic_yrestat STRING,
+  bic_yrepdmtus STRING,
+  bic_yreartot STRING,
+  bic_yreuntmsr STRING,
+  bic_yreprknbr STRING,
+  bic_yreasmncd STRING,
+  bic_yrevaldat TIMESTAMP,
+  bic_yreglval STRING,
+  bic_yreuntnav STRING,
+  bic_yreshrnbr STRING,
+  bic_yrecmpcur STRING,
+  bic_yrecapdat TIMESTAMP,
+  bic_yremkapdt STRING,
+  bic_yrerfapdt TIMESTAMP,
+  bic_yrevalcat STRING,
+  bic_yreassman STRING,
+  bic_yrefasstp STRING,
+  bic_yrepchsr STRING,
+  bic_zsdestkba STRING,
+  bic_zsdemw670 STRING,
+  bic_zsdemw67 STRING,
+  bic_zsdedvuan STRING)
+PARTITIONED BY (yyyy STRING, mm STRING, dd STRING, hhmmss STRING)
+ROW FORMAT DELIMITED FIELDS TERMINATED BY '|'
+LOCATION '/group/pisquare/data/shp_md_yreassid_attr';
+
+
+CREATE EXTERNAL TABLE IF NOT EXISTS shp_md_yreassid_text (
+  bic_yreasstp STRING,
+  bic_yreassid STRING,
+  langu STRING,
+  txtsh STRING,
+  txtmd STRING,
+  txtlg STRING)
+ROW FORMAT DELIMITED FIELDS TERMINATED BY '|'
+LOCATION '/group/pisquare/data/shp_md_yreassid_text';
+
+CREATE EXTERNAL TABLE IF NOT EXISTS shp_md_yreassid_text_all (
+  bic_yreasstp STRING,
+  bic_yreassid STRING,
+  langu STRING,
+  txtsh STRING,
+  txtmd STRING,
+  txtlg STRING)
+PARTITIONED BY (yyyy STRING, mm STRING, dd STRING, hhmmss STRING)
+ROW FORMAT DELIMITED FIELDS TERMINATED BY '|'
+LOCATION '/group/pisquare/data/shp_md_yreassid_text';
+
+
+CREATE EXTERNAL TABLE IF NOT EXISTS shp_md_ysac_ref_text (
+  bic_ysac_ref STRING,
+  langu STRING,
+  txtlg STRING)
+ROW FORMAT DELIMITED FIELDS TERMINATED BY '|'
+LOCATION '/group/pisquare/data/shp_md_ysac_ref_text';
+
+CREATE EXTERNAL TABLE IF NOT EXISTS shp_md_ysac_ref_text_all (
+  bic_ysac_ref STRING,
+  langu STRING,
+  txtlg STRING)
+PARTITIONED BY (yyyy STRING, mm STRING, dd STRING, hhmmss STRING)
+ROW FORMAT DELIMITED FIELDS TERMINATED BY '|'
+LOCATION '/group/pisquare/data/shp_md_ysac_ref_text';
+
+
+CREATE EXTERNAL TABLE IF NOT EXISTS shp_md_ysasatacc_attr (
+  chrt_accts STRING,
+  bic_ysasatacc STRING,
+  bal_flag STRING,
+  incst_flag STRING,
+  glaccext STRING,
+  bic_ycacctgrp STRING,
+  bic_ycngaapme STRING)
+ROW FORMAT DELIMITED FIELDS TERMINATED BY '|'
+LOCATION '/group/pisquare/data/shp_md_ysasatacc_attr';
+
+CREATE EXTERNAL TABLE IF NOT EXISTS shp_md_ysasatacc_attr_all (
+  chrt_accts STRING,
+  bic_ysasatacc STRING,
+  bal_flag STRING,
+  incst_flag STRING,
+  glaccext STRING,
+  bic_ycacctgrp STRING,
+  bic_ycngaapme STRING)
+PARTITIONED BY (yyyy STRING, mm STRING, dd STRING, hhmmss STRING)
+ROW FORMAT DELIMITED FIELDS TERMINATED BY '|'
+LOCATION '/group/pisquare/data/shp_md_ysasatacc_attr';
+
+
+CREATE EXTERNAL TABLE IF NOT EXISTS shp_md_ysasatacc_text (
+  chrt_accts STRING,
+  bic_ysasatacc STRING,
+  langu STRING,
+  txtsh STRING,
+  txtlg STRING)
+ROW FORMAT DELIMITED FIELDS TERMINATED BY '|'
+LOCATION '/group/pisquare/data/shp_md_ysasatacc_text';
+
+CREATE EXTERNAL TABLE IF NOT EXISTS shp_md_ysasatacc_text_all (
+  chrt_accts STRING,
+  bic_ysasatacc STRING,
+  langu STRING,
+  txtsh STRING,
+  txtlg STRING)
+PARTITIONED BY (yyyy STRING, mm STRING, dd STRING, hhmmss STRING)
+ROW FORMAT DELIMITED FIELDS TERMINATED BY '|'
+LOCATION '/group/pisquare/data/shp_md_ysasatacc_text';
+
+
+CREATE EXTERNAL TABLE IF NOT EXISTS shp_md_ysasstmng_text (
+  bic_ysasstmng STRING,
+  langu STRING,
+  txtsh STRING,
+  txtmd STRING,
+  txtlg STRING)
+ROW FORMAT DELIMITED FIELDS TERMINATED BY '|'
+LOCATION '/group/pisquare/data/shp_md_ysasstmng_text';
+
+CREATE EXTERNAL TABLE IF NOT EXISTS shp_md_ysasstmng_text_all (
+  bic_ysasstmng STRING,
+  langu STRING,
+  txtsh STRING,
+  txtmd STRING,
+  txtlg STRING)
+PARTITIONED BY (yyyy STRING, mm STRING, dd STRING, hhmmss STRING)
+ROW FORMAT DELIMITED FIELDS TERMINATED BY '|'
+LOCATION '/group/pisquare/data/shp_md_ysasstmng_text';
+
+
+CREATE EXTERNAL TABLE IF NOT EXISTS shp_md_ysatrasid_attr (
+  fs_ctr_tp STRING,
+  bic_ysatrasid STRING,
+  dateto TIMESTAMP,
+  datefrom TIMESTAMP,
+  bic_zptbascot STRING)
+ROW FORMAT DELIMITED FIELDS TERMINATED BY '|'
+LOCATION '/group/pisquare/data/shp_md_ysatrasid_attr';
+
+CREATE EXTERNAL TABLE IF NOT EXISTS shp_md_ysatrasid_attr_all (
+  fs_ctr_tp STRING,
+  bic_ysatrasid STRING,
+  dateto TIMESTAMP,
+  datefrom TIMESTAMP,
+  bic_zptbascot STRING)
+PARTITIONED BY (yyyy STRING, mm STRING, dd STRING, hhmmss STRING)
+ROW FORMAT DELIMITED FIELDS TERMINATED BY '|'
+LOCATION '/group/pisquare/data/shp_md_ysatrasid_attr';
+
+
+CREATE EXTERNAL TABLE IF NOT EXISTS shp_md_ysatrasid_text (
+  fs_ctr_tp STRING,
+  bic_ysatrasid STRING,
+  txtsh STRING,
+  txtlg STRING)
+ROW FORMAT DELIMITED FIELDS TERMINATED BY '|'
+LOCATION '/group/pisquare/data/shp_md_ysatrasid_text';
+
+CREATE EXTERNAL TABLE IF NOT EXISTS shp_md_ysatrasid_text_all (
+  fs_ctr_tp STRING,
+  bic_ysatrasid STRING,
+  txtsh STRING,
+  txtlg STRING)
+PARTITIONED BY (yyyy STRING, mm STRING, dd STRING, hhmmss STRING)
+ROW FORMAT DELIMITED FIELDS TERMINATED BY '|'
+LOCATION '/group/pisquare/data/shp_md_ysatrasid_text';
+
+
+CREATE EXTERNAL TABLE IF NOT EXISTS shp_md_ysbpartnr_attr (
+  bic_ysbpartnr STRING,
+  dateto TIMESTAMP,
+  datefrom TIMESTAMP,
+  ind_code STRING,
+  country STRING,
+  postal_cd STRING,
+  addr_short STRING,
+  city STRING,
+  currency STRING,
+  ind_numsys STRING,
+  ind_sec STRING,
+  ind_sector STRING,
+  bic_ysulparnr STRING,
+  bic_ysfitchrp STRING,
+  bic_ysmoodyrp STRING,
+  bic_yssandprp STRING,
+  bic_ysaxainrp STRING,
+  bic_ysotherrp STRING,
+  bic_ysaxarp STRING,
+  bic_ysindcode STRING,
+  bic_ysindgrp STRING,
+  bic_ysiss_sec STRING,
+  bic_yscisvnaz STRING,
+  bic_ysnosbwav STRING,
+  bic_ysnosecbr STRING,
+  bic_ysfdnaut STRING,
+  bic_ysfisctry STRING,
+  bic_ysconsmet STRING,
+  bic_zptbpisp STRING,
+  bic_ysorgrshp STRING,
+  fg_idtp STRING,
+  company STRING,
+  fs_co_rel STRING,
+  bic_zsrisocde STRING,
+  bic_ysbpind2 STRING,
+  bic_ysulpcntr STRING,
+  bic_yslgalfrm STRING,
+  bic_zsdeboent STRING,
+  bic_zsdebornr STRING,
+  bic_zsdemmlon STRING,
+  bic_yslgalent STRING,
+  bic_zsdequota STRING,
+  bic_zsdepar_a STRING,
+  bic_zsdedegrp STRING,
+  bic_zsdeidnum STRING,
+  bic_zsderevdt TIMESTAMP,
+  bic_zsdegba STRING,
+  bic_zsdeupnum STRING,
+  bic_zbescompn STRING,
+  house_num STRING,
+  bic_yscoaddr STRING)
+ROW FORMAT DELIMITED FIELDS TERMINATED BY '|'
+LOCATION '/group/pisquare/data/shp_md_ysbpartnr_attr';
+
+CREATE EXTERNAL TABLE IF NOT EXISTS shp_md_ysbpartnr_attr_all (
+  bic_ysbpartnr STRING,
+  dateto TIMESTAMP,
+  datefrom TIMESTAMP,
+  ind_code STRING,
+  country STRING,
+  postal_cd STRING,
+  addr_short STRING,
+  city STRING,
+  currency STRING,
+  ind_numsys STRING,
+  ind_sec STRING,
+  ind_sector STRING,
+  bic_ysulparnr STRING,
+  bic_ysfitchrp STRING,
+  bic_ysmoodyrp STRING,
+  bic_yssandprp STRING,
+  bic_ysaxainrp STRING,
+  bic_ysotherrp STRING,
+  bic_ysaxarp STRING,
+  bic_ysindcode STRING,
+  bic_ysindgrp STRING,
+  bic_ysiss_sec STRING,
+  bic_yscisvnaz STRING,
+  bic_ysnosbwav STRING,
+  bic_ysnosecbr STRING,
+  bic_ysfdnaut STRING,
+  bic_ysfisctry STRING,
+  bic_ysconsmet STRING,
+  bic_zptbpisp STRING,
+  bic_ysorgrshp STRING,
+  fg_idtp STRING,
+  company STRING,
+  fs_co_rel STRING,
+  bic_zsrisocde STRING,
+  bic_ysbpind2 STRING,
+  bic_ysulpcntr STRING,
+  bic_yslgalfrm STRING,
+  bic_zsdeboent STRING,
+  bic_zsdebornr STRING,
+  bic_zsdemmlon STRING,
+  bic_yslgalent STRING,
+  bic_zsdequota STRING,
+  bic_zsdepar_a STRING,
+  bic_zsdedegrp STRING,
+  bic_zsdeidnum STRING,
+  bic_zsderevdt TIMESTAMP,
+  bic_zsdegba STRING,
+  bic_zsdeupnum STRING,
+  bic_zbescompn STRING,
+  house_num STRING,
+  bic_yscoaddr STRING)
+PARTITIONED BY (yyyy STRING, mm STRING, dd STRING, hhmmss STRING)
+ROW FORMAT DELIMITED FIELDS TERMINATED BY '|'
+LOCATION '/group/pisquare/data/shp_md_ysbpartnr_attr';
+
+
+CREATE EXTERNAL TABLE IF NOT EXISTS shp_md_ysbpartnr_text (
+  bic_ysbpartnr STRING,
+  langu STRING,
+  txtsh STRING,
+  txtmd STRING,
+  txtlg STRING)
+ROW FORMAT DELIMITED FIELDS TERMINATED BY '|'
+LOCATION '/group/pisquare/data/shp_md_ysbpartnr_text';
+
+CREATE EXTERNAL TABLE IF NOT EXISTS shp_md_ysbpartnr_text_all (
+  bic_ysbpartnr STRING,
+  langu STRING,
+  txtsh STRING,
+  txtmd STRING,
+  txtlg STRING)
+PARTITIONED BY (yyyy STRING, mm STRING, dd STRING, hhmmss STRING)
+ROW FORMAT DELIMITED FIELDS TERMINATED BY '|'
+LOCATION '/group/pisquare/data/shp_md_ysbpartnr_text';
 
 
 CREATE EXTERNAL TABLE IF NOT EXISTS shp_md_ysfinantr_attr (
@@ -994,144 +1644,6 @@ ROW FORMAT DELIMITED FIELDS TERMINATED BY '|'
 LOCATION '/group/pisquare/data/shp_md_ysflotp_text';
 
 
-CREATE EXTERNAL TABLE IF NOT EXISTS shp_md_gl_account_attr (
-  chrt_accts STRING,
-  gl_account STRING,
-  bal_flag STRING,
-  incst_flag STRING,
-  glaccext STRING,
-  bic_ycacctgrp STRING,
-  bic_ycngaapme STRING)
-ROW FORMAT DELIMITED FIELDS TERMINATED BY '|'
-LOCATION '/group/pisquare/data/shp_md_gl_account_attr';
-
-CREATE EXTERNAL TABLE IF NOT EXISTS shp_md_gl_account_attr_all (
-  chrt_accts STRING,
-  gl_account STRING,
-  bal_flag STRING,
-  incst_flag STRING,
-  glaccext STRING,
-  bic_ycacctgrp STRING,
-  bic_ycngaapme STRING)
-PARTITIONED BY (yyyy STRING, mm STRING, dd STRING, hhmmss STRING)
-ROW FORMAT DELIMITED FIELDS TERMINATED BY '|'
-LOCATION '/group/pisquare/data/shp_md_gl_account_attr';
-
-
-CREATE EXTERNAL TABLE IF NOT EXISTS shp_md_gl_account_text (
-  chrt_accts STRING,
-  gl_account STRING,
-  langu STRING,
-  txtsh STRING,
-  txtlg STRING)
-ROW FORMAT DELIMITED FIELDS TERMINATED BY '|'
-LOCATION '/group/pisquare/data/shp_md_gl_account_text';
-
-CREATE EXTERNAL TABLE IF NOT EXISTS shp_md_gl_account_text_all (
-  chrt_accts STRING,
-  gl_account STRING,
-  langu STRING,
-  txtsh STRING,
-  txtlg STRING)
-PARTITIONED BY (yyyy STRING, mm STRING, dd STRING, hhmmss STRING)
-ROW FORMAT DELIMITED FIELDS TERMINATED BY '|'
-LOCATION '/group/pisquare/data/shp_md_gl_account_text';
-
-
-CREATE EXTERNAL TABLE IF NOT EXISTS shp_md_zsdeso06 (
-  bic_zsdebshie STRING,
-  bic_zsdeseqnb STRING,
-  gl_account STRING,
-  chrt_accts STRING,
-  recordmode STRING,
-  bic_zsdenode STRING,
-  bic_zsdelevel STRING,
-  bic_zsdeparid STRING,
-  bic_zsdechild STRING,
-  bic_zsdenext STRING,
-  dateto TIMESTAMP,
-  datefrom TIMESTAMP,
-  bic_zsdebspar STRING,
-  txtsh STRING,
-  txtmd STRING,
-  txtlg STRING)
-ROW FORMAT DELIMITED FIELDS TERMINATED BY '|'
-LOCATION '/group/pisquare/data/shp_md_zsdeso06';
-
-CREATE EXTERNAL TABLE IF NOT EXISTS shp_md_zsdeso06_all (
-  bic_zsdebshie STRING,
-  bic_zsdeseqnb STRING,
-  gl_account STRING,
-  chrt_accts STRING,
-  recordmode STRING,
-  bic_zsdenode STRING,
-  bic_zsdelevel STRING,
-  bic_zsdeparid STRING,
-  bic_zsdechild STRING,
-  bic_zsdenext STRING,
-  dateto TIMESTAMP,
-  datefrom TIMESTAMP,
-  bic_zsdebspar STRING,
-  txtsh STRING,
-  txtmd STRING,
-  txtlg STRING)
-PARTITIONED BY (yyyy STRING, mm STRING, dd STRING, hhmmss STRING)
-ROW FORMAT DELIMITED FIELDS TERMINATED BY '|'
-LOCATION '/group/pisquare/data/shp_md_zsdeso06';
-
-
-CREATE EXTERNAL TABLE IF NOT EXISTS shp_md_ycgaapdif_text (
-  bic_ycgaapdif STRING,
-  langu STRING,
-  txtlg STRING)
-ROW FORMAT DELIMITED FIELDS TERMINATED BY '|'
-LOCATION '/group/pisquare/data/shp_md_ycgaapdif_text';
-
-CREATE EXTERNAL TABLE IF NOT EXISTS shp_md_ycgaapdif_text_all (
-  bic_ycgaapdif STRING,
-  langu STRING,
-  txtlg STRING)
-PARTITIONED BY (yyyy STRING, mm STRING, dd STRING, hhmmss STRING)
-ROW FORMAT DELIMITED FIELDS TERMINATED BY '|'
-LOCATION '/group/pisquare/data/shp_md_ycgaapdif_text';
-
-
-CREATE EXTERNAL TABLE IF NOT EXISTS shp_md_ycgaccmap_attr (
-  bic_ycgrprisk STRING,
-  bic_ycifrscl STRING,
-  bic_ycglaccfr STRING,
-  bic_ycgaccmap STRING,
-  bic_ycgrpacc STRING)
-ROW FORMAT DELIMITED FIELDS TERMINATED BY '|'
-LOCATION '/group/pisquare/data/shp_md_ycgaccmap_attr';
-
-CREATE EXTERNAL TABLE IF NOT EXISTS shp_md_ycgaccmap_attr_all (
-  bic_ycgrprisk STRING,
-  bic_ycifrscl STRING,
-  bic_ycglaccfr STRING,
-  bic_ycgaccmap STRING,
-  bic_ycgrpacc STRING)
-PARTITIONED BY (yyyy STRING, mm STRING, dd STRING, hhmmss STRING)
-ROW FORMAT DELIMITED FIELDS TERMINATED BY '|'
-LOCATION '/group/pisquare/data/shp_md_ycgaccmap_attr';
-
-
-CREATE EXTERNAL TABLE IF NOT EXISTS shp_md_ycgrprisk_text (
-  bic_ycgrprisk STRING,
-  langu STRING,
-  txtlg STRING)
-ROW FORMAT DELIMITED FIELDS TERMINATED BY '|'
-LOCATION '/group/pisquare/data/shp_md_ycgrprisk_text';
-
-CREATE EXTERNAL TABLE IF NOT EXISTS shp_md_ycgrprisk_text_all (
-  bic_ycgrprisk STRING,
-  langu STRING,
-  txtlg STRING)
-PARTITIONED BY (yyyy STRING, mm STRING, dd STRING, hhmmss STRING)
-ROW FORMAT DELIMITED FIELDS TERMINATED BY '|'
-LOCATION '/group/pisquare/data/shp_md_ycgrprisk_text';
-
-
 CREATE EXTERNAL TABLE IF NOT EXISTS shp_md_yshouseb_attr (
   comp_code STRING,
   bic_ys_soursy STRING,
@@ -1196,106 +1708,6 @@ ROW FORMAT DELIMITED FIELDS TERMINATED BY '|'
 LOCATION '/group/pisquare/data/shp_md_yshouseba_attr';
 
 
-CREATE EXTERNAL TABLE IF NOT EXISTS shp_md_ycifrscl_text (
-  bic_ycifrscl STRING,
-  langu STRING,
-  txtlg STRING)
-ROW FORMAT DELIMITED FIELDS TERMINATED BY '|'
-LOCATION '/group/pisquare/data/shp_md_ycifrscl_text';
-
-CREATE EXTERNAL TABLE IF NOT EXISTS shp_md_ycifrscl_text_all (
-  bic_ycifrscl STRING,
-  langu STRING,
-  txtlg STRING)
-PARTITIONED BY (yyyy STRING, mm STRING, dd STRING, hhmmss STRING)
-ROW FORMAT DELIMITED FIELDS TERMINATED BY '|'
-LOCATION '/group/pisquare/data/shp_md_ycifrscl_text';
-
-
-CREATE EXTERNAL TABLE IF NOT EXISTS shp_md_ac_ledger_text (
-  ac_ledger STRING,
-  langu STRING,
-  txtmd STRING)
-ROW FORMAT DELIMITED FIELDS TERMINATED BY '|'
-LOCATION '/group/pisquare/data/shp_md_ac_ledger_text';
-
-CREATE EXTERNAL TABLE IF NOT EXISTS shp_md_ac_ledger_text_all (
-  ac_ledger STRING,
-  langu STRING,
-  txtmd STRING)
-PARTITIONED BY (yyyy STRING, mm STRING, dd STRING, hhmmss STRING)
-ROW FORMAT DELIMITED FIELDS TERMINATED BY '|'
-LOCATION '/group/pisquare/data/shp_md_ac_ledger_text';
-
-
-CREATE EXTERNAL TABLE IF NOT EXISTS shp_md_cfm_lo_sh_text (
-  cfm_lo_sh STRING,
-  langu STRING,
-  txtlg STRING)
-ROW FORMAT DELIMITED FIELDS TERMINATED BY '|'
-LOCATION '/group/pisquare/data/shp_md_cfm_lo_sh_text';
-
-CREATE EXTERNAL TABLE IF NOT EXISTS shp_md_cfm_lo_sh_text_all (
-  cfm_lo_sh STRING,
-  langu STRING,
-  txtlg STRING)
-PARTITIONED BY (yyyy STRING, mm STRING, dd STRING, hhmmss STRING)
-ROW FORMAT DELIMITED FIELDS TERMINATED BY '|'
-LOCATION '/group/pisquare/data/shp_md_cfm_lo_sh_text';
-
-
-CREATE EXTERNAL TABLE IF NOT EXISTS shp_md_ycmagnpak_text (
-  bic_ycmagnpak STRING,
-  langu STRING,
-  txtlg STRING)
-ROW FORMAT DELIMITED FIELDS TERMINATED BY '|'
-LOCATION '/group/pisquare/data/shp_md_ycmagnpak_text';
-
-CREATE EXTERNAL TABLE IF NOT EXISTS shp_md_ycmagnpak_text_all (
-  bic_ycmagnpak STRING,
-  langu STRING,
-  txtlg STRING)
-PARTITIONED BY (yyyy STRING, mm STRING, dd STRING, hhmmss STRING)
-ROW FORMAT DELIMITED FIELDS TERMINATED BY '|'
-LOCATION '/group/pisquare/data/shp_md_ycmagnpak_text';
-
-
-CREATE EXTERNAL TABLE IF NOT EXISTS shp_md_move_type_attr (
-  move_type STRING,
-  bic_ycmvtpbcf STRING,
-  bic_ycsubmovt STRING,
-  bic_ycngaapme STRING,
-  bic_ycopen_cl STRING)
-ROW FORMAT DELIMITED FIELDS TERMINATED BY '|'
-LOCATION '/group/pisquare/data/shp_md_move_type_attr';
-
-CREATE EXTERNAL TABLE IF NOT EXISTS shp_md_move_type_attr_all (
-  move_type STRING,
-  bic_ycmvtpbcf STRING,
-  bic_ycsubmovt STRING,
-  bic_ycngaapme STRING,
-  bic_ycopen_cl STRING)
-PARTITIONED BY (yyyy STRING, mm STRING, dd STRING, hhmmss STRING)
-ROW FORMAT DELIMITED FIELDS TERMINATED BY '|'
-LOCATION '/group/pisquare/data/shp_md_move_type_attr';
-
-
-CREATE EXTERNAL TABLE IF NOT EXISTS shp_md_move_type_text (
-  move_type STRING,
-  langu STRING,
-  txtsh STRING)
-ROW FORMAT DELIMITED FIELDS TERMINATED BY '|'
-LOCATION '/group/pisquare/data/shp_md_move_type_text';
-
-CREATE EXTERNAL TABLE IF NOT EXISTS shp_md_move_type_text_all (
-  move_type STRING,
-  langu STRING,
-  txtsh STRING)
-PARTITIONED BY (yyyy STRING, mm STRING, dd STRING, hhmmss STRING)
-ROW FORMAT DELIMITED FIELDS TERMINATED BY '|'
-LOCATION '/group/pisquare/data/shp_md_move_type_text';
-
-
 CREATE EXTERNAL TABLE IF NOT EXISTS shp_md_ysngacc_text (
   bic_ysngacc STRING,
   txtsh STRING,
@@ -1312,120 +1724,6 @@ CREATE EXTERNAL TABLE IF NOT EXISTS shp_md_ysngacc_text_all (
 PARTITIONED BY (yyyy STRING, mm STRING, dd STRING, hhmmss STRING)
 ROW FORMAT DELIMITED FIELDS TERMINATED BY '|'
 LOCATION '/group/pisquare/data/shp_md_ysngacc_text';
-
-
-CREATE EXTERNAL TABLE IF NOT EXISTS shp_md_ycngaapme_text (
-  bic_ycngaapme STRING,
-  langu STRING,
-  txtlg STRING)
-ROW FORMAT DELIMITED FIELDS TERMINATED BY '|'
-LOCATION '/group/pisquare/data/shp_md_ycngaapme_text';
-
-CREATE EXTERNAL TABLE IF NOT EXISTS shp_md_ycngaapme_text_all (
-  bic_ycngaapme STRING,
-  langu STRING,
-  txtlg STRING)
-PARTITIONED BY (yyyy STRING, mm STRING, dd STRING, hhmmss STRING)
-ROW FORMAT DELIMITED FIELDS TERMINATED BY '|'
-LOCATION '/group/pisquare/data/shp_md_ycngaapme_text';
-
-
-CREATE EXTERNAL TABLE IF NOT EXISTS shp_md_yccompacc_attr (
-  comp_code STRING,
-  bic_yccompacc STRING,
-  bic_ycaltacc STRING,
-  bic_ycvatjust STRING,
-  bic_ycacclerk STRING,
-  bic_yccashtrs STRING,
-  bic_ycclsgaap STRING,
-  bic_ycclsdir STRING,
-  bic_ycclusacc STRING,
-  currency STRING,
-  bic_ycoperfin STRING,
-  bic_ycngaapme STRING,
-  chrt_accts STRING,
-  bic_ycexchdif STRING,
-  bic_ycaltacc STRING)
-ROW FORMAT DELIMITED FIELDS TERMINATED BY '|'
-LOCATION '/group/pisquare/data/shp_md_yccompacc_attr';
-
-CREATE EXTERNAL TABLE IF NOT EXISTS shp_md_yccompacc_attr_all (
-  comp_code STRING,
-  bic_yccompacc STRING,
-  bic_ycaltacc STRING,
-  bic_ycvatjust STRING,
-  bic_ycacclerk STRING,
-  bic_yccashtrs STRING,
-  bic_ycclsgaap STRING,
-  bic_ycclsdir STRING,
-  bic_ycclusacc STRING,
-  currency STRING,
-  bic_ycoperfin STRING,
-  bic_ycngaapme STRING,
-  chrt_accts STRING,
-  bic_ycexchdif STRING,
-  bic_ycaltacc STRING)
-PARTITIONED BY (yyyy STRING, mm STRING, dd STRING, hhmmss STRING)
-ROW FORMAT DELIMITED FIELDS TERMINATED BY '|'
-LOCATION '/group/pisquare/data/shp_md_yccompacc_attr';
-
-
-CREATE EXTERNAL TABLE IF NOT EXISTS shp_md_bp_is (
-  bpartner STRING,
-  ind_numsys STRING,
-  ind_sec STRING,
-  flgdefault STRING,
-  recordmode STRING,
-  flgdeleted STRING)
-ROW FORMAT DELIMITED FIELDS TERMINATED BY '|'
-LOCATION '/group/pisquare/data/shp_md_bp_is';
-
-CREATE EXTERNAL TABLE IF NOT EXISTS shp_md_bp_is_all (
-  bpartner STRING,
-  ind_numsys STRING,
-  ind_sec STRING,
-  flgdefault STRING,
-  recordmode STRING,
-  flgdeleted STRING)
-PARTITIONED BY (yyyy STRING, mm STRING, dd STRING, hhmmss STRING)
-ROW FORMAT DELIMITED FIELDS TERMINATED BY '|'
-LOCATION '/group/pisquare/data/shp_md_bp_is';
-
-
-CREATE EXTERNAL TABLE IF NOT EXISTS shp_md_cfm_amtct_attr (
-  cfm_amtct STRING,
-  bic_yspcomp STRING,
-  bic_yspcomp2 STRING,
-  bic_yspchrule STRING,
-  bic_yspccusg STRING)
-ROW FORMAT DELIMITED FIELDS TERMINATED BY '|'
-LOCATION '/group/pisquare/data/shp_md_cfm_amtct_attr';
-
-CREATE EXTERNAL TABLE IF NOT EXISTS shp_md_cfm_amtct_attr_all (
-  cfm_amtct STRING,
-  bic_yspcomp STRING,
-  bic_yspcomp2 STRING,
-  bic_yspchrule STRING,
-  bic_yspccusg STRING)
-PARTITIONED BY (yyyy STRING, mm STRING, dd STRING, hhmmss STRING)
-ROW FORMAT DELIMITED FIELDS TERMINATED BY '|'
-LOCATION '/group/pisquare/data/shp_md_cfm_amtct_attr';
-
-
-CREATE EXTERNAL TABLE IF NOT EXISTS shp_md_cfm_amtct_text (
-  cfm_amtct STRING,
-  langu STRING,
-  txtlg STRING)
-ROW FORMAT DELIMITED FIELDS TERMINATED BY '|'
-LOCATION '/group/pisquare/data/shp_md_cfm_amtct_text';
-
-CREATE EXTERNAL TABLE IF NOT EXISTS shp_md_cfm_amtct_text_all (
-  cfm_amtct STRING,
-  langu STRING,
-  txtlg STRING)
-PARTITIONED BY (yyyy STRING, mm STRING, dd STRING, hhmmss STRING)
-ROW FORMAT DELIMITED FIELDS TERMINATED BY '|'
-LOCATION '/group/pisquare/data/shp_md_cfm_amtct_text';
 
 
 CREATE EXTERNAL TABLE IF NOT EXISTS shp_md_yspositi1_attr (
@@ -1552,32 +1850,24 @@ ROW FORMAT DELIMITED FIELDS TERMINATED BY '|'
 LOCATION '/group/pisquare/data/shp_md_yspositi2_text';
 
 
-CREATE EXTERNAL TABLE IF NOT EXISTS shp_md_ysprsrc_attr (
-  bic_ysprsrc STRING,
-  bic_zptbascot STRING)
+CREATE EXTERNAL TABLE IF NOT EXISTS shp_md_ysprdtyp_text (
+  bic_ys_soursy STRING,
+  bic_ysprdtyp STRING,
+  langu STRING,
+  txtsh STRING,
+  txtmd STRING)
 ROW FORMAT DELIMITED FIELDS TERMINATED BY '|'
-LOCATION '/group/pisquare/data/shp_md_ysprsrc_attr';
+LOCATION '/group/pisquare/data/shp_md_ysprdtyp_text';
 
-CREATE EXTERNAL TABLE IF NOT EXISTS shp_md_ysprsrc_attr_all (
-  bic_ysprsrc STRING,
-  bic_zptbascot STRING)
+CREATE EXTERNAL TABLE IF NOT EXISTS shp_md_ysprdtyp_text_all (
+  bic_ys_soursy STRING,
+  bic_ysprdtyp STRING,
+  langu STRING,
+  txtsh STRING,
+  txtmd STRING)
 PARTITIONED BY (yyyy STRING, mm STRING, dd STRING, hhmmss STRING)
 ROW FORMAT DELIMITED FIELDS TERMINATED BY '|'
-LOCATION '/group/pisquare/data/shp_md_ysprsrc_attr';
-
-
-CREATE EXTERNAL TABLE IF NOT EXISTS shp_md_ysprsrc_text (
-  bic_ysprsrc STRING,
-  txtsh STRING)
-ROW FORMAT DELIMITED FIELDS TERMINATED BY '|'
-LOCATION '/group/pisquare/data/shp_md_ysprsrc_text';
-
-CREATE EXTERNAL TABLE IF NOT EXISTS shp_md_ysprsrc_text_all (
-  bic_ysprsrc STRING,
-  txtsh STRING)
-PARTITIONED BY (yyyy STRING, mm STRING, dd STRING, hhmmss STRING)
-ROW FORMAT DELIMITED FIELDS TERMINATED BY '|'
-LOCATION '/group/pisquare/data/shp_md_ysprsrc_text';
+LOCATION '/group/pisquare/data/shp_md_ysprdtyp_text';
 
 
 CREATE EXTERNAL TABLE IF NOT EXISTS shp_md_ysproduct_attr (
@@ -2182,318 +2472,32 @@ ROW FORMAT DELIMITED FIELDS TERMINATED BY '|'
 LOCATION '/group/pisquare/data/shp_md_ysproduct_text';
 
 
-CREATE EXTERNAL TABLE IF NOT EXISTS shp_md_fs_sec_ct_attr (
-  fs_sec_ct STRING,
-  fs_ctr_tp STRING)
+CREATE EXTERNAL TABLE IF NOT EXISTS shp_md_ysprsrc_attr (
+  bic_ysprsrc STRING,
+  bic_zptbascot STRING)
 ROW FORMAT DELIMITED FIELDS TERMINATED BY '|'
-LOCATION '/group/pisquare/data/shp_md_fs_sec_ct_attr';
+LOCATION '/group/pisquare/data/shp_md_ysprsrc_attr';
 
-CREATE EXTERNAL TABLE IF NOT EXISTS shp_md_fs_sec_ct_attr_all (
-  fs_sec_ct STRING,
-  fs_ctr_tp STRING)
+CREATE EXTERNAL TABLE IF NOT EXISTS shp_md_ysprsrc_attr_all (
+  bic_ysprsrc STRING,
+  bic_zptbascot STRING)
 PARTITIONED BY (yyyy STRING, mm STRING, dd STRING, hhmmss STRING)
 ROW FORMAT DELIMITED FIELDS TERMINATED BY '|'
-LOCATION '/group/pisquare/data/shp_md_fs_sec_ct_attr';
+LOCATION '/group/pisquare/data/shp_md_ysprsrc_attr';
 
 
-CREATE EXTERNAL TABLE IF NOT EXISTS shp_md_fs_sec_ct_text (
-  fs_sec_ct STRING,
-  langu STRING,
-  txtmd STRING)
+CREATE EXTERNAL TABLE IF NOT EXISTS shp_md_ysprsrc_text (
+  bic_ysprsrc STRING,
+  txtsh STRING)
 ROW FORMAT DELIMITED FIELDS TERMINATED BY '|'
-LOCATION '/group/pisquare/data/shp_md_fs_sec_ct_text';
+LOCATION '/group/pisquare/data/shp_md_ysprsrc_text';
 
-CREATE EXTERNAL TABLE IF NOT EXISTS shp_md_fs_sec_ct_text_all (
-  fs_sec_ct STRING,
-  langu STRING,
-  txtmd STRING)
+CREATE EXTERNAL TABLE IF NOT EXISTS shp_md_ysprsrc_text_all (
+  bic_ysprsrc STRING,
+  txtsh STRING)
 PARTITIONED BY (yyyy STRING, mm STRING, dd STRING, hhmmss STRING)
 ROW FORMAT DELIMITED FIELDS TERMINATED BY '|'
-LOCATION '/group/pisquare/data/shp_md_fs_sec_ct_text';
-
-
-CREATE EXTERNAL TABLE IF NOT EXISTS shp_md_ysprdtyp_text (
-  bic_ys_soursy STRING,
-  bic_ysprdtyp STRING,
-  langu STRING,
-  txtsh STRING,
-  txtmd STRING)
-ROW FORMAT DELIMITED FIELDS TERMINATED BY '|'
-LOCATION '/group/pisquare/data/shp_md_ysprdtyp_text';
-
-CREATE EXTERNAL TABLE IF NOT EXISTS shp_md_ysprdtyp_text_all (
-  bic_ys_soursy STRING,
-  bic_ysprdtyp STRING,
-  langu STRING,
-  txtsh STRING,
-  txtmd STRING)
-PARTITIONED BY (yyyy STRING, mm STRING, dd STRING, hhmmss STRING)
-ROW FORMAT DELIMITED FIELDS TERMINATED BY '|'
-LOCATION '/group/pisquare/data/shp_md_ysprdtyp_text';
-
-
-CREATE EXTERNAL TABLE IF NOT EXISTS shp_md_profit_ctr_attr (
-  co_area STRING,
-  profit_ctr STRING,
-  dateto TIMESTAMP,
-  datefrom TIMESTAMP,
-  logsys STRING,
-  resp_pers STRING,
-  soursystem STRING,
-  segment STRING,
-  country STRING,
-  bic_ycfps STRING)
-ROW FORMAT DELIMITED FIELDS TERMINATED BY '|'
-LOCATION '/group/pisquare/data/shp_md_profit_ctr_attr';
-
-CREATE EXTERNAL TABLE IF NOT EXISTS shp_md_profit_ctr_attr_all (
-  co_area STRING,
-  profit_ctr STRING,
-  dateto TIMESTAMP,
-  datefrom TIMESTAMP,
-  logsys STRING,
-  resp_pers STRING,
-  soursystem STRING,
-  segment STRING,
-  country STRING,
-  bic_ycfps STRING)
-PARTITIONED BY (yyyy STRING, mm STRING, dd STRING, hhmmss STRING)
-ROW FORMAT DELIMITED FIELDS TERMINATED BY '|'
-LOCATION '/group/pisquare/data/shp_md_profit_ctr_attr';
-
-
-CREATE EXTERNAL TABLE IF NOT EXISTS shp_md_profit_ctr_text (
-  co_area STRING,
-  profit_ctr STRING,
-  langu STRING,
-  dateto TIMESTAMP,
-  datefrom TIMESTAMP,
-  txtsh STRING,
-  txtmd STRING)
-ROW FORMAT DELIMITED FIELDS TERMINATED BY '|'
-LOCATION '/group/pisquare/data/shp_md_profit_ctr_text';
-
-CREATE EXTERNAL TABLE IF NOT EXISTS shp_md_profit_ctr_text_all (
-  co_area STRING,
-  profit_ctr STRING,
-  langu STRING,
-  dateto TIMESTAMP,
-  datefrom TIMESTAMP,
-  txtsh STRING,
-  txtmd STRING)
-PARTITIONED BY (yyyy STRING, mm STRING, dd STRING, hhmmss STRING)
-ROW FORMAT DELIMITED FIELDS TERMINATED BY '|'
-LOCATION '/group/pisquare/data/shp_md_profit_ctr_text';
-
-
-CREATE EXTERNAL TABLE IF NOT EXISTS shp_md_ycosorft (
-  comp_code STRING,
-  validfrom TIMESTAMP,
-  cfm_inst STRING,
-  bic_ysfinantr STRING,
-  fs_ctr_tp STRING,
-  cfm_secrat STRING,
-  recordmode STRING)
-ROW FORMAT DELIMITED FIELDS TERMINATED BY '|'
-LOCATION '/group/pisquare/data/shp_md_ycosorft';
-
-CREATE EXTERNAL TABLE IF NOT EXISTS shp_md_ycosorft_all (
-  comp_code STRING,
-  validfrom TIMESTAMP,
-  cfm_inst STRING,
-  bic_ysfinantr STRING,
-  fs_ctr_tp STRING,
-  cfm_secrat STRING,
-  recordmode STRING)
-PARTITIONED BY (yyyy STRING, mm STRING, dd STRING, hhmmss STRING)
-ROW FORMAT DELIMITED FIELDS TERMINATED BY '|'
-LOCATION '/group/pisquare/data/shp_md_ycosorft';
-
-
-CREATE EXTERNAL TABLE IF NOT EXISTS shp_md_ycosorbp (
-  validto TIMESTAMP,
-  fp_rtgrmet STRING,
-  fp_rtcrit STRING,
-  bic_ysbpartnr STRING,
-  recordmode STRING,
-  validfrom TIMESTAMP,
-  fp_rtpermt STRING,
-  fp_rtgrade STRING,
-  fp_rttendy STRING,
-  fp_rtdwhen TIMESTAMP)
-ROW FORMAT DELIMITED FIELDS TERMINATED BY '|'
-LOCATION '/group/pisquare/data/shp_md_ycosorbp';
-
-CREATE EXTERNAL TABLE IF NOT EXISTS shp_md_ycosorbp_all (
-  validto TIMESTAMP,
-  fp_rtgrmet STRING,
-  fp_rtcrit STRING,
-  bic_ysbpartnr STRING,
-  recordmode STRING,
-  validfrom TIMESTAMP,
-  fp_rtpermt STRING,
-  fp_rtgrade STRING,
-  fp_rttendy STRING,
-  fp_rtdwhen TIMESTAMP)
-PARTITIONED BY (yyyy STRING, mm STRING, dd STRING, hhmmss STRING)
-ROW FORMAT DELIMITED FIELDS TERMINATED BY '|'
-LOCATION '/group/pisquare/data/shp_md_ycosorbp';
-
-
-CREATE EXTERNAL TABLE IF NOT EXISTS shp_md_ycosorse (
-  bic_yssecftd STRING,
-  cfm_inst STRING,
-  validto TIMESTAMP,
-  cfm_secrat STRING,
-  recordmode STRING,
-  comp_code STRING,
-  validfrom TIMESTAMP)
-ROW FORMAT DELIMITED FIELDS TERMINATED BY '|'
-LOCATION '/group/pisquare/data/shp_md_ycosorse';
-
-CREATE EXTERNAL TABLE IF NOT EXISTS shp_md_ycosorse_all (
-  bic_yssecftd STRING,
-  cfm_inst STRING,
-  validto TIMESTAMP,
-  cfm_secrat STRING,
-  recordmode STRING,
-  comp_code STRING,
-  validfrom TIMESTAMP)
-PARTITIONED BY (yyyy STRING, mm STRING, dd STRING, hhmmss STRING)
-ROW FORMAT DELIMITED FIELDS TERMINATED BY '|'
-LOCATION '/group/pisquare/data/shp_md_ycosorse';
-
-
-CREATE EXTERNAL TABLE IF NOT EXISTS shp_md_ysbpartnr_attr (
-  bic_ysbpartnr STRING,
-  dateto TIMESTAMP,
-  datefrom TIMESTAMP,
-  ind_code STRING,
-  country STRING,
-  postal_cd STRING,
-  addr_short STRING,
-  city STRING,
-  currency STRING,
-  ind_numsys STRING,
-  ind_sec STRING,
-  ind_sector STRING,
-  bic_ysulparnr STRING,
-  bic_ysfitchrp STRING,
-  bic_ysmoodyrp STRING,
-  bic_yssandprp STRING,
-  bic_ysaxainrp STRING,
-  bic_ysotherrp STRING,
-  bic_ysaxarp STRING,
-  bic_ysindcode STRING,
-  bic_ysindgrp STRING,
-  bic_ysiss_sec STRING,
-  bic_yscisvnaz STRING,
-  bic_ysnosbwav STRING,
-  bic_ysnosecbr STRING,
-  bic_ysfdnaut STRING,
-  bic_ysfisctry STRING,
-  bic_ysconsmet STRING,
-  bic_zptbpisp STRING,
-  bic_ysorgrshp STRING,
-  fg_idtp STRING,
-  company STRING,
-  fs_co_rel STRING,
-  bic_zsrisocde STRING,
-  bic_ysbpind2 STRING,
-  bic_ysulpcntr STRING,
-  bic_yslgalfrm STRING,
-  bic_zsdeboent STRING,
-  bic_zsdebornr STRING,
-  bic_zsdemmlon STRING,
-  bic_yslgalent STRING,
-  bic_zsdequota STRING,
-  bic_zsdepar_a STRING,
-  bic_zsdedegrp STRING,
-  bic_zsdeidnum STRING,
-  bic_zsderevdt TIMESTAMP,
-  bic_zsdegba STRING,
-  bic_zsdeupnum STRING,
-  bic_zbescompn STRING,
-  house_num STRING,
-  bic_yscoaddr STRING)
-ROW FORMAT DELIMITED FIELDS TERMINATED BY '|'
-LOCATION '/group/pisquare/data/shp_md_ysbpartnr_attr';
-
-CREATE EXTERNAL TABLE IF NOT EXISTS shp_md_ysbpartnr_attr_all (
-  bic_ysbpartnr STRING,
-  dateto TIMESTAMP,
-  datefrom TIMESTAMP,
-  ind_code STRING,
-  country STRING,
-  postal_cd STRING,
-  addr_short STRING,
-  city STRING,
-  currency STRING,
-  ind_numsys STRING,
-  ind_sec STRING,
-  ind_sector STRING,
-  bic_ysulparnr STRING,
-  bic_ysfitchrp STRING,
-  bic_ysmoodyrp STRING,
-  bic_yssandprp STRING,
-  bic_ysaxainrp STRING,
-  bic_ysotherrp STRING,
-  bic_ysaxarp STRING,
-  bic_ysindcode STRING,
-  bic_ysindgrp STRING,
-  bic_ysiss_sec STRING,
-  bic_yscisvnaz STRING,
-  bic_ysnosbwav STRING,
-  bic_ysnosecbr STRING,
-  bic_ysfdnaut STRING,
-  bic_ysfisctry STRING,
-  bic_ysconsmet STRING,
-  bic_zptbpisp STRING,
-  bic_ysorgrshp STRING,
-  fg_idtp STRING,
-  company STRING,
-  fs_co_rel STRING,
-  bic_zsrisocde STRING,
-  bic_ysbpind2 STRING,
-  bic_ysulpcntr STRING,
-  bic_yslgalfrm STRING,
-  bic_zsdeboent STRING,
-  bic_zsdebornr STRING,
-  bic_zsdemmlon STRING,
-  bic_yslgalent STRING,
-  bic_zsdequota STRING,
-  bic_zsdepar_a STRING,
-  bic_zsdedegrp STRING,
-  bic_zsdeidnum STRING,
-  bic_zsderevdt TIMESTAMP,
-  bic_zsdegba STRING,
-  bic_zsdeupnum STRING,
-  bic_zbescompn STRING,
-  house_num STRING,
-  bic_yscoaddr STRING)
-PARTITIONED BY (yyyy STRING, mm STRING, dd STRING, hhmmss STRING)
-ROW FORMAT DELIMITED FIELDS TERMINATED BY '|'
-LOCATION '/group/pisquare/data/shp_md_ysbpartnr_attr';
-
-
-CREATE EXTERNAL TABLE IF NOT EXISTS shp_md_ysbpartnr_text (
-  bic_ysbpartnr STRING,
-  langu STRING,
-  txtsh STRING,
-  txtmd STRING,
-  txtlg STRING)
-ROW FORMAT DELIMITED FIELDS TERMINATED BY '|'
-LOCATION '/group/pisquare/data/shp_md_ysbpartnr_text';
-
-CREATE EXTERNAL TABLE IF NOT EXISTS shp_md_ysbpartnr_text_all (
-  bic_ysbpartnr STRING,
-  langu STRING,
-  txtsh STRING,
-  txtmd STRING,
-  txtlg STRING)
-PARTITIONED BY (yyyy STRING, mm STRING, dd STRING, hhmmss STRING)
-ROW FORMAT DELIMITED FIELDS TERMINATED BY '|'
-LOCATION '/group/pisquare/data/shp_md_ysbpartnr_text';
+LOCATION '/group/pisquare/data/shp_md_ysprsrc_text';
 
 
 CREATE EXTERNAL TABLE IF NOT EXISTS shp_md_yssecftd_attr (
@@ -2902,22 +2906,6 @@ ROW FORMAT DELIMITED FIELDS TERMINATED BY '|'
 LOCATION '/group/pisquare/data/shp_md_yssecftd_text';
 
 
-CREATE EXTERNAL TABLE IF NOT EXISTS shp_md_segment_text (
-  segment STRING,
-  langu STRING,
-  txtlg STRING)
-ROW FORMAT DELIMITED FIELDS TERMINATED BY '|'
-LOCATION '/group/pisquare/data/shp_md_segment_text';
-
-CREATE EXTERNAL TABLE IF NOT EXISTS shp_md_segment_text_all (
-  segment STRING,
-  langu STRING,
-  txtlg STRING)
-PARTITIONED BY (yyyy STRING, mm STRING, dd STRING, hhmmss STRING)
-ROW FORMAT DELIMITED FIELDS TERMINATED BY '|'
-LOCATION '/group/pisquare/data/shp_md_segment_text';
-
-
 CREATE EXTERNAL TABLE IF NOT EXISTS shp_md_yssrprod_attr (
   fs_ctr_tp STRING,
   comp_code STRING,
@@ -3032,35 +3020,45 @@ ROW FORMAT DELIMITED FIELDS TERMINATED BY '|'
 LOCATION '/group/pisquare/data/shp_md_yssrprod_attr';
 
 
-CREATE EXTERNAL TABLE IF NOT EXISTS shp_md_fs_val_ar_text (
-  fs_val_ar STRING,
+CREATE EXTERNAL TABLE IF NOT EXISTS shp_md_zsdeso06 (
+  bic_zsdebshie STRING,
+  bic_zsdeseqnb STRING,
+  gl_account STRING,
+  chrt_accts STRING,
+  recordmode STRING,
+  bic_zsdenode STRING,
+  bic_zsdelevel STRING,
+  bic_zsdeparid STRING,
+  bic_zsdechild STRING,
+  bic_zsdenext STRING,
+  dateto TIMESTAMP,
+  datefrom TIMESTAMP,
+  bic_zsdebspar STRING,
+  txtsh STRING,
+  txtmd STRING,
   txtlg STRING)
 ROW FORMAT DELIMITED FIELDS TERMINATED BY '|'
-LOCATION '/group/pisquare/data/shp_md_fs_val_ar_text';
+LOCATION '/group/pisquare/data/shp_md_zsdeso06';
 
-CREATE EXTERNAL TABLE IF NOT EXISTS shp_md_fs_val_ar_text_all (
-  fs_val_ar STRING,
+CREATE EXTERNAL TABLE IF NOT EXISTS shp_md_zsdeso06_all (
+  bic_zsdebshie STRING,
+  bic_zsdeseqnb STRING,
+  gl_account STRING,
+  chrt_accts STRING,
+  recordmode STRING,
+  bic_zsdenode STRING,
+  bic_zsdelevel STRING,
+  bic_zsdeparid STRING,
+  bic_zsdechild STRING,
+  bic_zsdenext STRING,
+  dateto TIMESTAMP,
+  datefrom TIMESTAMP,
+  bic_zsdebspar STRING,
+  txtsh STRING,
+  txtmd STRING,
   txtlg STRING)
 PARTITIONED BY (yyyy STRING, mm STRING, dd STRING, hhmmss STRING)
 ROW FORMAT DELIMITED FIELDS TERMINATED BY '|'
-LOCATION '/group/pisquare/data/shp_md_fs_val_ar_text';
-
-
-CREATE EXTERNAL TABLE IF NOT EXISTS shp_md_fs_val_cl_text (
-  fs_val_ar STRING,
-  fs_val_cl STRING,
-  langu STRING,
-  txtlg STRING)
-ROW FORMAT DELIMITED FIELDS TERMINATED BY '|'
-LOCATION '/group/pisquare/data/shp_md_fs_val_cl_text';
-
-CREATE EXTERNAL TABLE IF NOT EXISTS shp_md_fs_val_cl_text_all (
-  fs_val_ar STRING,
-  fs_val_cl STRING,
-  langu STRING,
-  txtlg STRING)
-PARTITIONED BY (yyyy STRING, mm STRING, dd STRING, hhmmss STRING)
-ROW FORMAT DELIMITED FIELDS TERMINATED BY '|'
-LOCATION '/group/pisquare/data/shp_md_fs_val_cl_text';
+LOCATION '/group/pisquare/data/shp_md_zsdeso06';
 
 
